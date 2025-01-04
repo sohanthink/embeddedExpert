@@ -23,6 +23,9 @@ export default {
         gray: "#BABABA",
       },
     },
+    container: {
+      center: true,
+    },
   },
   plugins: [],
 };
