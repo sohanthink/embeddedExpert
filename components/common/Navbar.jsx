@@ -6,6 +6,7 @@ import logo from "@/public/Logo.png"
 import Link from 'next/link'
 import { CiSearch } from "react-icons/ci";
 import { usePathname } from 'next/navigation'
+import { RxHamburgerMenu } from "react-icons/rx";
 
 
 
@@ -18,10 +19,10 @@ const Navbar = () => {
     };
 
     return (
-        <div className='container flex justify-between items-center py-5 z-50'>
-            <div><Link href='/'><Image src={logo} alt='logo' /></Link></div>
-            <div className='flex gap-8 items-center'>
-                <ul className='text-black flex gap-8 text-sm'>
+        <div className='container absolute left-1/2 transform -translate-x-1/2 flex justify-between items-center px-5 md:px-0 py-5 z-50'>
+            <div className='w-32 md:w-44'><Link href='/'><Image src={logo} alt='logo' /></Link></div>
+            <div className='flex gap-3 md:gap-8 items-center'>
+                <ul className='text-black gap-8 text-sm hidden md:flex'>
                     <li>
                         <Link href='/' className={pathname === '/' ? 'text-blue-500' : ''}>Home</Link>
                     </li>
@@ -35,15 +36,17 @@ const Navbar = () => {
                         <Link href='resources' className={pathname === '/resources' ? 'text-blue-500' : ''}>Resources</Link>
                     </li>
                 </ul>
-                <div className='relative'>
+
+                <div className='relative hidden md:block'>
                     <input
                         type='text'
-                        placeholder='Search courses here ..'
+                        placeholder='Search here ..'
                         className='border-[0.1px] rounded pl-8 pr-2 py-1 text-black text-sm'
                         onChange={(e) => handleSearch(e.target.value)}
                     />
                     <CiSearch className='absolute left-2 top-1/2 transform -translate-y-1/2 text-black' />
                 </div>
+                <RxHamburgerMenu className='text-black-300 md:hidden' />
             </div>
         </div>
     )
