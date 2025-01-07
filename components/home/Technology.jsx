@@ -15,7 +15,7 @@ import Heading from "../common/Heading";
 export default function Technolgy() {
     return (
         <div className='flex-col py-8 md:py-14 justify-center items-center'>
-            <Heading cn="pb-6" text="Technologies Covered" />
+            <Heading cn="pb-8" text="Technologies Covered" />
             <InfiniteMovingCards
                 items={TechnologyDATA}
                 direction="right"

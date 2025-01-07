@@ -26,6 +26,7 @@ export default {
           DEFAULT: "#262626",
           300: "#414141",
           600: "#1C163C",
+          900: "#6D5E5E",
         },
         gray: "#BABABA",
       },
