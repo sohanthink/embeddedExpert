@@ -32,7 +32,7 @@ const Banner = () => {
             <Image src={bottomShape} alt="topShape" className='absolute bottom-0 left-0 w-28 md:w-96 -z-10' />
             <div className='container flex-col-reverse flex md:flex-row items-center h-screen md:justify-between py-10 md:py-0'>
                 <div className='w-full md:w-1/2 pr-0 md:pr-28 space-y-3 md:space-y-6 text-center md:text-start'>
-                    <h1 className='text-black text-3xl md:text-5xl font-extrabold leading-normal capitalize'>The <span className='text-primary'>Ultimate</span> Platform for Embedded Systems Career Development</h1>
+                    <h1 className='text-black text-3xl md:text-5xl font-extrabold leading-normal capitalize'>The <span className='text-primary'>Ultimate</span> Platform for Embedded Systems Career Development.</h1>
                     <p className='text-lg text-black-300'>Learn the most relevant embedded systems development skills for today’s market. from ‘hello world’ to building your own Realtime Operating System (RTOS).</p>
                     <Button text="Explore Courses" link='/courses' />
                     <div className='md:flex gap-4 divide-black-300 divide-x-2 hidden'>
