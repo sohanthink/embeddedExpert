@@ -1,4 +1,5 @@
 import Banner from "@/components/home/Banner";
+import Category from "@/components/home/Category";
 import Courses from "@/components/home/Courses";
 import Expert from "@/components/home/Expert";
 import Technolgy from "@/components/home/Technology";
@@ -11,6 +12,7 @@ export default function Home() {
       <Technolgy />
       <Courses />
       <Expert />
+      <Category />
     </>
   );
 }
