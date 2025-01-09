@@ -22,8 +22,9 @@ export function Button({
 }) {
     return (
         (<Component
+            // border control
             className={cn(
-                "bg-transparent relative text-xl h-16 w-40 p-[1px] overflow-hidden",
+                "bg-transparent relative  p-[1.5px] overflow-hidden",
                 containerClassName
             )}
             style={{
