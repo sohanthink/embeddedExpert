@@ -12,34 +12,36 @@ import image4 from '@/public/home/library/4.svg'
 
 const Library = () => {
     return (
-        <div className='container py-10 md:py-24 space-y-6 px-5 md:px-28'>
-            <Heading text="The World’s Largest Online Embedded Systems Library" />
-            <SubHeading text="Learn the most relevant embedded systems development skills for today’s market- from ‘hello world’ to building your own Realtime Operating System (RTOS)." />
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-10'>
-                <div className='rounded-lg overflow-hidden'>
-                    <Image src={library} alt='Cheap image' />
+        <div className='container py-10 md:py-24 '>
+            <Heading cn="pb-6" text="The World’s Largest Online Embedded Systems Library" />
+            <div className='space-y-6 px-5 md:px-28'>
+                <SubHeading text="Learn the most relevant embedded systems development skills for today’s market- from ‘hello world’ to building your own Realtime Operating System (RTOS)." />
+                <div className='grid grid-cols-1 md:grid-cols-2 gap-10'>
+                    <div className='rounded-lg overflow-hidden'>
+                        <Image src={library} alt='Cheap image' />
+                    </div>
+                    <ul className='flex flex-col gap-5 md:gap-0 md:justify-around py-1 md:py-5'>
+                        <li className='flex gap-4 text-lg md:text-3xl font-semibold'>
+                            <Image src={image3} alt='icon' />
+                            Private forum.
+                        </li>
+                        <li className='flex gap-4 text-lg md:text-3xl font-semibold'>
+                            <Image src={image4} alt='icon' />
+                            One-on-one sessions.
+                        </li>
+                        <li className='flex gap-4 text-lg md:text-3xl font-semibold'>
+                            <Image src={image2} alt='icon' />
+                            Customized Study Guide.
+                        </li>
+                        <li className='flex gap-4 text-lg md:text-3xl font-semibold'>
+                            <Image src={image1} alt='icon' />
+                            Top rated Bare-Metal Courses.
+                        </li>
+                    </ul>
                 </div>
-                <ul className='flex flex-col gap-5 md:gap-0 md:justify-around py-1 md:py-5'>
-                    <li className='flex gap-4 text-lg md:text-3xl font-semibold'>
-                        <Image src={image3} alt='icon' />
-                        Private forum.
-                    </li>
-                    <li className='flex gap-4 text-lg md:text-3xl font-semibold'>
-                        <Image src={image4} alt='icon' />
-                        One-on-one sessions.
-                    </li>
-                    <li className='flex gap-4 text-lg md:text-3xl font-semibold'>
-                        <Image src={image2} alt='icon' />
-                        Customized Study Guide.
-                    </li>
-                    <li className='flex gap-4 text-lg md:text-3xl font-semibold'>
-                        <Image src={image1} alt='icon' />
-                        Top rated Bare-Metal Courses.
-                    </li>
-                </ul>
-            </div>
-            <div className='text-center '>
-                <Button text="Learn more" link='/' />
+                <div className='text-center '>
+                    <Button text="Learn more" link='/' />
+                </div>
             </div>
         </div>
     )

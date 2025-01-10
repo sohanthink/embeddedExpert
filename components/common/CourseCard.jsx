@@ -8,9 +8,9 @@ import Link from 'next/link';
 const CourseCard = ({ varient, image, alt, category, title, lesson, time, link }) => {
     return (
         <Link href={link}>
-            <div className='rounded-lg overflow-hidden flex-col bg-white shadow-sm'>
+            <div className='rounded-lg contrast-100 hover:contrast-125 overflow-hidden flex-col bg-white shadow-sm hover:drop-shadow-xl ease-linear duration-200 transition-all'>
                 <div className='relative'>
-                    <Image src={image} alt={alt} className='object-cover' />
+                    <div><Image src={image} alt={alt} className='object-cover h-48 w-full' /></div>
                     {
                         varient == "home" ? '' :
                             <span className='bg-[#EFF1FD] absolute top-5 left-5 px-2 py-1 text-primary capitalize rounded-lg'>{category}</span>

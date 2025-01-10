@@ -5,6 +5,7 @@ import Courses from "@/components/home/Courses";
 import Expert from "@/components/home/Expert";
 import Library from "@/components/home/Library";
 import Technolgy from "@/components/home/Technology";
+import Testimonial from "@/components/home/Testimonial";
 import WhitePaper from "@/components/home/WhitePaper";
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
       <Certificate />
       <Library />
       <WhitePaper />
+      <Testimonial />
     </>
   );
 }

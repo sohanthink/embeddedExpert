@@ -16,7 +16,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${workSans.variable} antialiased`}>
+      <body className={`${workSans.variable} antialiased scroll-smooth`}>
         <Navbar />
         {children}
       </body>

@@ -4,6 +4,8 @@ import SubHeading from '../common/SubHeading'
 import CourseCard from '../common/CourseCard'
 
 import course1 from "@/public/home/courses/course1.jpeg";
+import course2 from "@/public/home/courses/course2.jpeg";
+import course3 from "@/public/home/courses/course3.jpeg";
 import Button from '../common/Button';
 
 const Courses = () => {
@@ -25,7 +27,7 @@ const Courses = () => {
                     />
                     <CourseCard
                         varient='home'
-                        image={course1}
+                        image={course2}
                         alt='course1_image'
                         category="Imtermediate"
                         title="Bluetooth Low Energy (BLE) From Ground Up"
@@ -35,7 +37,7 @@ const Courses = () => {
                     />
                     <CourseCard
                         varient='home'
-                        image={course1}
+                        image={course3}
                         alt='course1_image'
                         category="Imtermediate"
                         title="Bluetooth Low Energy (BLE) From Ground Up"
