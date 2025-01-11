@@ -74,7 +74,18 @@ const Testimonial = () => {
         <div className="relative bg-tertiary py-10 md:py-24">
             <Heading cn="pb-10" text="Testimonial" />
             <Swiper
-                spaceBetween={30}
+                spaceBetween={10}
+                breakpoints={{
+                    640: {
+                        spaceBetween: 10,
+                    },
+                    768: {
+                        spaceBetween: 30,
+                    },
+                    1024: {
+                        spaceBetween: 40,
+                    },
+                }}
                 slidesPerView={1.8}
                 centeredSlides={true}
                 navigation={{
@@ -96,11 +107,11 @@ const Testimonial = () => {
                 {
                     testimonialData.map((item) => (
                         <SwiperSlide key={item.id} className='bg-white rounded-md'>
-                            <div className='flex flex-col items-center justify-center gap-2 text-center p-4 md:p-7'>
+                            <div className='flex flex-col items-center justify-center gap-1 md:gap-2 text-center px-4 md:px-7 h-96 md:h-64'>
                                 <Image src={item.image} alt='profile image' className='rounded-full w-10 border border-primary/50' />
                                 <SubHeading text={item.name} />
-                                <h5 className='text-sm text-black-300'>{item.designation}</h5>
-                                <p className='text-black text-sm'>{item.review}</p>
+                                <h5 className='text-sm text-black-900'>{item.designation}</h5>
+                                <p className='text-black text-xs md:text-sm'>{item.review}</p>
                                 <div className='flex items-center gap-2'>
                                     <span className='text-black font-semibold'>{item.rating}</span>
                                     {[...Array(5)].map((_, index) => (

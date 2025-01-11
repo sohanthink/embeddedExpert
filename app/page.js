@@ -1,3 +1,4 @@
+import { Form } from "@/components/common/Form";
 import Banner from "@/components/home/Banner";
 import Category from "@/components/home/Category";
 import Certificate from "@/components/home/Certificate";
@@ -20,6 +21,7 @@ export default function Home() {
       <Library />
       <WhitePaper />
       <Testimonial />
+      <Form />
     </>
   );
 }
