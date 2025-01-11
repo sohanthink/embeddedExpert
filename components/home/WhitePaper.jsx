@@ -39,7 +39,7 @@ export default WhitePaper
 
 const HorizentalPaper = () => {
     return (
-        <div className='bg-[#E1E6FB] flex flex-col md:flex-row gap-5 md:gap-10 p-6 md:p-16 hover:bg-[#FBE2F0] transition-all ease-linear duration-300'>
+        <div className='bg-[#E1E6FB] flex flex-col md:flex-row gap-5 md:gap-10 p-6 md:p-16 hover:bg-[#FBE2F0] transition-all ease-linear duration-300 hover:shadow-[0px_10px_20px_0px_rgba(0,_0,_0,_0.15)]'>
             <div className='w-full'>
                 <Image className='rounded-md' src={paper} alt='white paper' />
             </div>
@@ -57,7 +57,7 @@ const HorizentalPaper = () => {
 
 const VerticalPaper = ({ title, desc, src, download, online, cn }) => {
     return (
-        <div className={`flex flex-col gap-5 md:gap-10 p-6 md:p-16 transition-colors ease-linear duration-300 ${cn}`}>
+        <div className={`flex flex-col gap-5 md:gap-10 p-6 md:p-16 transition-colors ease-linear duration-300 hover:shadow-[0px_10px_20px_0px_rgba(0,_0,_0,_0.15)] ${cn}`}>
             <div className='w-full'>
                 <Image className='rounded-md object-cover w-full' src={src} alt='white paper' />
             </div>

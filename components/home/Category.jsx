@@ -28,7 +28,7 @@ export default Category
 
 export const CategoryCard = ({ src, title }) => {
     return (
-        <div className='flex flex-col items-center justify-center gap-7 p-5 md:p-10 shadow-[0px_0px_44px_0px_rgba(0,0,0,0.08)] rounded-lg'>
+        <div className='flex flex-col items-center justify-center gap-7 p-5 md:p-10 shadow-[0px_0px_44px_0px_rgba(0,0,0,0.08)] rounded-lg hover:shadow-[0px_0px_10px_2px_rgba(0,_255,_255,_0.7)] transition-all duration-300 ease-linear'>
             <Image src={src} alt='category_icon' />
             <h5 className='font-semibold text-sm md:text-xl capitalize text-black text-center'>{title}</h5>
         </div>
