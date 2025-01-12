@@ -1,3 +1,4 @@
+import SubscribeCard from "@/components/common/SubscribeCard";
 import Banner from "@/components/home/Banner";
 import Category from "@/components/home/Category";
 import Certificate from "@/components/home/Certificate";
@@ -22,6 +23,7 @@ export default function Home() {
       <WhitePaper />
       <Testimonial />
       <ContactUs />
+      <SubscribeCard />
     </>
   );
 }
