@@ -1,7 +1,7 @@
-import { Form } from "@/components/common/Form";
 import Banner from "@/components/home/Banner";
 import Category from "@/components/home/Category";
 import Certificate from "@/components/home/Certificate";
+import ContactUs from "@/components/home/ContactUs";
 import Courses from "@/components/home/Courses";
 import Expert from "@/components/home/Expert";
 import Library from "@/components/home/Library";
@@ -21,7 +21,7 @@ export default function Home() {
       <Library />
       <WhitePaper />
       <Testimonial />
-      <Form />
+      <ContactUs />
     </>
   );
 }
