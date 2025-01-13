@@ -48,7 +48,7 @@ export function Form({
     return (
         <div className="w-full rounded-none md:rounded-2xl bg-white dark:bg-gray-900">
             <ToastContainer />
-            <h3 className="font-bold text-4xl text-black-300 pb-7">
+            <h3 className="font-bold text-2xl md:text-4xl text-black-300 pb-7">
                 {title}
             </h3>
             <Formik

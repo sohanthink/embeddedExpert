@@ -44,7 +44,7 @@ const HorizentalPaper = () => {
                 <Image className='rounded-md' src={paper} alt='white paper' />
             </div>
             <div className='flex flex-col justify-center space-y-3 md:space-y-6 w-full'>
-                <h3 className='text-black font-bold text-2xl md:text-4xl capitalize'>Discover Key Strategies: Get the White Paper Now.</h3>
+                <h3 className='text-black font-bold text-xl md:text-4xl capitalize'>Discover Key Strategies: Get the White Paper Now.</h3>
                 <h4 className='text-black-900 text-base md:text-xl'>Unlock a comprehensive analysis of embedded systems with our in-depth white paper. Download now to gain valuable insights and practical solutions tailored for professionals in the embedded technology industry.</h4>
                 <div className='flex gap-2'>
                     <Button text='Download' varient="download" link="/" />
@@ -62,7 +62,7 @@ const VerticalPaper = ({ title, desc, src, download, online, cn }) => {
                 <Image className='rounded-md object-cover w-full' src={src} alt='white paper' />
             </div>
             <div className='flex flex-col justify-center items-center space-y-3 md:space-y-6 w-full'>
-                <h3 className='text-black font-bold text-2xl md:text-4xl capitalize text-center'>{title}</h3>
+                <h3 className='text-black font-bold text-xl md:text-4xl capitalize text-center'>{title}</h3>
                 <h4 className='text-black-900 text-base md:text-xl text-center'>{desc}</h4>
                 <div className='flex gap-2'>
                     <Button text='Download' varient="download" link={download} />
