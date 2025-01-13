@@ -5,7 +5,6 @@ import Certificate from "@/components/home/Certificate";
 import ContactUs from "@/components/home/ContactUs";
 import Courses from "@/components/home/Courses";
 import Expert from "@/components/home/Expert";
-import Footer from "@/components/home/Footer";
 import Library from "@/components/home/Library";
 import Technolgy from "@/components/home/Technology";
 import Testimonial from "@/components/home/Testimonial";
@@ -25,7 +24,6 @@ export default function Home() {
       <Testimonial />
       <ContactUs />
       <SubscribeCard />
-      <Footer />
     </>
   );
 }

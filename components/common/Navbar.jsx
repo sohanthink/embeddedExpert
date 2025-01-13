@@ -39,21 +39,21 @@ const Navbar = () => {
                     )
                 }
 
-                <ul className={`text-black gap-8 text-sm ${isMenuOpen ? 'flex' : 'hidden'} md:flex flex-col md:flex-row absolute md:static top-16 left-0 w-full md:w-auto bg-white md:bg-transparent p-5 md:p-0`}>
+                <ul className={`text-black gap-8 text-sm ${isMenuOpen ? 'flex' : 'hidden'} md:flex flex-col md:flex-row absolute md:static top-16 left-0 w-full md:w-auto bg-white md:bg-transparent p-5 md:p-0 z-10`}>
                     <li>
                         <Link href='/' className={pathname === '/' ? 'text-blue-500' : ''}>Home</Link>
                     </li>
                     <li>
-                        <Link href='#touch' className={pathname === '#touch' ? 'text-blue-500' : ''}>Get In Touch</Link>
+                        <Link href='/#contact' className={pathname === '/#contact' ? 'text-blue-500' : ''}>Get In Touch</Link>
                     </li>
                     <li>
                         <Link href='/courses' className={pathname === '/courses' ? 'text-blue-500' : ''}>Courses</Link>
                     </li>
                     <li>
-                        <Link href='affiliate' className={pathname === '/affiliate' ? 'text-blue-500' : ''}>Affiliate</Link>
+                        <Link href='/affiliate' className={pathname === '/affiliate' ? 'text-blue-500' : ''}>Affiliate</Link>
                     </li>
                     <li>
-                        <Link href='resources' className={pathname === '/resources' ? 'text-blue-500' : ''}>Resources</Link>
+                        <Link href='/resources' className={pathname === '/resources' ? 'text-blue-500' : ''}>Resources</Link>
                     </li>
                 </ul>
 
