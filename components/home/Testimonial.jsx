@@ -71,7 +71,7 @@ const Testimonial = () => {
     }, []);
 
     return (
-        <div className="relative bg-tertiary py-10 md:py-24">
+        <section className="relative bg-tertiary py-10 md:py-24">
             <Heading cn="pb-10" text="Testimonial" />
             <Swiper
                 spaceBetween={10}
@@ -133,7 +133,7 @@ const Testimonial = () => {
                     <PiArrowCircleRightThin className='text-5xl text-secondary hover:text-primary-300 ease-linear duration-200 transition-all' />
                 </button>
             </div>
-        </div>
+        </section>
     );
 };
 

@@ -12,7 +12,7 @@ import image4 from '@/public/home/library/4.svg'
 
 const Library = () => {
     return (
-        <div className='container py-10 md:py-24 '>
+        <section className='container py-10 md:py-24 '>
             <Heading cn="pb-6" text="The World’s Largest Online Embedded Systems Library" />
             <div className='space-y-6 px-5 md:px-28'>
                 <SubHeading text="Learn the most relevant embedded systems development skills for today’s market- from ‘hello world’ to building your own Realtime Operating System (RTOS)." />
@@ -43,7 +43,7 @@ const Library = () => {
                     <Button text="Learn more" link='/' />
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

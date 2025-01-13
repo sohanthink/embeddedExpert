@@ -7,7 +7,7 @@ import course3 from "@/public/home/courses/course3.jpeg";
 
 const WhitePaper = () => {
     return (
-        <div className='container p-5 md:p-0 pb-8 md:pb-16'>
+        <section className='container p-5 md:p-0 pb-8 md:pb-16'>
             <HorizentalPaper />
             <div className='flex flex-col md:flex-row gap-10 md:gap-16 mt-10 md:mt-16'>
                 <div className='w-full md:w-1/2'>
@@ -31,7 +31,7 @@ const WhitePaper = () => {
                     />
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

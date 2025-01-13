@@ -23,7 +23,7 @@ const contactFields = [
 
 const ContactUs = () => {
     return (
-        <div className='container py-10 md:py-24 px-4 md:px-8 space-y-6'>
+        <section className='container py-10 md:py-24 px-4 md:px-8 space-y-6'>
             <Heading text="Are you Training A Team? Let's Talk" />
             <SubHeading text="We are ready to setup a custom plan for your organisation" />
             <div className='px-0 md:px-40'>
@@ -34,7 +34,7 @@ const ContactUs = () => {
                     endpoint="/api/contact/contact"
                 />
             </div>
-        </div>
+        </section>
     )
 }
 

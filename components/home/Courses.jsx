@@ -10,7 +10,7 @@ import Button from '../common/Button';
 
 const Courses = () => {
     return (
-        <div className='bg-tertiary px-5 py-10 md:py-24'>
+        <section className='bg-tertiary px-5 py-10 md:py-24'>
             <div className='container space-y-6'>
                 <Heading text="Our Courses" />
                 <SubHeading cn="px-0 md:px-56 pb-10" text="Learn to design and program embedded systems with practical, real-world applications. Build expertise in hardware-software integration for cutting-edge technology!" />
@@ -60,7 +60,7 @@ const Courses = () => {
                     <Button link='/courses' text="View All Courses" />
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

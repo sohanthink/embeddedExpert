@@ -10,7 +10,7 @@ import image4 from "@/public/home/category/4.svg"
 
 const Category = ({ src, title }) => {
     return (
-        <div className='container px-5 md:px-20 pb-10 md:pb-24 space-y-6'>
+        <section className='container px-5 md:px-20 pb-10 md:pb-24 space-y-6'>
             <Heading text=" Our Top Categories" />
             <SubHeading text="You will receive a certificate of completion after completing each course and passing courses that require a pass mark." />
 
@@ -20,7 +20,7 @@ const Category = ({ src, title }) => {
                 <CategoryCard src={image3} title="wireless programming" />
                 <CategoryCard src={image4} title="RTOS Programming" />
             </div>
-        </div>
+        </section>
     )
 }
 
