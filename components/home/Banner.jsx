@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Button from '../common/Button';
 
 import banner from "@/public/home/banner.png";
+import mainbanner from "@/public/home/mainbaner.png";
 import bottomShape from "@/public/home/bottomShape.png";
 import topShape from "@/public/home/topShape.png";
 
@@ -27,7 +28,7 @@ const shortData = [
 
 const Banner = () => {
     return (
-        <section className='relative top-0 left-0 w-full -z-10 h-screen p-5 md:p-0'>
+        <section className='relative top-0 left-0 w-full -z-10 h-[90vh] md:h-screen p-5 md:p-0'>
             <Image src={topShape} alt="topShape" className='absolute top-0 left-2/4 md:left-1/3 w-28 md:w-96' />
             <Image src={bottomShape} alt="bottomShape" className='absolute bottom-0 left-0 w-28 md:w-96 -z-10' />
             <div className='container flex md:flex-row h-full items-center justify-center md:justify-between py-24 md:py-0'>
@@ -45,7 +46,7 @@ const Banner = () => {
                     </div>
                 </div>
                 <div className='w-full md:w-[40%] hidden md:block'>
-                    <Image src={banner} alt="banner" className='object-cover' width={600} />
+                    <Image src={mainbanner} alt="banner" className='object-cover' width={600} />
                 </div>
             </div>
             {/* bottom color gradient */}

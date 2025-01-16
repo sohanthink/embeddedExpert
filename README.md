@@ -9,3 +9,13 @@ Server running command:
 To generate the tables in the database, run:
 
 - `node lib/syncDatabase.js`
+
+Local database infos
+
+DB_HOST = localhost
+DB_USER = root
+DB_PASS =
+DB_NAME = embeddedexpert
+
+server log check
+cat ~/test.embeddedexpert.io/stderr.log

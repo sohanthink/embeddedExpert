@@ -1,3 +1,5 @@
+"use server";
+
 import Contact from "@/models/Contact.js";
 
 export default async function handler(req, res) {
