@@ -44,7 +44,7 @@ const Navbar = () => {
                         </div>
                     )
                 }
-                <ul className={`text-black gap-8 text-sm ${isMenuOpen ? 'opacity-100 visible translate-y-0 flex h-screen items-center justify-center' : 'opacity-0 translate-y-9 invisible h-screen flex items-center justify-center'} md:flex flex-col md:flex-row absolute md:static top-16 left-0 w-full md:w-auto bg-white md:bg-transparent p-5 md:p-0 z-10 transition-all ease-linear duration-300`}>
+                <ul className={`text-black gap-8 text-sm ${isMenuOpen ? 'flex h-[85vh] items-center justify-center absolute top-0' : 'hidden'} md:flex flex-col md:flex-row md:static top-16 left-0 w-full md:w-auto bg-white md:bg-transparent p-5 md:p-0 z-10`}>
                     <li>
                         <Link href='/' className={pathname === '/' ? 'text-blue-500' : ''} onClick={closeMenu}>Home</Link>
                     </li>

@@ -8,6 +8,7 @@ import levelbar from "@/public/home/expert/levelbar.svg"
 import growth from "@/public/home/expert/growth.svg"
 import levelup from "@/public/home/expert/levelup.svg"
 import Button from '../common/Button'
+import CommonButton from '../common/Button'
 
 const Expert = () => {
     return (
@@ -34,12 +35,17 @@ const Expert = () => {
 
 export default Expert
 
-export const ExpertCard = ({ src, title, desc, cn }) => {
+export const ExpertCard = ({ src, title, desc, cn, btnsrc, btntext }) => {
     return (
-        <div className={`space-y-4 p-5 rounded-lg hover:shadow-[0px_0px_10px_2px_rgba(0,_255,_255,_0.7)] transition-all duration-300 ease-linear ${cn}`}>
+        <div className={`space-y-4 p-5 rounded-lg hover:shadow-[0px_0px_10px_2px_rgba(0,_255,_255,_0.7)] transition-all duration-300 ease-linear ${btnsrc && btntext ? 'text-center flex flex-col items-center' : 'text-start'} ${cn}`}>
             <Image src={src} className='pb-4' alt='exper_icon' />
             <h5 className='text-xl font-semibold'>{title}</h5>
             <p className='text-black-300 text-base'>{desc}</p>
+            {btnsrc && btntext &&
+                <div className='text-center'>
+                    <CommonButton link={btnsrc} text={btntext} />
+                </div>
+            }
         </div>
     )
 }
