@@ -40,7 +40,7 @@ const Banner = () => {
                         {shortData.map((data) => (
                             <div key={data.id} className='flex gap-2 px-4'>
                                 <h1 className='text-4xl font-bold text-black'>{data.count}</h1>
-                                <p className='text-black-300 whitespace-nowrap'>{data.text}</p>
+                                <p className='text-black-300 whitespace-nowrap text-sm'>{data.text}</p>
                             </div>
                         ))}
                     </div>

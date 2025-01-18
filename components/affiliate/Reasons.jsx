@@ -9,7 +9,7 @@ import reasons3 from "@/public/affiliate/reasons/reasons3.png"
 
 const Reasons = () => {
     return (
-        <div className='container space-y-6 px-5 md:px-0 py-10 md:py-24'>
+        <div className='container space-y-6 px-5 md:px-0 pb-10 md:pb-24'>
             <Heading text="Top 3 Reasons to Partner with EmbeddedExpertIO" />
             <SubHeading text="Experience unmatched expertise in embedded systems, tailored training, and cutting-edge solutions. Empower your team with skills for the technology of tomorrow!" />
             <div className='grid grid-cols-1 md:grid-cols-3 gap-6 py-5 md:py-10'>

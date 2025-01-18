@@ -32,6 +32,8 @@ export function Form({
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify(values),
             });
+            console.log("response", response);
+
 
             if (response.ok) {
                 ContactNotify();
@@ -46,7 +48,7 @@ export function Form({
     };
 
     return (
-        <div className="w-full rounded-none md:rounded-2xl bg-white dark:bg-gray-900">
+        <div className="w-full rounded-none md:rounded-2xl">
             <ToastContainer />
             <h3 className="font-bold text-2xl md:text-4xl text-black-300 pb-7">
                 {title}
@@ -76,8 +78,29 @@ export function Form({
                                 />
                             </LabelInputContainer>
                         ))}
+                        {/* <LabelInputContainer>
+                            <div>
+                                <Field type="checkbox" name="agree" id="agree" />
+                                <Label htmlFor="agree">I agree to the terms and conditions</Label>
+                            </div>
+                            <ErrorMessage
+                                name="agree"
+                                component="div"
+                                className="text-red-500 text-sm font-semibold"
+                            />
+                        </LabelInputContainer>
+                        {({ isSubmitting, values }) => (
+                            <button
+                                className={`bg-primary hover:bg-secondary transition-all duration-200 ease-linear flex justify-center gap-2 items-center relative group/btn w-full text-white rounded-md h-10 font-bold uppercase shadow-md ${!values.agree ? 'opacity-50 cursor-not-allowed' : ''}`}
+                                type="submit"
+                                disabled={!values.agree || isSubmitting}
+                            >
+                                Submit <IoIosSend />
+                                <BottomGradient />
+                            </button>
+                        )} */}
                         <button
-                            className="bg-primary hover:bg-secondary transition-all duration-200 ease-linear flex justify-center gap-2 items-center relative group/btn w-full text-white rounded-md h-10 font-bold uppercase shadow-md"
+                            className="bg-primary hover:bg-secondary transition-all duration-200 ease-linear flex justify-center gap-2 items-center relative group/btn w-full text-white rounded-full h-10 font-bold uppercase shadow-md"
                             type="submit"
                         >
                             Submit <IoIosSend />
