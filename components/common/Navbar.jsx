@@ -28,7 +28,7 @@ const Navbar = () => {
     }
 
     return (
-        <nav className='container md:w-[70%] absolute md:fixed md:bg-black-300/50 rounded-full top-0 md:top-5 left-1/2 transform -translate-x-1/2 flex justify-between items-center px-5 md:px-10 py-4 z-50'>
+        <nav className='container md:w-[70%] absolute md:fixed md:bg-black-600/90 rounded-full top-0 md:top-5 left-1/2 transform -translate-x-1/2 flex justify-between items-center px-5 md:px-10 py-4 z-50'>
             <div className='w-32 md:w-44'><Link href='/'><Image src={logo} alt='logo' /></Link></div>
             <div className='flex gap-3 md:gap-8 items-center'>
                 {
