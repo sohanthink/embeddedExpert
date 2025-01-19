@@ -46,7 +46,7 @@ const Banner = () => {
                     </div>
                 </div>
                 <div className='w-full md:w-[40%] hidden md:block'>
-                    <Image src={mainbanner} alt="banner" className='object-cover' width={600} />
+                    <Image src={banner} alt="banner" className='object-cover' width={600} />
                 </div>
             </div>
             {/* bottom color gradient */}
