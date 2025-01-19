@@ -49,7 +49,7 @@ const Navbar = () => {
                         <Link href='/' className={pathname === '/' ? 'text-blue-500 font-bold' : ''} onClick={closeMenu}>Home</Link>
                     </li>
                     <li>
-                        <Link href='/#contact' className={pathname === '/' && window.location.hash === '#contact' ? 'text-blue-500 font-bold' : ''} onClick={closeMenu}>Get In Touch</Link>
+                        <Link href='/#contact' className={pathname === '/#contact' ? 'text-blue-500 font-bold' : ''} onClick={closeMenu}>Get In Touch</Link>
                     </li>
                     <li>
                         <Link href='/courses' className={pathname === '/courses' ? 'text-blue-500 font-bold' : ''} onClick={closeMenu}>Courses</Link>

@@ -14,7 +14,8 @@ export function Form({
     initialValues,
     validationSchema,
     fields,
-    endpoint
+    endpoint,
+    variant,
 }) {
     const handleSubmit = async (values, { resetForm }) => {
 
@@ -32,8 +33,6 @@ export function Form({
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify(values),
             });
-            console.log("response", response);
-
 
             if (response.ok) {
                 ContactNotify();
@@ -61,44 +60,53 @@ export function Form({
                 {() => (
                     <FormikForm className="space-y-6">
                         {fields.map((field) => (
-                            <LabelInputContainer key={field.name}>
-                                {/* <Label htmlFor={field.name}>{field.label}</Label> */}
+                            field.type !== "select" && (
+                                <LabelInputContainer key={field.name}>
+                                    {/* <Label htmlFor={field.name}>{field.label}</Label> */}
+                                    <Field
+                                        as={field.type === "textarea" ? Textarea : Input}
+                                        id={field.name}
+                                        name={field.name}
+                                        type={field.type || "text"}
+                                        placeholder={field.placeholder}
+                                        className="input"
+                                    />
+                                    <ErrorMessage
+                                        name={field.name}
+                                        component="div"
+                                        className="text-red-500 text-sm font-semibold"
+                                    />
+                                </LabelInputContainer>
+                            )
+                        ))}
+                        {fields.map((field) => (
+                            field.type === "select" && (
+                                <LabelInputContainer key={field.name}>
+                                    <Field as="select" id={field.name} name={field.name} className="input py-2 px-2 text-sm rounded-lg bg-transparent shadow-input">
+                                        <option value="" label={field.placeholder} />
+                                        {field.options.map((option) => (
+                                            <option key={option.value} value={option.value} label={option.label} />
+                                        ))}
+                                    </Field>
+                                </LabelInputContainer>
+                            )
+                        ))}
+                        {(variant === "affiliate") && (
+                            <div className="flex items-center space-x-2">
                                 <Field
-                                    as={field.type === "textarea" ? Textarea : Input}
-                                    id={field.name}
-                                    name={field.name}
-                                    type={field.type || "text"}
-                                    placeholder={field.placeholder}
-                                    className="input"
+                                    type="checkbox"
+                                    id="agree"
+                                    name="agree"
+                                    className="checkbox"
                                 />
+                                <Label htmlFor="agree">I agree to the terms and conditions</Label>
                                 <ErrorMessage
-                                    name={field.name}
+                                    name="agree"
                                     component="div"
                                     className="text-red-500 text-sm font-semibold"
                                 />
-                            </LabelInputContainer>
-                        ))}
-                        {/* <LabelInputContainer>
-                            <div>
-                                <Field type="checkbox" name="agree" id="agree" />
-                                <Label htmlFor="agree">I agree to the terms and conditions</Label>
                             </div>
-                            <ErrorMessage
-                                name="agree"
-                                component="div"
-                                className="text-red-500 text-sm font-semibold"
-                            />
-                        </LabelInputContainer>
-                        {({ isSubmitting, values }) => (
-                            <button
-                                className={`bg-primary hover:bg-secondary transition-all duration-200 ease-linear flex justify-center gap-2 items-center relative group/btn w-full text-white rounded-md h-10 font-bold uppercase shadow-md ${!values.agree ? 'opacity-50 cursor-not-allowed' : ''}`}
-                                type="submit"
-                                disabled={!values.agree || isSubmitting}
-                            >
-                                Submit <IoIosSend />
-                                <BottomGradient />
-                            </button>
-                        )} */}
+                        )}
                         <button
                             className="bg-primary hover:bg-secondary transition-all duration-200 ease-linear flex justify-center gap-2 items-center relative group/btn w-full text-white rounded-full h-10 font-bold uppercase shadow-md"
                             type="submit"
