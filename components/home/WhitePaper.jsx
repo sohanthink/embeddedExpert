@@ -37,7 +37,7 @@ const WhitePaper = () => {
 
 export default WhitePaper
 
-const HorizentalPaper = () => {
+export const HorizentalPaper = () => {
     return (
         <div className='bg-[#E1E6FB] flex flex-col md:flex-row gap-5 md:gap-10 p-6 md:p-16 hover:bg-[#FBE2F0] transition-all ease-linear duration-300 hover:shadow-[0px_10px_20px_0px_rgba(0,_0,_0,_0.15)]'>
             <div className='w-full'>
@@ -55,15 +55,15 @@ const HorizentalPaper = () => {
     )
 }
 
-const VerticalPaper = ({ title, desc, src, download, online, cn }) => {
+export const VerticalPaper = ({ title, desc, src, download, online, cn, varient }) => {
     return (
-        <div className={`flex flex-col gap-5 md:gap-10 p-6 md:p-16 transition-colors ease-linear duration-300 hover:shadow-[0px_10px_20px_0px_rgba(0,_0,_0,_0.15)] ${cn}`}>
+        <div className={`flex flex-col gap-5 md:gap-10 p-6 ${varient === 'resources' ? 'md:p-6 rounded-lg' : 'md:p-16'} transition-colors ease-linear duration-300 hover:shadow-[0px_10px_20px_0px_rgba(0,_0,_0,_0.15)] ${cn}`}>
             <div className='w-full'>
                 <Image className='rounded-md object-cover w-full' src={src} alt='white paper' />
             </div>
-            <div className='flex flex-col justify-center items-center space-y-3 md:space-y-6 w-full'>
-                <h3 className='text-black font-bold text-xl md:text-4xl capitalize text-center'>{title}</h3>
-                <h4 className='text-black-900 text-base md:text-xl text-center'>{desc}</h4>
+            <div className={`flex flex-col justify-center space-y-3 md:space-y-6 w-full ${varient === 'resources' ? 'items-start ' : 'items-center '}`}>
+                <h3 className={`${varient === 'resources' ? 'text-start ' : 'text-center'} 'text-black font-bold text-xl md:text-4xl capitalize text-center'`}>{title}</h3>
+                <h4 className={`'text-black-900 text-base md:text-xl ' ${varient === 'resources' ? 'text-start ' : 'text-center'}`}>{desc}</h4>
                 <div className='flex gap-2'>
                     <Button text='Download' varient="download" link={download} />
                     <Button text='See Online' varient="reading" link={online} />
