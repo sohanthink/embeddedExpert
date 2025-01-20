@@ -16,7 +16,7 @@ const Banner = () => {
                 </div>
             </div>
             <div className='absolute top-0 left-0 w-full h-full -z-10'>
-                <Image src={affiliatebannershape} alt='banner shape' />
+                <Image src={affiliatebannershape} alt='banner shape' className='h-full' />
             </div>
         </section >
     )
