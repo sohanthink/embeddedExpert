@@ -52,7 +52,7 @@ const Navbar = () => {
                         <Link href='/#contact' className={pathname === '/#contact' ? 'text-blue-500 font-bold' : 'text-black md:text-white'} onClick={closeMenu}>Get In Touch</Link>
                     </li>
                     <li>
-                        <Link href='/courses' className={pathname === '/courses' ? 'text-blue-500 font-bold' : 'text-black md:text-white'} onClick={closeMenu}>Courses</Link>
+                        <Link href='/courses' className={pathname === '/courses' ? 'text-blue-500 font-bold' : 'text-black md:text-white'} onClick={closeMenu}>Join A Course</Link>
                     </li>
                     <li>
                         <Link href='/affiliate' className={pathname === '/affiliate' ? 'text-blue-500 font-bold' : 'text-black md:text-white'} onClick={closeMenu}>Affiliate</Link>

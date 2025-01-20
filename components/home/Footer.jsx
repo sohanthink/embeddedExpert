@@ -10,7 +10,7 @@ import { TiSocialLinkedin } from "react-icons/ti";
 
 const Footer = () => {
     return (
-        <footer className='bg-gradient-to-r from-slate-900 to-slate-700 py-10 md:py-24'>
+        <footer className='md:bg-gradient-to-r from-slate-900 to-slate-700 bg-black-600 py-10 md:py-24'>
             <div className='container'>
                 <div className='grid grid-cols-2 md:grid-cols-4 gap-4 p-5'>
                     <div className='p-5 space-y-4'>
