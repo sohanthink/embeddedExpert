@@ -32,8 +32,8 @@ const Footer = () => {
                     <div className='p-5 pl-5 md:pl-20'>
                         <h2 className='text-white text-lg font-bold'>Community</h2>
                         <ul className='mt-2 space-y-3'>
-                            <li className='text-white text-sm'><Link href='/'>Blogs</Link></li>
-                            <li className='text-white text-sm'><Link href='/All Courses'>Courses</Link></li>
+                            <li className='text-white text-sm'><Link href='https://blog.embeddedexpert.io/'>Blogs</Link></li>
+                            <li className='text-white text-sm'><Link href='/courses'>Join A Course</Link></li>
                             <li className='text-white text-sm'><Link href='/expert'>Forum</Link></li>
                             <li className='text-white text-sm'><Link href='/library'>LinkedIn</Link></li>
                         </ul>
@@ -43,8 +43,8 @@ const Footer = () => {
                         <ul className='mt-2 space-y-3'>
                             <li className='text-white text-sm'><Link href='/'>Home</Link></li>
                             <li className='text-white text-sm'><Link href='/courses'>Courses</Link></li>
-                            <li className='text-white text-sm'><Link href='/expert'>Expert</Link></li>
-                            <li className='text-white text-sm'><Link href='/library'>Library</Link></li>
+                            <li className='text-white text-sm'><Link href='/#contact'>Contact</Link></li>
+                            <li className='text-white text-sm'><Link href='/affiliate'>Join As An Affiliate</Link></li>
                         </ul>
                     </div>
                     <div className='p-5 pl-5 md:pl-20'>

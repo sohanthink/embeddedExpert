@@ -13,6 +13,7 @@ import Image from 'next/image';
 export default function CommonButton({ link, text, varient }) {
     return (
         <Button
+            aria-label={text}
             borderRadius="1.75rem"
             className={`bg-primary hover:bg-secondary transition-all duration-300 ease-linear text-white px-4 py-2 rounded-full cursor-pointer font-bold capitalize ${varient === 'reading' && 'bg-transparent border border-primary text-primary hover:text-white'}`}
         >

@@ -12,7 +12,7 @@ const AccordionItem = ({ id, title, content, isOpen, toggleAccordion }) => (
             aria-controls={`${id}-content`}
             onClick={() => toggleAccordion(id)}
         >
-            <h5>{title}</h5>
+            <h5 className='font-bold'>{title}</h5>
             <MdExpandMore
                 className={`transform transition-transform duration-300 ease-in-out ${isOpen ? 'rotate-180' : ''}`}
                 size={22}
