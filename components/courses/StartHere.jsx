@@ -9,13 +9,21 @@ import lessonImg from "@/public/home/mainbaner.png";
 const StartHere = () => {
     return (
         <div className='container clear-start mt-5 py-10 md:py-24 p-5 md:p-0'>
-            <Heading varient="nopx" cn="text-start" text="Start Here" />
-            <SubHeading varient="nopx" cn="text-start my-5" text="Experience unmatched expertise in embedded systems, tailored training, and cutting-edge. Experience unmatched expertise in embedded systems, tailored training, and cutting-edge. Experience unmatched expertise in embedded systems, tailored training, and cutting-edge. Experience unmatched expertise in embedded systems, tailored training, and cutting-edge." />
+            <Heading varient="nopx" cn="text-start mb-5" text="Start Here" />
+            {/* <SubHeading varient="nopx" cn="text-start my-5" text="Experience unmatched expertise in embedded systems, tailored training, and cutting-edge. Experience unmatched expertise in embedded systems, tailored training, and cutting-edge. Experience unmatched expertise in embedded systems, tailored training, and cutting-edge. Experience unmatched expertise in embedded systems, tailored training, and cutting-edge." /> */}
             <div className='grid grid-cols-1 gap-6 md:grid-cols-5'>
+                <CourseCard
+                    image={lessonImg}
+                    alt="course banner"
+                    category="Best Selling"
+                    title="Bluetooth Low Energy (BLE) From Ground Up"
+                    lesson="32"
+                    time="30"
+                    link="/"
+                />
                 <CourseCard image={lessonImg} alt="course banner" category="Start Here" title="Bluetooth Low Energy (BLE) From Ground Up" lesson="32" time="30" link="/" />
-                <CourseCard image={lessonImg} alt="course banner" category="Start Here" title="Bluetooth Low Energy (BLE) From Ground Up" lesson="32" time="30" link="/" />
-                <CourseCard image={lessonImg} alt="course banner" category="Start Here" title="Bluetooth Low Energy (BLE) From Ground Up" lesson="32" time="30" link="/" />
-                <CourseCard image={lessonImg} alt="course banner" category="Start Here" title="Bluetooth Low Energy (BLE) From Ground Up" lesson="32" time="30" link="/" />
+                <CourseCard image={lessonImg} alt="course banner" varient="home" category="Start Here" title="Bluetooth Low Energy (BLE) From Ground Up" lesson="32" time="30" link="/" />
+                <CourseCard image={lessonImg} alt="course banner" category="Top Rated" title="Bluetooth Low Energy (BLE) From Ground Up" lesson="32" time="30" link="/" />
                 <CourseCard image={lessonImg} alt="course banner" category="Start Here" title="Bluetooth Low Energy (BLE) From Ground Up" lesson="32" time="30" link="/" />
                 <CourseCard image={lessonImg} alt="course banner" category="Start Here" title="Bluetooth Low Energy (BLE) From Ground Up" lesson="32" time="30" link="/" />
             </div>
