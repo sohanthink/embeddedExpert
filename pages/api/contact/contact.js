@@ -1,5 +1,6 @@
 "use server";
 
+import contactEmail from "@/lib/mail/contactEmail";
 import Contact from "@/models/Contact.js";
 
 export default async function handler(req, res) {
@@ -8,6 +9,7 @@ export default async function handler(req, res) {
 
     try {
       const contact = await Contact.create({ name, email, message });
+      await contactEmail(name, email, message);
       return res
         .status(201)
         .json({ message: "Message sent successfully", data: contact });
