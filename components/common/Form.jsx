@@ -40,6 +40,7 @@ export function Form({
             } else {
                 notifyError();
             }
+
         } catch (error) {
             console.error("Error submitting form:", error);
             notifyError();
