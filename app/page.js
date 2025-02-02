@@ -1,5 +1,6 @@
 import SubscribeCard from "@/components/common/SubscribeCard";
 import Banner from "@/components/home/Banner";
+import BannerV2 from "@/components/home/BannerV2";
 import Category from "@/components/home/Category";
 import Certificate from "@/components/home/Certificate";
 import ContactUs from "@/components/home/ContactUs";
@@ -13,7 +14,8 @@ import WhitePaper from "@/components/home/WhitePaper";
 export default function Home() {
   return (
     <>
-      <Banner />
+      {/* <Banner /> */}
+      <BannerV2 />
       <Technolgy />
       <Courses />
       <Expert />
