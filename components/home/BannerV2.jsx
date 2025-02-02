@@ -33,7 +33,7 @@ const BannerV2 = () => {
             {/* Text Content */}
             <div className="relative z-10 flex flex-col justify-center h-full container space-y-3 p-5 md:p-0">
                 <h1 className="text-white text-2xl md:text-[55px] font-extrabold leading-none capitalize pr-0 md:pr-[50%]">
-                    The <span className="text-primary stroke-yellow-800">Ultimate</span> Platform for Embedded Systems Career Development.
+                    The <span className="text-primary stroke-text">Ultimate</span> Platform for Embedded Systems Career Development.
                 </h1>
                 <p className="text-base md:text-lg text-white pr-0 md:pr-[50%]">
                     Learn the most relevant embedded systems development skills for today’s market. From ‘hello world’ to building your own Realtime Operating System (RTOS).
