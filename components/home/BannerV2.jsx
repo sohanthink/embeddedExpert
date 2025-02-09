@@ -31,7 +31,7 @@ const BannerV2 = () => {
                     <source src="/home/banner/banner.mov" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
-                <div className="absolute inset-0 bg-gradient-to-r from-black/80 to-black/5"></div>
+                <div className="absolute inset-0 bg-gradient-to-r from-black/50 to-black/0"></div>
             </div>
 
             {/* Text Content */}
