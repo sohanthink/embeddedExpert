@@ -5,6 +5,7 @@ import Category from "@/components/home/Category";
 import Certificate from "@/components/home/Certificate";
 import ContactUs from "@/components/home/ContactUs";
 import Courses from "@/components/home/Courses";
+import Developer from "@/components/home/Developer";
 import Expert from "@/components/home/Expert";
 import Library from "@/components/home/Library";
 import Technolgy from "@/components/home/Technology";
@@ -16,8 +17,9 @@ export default function Home() {
     <>
       {/* <Banner /> */}
       <BannerV2 />
-      <Technolgy />
+      <Developer />
       <Courses />
+      <Technolgy />
       <Expert />
       <Category />
       <Certificate />
