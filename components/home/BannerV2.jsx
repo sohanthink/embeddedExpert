@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useEffect, useState } from "react";
+import CountUp from "react-countup";
 
 // Image paths
 const assets = {
@@ -19,7 +20,6 @@ const BannerV2 = () => {
         async function fetchBannerData() {
             try {
                 const response = await fetch("/api/bannerdata");
-                console.log("Response Status:", response.status);
                 if (!response.ok) throw new Error("Failed to fetch data");
 
                 const data = await response.json();
@@ -27,14 +27,13 @@ const BannerV2 = () => {
             } catch (error) {
                 console.error("Error fetching banner data:", error);
             } finally {
-                setLoading(false); // Set loading to false after data fetching
+                setLoading(false);
             }
         }
         fetchBannerData();
     }, []);
 
-    // Use fallback dummy values while data is being fetched
-    const { review = "Loading...", students = "Loading...", countries = "Loading...", minutes = "Loading..." } = bannerData[0] || {};
+    const { review = 17000, students = 120000, countries = 170, minutes = 24422 } = bannerData[0] || {};
 
     return (
         <section className="relative h-screen">
@@ -52,7 +51,7 @@ const BannerV2 = () => {
             </video>
 
             {/* Gradient Overlay */}
-            <div className="absolute inset-0 bg-gradient-to-r from-black/90 to-black/5 contrast-125"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-black/90 to-black/5"></div>
 
             {/* Content */}
             <div className="relative z-10 flex flex-col justify-center h-full container space-y-5 p-5 md:p-0">
@@ -71,12 +70,12 @@ const BannerV2 = () => {
 
                 {/* Stats Section */}
                 <div className="flex flex-wrap md:flex-row gap-3 justify-start items-center">
-                    <Card src={assets.star} number={loading ? "17000" : review} title="Reviews" />
-                    <Card src={assets.cap} number={loading ? "120000" : students} title="Students" />
-                    <Card src={assets.map} number={loading ? "170" : countries} title="Countries" />
+                    <Card src={assets.star} number={loading ? '...' : review} title="Reviews" />
+                    <Card src={assets.cap} number={loading ? '...' : students} title="Students" />
+                    <Card src={assets.map} number={loading ? '...' : countries} title="Countries" />
                     <div className="space-y-1 md:space-y-2 w-full md:w-auto">
                         <h4 className="text-white">This Month</h4>
-                        <Card src={assets.clock} number={loading ? "24422" : minutes} title="Minutes" gradient />
+                        <Card src={assets.clock} number={loading ? '...' : minutes} title="Minutes" gradient />
                         <h4 className="text-white">Of lessons completed this month.</h4>
                     </div>
                 </div>
@@ -86,17 +85,18 @@ const BannerV2 = () => {
     );
 };
 
-// Card Component
+// Card Component with Animated Counter
 const Card = ({ src, number, title, gradient }) => {
     return (
         <div
-            className={`flex gap-3 items-center justify-start md:justify-center border border-[#D50075]/40 p-5 rounded-2xl h-16 md:h-28 w-full md:w-auto 
-            ${gradient ? "bg-gradient-to-r from-primary via-pink-500 to-pink-700 text-white" : "bg-transparent"}`}
+            className={`flex gap-3 items-center justify-start md:justify-center border border-[#D50075]/40 p-5 rounded-2xl h-16 md:h-28 w-full md:w-auto md:min-w-[250px] 
+      ${gradient ? "bg-gradient-to-r from-primary via-pink-500 to-pink-700 text-white" : "bg-transparent"}`}
         >
             <Image src={src} alt="Icon" width={45} height={45} />
             <div>
                 <h4 className="text-white text-2xl md:text-[50px] font-extrabold leading-5 md:leading-6 capitalize">
-                    {number}+ <br />
+                    <CountUp start={0} end={number || 0} duration={2.5} separator="," />
+                    + <br />
                     <span className="text-xs md:text-sm font-normal">{title}</span>
                 </h4>
             </div>

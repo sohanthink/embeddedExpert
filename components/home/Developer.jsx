@@ -4,7 +4,7 @@ import { GridGlobe } from './GridGlobe';
 const Developer = () => {
     return (
         <div className='bg-[#04071E]'>
-            <div className="container overflow-hidden py-10 md:py-24 relative">
+            <div className="container overflow-hidden py-14 p-3 md:py-28 relative">
 
                 {/* Text Content */}
                 <div className="w-full text-center">
