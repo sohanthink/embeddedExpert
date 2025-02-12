@@ -52,7 +52,7 @@ const BannerV2 = () => {
             </video>
 
             {/* Gradient Overlay */}
-            <div className="absolute inset-0 bg-gradient-to-r from-black/90 to-black/5"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-black/90 to-black/5 contrast-125"></div>
 
             {/* Content */}
             <div className="relative z-10 flex flex-col justify-center h-full container space-y-5 p-5 md:p-0">
