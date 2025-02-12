@@ -19,10 +19,10 @@ export default function Home() {
       <BannerV2 />
       <Developer />
       <Courses />
-      <Technolgy />
       <Expert />
       <Category />
       <Certificate />
+      <Technolgy />
       <Library />
       <WhitePaper />
       <Testimonial />
