@@ -1,3 +1,4 @@
+import affiliateEmail from "@/lib/mail/affiliateEmail";
 import Affiliate from "@/models/Affiliate.js";
 
 export default async function handler(req, res) {
@@ -5,15 +6,17 @@ export default async function handler(req, res) {
     const { name, email, phone, courseType } = req.body;
 
     try {
-      const contact = await Affiliate.create({
+      const affiliate = await Affiliate.create({
         name,
         email,
         phone,
         courseType,
       });
+      await affiliateEmail(affiliate);
+      // await contactEmail(name, email, message);
       return res
         .status(201)
-        .json({ message: "Affiliate form submitted", data: contact });
+        .json({ message: "Affiliate form submitted", data: affiliate });
     } catch (error) {
       return res.status(400).json({ error: "Failed to save Affiliate." });
     }
