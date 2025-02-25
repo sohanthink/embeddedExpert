@@ -256,7 +256,7 @@
         },
         {
           "name": "STM32 Development Learning Path",
-          "description": "1.Mastering STM32CubeMX 5 and CubeIDE\n\nThis course teaches you how build embedded systems firmware and peripheral drivers using the STM32CubeMX 5 framework and the STMCubeIDE development environment. This course has many sections but primarily the course can be divided into three parts.\n\nThe first part deals with peripheral driver development. In this part we master how to use the STM32CubeMX framework to setup the clocks and register parameters of our peripheral drivers and then go on to the CubeIDE development environment to complete the development and testing of peripheral drivers. We shall master different setup configurations of our peripheral drivers in this part. These peripherals include the Universal Serial Bus (USB), the PWM, the SPI, the ADC, UART and the DMA.\n\nThe second part of this master course deals with developing embedded firmware applications using some of the Middleware provided by the STM32CubeMX framework. One of such Middleware we shall master is the FreeRTOS Realtime Kernel. We shall see how to use STM32CubeMX to create tasks and semaphores and other kernel components for realtime firmware development. We shall also see how to develop these kernel components from scratch using our CubeIDE development environment alone.\n\nThe third part of the course deals with working the CubeIDE as a standalone development environment. Over here we shall see how to develop bare-metal embedded-c firmware and drivers without using any libraries. We shall literally download the microcontroller chip's datasheet and develop our firmware and drivers using information from the datasheet only. We shall then go on to use this same datasheet information to develop firmware and peripheral drivers using ARM Assembly Language.\n\n2.Embedded Systems STM32 HAL APIs Driver Development\n\nThe STM32 Low-Layer APIs ( as known as LL) offers a fast light-weight expert-oriented layer which is closer to the hardware than the HAL APIs (Hardware Abstraction Layer). The LL offers low-level APIs at the register level with better optimization. These require deep knowledge of the MCU and peripheral specifications which we shall cover in this course.\n\nWith a programming based approach, this course is designed to give you a solid foundation in firmware and peripheral driver development for the STM32 family of microcontrollers. The goal of this course is to teach you how to navigate the microcontrollers reference manual and datasheet to extract the right information to professionally build peripheral drivers and firmware using the STM32 Low-Layer APIs\n\nBy the end of this course you will be able to develop drivers for peripherals like the ADC, UART,PWM, GPIO, TIMER,I2C, SPI, RTC, WWDG, IWDG, RCC, EXTI etc. You will also master the STM32 architecture and how to build professional embedded firmware for STM32 microcontrollers.\n\n3.Embedded Systems STM32 Low-Layer APIs(LL) Driver Development\n\nThe STM32 Low-Layer APIs ( as known as LL) offers a fast light-weight expert-oriented layer which is closer to the hardware than the HAL APIs (Hardware Abstraction Layer). The LL offers low-level APIs at the register level with better optimization. These require deep knowledge of the MCU and peripheral specifications which we shall cover in this course.\n\nWith a programming based approach, this course is designed to give you a solid foundation in firmware and peripheral driver development for the STM32 family of microcontrollers. The goal of this course is to teach you how to navigate the microcontrollers reference manual and datasheet to extract the right information to professionally build peripheral drivers and firmware using the STM32 Low-Layer APIs\n\nBy the end of this course you will be able to develop drivers for peripherals like the ADC, UART,PWM, GPIO, TIMER,I2C, SPI, RTC, WWDG, IWDG, RCC, EXTI etc. You will also master the STM32 architecture and how to build professional embedded firmware for STM32 microcontrollers.\n\n4.Embedded Systems Bare-Metal Programming Ground Up (STM32F4)\n\nWith a programming based approach, this course is designed to give you a solid foundation in bare-metal firmware development for ARM-based microcontrollers . The goal of this course is to teach you how to navigate the microcontroller reference manual and datasheet to extract the right information to professionally build peripheral drivers and firmware. To achieve this goal, no libraries are used in this course, purely bare-metal embedded-c and register manipulations.\n\nStill keeping it simple, this course comes in different ARM Cortex-M development boards so that students can put the techniques to practice using an ARM Cortex-M development board of their choice. This version of the course uses the STMicroelectronics STM32F4-NUCLEO which has an ARM Cortex-M4 microcontoller.\n\nBy the end of this course you will be able configure microcontroller peripherals like ADC, UART,PWM, GPIO, TIMER,I2C, SPI, etc. You will also master the ARM architecture and how to build professional embedded firmware for ARM processors.\n\n5.ARM Cortex-M7 STM32F7 Bare-Metal Programming\n\nWelcome to the ARM Cortex-M7 STM32F7 Bare-Metal Programming course.\n\nWith a programming based approach, this course is designed to give you a solid foundation in bare-metal firmware development for ARM-based microcontrollers . The goal of this course is to teach you how to navigate the microcontroller reference manual and datasheet to extract the right information to professionally build peripheral drivers and firmware. To achieve this goal, no libraries are used in this course, purely bare-metal embedded-c and register manipulations.\n\nStill keeping it simple, this course comes in different ARM Cortex-M development boards so that students can put the techniques to practice using an ARM Cortex-M development board of their choice. This version of the course uses the STMicroelectronics STM32F7-NUCLEO which has an ARM Cortex-M7 microcontroller.\n\nBy the end of this course you will be able configure microcontroller peripherals like ADC, UART,PWM, GPIO, TIMER,I2C, SPI, etc. You will also master the ARM architecture and how to build professional embedded firmware for ARM processors.\n\n6.STM32L4 Bare-Metal Peripheral Drivers Development\n\nWith a programming based approach, this course is designed to give you a solid foundation in bare-metal firmware development for ARM-based microcontrollers . The goal of this course is to teach you how to navigate the microcontroller reference manual and datasheet to extract the right information to professionally build peripheral drivers and firmware. To achieve this goal, no libraries are used in this course, purely bare-metal embedded-c and register manipulations.\n\nStill keeping it simple, this course comes in different ARM Cortex-M development boards so that students can put the techniques to practice using an ARM Cortex-M development board of their choice. This version of the course uses the STMicroelectronics STM32L4-NUCLEO which has an ARM Cortex-M4 microcontroller.\n\nBy the end of this course you will be able configure microcontroller peripherals like ADC, UART,PWM, GPIO, TIMER,I2C, SPI, etc. You will also master the ARM architecture and how to build professional embedded firmware for ARM processors.\n\n7.STM32L0 Bare-Metal Peripheral Drivers Development\n\nWith a programming based approach, this course is designed to give you a solid foundation in bare-metal firmware development for ARM-based microcontrollers . The goal of this course is to teach you how to navigate the microcontroller reference manual and datasheet to extract the right information to professionally build peripheral drivers and firmware. To achieve this goal, no libraries are used in this course, purely bare-metal embedded-c and register manipulations.\n\nStill keeping it simple, this course comes in different ARM Cortex-M development boards so that students can put the techniques to practice using an ARM Cortex-M development board of their choice. This version of the course uses the STMicroelectronics STM32L0-NUCLEO which has an ARM Cortex-M0+ microcontoller.\n\nBy the end of this course you will be able configure microcontroller peripherals like ADC, UART,PWM, GPIO, TIMER,I2C, SPI, etc. You will also master the ARM architecture and how to build professional embedded firmware for ARM processors.\n\n8.STM32F3 Bare-Metal Peripheral Drivers Development\n\nWith a programming based approach, this course is designed to give you a solid foundation in bare-metal firmware development for ARM-based microcontrollers . The goal of this course is to teach you how to navigate the microcontroller reference manual and datasheet to extract the right information to professionally build peripheral drivers and firmware. To achieve this goal, no libraries are used in this course, purely bare-metal embedded-c and register manipulations.\n\nStill keeping it simple, this course comes in different ARM Cortex-M development boards so that students can put the techniques to practice using an ARM Cortex-M development board of their choice. This version of the course uses the STMicroelectronics STM32F33-NUCLEO which has an ARM Cortex-M4 microcontroller.\n\nBy the end of this course you will be able configure microcontroller peripherals like ADC, UART,PWM, GPIO, TIMER,I2C, SPI, etc. You will also master the ARM architecture and how to build professional embedded firmware for ARM processors.",
+          "description": "This course offers a comprehensive guide to mastering STM32CubeMX 5 and CubeIDE for embedded systems firmware and peripheral driver development. The course is divided into three main parts. The first part focuses on peripheral driver development, teaching you how to use the STM32CubeMX framework to set up clocks and register parameters, and then complete development and testing in the CubeIDE environment. You will master configurations for peripherals such as USB, PWM, SPI, ADC, UART, and DMA. The second part covers developing embedded firmware applications using Middleware provided by STM32CubeMX, including the FreeRTOS Realtime Kernel. You will learn to create tasks, semaphores, and other kernel components for real-time firmware development. The third part deals with using CubeIDE as a standalone development environment, where you will develop bare-metal embedded-C firmware and drivers without libraries, using only the microcontroller's datasheet. The course also delves into STM32 HAL APIs Driver Development, offering a solid foundation in firmware and peripheral driver development for STM32 microcontrollers. You will learn to navigate the microcontroller's reference manual and datasheet to build professional drivers and firmware using STM32 Low-Layer APIs (LL), which provide low-level APIs at the register level for better optimization. Additionally, the course covers Embedded Systems Bare-Metal Programming for ARM-based microcontrollers, focusing on developing firmware without libraries, using bare-metal embedded-C and register manipulations. You will configure peripherals like ADC, UART, PWM, GPIO, TIMER, I2C, and SPI, mastering the ARM architecture. The course includes specific modules for different ARM Cortex-M development boards, such as STM32F4, STM32F7, STM32L4, STM32L0, and STM32F3, allowing you to practice techniques on the development board of your choice. By the end of the course, you will be proficient in building professional embedded firmware for ARM processors, equipped with the skills to navigate datasheets and reference manuals effectively.",
           "course_link": "https://study.embeddedexpert.io/p/stm32-development-learning-path",
           "category": "Start Here",
           "tags": ["STM32", "Learning Path", "Start Here", "courses", "course"],
@@ -472,6 +472,452 @@
             "course"
           ],
           "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201035117-9241Embedded Display Drivers Development A Bare-Metal Approach.jpg"
+        },
+        {
+          "name": "Embedded MicroPython from Ground Up™",
+          "description": "MicroPython is an efficient implementation of Python3 optimised to run on microcontrollers.\n\nWe shall develop the following drivers:\n\n- General Purpose Input/Output (GPIO) Drivers\n- USB Drivers\n- CAN Bus Drivers\n- Power Management Drivers\n- General Purpose Timer Drivers\n- Timer Output Compare Driver\n- Timer Input Capture Driver\n- PWM Timer Driver\n- RealTime Clock (RTC) Drivers\n- Watchdog Timer (WDG) Drivers\n- Analog-to-Digital Converter (ADC) Drivers\n- Analog-to-Digital Converter (ADC) Time Triggered Drivers\n- Digital-to-Analog Converter (DAC) Drivers\n- Universal Asynchronous Receiver/Transmitter (UART) Drivers\n- Serial Peripheral Interface (SPI) Drivers\n- Inter-Integrated Circuit (I2C) Drivers\n\nIn the final section we shall develop firmware for addressing advanced topics such as:\n\n- Adding Assembly Language Code to MicroPython\n- Adding C Language Code to MicroPython",
+          "course_link": "https://study.embeddedexpert.io/p/micropython",
+          "category": "Intermediate",
+          "tags": [
+            "MicroPython",
+            "Python3",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201035206-4809Embedded MicroPython from Ground Up™.jpg"
+        },
+        {
+          "name": "Digital Signal Processing (DSP) From Ground Up™ on Arm Processors",
+          "description": "Understanding the foundations of signal processing without complications: Before implementing practical DSP algorithms, this course teaches the foundation of signal processing step-by-step. Key topics include signal statistics and noise, quantization and sampling theorem, analog filter design, performance metrics of Chebyshev, Butterworth, and Bessel filters, linear systems and their properties, FIR and IIR filters, superposition, synthesis, decomposition, convolution, and DFT/IDFT.\n\nDeveloping Digital Signal Processing Algorithms: We will develop signal processing algorithms discussed in theory using pre-acquired signals. Algorithms include signal statistics, convolution, running sum, DFT, and IDFT. We will also implement these using the CMSIS-DSP library and compare performance.\n\nDeveloping Drivers and Data Structures for Signal Acquisition: We will develop ADC drivers for signal acquisition and FIFO data structures for managing signals.\n\nDigital Filter Design and Implementations: We will implement moving average, FIR, and IIR filters and design FIR filter kernels using Matlab.\n\nPractical DSP Application on Live Signal: We will apply learned concepts to process live signals from the microcontroller’s ADC.\n\nThis course is more than just getting the code to work. It will teach you how to write practical DSP algorithms without a fancy engineering degree. Taken by 3000+ students with 200+ reviews.",
+          "course_link": "https://study.embeddedexpert.io/p/dsp-on-arm1",
+          "category": "Intermediate",
+          "tags": [
+            "DSP",
+            "ARM Processors",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201035308-5740Digital Signal Processing (DSP) From Ground Up™ on Arm Processors.jpg"
+        },
+        {
+          "name": "Embedded Google Cloud Python Gateway Communication",
+          "description": "Embark on a transformative journey with our practical course that integrates embedded systems with Google Cloud Platform (GCP). This course is essential for engineers, IT professionals, data analysts, and technology enthusiasts in the IoT landscape. Gain hands-on experience with Google Cloud, leveraging Python for UART communication, mastering Google Cloud Storage, and diving into Google Firebase NoSQL Database. Learn to create storage buckets, manage contents, and handle real-time data influx in IoT systems. Analyze real-world IoT scenarios and understand key considerations for using Google Cloud. Whether you're a beginner or a professional, this course equips you with the skills to implement IoT solutions using Google Cloud.",
+          "course_link": "https://study.embeddedexpert.io/p/google-cloud11",
+          "category": "Intermediate",
+          "tags": [
+            "Google Cloud",
+            "Python",
+            "IoT",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906120949-8090google-cloud11.webp"
+        },
+        {
+          "name": "Firmware Version Control with Git from Ground Up",
+          "description": "Are you ready to discover the power of Git in firmware development and level-up your firmware engineering skills with our comprehensive course? Whether you're an experienced firmware engineer or a passionate beginner, this course is designed to elevate your proficiency and career prospects by making you proficient in Git-based version control. We shall delve into the world of Version Control Systems (VCS). We start by introducing you to VCS and elaborating on its importance in software development. Understand the differences between centralized and distributed VCS and get a comparative overview of the most popular tools available. Once you're acquainted with VCS, we navigate into the heart of the course: Git. Through a series of comprehensive modules, understand Git's basics, terminology, setup, and basic operations. Next, we expose you to various Git clients and how they can optimize your firmware development. You'll gain hands-on experience with Git Bash, discover the practical application of eGit within the STM32CubeIDE environment, and become proficient in SourceTree operations. Each of these sections covers the respective tool's setup, basic operations such as staging, committing, diffing, advanced operations, and best practices. We then introduce you to GitHub, a widely used web-based hosting service for Git repositories. Understand how to manage repositories, collaborate effectively, and utilize advanced features—all supplemented with hands-on exercises to solidify your understanding. This isn't just a course—it's your gateway to becoming an invaluable asset in any firmware development team. With our balanced blend of theoretical knowledge, practical exercises, and real-world examples, you're sure to find this course an enriching and career-boosting experience. Upon successful completion of the course, you will be able to: Understand Version Control Systems (VCS): Understand the necessity of VCS in firmware development and differentiate between centralized and distributed systems. Use Git Bash Effectively: Master various firmware development tasks using Git Bash, including creating users, initializing repositories, staging files, committing files, and diffing files. Leverage eGit in STM32CubeIDE: Install and configure eGit, mastering advanced operations such as branching and merging within STM32CubeIDE. Optimize Firmware Development with SourceTree: Understand and utilize SourceTree's advanced operations for firmware development. Collaborate with GitHub: Manage repositories and facilitate collaboration on firmware projects using GitHub. Apply Git in Real-world Scenarios: Use Git to maintain a clean code base, enhance collaboration, and streamline the firmware development process.",
+          "course_link": "https://study.embeddedexpert.io/p/firmware-version-control-with-git-from-ground-up",
+          "category": "Intermediate",
+          "tags": [
+            "Git",
+            "Version Control",
+            "Firmware Development",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906121304-3753firmware-version-control-with-git-from-ground-up.webp"
+        },
+        {
+          "name": "Modern Embedded GUI with TouchGFX",
+          "description": "This course will equip you with the skills to create engaging and visually striking graphical user interfaces (GUIs) for embedded systems using TouchGFX. You'll learn the fundamentals of TouchGFX, its setup, and the basics of embedded graphics. The course covers the TouchGFX designer tool, graphics engine, abstraction layer, and asset and memory management. You'll also explore the Model-View-Presenter (MVP) architecture, UI components creation, and practical implementation projects such as controlling GPIO pins, developing a clock, displaying real-time sensor data, and building a complete embedded dashboard.",
+          "course_link": "https://study.embeddedexpert.io/p/modern-embedded-gui-with-touchgfx",
+          "category": "Intermediate",
+          "tags": [
+            "TouchGFX",
+            "GUI",
+            "Embedded Systems",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906121419-9138modern-embedded-gui-with-touchgfx.webp"
+        },
+        {
+          "name": "WiFi IoT Architecture: From Firmware to Full Stack Web Development",
+          "description": "Transform into an IoT professional specializing in WiFi technologies. Learn to develop bare-metal firmware with STM32, handle advanced sensor data, and design IoT devices with seamless WiFi and 4G LTE connectivity. Dive into HTTP protocol for data transmission, and server-side development with HTML, PHP, JavaScript, and SQLite. Create a holistic IoT system ready to impact industries.",
+          "course_link": "https://study.embeddedexpert.io/p/aws-cloud111",
+          "category": "Intermediate",
+          "tags": [
+            "WiFi",
+            "IoT",
+            "Full Stack",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906121559-7308aws-cloud111.webp"
+        },
+        {
+          "name": "Flash Memory and EEPROM Drivers: A Hands-On Guide for Embedded Engineers",
+          "description": "Master the fundamentals of memory storage and build scalable and efficient memory storage systems for your applications. This course offers a deep dive into flash memory and EEPROM drivers, focusing on practical applications in embedded systems. Learn memory management techniques, advanced driver implementation, and optimization for performance and reliability. Gain confidence through real-world case studies and hands-on exercises. By the end, you'll be equipped to implement bare-metal flash memory and EEPROM drivers, optimize file system performance, and troubleshoot common issues.",
+          "course_link": "https://study.embeddedexpert.io/p/memory-storage",
+          "category": "Intermediate",
+          "tags": [
+            "Memory Storage",
+            "Flash Memory",
+            "EEPROM",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906121655-4068memory-storage.webp"
+        },
+        {
+          "name": "USB Host Development Essential Training with CubeMX",
+          "description": "In this course we shall develop USB Hosts such as the HID Host, CDC Host and Mass Storage Host. This course complements our USB Device Development Essential Training, offering a holistic approach to mastering both sides of the USB ecosystem. By completing both courses, you will gain a comprehensive understanding of USB technology, enabling you to create robust and efficient USB systems that cater to a wide range of applications. While USB devices are peripherals that connect to a host (like a computer) to perform specific functions, USB hosts control and manage these devices, ensuring seamless communication and data transfer. Join us on this exciting journey as we explore the fascinating world of USB host development, and learn the essential skills to create advanced, high-performance USB host systems that power the digital world.",
+          "course_link": "https://study.embeddedexpert.io/p/usb-host-essentials1",
+          "category": "Intermediate",
+          "tags": ["USB Host", "CubeMX", "Intermediate", "courses", "course"],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906121755-8128usb-host-essentials1.webp"
+        },
+        {
+          "name": "Advanced Digital Signal Processing on ARM Processors",
+          "description": "Welcome to the “Advanced Digital Signal Processing on ARM Processors” course. Whether you're just stepping into the realm of microcontrollers or you're an experienced engineer, this course is carefully crafted to elevate your understanding and teach you optimised DSP techniques, tools, and methodologies on ARM Cortex microcontrollers. We develop classic filters like FIR & IIR filters to modern filters like adaptive filters, this course has it all. We will navigate the complexities of the Fast Fourier Transform, spanning from its foundational concepts to advanced RADIX-4 algorithms.",
+          "course_link": "https://study.embeddedexpert.io/p/dsp-on-arm11",
+          "category": "Intermediate",
+          "tags": [
+            "DSP",
+            "ARM Processors",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906121900-8716dsp-on-arm11.webp"
+        },
+        {
+          "name": "USB Device Development Essential Training with CubeMX",
+          "description": "Discover the Art of USB Device Development: Harness the Power of Universal Connectivity. The USB Device Development Essential Training is the first course in our USB Firmware Engineering Learning Path. This course provides a practical learning experience designed for engineers and students who want to get started with learning how to develop robust and modern USB devices. Throughout this course, we will explore the following topics: USB Fundamentals: Dive into the history, evolution, specifications, and standards of USB technology. USB Terminology and Topology: Understand essential terms, concepts, and the structure of USB systems, including device classes, descriptors, endpoints, and data flow types. USB Device Classes: Gain insights into standard and custom device classes, such as HID, CDC, MSC, Audio/Video, and DFU. USB STM32 USB Device Library: Discover the architecture, core files, and device classes supported by the STM32 USB Device Library. Implementing USB device classes on STM32: Practical hands-on examples of various device class implementations, including HID, MSC, CDC, Audio, DFU, and Custom Device Class. Developing Practical USB Devices: Developing the CDC Communication Device, Developing the HID Mouse Device, Developing the HID Keyboard Device, Developing the Custom HID Device, Developing the Mass Storage Device, Developing the DFU Device. USB device library configuration and debugging: Learn about the configuration options, debugging techniques, and best practices for USB device development. Upon completing this course, you will have a solid foundation in USB device development, enabling you to bring your ideas to life and make a significant impact in the rapidly evolving tech landscape.",
+          "course_link": "https://study.embeddedexpert.io/p/usb-device-essentials",
+          "category": "Intermediate",
+          "tags": ["USB Device", "CubeMX", "Intermediate", "courses", "course"],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906122048-5574usb-device-essentials.webp"
+        },
+        {
+          "name": "Embedded Azure Cloud Python Gateway Communication",
+          "description": "Microsoft Azure is one of the three leading giants in the cloud service industry, sharing the stage with AWS and Google Cloud. With its vast array of services and robust infrastructure, Azure has earned a reputation as a preferred choice for IoT solutions across industries. This course provides you with an opportunity to understand why and how. This course offers: An Overview of Microsoft Azure: Familiarize yourself with Azure, from creating storage accounts to configuring dependencies and access keys. Working with Azure Storage: Learn to handle Azure storage effectively. Discover how to create containers, upload and download files, and even manage container deletion. In-depth Understanding of Azure CosmosDB NoSQL Database Service: Dive into CosmosDB, Azure's NoSQL database service. Learn to create databases and containers, insert and retrieve data, preparing you for real-world IoT data management. Building an Embedded Azure Cloud Storage System: Put your knowledge into practice by storing sensor data into local CSV files, pushing these files to Azure storage containers, and storing real-time sensor data in CosmosDB. Considerations for Azure Usage: Understand the key considerations when using Azure storage and CosmosDB, including pricing, scalability, and more. Whether you're new to IoT, a seasoned professional seeking to enhance your skills, or a tech hobbyist, this course will equip you with the knowledge and expertise to implement IoT solutions using Azure. Join us on a fascinating exploration of the Azure ecosystem, and step confidently into the future of IoT.",
+          "course_link": "https://study.embeddedexpert.io/p/azure-cloud1",
+          "category": "Intermediate",
+          "tags": [
+            "Azure",
+            "Cloud",
+            "Python",
+            "IoT",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906122151-7421azure-cloud1.webp"
+        },
+        {
+          "name": "Embedded Audio Solutions: Developing an Audio Media Player",
+          "description": "Welcome to the 'Embedded Audio Media Player' course, your quickest way to developing a complete audio media player. This is also your first step to becoming the unsung hero behind the everyday sounds that make life extraordinary. So, what's in it for you? Turn Ideas into Inventions: Ever thought of creating your own voice-activated device or a custom speaker system? With hands-on modules, this course gives you the toolkit to make your vision a reality. Whether it's setting the mood in smart homes or enriching driving experiences in smart cars, you'll be the magician behind the curtain. Future-Proof Your Career: With IoT and smart devices becoming popular, the demand for embedded systems experts is skyrocketing. Add the ability to work with audio to your skillset.",
+          "course_link": "https://study.embeddedexpert.io/p/lora1",
+          "category": "Intermediate",
+          "tags": [
+            "Audio",
+            "Media Player",
+            "Embedded Systems",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906122259-4486lora1.webp"
+        },
+        {
+          "name": "Advanced Sensing: Time of Flight (ToF) Sensors",
+          "description": "Imagine walking into a room and the lights adjust to your presence, not just on and off but to the perfect ambiance, tailored just for you. Picture a warehouse where inventory counts itself, revealing not just quantities but the precise location of every item, streamlining processes like never before. These are not scenes from a futuristic movie; they are real possibilities enabled by Time-of-Flight (ToF) sensor technology, particularly through the marvels of the VL53L1X sensor. This comprehensive course unveils the revolutionary potential of the VL53L1X sensor, a cornerstone in modern sensing technology, renowned for its precision, reliability, and versatility in various applications. This course is your gateway to unlocking these possibilities and more. Whether you're an engineer aiming to revolutionize product design, a hobbyist looking to bring your ideas to life, or a professional seeking to lead innovations in tech applications, this comprehensive journey from the basics to advanced implementations of the VL53L1X sensor is designed for you. Begin by exploring the fascinating applications of ToF sensors. Learn how they're transforming industries, from automating inventory management with unparalleled precision to creating interactive, gesture-controlled environments that anticipate and respond to human presence. Dive deep into the heart of the VL53L1X sensor. Understand its capabilities that make the aforementioned innovations possible, and more importantly, learn how you can harness these capabilities in your projects. Transition from theory to practice with step-by-step guidance on interfacing the VL53L1X with microcontrollers. Through real projects, you'll bring to life systems that can count, detect, and interact with the environment in ways you've only imagined. Elevate your projects with lessons on calibration, ensuring the precision of your sensor. Equip yourself with knowledge and skills that are shaping the future. Prepare to lead in the era of smart technology, IoT, and beyond.",
+          "course_link": "https://study.embeddedexpert.io/p/memory-storage3",
+          "category": "Intermediate",
+          "tags": [
+            "ToF Sensors",
+            "VL53L1X",
+            "Advanced Sensing",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241008053135-2605 Advanced Sensing Time of Flight (ToF) Sensors.jpg"
+        },
+        {
+          "name": "Mastering FileSystems and SD Card Drivers on Embedded Device",
+          "description": "Unleash the Power of Embedded Storage with FatFs and SD Card Integration with our comprehensive Embedded Files Systems and SD Card Drivers course. This course offers a unique opportunity to dive deep into the world of embedded file systems and secure digital (SD) card storage, focusing on the STM32 microcontroller. Learn about various types of storage media used in embedded systems, their advantages and disadvantages, and design considerations for file systems, including allocation algorithms, fragmentation, and security. The highlight is the hands-on approach to implementing the popular FatFs file system on embedded devices. Configure the FatFs system, perform disk and file I/O operations, create and read files, write sensor data, troubleshoot, and debug file system issues. Study at your own pace with our flexible online format and a 30-day money-back guarantee. Key topics include: Introduction to embedded systems storage media, Secure Digital (SD) Card Drivers, Introduction to file systems, File system design and implementation, File system allocation, and The FatFs File system for Embedded Devices. Enroll now to advance your career!",
+          "course_link": "https://study.embeddedexpert.io/p/filesystem-sdc",
+          "category": "Intermediate",
+          "tags": [
+            "FileSystems",
+            "SD Card Drivers",
+            "Embedded Systems",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241008053345-5285Mastering FileSystems and SD Card Drivers on Embedded Device.jpg"
+        },
+        {
+          "name": "Embedded Touchscreen Drivers Development: A Bare-Metal Approach",
+          "description": "Delve into the intricate world of embedded touchscreen driver development with this carefully designed course tailored for professionals who seek precision, depth, and innovation in their learning journey. Embedded touchscreens are the unsung heroes behind the responsive devices we use daily. This course will demystify the complexities and nuances of their driver development, offering a profound understanding of the mechanisms that make seamless user experiences possible. Begin with an enlightening introduction to the world of embedded touchscreens, their types, and their ever-growing applications in today's digital realm. Demystify the intricacies of the famous XPT2046 touchscreen controller, starting from its detailed datasheet insights to the technicalities of its working mechanism. Engage in hands-on modules, which consist of step-by-step crafting of robust bare-metal drivers for the XPT2046 touch controller, coupled with integration into vibrant graphics modules. Understand the paramount importance of touchscreen calibration, learn to implement sophisticated calibration algorithms, and understand the techniques to counteract noisy data for optimal user experiences. This course isn't just an academic endeavor—it's a synthesis of theory, real-world application, and forward-thinking. Every module, lesson, and example has been scrutinized and refined to ensure clarity, relevance, and depth. Elevate Your Expertise: Join us in this immersive exploration into the world of touchscreen driver development. Discover the algorithms and designs that power our digital interactions daily. Secure your place in the vanguard of technology and innovation.",
+          "course_link": "https://study.embeddedexpert.io/p/display-drivers2",
+          "category": "Intermediate",
+          "tags": [
+            "Touchscreen Drivers",
+            "Bare-Metal Approach",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241008054541-5594Embedded Touchscreen Drivers Development A Bare-Metal Approach.jpg"
+        },
+        {
+          "name": "Embedded Systems Cryptography & Encryption",
+          "description": "Welcome to the Embedded Systems Encryption and Cryptography course. In the era of interconnected devices, every micro-bit of data is both an asset and a vulnerability. With cyber threats evolving every millisecond, the true champions in the tech world are those equipped with the most advanced knowledge of encryption and cryptography. If you're in the realm of embedded systems, particularly with microcontrollers, this course isn't just an option—it's an imperative. This course not only demystifies the complex web of encryption algorithms and cryptographic protocols but also takes you on a hands-on journey with real-world applications, ensuring you master the nuances of the STM32 cryptographic firmware ecosystem. Top 3 Reasons Why This Course Is a Non-Negotiable for You: 1. From Basics to Mastery: Whether you're just starting out or you're looking to sharpen your expertise, we've got you covered. Experience a journey from foundational concepts to mastery-level insights. 2. Algorithm Deep Dive: Whether you're encountering AES, RSA, or elliptic curves for the first time or seeking to deepen your existing knowledge, our course provides an in-depth look into the world's leading encryption algorithms and their application in STM32. 3. Hands-On & Real-World: Theory is good; practical mastery is better. Get hands-on with real-world scenarios, challenges, and solutions that ensure you're not just knowledgeable, but also highly employable and invaluable. What's Your ROI? Apart from unparalleled knowledge, this course offers: A heightened ability to protect and optimize firmware projects by encryption. A significant edge in job interviews and professional discussions. A certificate of completion that's not just a piece of paper, but a testament to your commitment to excellence.",
+          "course_link": "https://study.embeddedexpert.io/p/dsp-on-arm111",
+          "category": "Intermediate",
+          "tags": [
+            "Cryptography",
+            "Encryption",
+            "Embedded Systems",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009071038-3272Embedded Systems Cryptography & Encryption.jpg"
+        },
+        {
+          "name": "Embedded Local Database Storage: MySQL",
+          "description": "Enter the world of embedded database storage in our new course, Embedded Local Database Storage: MySQL. Designed to give you an understanding of how your microcontrollers can interact with local databases on a host computer. This course explores the intersection of UART communication, and NodeJS, coming together in the creation of efficient embedded systems that seamlessly store data in MySQL databases. This course brings you face-to-face with MySQL Workbench, where you'll learn to design, create, and manage robust databases and understand the essentials of SQL commands and database operations. The final project brings everything together, configuring STM32 to send data via USB, received and processed by NodeJS, and eventually stored efficiently in the MySQL database. After completing this course, you will be able to: Integrate STM32, NodeJS, and MySQL to create an embedded system that sends data via USB and stores it efficiently in a MySQL database. Set up and use a NodeJS environment for device communication and data handling. Design, create, and manage a MySQL database using MySQL Workbench. ...much more",
+          "course_link": "https://study.embeddedexpert.io/p/aws-cloud121",
+          "category": "Intermediate",
+          "tags": [
+            "MySQL",
+            "Database Storage",
+            "Embedded Systems",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009071214-9040Embedded Local Database Storage MySQL.jpg"
+        },
+        {
+          "name": "Embedded System IoT Systems Design",
+          "description": "This course teaches you how to build a complete Internet-of-Thing (IoT) system from scratch using just your development board without any specialized wireless radio. The course can be divided into 3 sections. The first section deals with developing the embedded firmware for reading and receiving data, processing the data and transmitting the data. The next section deals with developing a modern day GUI desktop dashboard application from scratch for receiving and displaying the data from the firmware as well as sending commands to the firmware to control output devices. The last section deals with networking. In this section we shall integrate user authentication and a realtime database to store the data from our firmware in cloud. We shall also see how to receive emails and then control the output devices in our firmware simply by sending an e-mail.",
+          "course_link": "https://study.embeddedexpert.io/p/modern-bare-metal-embedded-c-programming-from-ground-up11",
+          "category": "Intermediate",
+          "tags": [
+            "IoT",
+            "Embedded Systems",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009071358-5046Embedded System IoT Systems Design.jpg"
+        },
+        {
+          "name": "LoRa from Ground Up™",
+          "description": "This course is designed to equip you with a solid understanding of LoRa (Long Range) technology and its applications in the growing field of the Internet of Things (IoT). This course provides a deep dive into the underlying principles of LoRa and its advantages and limitations in real-world IoT applications. This course begins with an introduction to IoT and wireless communication, setting the context for the subsequent exploration of LoRa technology. You will gain a thorough understanding of LoRa, starting from its fundamental concepts to advanced characteristics, including frequency bands, regulations, modulation and spread spectrum techniques, and signal range calculations. In the next phase, you will learn about the elements of LoRa technology. This includes data rate, packet structure, and key components such as 'The Chirp' and 'The Spreading Factor'. These lessons will further your understanding of how LoRa communicates and transmits data over long distances efficiently. Building on the foundation of LoRa's theoretical and functional understanding, the course moves into its applications and integrations. You will be taken through comprehensive modules on developing bare-metal drivers for interfacing with LoRa modules. Lessons will involve practical tasks like developing UART drivers, managing data using circular buffers, and interfacing with LoRa modules using advanced UART-DMA drivers. You will learn how to send sensor data over LoRa and handle crucial parameters like keys, channels, and addresses. Upon successful completion of the course, you will be able to: Understand LoRa Fundamentals: Gain a solid understanding of these key IoT technologies and their applications. Develop LoRa Drivers: Learn practical skills to create UART drivers, manage data, and interface with LoRa modules. Decipher LoRa Communication: Understand essential aspects such as frequency bands, modulation techniques, and data rates. Apply LoRa in Real Applications: Use your skills to design, implement, and evaluate a LoRa-based IoT application.",
+          "course_link": "https://study.embeddedexpert.io/p/lora",
+          "category": "Intermediate",
+          "tags": ["LoRa", "IoT", "Intermediate", "courses", "course"],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009071508-3853LoRa from Ground Up™.jpg"
+        },
+        {
+          "name": "ZigBee from Ground Up: From Theory and Hands-On Training",
+          "description": "Are you ready to explore the exciting world of ZigBee technology and its pivotal role in IoT and smart homes? Welcome to 'ZigBee from Ground Up' where we turn curiosity into expertise and theories into practical skills. Picture this: you, at the forefront of ZigBee technology, confidently designing and implementing networks that power smart homes, industrial automation, and the entire IoT landscape. This course is your ultimate guide, meticulously created to take you from zero to a developer in ZigBee technology. Course Outline: Module 1: The ZigBee Fundamentals We kick things off with the essentials. You'll get a clear understanding of what ZigBee is, where it came from, and why it's a game-changer in wireless communication. You'll discover its applications in smart homes, industrial settings, and beyond. Module 2: Demystifying the OSI Model Ever wondered how data travels from one device to another? We'll break down the OSI model's seven layers, giving you a crystal-clear understanding of each one's role in network communication. Module 3: Mastering ZigBee Networks Dive deep into network management. Learn the ins and outs of ZigBee network architecture, from device roles to topologies, addressing methods, and advanced network management techniques. Module 4: Wireless Technology Face-Off How does ZigBee compare to Bluetooth, WiFi, and LoRa? We’ll lay it all out, so you can make informed decisions and design the best network for your needs. Module 5: Data Transfer and Communication Discover the magic behind seamless data transfer. We'll explore ZigBee's data transfer methods, beacon-enabled networks, and strategies for ensuring data integrity and efficient communication. Module 6: Hands-On Coding and Firmware Development Roll up your sleeves! You'll develop bare-metal communication drivers, implement circular buffers, and create robust ZigBee firmware applications. This isn't just theory – it's practical, real-world coding experience you can use right away. Why Enroll Now Accelerate Your Career: Equip yourself with in-demand skills in ZigBee technology and position yourself as a leader in the rapidly evolving IoT landscape. Enroll now and start your journey towards mastering ZigBee technology.",
+          "course_link": "https://study.embeddedexpert.io/p/zigbee",
+          "category": "Intermediate",
+          "tags": ["ZigBee", "IoT", "Intermediate", "courses", "course"],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009071654-2113ZigBee from Ground Up From Theory and Hands-On Training.jpg"
+        },
+        {
+          "name": "Hands-On Embedded C++ Library Development",
+          "description": "If you're a developer looking to transition from basic microcontroller programming to enterprise-level Embedded C++ development, then this course is the ultimate resource that walks you through all the essential aspects, backed by hands-on implementation of a complete real-world embedded C++ library and comprehensive step-by-step guidance. Hands-On Embedded C++ Library Development is designed specifically to elevate your Embedded C++ expertise to an industry-leading standard. Why Choose This Course? Embedded C++ Focus: This practical course is finely tuned to engrain Embedded C++ best practices into your skillset. You'll not just learn C++, you'll apply it in real-world embedded systems. Code-Level Mastery: Forget about theoretical fluff. This course is rooted in dissecting, understanding, and writing authentic Embedded C++ code, enhancing your proficiency in elements like encapsulation, object-orientation, and polymorphism. Multi-threaded Programming with FreeRTOS in C++: The course introduces you to the integration of FreeRTOS with C++, teaching you how to manage tasks in embedded C++ projects. Real-world Bluetooth Low Energy Library: Delve deep into the HM-10 BLE module, exploring its initialization, data transmission, and advanced configurations, all through the lens of C++. Course Highlights: Module 1: Sets the stage with an Introduction to Embedded C++ and the HM-10 BLE module. Understand the course's scope, prerequisites, and get an eagle-eye view of what lies ahead. Module 2: All about setting up your development environment. From manually integrating FreeRTOS into your project to setting up an embedded C++ project and converting an existing embedded C project to embedded C++, we've got you covered. Module 3: Dives into the HM-10's Basic Operations. Understand AT Commands, MCU-to-Module communication, and much more, all backed by complete step-by-step C++ source code implementation. Module 4: Covers the art of HM-10 C++ Library Development. Learn to implement various interface files and the HM-10 Class in C++. Module 5: Focuses on Data Transmission with HM-10 in C++. Understand data callbacks and master asynchronous data transmission techniques. Module 6: For those looking to master Advanced HM-10 Configurations using C++. From changing baud rates and MAC addresses to managing whitelists and controlling characteristic values, this module has it all. What You Will Achieve: Proficiency in Embedded C++, Understanding of FreeRTOS integration with Embedded C++, Hands-on Experience with HM-10 BLE Module, Development of Real-world Bluetooth Low Energy Library, and much more.",
+          "course_link": "https://study.embeddedexpert.io/p/lora111",
+          "category": "Intermediate",
+          "tags": [
+            "Embedded C++",
+            "Library Development",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009071926-3202Hands-On Embedded C++ Library Development.jpg"
+        },
+        {
+          "name": "Hands-On Biometric Firmware Mastery with Fingerprint Sensors",
+          "description": "In an era where data breaches are becoming all too common, the demand for robust, reliable biometric security is skyrocketing. Are you an engineer, developer, or hobbyist eager to dive deep into the cutting-edge field of biometric authentication? Look no further! Our comprehensive course takes you on a journey from the basics of fingerprint sensing technologies to the nuances of firmware development, all using the versatile STM32 microcontrollers. What Makes This Course Unique? Multi-Sensor Exposure: Get hands-on experience with both Optical and Capacitive Fingerprint Sensors. In-Depth Modules: Our carefully crafted modules cover everything from basic hardware connections to advanced firmware logic and data security. Real-World Applications: With this course, you're not just learning theory; you're gearing up to create practical, real-world applications that can be implemented in various industries like security systems, and IoT devices. Course Highlights: Introduction to Fingerprint Sensing Technologies: Understand the intricacies of various types of fingerprint sensors, including Optical, Capacitive, and even Ultrasonic types. STM32 Interfacing: Master the wiring and driver development necessary to interface fingerprint sensors with STM32 microcontrollers. Library Development: Gain deep insights into the initialization, calibration, and template creation for both Optical and Capacitive sensors. Firmware Logic: Learn how to enroll, verify, and manage fingerprints while incorporating best practices for error handling. Data Security: Discover the key techniques for securely storing fingerprint templates and implementing robust data security measures. Advanced Features: Dive into optimizations like timeout logic, low-power considerations, and secure communications to create an efficient, reliable biometric system. What You Will Achieve: Hands-on experience in creating libraries for biometric sensors, The skills to develop, test, and debug firmware logic of fingerprint sensing systems, Mastery over fingerprint sensing technologies, Proficiency in managing communication data, and much more.",
+          "course_link": "https://study.embeddedexpert.io/p/lora11",
+          "category": "Intermediate",
+          "tags": [
+            "Biometric Firmware",
+            "Fingerprint Sensors",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009072114-9260Hands-On Biometric Firmware Mastery with Fingerprint Sensors.jpg"
+        },
+        {
+          "name": "Windows x86 Assembly Programming From Ground Up™",
+          "description": "Welcome to the x86 Assembly Programming From Ground Up™ course. Covering x86 Processor History, Architecture, and Practical Assembly Programming, this is the most comprehensive x86 assembly course online. I'll take you step-by-step through engaging and fun video tutorials and teach you everything you need to know to succeed as an x86 developer. By the end of this course, you will master the x86 Core Instruction Set. You will be able to develop complex mathematical algorithms in x86 assembly. You will also be able to write robust programs that mix C++ and x86 Assembly files. Furthermore, you will master everyday tasks like navigating arrays, computing the statistical properties of an array such as computing the mean and standard deviation of each row and column, all written in assembly language. There is so much more. Please take a look at the full course curriculum. REMEMBER: I have no doubt you will love this course. Also, it comes with a FULL money-back guarantee for 30 days! So put simply, you really have nothing to lose and everything to gain. Sign up and let's start writing some low-level code.",
+          "course_link": "https://study.embeddedexpert.io/p/windows-x86-assembly",
+          "category": "Intermediate",
+          "tags": [
+            "x86 Assembly",
+            "Windows",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009072255-2743Windows x86 Assembly Programming From Ground Up™.jpg"
+        },
+        {
+          "name": "Matlab Digital Image Processing From Ground Up™",
+          "description": "With a programming-based approach, this course is designed to give you a solid foundation in the most useful aspects of Image Processing in an engaging and easy-to-follow way. The goal of this course is to present practical techniques while avoiding the obstacles of abstract mathematical theories. To achieve this goal, the image processing techniques are explained in plain language, not simply proven to be true through mathematical derivations. By the end of this course, you should be able to: Suppress noise in images, Develop the 2-D Convolution algorithm in Matlab, Apply Edge-Detection Operators like Laplacian, Sobel, Prewitt, Robinson, etc. on Images, Develop Spatial Filtering Algorithms in Matlab, Compute an Image Histogram and Equalize it in Matlab, Perform Arithmetic and Boolean Operations like Addition, Subtraction, AND, OR, etc. on images, Perform Image Enhancement Techniques such as Blurring and Sepia using Matlab.",
+          "course_link": "https://study.embeddedexpert.io/p/matlab-image-processing",
+          "category": "Intermediate",
+          "tags": [
+            "Matlab",
+            "Image Processing",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009072432-5198Matlab Digital Image Processing From Ground Up™.jpg"
+        },
+        {
+          "name": "Python Network Programming From Ground Up ™",
+          "description": "This course teaches you how to build network applications in Python. Whether you are a beginner or an expert, there is something in this course for you. No prior knowledge of Python or network programming is assumed.\n\nThe first part of the course provides a practical introduction to networking. We cover topics including:\n\n- Packets\n- TCP/IP\n- IP addresses\n- Service Name\n- HTTP Request/Response\n- Cookies\n\n… and much more.\n\nThe second part of the course deals with developing various network applications. We shall build:\n\n- HTTP Clients\n- HTTP Servers\n- FTP Servers\n\nThe third part of the course takes you through a step-by-step process of developing a modern-looking GUI Email Client from scratch. Over here, we learn how to:\n\n- Send Emails\n- Send Emails with MIME\n- Send Emails with Attachments\n- Render HTML in Emails\n- Render HTML and Text in Emails\n- Send Bulk Emails\n- Check Email Statistics and Information with POP3\n- Retrieve Emails with POP3\n- Retrieve Emails with IMAP",
+          "course_link": "https://study.embeddedexpert.io/p/python-networking",
+          "category": "Intermediate",
+          "tags": [
+            "Python",
+            "Network Programming",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009072630-2419Python Network Programming From Ground Up ™.jpg"
+        },
+        {
+          "name": "Python- Build Modern Desktop GUI Applications",
+          "description": "This course is designed to give you a solid foundation in the most useful aspects of modern GUI application development using Python and the Kivy framework in an engaging and easy-to-follow way. The goal of this course is to teach you how to develop real-world useful desktop applications while mastering Python and the Kivy framework.\n\nThe initial parts of this course deal with mastering the various layouts and widgets of the Kivy framework. We shall learn how to implement:\n\n- Layouts such as FloatLayout, RelativeLayout, AnchorLayout, GridLayout, etc.\n- Widgets such as Sliders, Buttons, Labels, ActionBars, etc.\n\nThe latter part of this course teaches you how to develop some complete modern-looking GUI applications from scratch. We shall build a:\n\n- Modern GUI Table Tennis (Pong) Game\n- Modern GUI Application to Capture Hardware Data in Real-time\n- Modern GUI Note-Taking Application",
+          "course_link": "https://study.embeddedexpert.io/p/python-modern-gui",
+          "category": "Intermediate",
+          "tags": [
+            "Python",
+            "GUI",
+            "Kivy",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009072822-1438Python- Build Modern Desktop GUI Applications.jpg"
+        },
+        {
+          "name": "{ C Language } Deep Learning From Ground Up™",
+          "description": "This course is designed to give you a solid foundation in the most useful aspects of modern GUI application development using Python and the Kivy framework in an engaging and easy-to-follow way. The goal of this course is to teach you how to develop real-world useful desktop applications while mastering Python and the Kivy framework.\n\nThe initial parts of this course deal with mastering the various layouts and widgets of the Kivy framework. We shall learn how to implement:\n\n- Layouts such as FloatLayout, RelativeLayout, AnchorLayout, GridLayout, etc.\n- Widgets such as Sliders, Buttons, Labels, ActionBars, etc.\n\nThe latter part of this course teaches you how to develop some complete modern-looking GUI applications from scratch. We shall build a:\n\n- Modern GUI Table Tennis (Pong) Game\n- Modern GUI Application to Capture Hardware Data in Real-time\n- Modern GUI Note-Taking Application",
+          "course_link": "https://study.embeddedexpert.io/p/python-modern-gui",
+          "category": "Intermediate",
+          "tags": [
+            "Python",
+            "GUI",
+            "Kivy",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009072822-1438Python- Build Modern Desktop GUI Applications.jpg"
+        },
+        {
+          "name": "Python Real-time Population Health Desktop Application",
+          "description": "The objective of this course is very simple and straightforward. We shall build a modern GUI application for tracking population health from scratch. We shall use the Covid-19 pandemic as a case study.\n\nBy the end of this course, you will master all the tools used to complete this objective. Additionally, you will have a complete working application for tracking Covid-19 across the globe. This course will cover:\n\n- Setting up the development environment\n- Designing the GUI layout\n- Integrating real-time data sources\n- Implementing data visualization techniques\n- Adding interactive features for user engagement\n- Deploying the application for public use",
+          "course_link": "https://study.embeddedexpert.io/p/python-modern-gui1",
+          "category": "Intermediate",
+          "tags": [
+            "Python",
+            "GUI",
+            "Real-time",
+            "Health",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009073147-4733Python Real-time Population Health Desktop Application.jpg"
+        },
+        {
+          "name": "Printed Circuit Board (PCB) Design from the Ground Up ™",
+          "description": "You already know how to develop firmware for STM32 microcontrollers. However, you remain confined to the development board.\n\nHave you ever imagined designing and printing your own Printed Circuit Board (PCB) from scratch, then writing your firmware and flashing it onto the board? This course empowers you to bring your physical ideas to life, from designing circuit boards that incorporate all essential components—including your MCU chip, oscillator, and USB interfaces—to having your PCB printed and delivered.\n\nCourse Objectives:\n\n- PCB Design: You already excel in microcontroller programming; now expand your expertise to include designing custom, multi-layer PCBs with an array of components.\n\n- From Concept to Creation: You've relied on pre-made boards; now learn to design one similar to the STM32 development boards, but with additional features like wireless radios and accelerometers.\n\n- Comprehensive Firmware Development: You already write firmware code; now flash it into your custom hardware for seamless integration. From selecting the right components using platforms like Mouser or DigiKey, through mastering schematic capture and complex PCB layout, you will manage every critical phase of the hardware development process.\n\nYou already know the impact; STM32 microcontrollers are pivotal in many popular hardware products like Google Pixel smartphones and Apple TV, highlighting the practical importance of these skills.\n\nWho Should Enroll:\n\nThis course is designed for individuals with a background in firmware development who wish to go beyond using development boards and step into the world of custom PCB design and integrated hardware development. Seize this opportunity to master another crucial pillar in the field of embedded systems: Hardware Systems Design. By the end of this course, you will have a physical product, designed by you, in your hands—turning your envisioned projects into tangible reality. Whether you are looking to advance your career or bring personal projects to fruition, this course offers the necessary tools and knowledge.",
+          "course_link": "https://study.embeddedexpert.io/p/printed-circuit-board-pcb-design-from-the-ground-up",
+          "category": "Intermediate",
+          "tags": [
+            "PCB Design",
+            "Hardware Systems",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009073309-3104Printed Circuit Board (PCB) Design from the Ground Up ™.jpg"
+        },
+        {
+          "name": "Arduino Bluetooth Low Energy (BLE) From Ground Up™",
+          "description": "Welcome to the Arduino Bluetooth Low Energy (BLE) From Ground Up™ course.\n\nThis practical Bluetooth Low Energy (BLE) course will provide you with a solid in-depth training to be able to build BLE embedded devices and use them to communicate with other smart devices and mobile phone apps. This course aims to provide a solid practical understanding of Bluetooth Low Energy: the protocol, how data is organized, and the key design trade-offs that were made in the creation of the protocol.\n\nBy the end of this course, you should be able to build your own BLE-enabled embedded devices and give a lecture on the BLE protocol. You will learn how to develop BLE firmware for various use cases, understand the BLE stack, create your own services and characteristics, and build BLE embedded devices. This course is ideal for anyone thinking about developing a product that incorporates Bluetooth Low Energy, embedded engineers who want to create BLE firmware, or anyone who wants to learn how to code and build BLE devices.",
+          "course_link": "https://study.embeddedexpert.io/p/arduino-ble",
+          "category": "Intermediate",
+          "tags": [
+            "Arduino",
+            "BLE",
+            "Bluetooth Low Energy",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009073634-3270Arduino Bluetooth Low Energy (BLE) From Ground Up™.jpg"
+        },
+        {
+          "name": "High Performance Display Drivers: DMA2D, LTDC, FMC, SDRAM",
+          "description": "In the ever-evolving world of digital display technology, staying ahead means mastering the art and science of high-performance display drivers. This course offers a unique deep dive into the core components that drive modern display systems - DMA2D, LTDC, FMC, and SDRAM. Designed for professionals who are passionate about pushing the boundaries of their firmware development skills, this course bridges the gap between theoretical knowledge and practical application.\n\nWhat You'll Learn:\n\n- DMA2D and LTDC: We will delve into the complexities of DMA2D and LTDC, exploring their roles in enhancing graphics rendering and optimizing display performance.\n- FMC and SDRAM: We will uncover the intricacies of Flexible Memory Controllers and the SDRAM, and learn how to leverage these components for efficient memory management in high-performance systems.\n- Accurate Integration: You will understand how these technologies properly integrate within advanced display systems, ensuring seamless compatibility and maximized efficiency.\n- Practical Implementation: Furthermore, you will gain hands-on experience through comprehensive programming modules for each of these peripherals, implementing bare-metal drivers that bring pixels to life.\n\nWho Should Enroll?\n\nThis course is tailored for engineers, system designers, and technology professionals seeking to deepen their expertise in display driver technology. Whether you're looking to advance your career, spearhead innovative projects, or simply have a passion for technology, this course will provide the knowledge and skills you need to excel, as long as you are looking to transform your understanding of display drivers.",
+          "course_link": "https://study.embeddedexpert.io/p/high-performance-display-drivers-dma2d-ltdc-fmc-sdram",
+          "category": "Intermediate",
+          "tags": [
+            "Display Drivers",
+            "DMA2D",
+            "LTDC",
+            "FMC",
+            "SDRAM",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009075019-9624High Performance Display Drivers DMA2D, LTDC, FMC, SDRAM.jpg"
+        },
+        {
+          "name": "Embedded Data Visualization and Real-Time Dashboards",
+          "description": "Step into advanced firmware data visualization with our course, \"Embedded Data Visualization and Real-Time Dashboards.\" Designed for professionals, this course leverages Node-RED and STM32CubeMonitor to create dynamic visual representations of embedded systems data.\n\nCourse Highlights:\n\n- Introduction to STM32CubeMonitor and Node-RED: Learn the basics and integration for real-time data visualization.\n- Hands-On Learning: Apply core concepts through practical sessions, setting up and deploying monitoring flows in real-time.\n- Advanced Monitoring Techniques: Utilize graphical elements like gauges and charts for enhanced monitoring and manage multiple sensor data streams.\n- Data Logging and Optimization: Master data logging with .csv files and customize charts for optimal representation.\n- Variable Manipulation in Runtime: Learn to write and modify variables and register content during runtime.\n- Optimization Strategies: Optimize acquisition speed, manage multiple probes, and configure shared mode settings.\n\nWho This Course is For:\n\n- Embedded Software Developers and Engineers: Integrate robust data visualization techniques into projects.\n- Technical Project Managers: Lead teams effectively with cutting-edge visualization strategies.\n- Electronics and Computer Engineering Students: Acquire practical, industry-relevant skills.\n- Academic Researchers and Instructors: Expand understanding and teaching repertoire in embedded systems.\n- IoT and Tech Enthusiasts: Equip with practical skills for innovative ideas.\n- Professionals in Automation and Control Systems: Enhance system monitoring and diagnostics through advanced visualization techniques.",
+          "course_link": "https://study.embeddedexpert.io/p/embedded-data-visualization-and-real-time-dashboards",
+          "category": "Intermediate",
+          "tags": [
+            "Data Visualization",
+            "Real-Time Dashboards",
+            "Node-RED",
+            "STM32CubeMonitor",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009075152-2919Embedded Data Visualization and Real-Time Dashboards.jpg"
         }
       ]
     }
