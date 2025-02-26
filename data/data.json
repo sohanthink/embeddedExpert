@@ -245,6 +245,12 @@
     },
     {
       "type": "Course",
+      "total_categories": 3,
+      "categories": [
+        { "category_name": "Start Here", "total_courses": 16 },
+        { "category_name": "Intermediate", "total_courses": 27 }
+      ],
+      "total_courses": 43,
       "courses": [
         {
           "name": "ARM GNU Assembly Programming From Ground Up™",
@@ -918,6 +924,109 @@
             "course"
           ],
           "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009075152-2919Embedded Data Visualization and Real-Time Dashboards.jpg"
+        },
+        {
+          "name": "Mastering the CAN Bus from Ground Up™",
+          "description": "Are you ready to stand out in the rapidly evolving field of embedded systems? \"Mastering the CAN Bus from Ground Up™\" is more than just a course – it's your pathway to becoming an indispensable expert in a technology that's pivotal in modern automotive and industrial communication networks.\n\nWhy This Course?\nThe CAN Bus system is at the heart of efficient, reliable communication in complex machines. With the increasing demand for sophisticated automotive and industrial systems, proficiency in CAN Bus technology has become a highly sought-after skill. Our course is tailored to provide you with an all-encompassing knowledge, from the basic principles to advanced applications, ensuring you are industry-ready.\n\nCourse Highlights:\n\n- Gain In-Demand Skills: The CAN Bus system is pivotal in modern technology, and expertise in this field is highly sought after. This course prepares you to meet and exceed industry demands.\n- Hands-On Learning Experience: We believe in learning by doing. Our course offers immersive hands-on labs using the STM32 microcontroller, bridging the gap between theory and real-world application.\n- Learn from the Best: Our instructors are seasoned experts, bringing their extensive knowledge and industry insights directly to you.\n- Flexible Online Access: Learn at your own pace, on your own schedule, with our user-friendly online platform.\n\nCourse Content:\n\n- Introduction to CAN Bus: Understand the fundamentals of CAN Bus technology, its history, and its importance in modern systems.\n- CAN Bus Protocol: Dive deep into the CAN Bus protocol, including message framing, error detection, and fault confinement.\n- Practical Implementation: Learn how to implement CAN Bus communication using STM32 microcontrollers, including setting up hardware and writing firmware.\n- Advanced Topics: Explore advanced topics such as CAN FD (Flexible Data-rate), network management, and diagnostics.\n- Real-World Applications: Apply your knowledge to real-world scenarios, including automotive and industrial applications.\n\nBy the end of this course, you will have a comprehensive understanding of CAN Bus technology and the practical skills to implement it in various applications. Enroll now and take the first step towards mastering the CAN Bus from the ground up.",
+          "course_link": "https://study.embeddedexpert.io/p/mastering-the-can-bus-from-ground-up",
+          "category": "Intermediate",
+          "tags": [
+            "CAN Bus",
+            "Embedded Systems",
+            "Automotive",
+            "Industrial",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009075344-3427Mastering the CAN Bus from Ground Up™.jpg"
+        },
+        {
+          "name": "RadarInsight: Hands-On Presence Sensing with Radar",
+          "description": "Imagine a world where the well-being of patients can be continuously and unobtrusively monitored, where critical indicators such as movement and respiration are accurately tracked without ever making physical contact. Enter the fascinating world of radar technology and learn how it powers modern presence sensing applications. From the historical evolution of radar systems to the miniaturized LD2410 radar sensor, this course covers all you need to understand radar-based detection and analysis. Through a blend of theoretical principles and hands-on projects, you will gain the knowledge and skills to develop, configure, and implement radar-based presence sensing applications. What You Will Learn? Introduction to Radar Technology: Journey through the evolution of radar systems and grasp the core principles behind radar sensing. Discover a variety of applications showcasing the versatility of radar technology. Radar Signal Processing Methods: Understand the basics of radar signals and explore various signal processing techniques. Learn how to interpret radar data and familiarize yourself with different types of radar systems. Presence Sensing Fundamentals: Delve into the world of presence sensing and compare radar with other sensing technologies like PIR, Ultrasonic, ToF, and LiDAR. Tackle the challenges in presence detection and explore real-world applications. The LD2410 Radar Sensor: Get acquainted with the LD2410 radar sensor, understanding its working principle, key features, and applications. Learn about the configuration parameters critical to its operation. Developing the Driver for the LD2410: Step into the developer's shoes and learn how to create communication drivers for the LD2410 sensor, laying the foundation for device operation and testing. Developing the Library for the LD2410: Construct a comprehensive library for the LD2410, covering everything from initial setup to advanced configuration and data packet parsing. Developing Applications for the LD2410 Sensor: Apply your knowledge to develop applications for the LD2410 sensor. Learn how to detect both stable and non-stable humans, monitor respiration, and visualize sensor data. Join Us: This course is ideal for engineers, students, and professionals interested in learning about radar technology and its application in presence sensing. Whether you're looking to enhance your skill set or develop innovative applications, this course provides the necessary tools and knowledge to start confidently.",
+          "course_link": "https://study.embeddedexpert.io/p/human-presence-and-state-monitoring-with-radar",
+          "category": "Intermediate",
+          "tags": [
+            "Radar",
+            "Presence Sensing",
+            "LD2410",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009075509-7855RadarInsight Hands-On Presence Sensing with Radar.jpg"
+        },
+        {
+          "name": "Embedded Imaging: Digital Camera Development from Ground Up™",
+          "description": "Unlock the transformative power of digital imaging technology with our expert-led course on embedded imaging. This course is designed to elevate your career by equipping you with high-demand skills in digital camera firmware development. Embedded camera technologies are revolutionizing industries such as automotive, healthcare, and IoT. By mastering this critical area, you will open new career opportunities in high-tech engineering and R&D The course begins with an introduction to digital cameras, exploring their utilization and impact across various sectors. You will learn the core principles of imaging and gain an overview of essential camera components, including lenses and processors. The course also covers the evolution of sensors from traditional CCD to advanced CMOS, highlighting their unique advantages. You will delve into connectivity and communication, focusing on camera interfaces that ensure seamless data flow. The Digital Camera Interface (DCMI) module introduces you to DCMI basics, architecture, and configuration using the STM32 interface. You will learn data management techniques, capture modes, and how to handle interrupts and low-power operations. The course provides hands-on guidance on configuring the DCMI peripheral, including essential setup steps, GPIO and timing management, and fine-tuning parameters. You will implement DMA configurations for efficient data transfers and explore the capabilities of the B-CAMS-OMV module. Building the camera library involves defining and configuring register addresses of the OV5640, performing read/write operations, and customizing camera parameters. You will implement control functions, DMA M2M configuration, and adjust settings like zoom and brightness. Finally, you will develop digital camera applications, focusing on data retrieval techniques and effective image capturing. Each module bridges theoretical knowledge with practical application, preparing you for real-world challenges and ensuring you have the skills to innovate and excel in the field of embedded imaging.",
+          "course_link": "https://study.embeddedexpert.io/p/embedded-imaging-digital-camera-development-from-ground-up",
+          "category": "Intermediate",
+          "tags": [
+            "Digital Camera",
+            "Embedded Imaging",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009075636-7204Embedded Imaging Digital Camera Development from Ground Up™.jpg"
+        },
+        {
+          "name": "Environmental Sensing Drivers: A Bare-Metal Approach",
+          "description": "Imagine a world where your home adjusts its temperature and humidity for optimal comfort, air quality is continuously monitored, smart irrigation systems ensure your garden is perfectly watered, and light intensity is managed for energy efficiency. This is the future of smart homes, IoT, and AI-driven environments—a future built on advanced environmental sensing. Welcome to our course on Environmental Sensing Drivers, where you'll learn to create bare-metal drivers for various critical environmental sensors. This course provides hands-on, practical knowledge to elevate your skills and prepare you for modern sensing technology. Course Outline: Module 1: Intro to Environmental Sensing - Discover how environmental sensing is revolutionizing industries, from smart homes to agriculture. Learn the difference between sensors and transducers. Module 2: Air Quality Sensing - Understand the importance of monitoring air quality. Explore the SGP30 sensor, learn to extract data, and write driver code. Develop an indoor air quality monitoring system. Module 3: Temperature and Humidity Sensing - Get to know the DHT11 sensor, integrate it into your projects, and develop driver code. Create a real-time temperature and humidity monitoring system. Module 4: Pressure and Altitude Sensing - Explore the GY-BME280 sensor, interface with it, and write driver code. Module 5: Soil Moisture Sensing - Learn about the Moisture Sensor Hygrometer, interpret its data, and write driver code. Develop a smart irrigation system. Module 6: Light Intensity Sensing - Get to know the BH1750 sensor, interface with it, and write driver code. Join us to master writing bare-metal drivers for environmental sensors. This course is your gateway to creating innovative solutions in embedded systems, sensor fusion, IoT, and AI-driven smart environments. By the end of this course, you will have the skills and confidence to develop robust, efficient drivers for various environmental sensors, laying the foundation for the smart technologies of tomorrow.",
+          "course_link": "https://study.embeddedexpert.io/p/environmental-sensing-drivers-a-bare-metal-approach",
+          "category": "Intermediate",
+          "tags": [
+            "Environmental Sensing",
+            "Bare-Metal Approach",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009075807-8839Environmental Sensing Drivers A Bare-Metal Approach.jpg"
+        },
+        {
+          "name": "Hands-On GPS Firmware Development",
+          "description": "Welcome to the Hands-On GPS Bare-Metal Firmware Development course. This course teaches you how to develop bare-metal drivers and libraries for receiving and parsing satellite data, enabling you to build a complete GPS system that provides current longitude, latitude, altitude, and the number of satellites being tracked. The course is divided into four major sections: Theoretical Foundations: Learn about Global Navigation Satellite Systems (GNSS), GPS trilateration, ephemeris and almanac data, and factors affecting GPS precision. Driver Development: Develop essential drivers, including a timebase for precise delays and a UART driver for debugging. GPS Module Integration: Interface the NEO-6M GPS module with an STM32 microcontroller and create efficient data structures for communication. GPS Data Parsing: Understand the GPS NMEA data structure and develop a library to parse and present GPS data in a readable format. By the end of this course, you will have the skills to develop robust GPS firmware from scratch, without relying on copy-paste solutions.",
+          "course_link": "https://study.embeddedexpert.io/p/gps-firmware",
+          "category": "Intermediate",
+          "tags": [
+            "GPS",
+            "Firmware Development",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009075945-9066Hands-On GPS Firmware Development.jpg"
+        },
+        {
+          "name": "Wearable Innovations: Engineering Smartwatches from Scratch",
+          "description": "Enter the future of personalized technology with our cutting-edge course designed for aspiring engineers, tech enthusiasts, and innovators. This expertly curated course offers a deep dive into the heart of wearable technology, providing a comprehensive understanding of smartwatch development from conceptual design to functional prototype. Transform your skills by embarking on a journey through health tracking smartwatches, mastering photoplethysmography (PPG), the advanced optical technique central to modern health monitoring features. Learn to develop and refine critical health tracking algorithms, including heart rate monitoring and SpO2 measurement. Capture and analyze PPG signals to derive accurate heart rate values and understand the physiological principles behind oxygen saturation for reliable, non-invasive measurements. The hands-on project sets this course apart, guiding you to develop your own smartwatch capable of accurately reading users' heart rate values and other functionalities. Integrate real-time clock components, design user interfaces, and create a comprehensive wearable device. By enrolling, you will gain hands-on experience with actual hardware, understand critical algorithms, develop a fully functional smartwatch prototype, and receive guidance from experienced instructors. Whether you aim to advance your career, kickstart your journey in wearable technology, or innovate within the health tech space, this course offers the knowledge and hands-on experience you need. Join us to transform your ideas into reality. Enroll in 'Wearable Innovations' today and start building the future of wearable technology.",
+          "course_link": "https://study.embeddedexpert.io/p/display-drivers3",
+          "category": "Intermediate",
+          "tags": [
+            "Wearable Technology",
+            "Smartwatches",
+            "Health Tracking",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009080140-6675Wearable Innovations Engineering Smartwatches from Scratch.jpg"
+        },
+        {
+          "name": "Embedded RFID/NFC Bare-Metal Development",
+          "description": "Are you interested in learning how to develop RFID/NFC firmware applications from scratch? NFC stands for Near Field Communication, used in wireless payment cards, subway cards, bus cards, etc. If you want to develop such systems, explore our Embedded NFC Complete System Development pack. This pack will take you from knowing nothing about RFID/NFC to building a complete NFC system with robust firmware and a modern desktop application with cloud connectivity. The pack comprises two courses. The first course, Embedded RFID/NFC Bare-Metal Development, is divided into theoretical and practical parts. In the theoretical part, we cover understanding RFID and its working principles, protocols, architecture, standards, regulations, NFC working principles, differences between RFID and NFC, various NFC card types, and the memory organization and access conditions of MIFARE cards. In the practical part, we focus on developing bare-metal drivers for interfacing the MIFARE MFRC522 NFC chips with the STM32 microcontroller, developing a library for handling communications between NFC cards and readers, and developing a firmware application for controlling devices and triggering events using NFC cards and tags. The second course, NFC Desktop Application Development, focuses on developing a modern desktop application for receiving NFC card data and storing it in the cloud. Key sections include Python Essential Training for embedded developers, Python GUI Development with Kivy for creating modern GUI desktop applications, Firebase Realtime Database and Authentication for integrating user authentication and storing card information in a cloud database, and developing the NFC desktop application. As always, no copy/paste. We write each line of code from scratch.",
+          "course_link": "https://study.embeddedexpert.io/p/nfc-bare-metal",
+          "category": "Intermediate",
+          "tags": [
+            "RFID",
+            "NFC",
+            "Bare-Metal Development",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009080315-8784Embedded RFID-NFC Bare-Metal Development.jpg"
         }
       ]
     }
