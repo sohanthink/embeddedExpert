@@ -247,8 +247,9 @@
       "type": "Course",
       "total_categories": 3,
       "categories": [
-        { "category_name": "Start Here", "total_courses": 16 },
-        { "category_name": "Intermediate", "total_courses": 27 }
+        { "category_name": "Start Here", "total_courses": 7 },
+        { "category_name": "Intermediate", "total_courses": 48 },
+        { "category_name": "Expert", "total_courses": 30 }
       ],
       "total_courses": 43,
       "courses": [
@@ -270,7 +271,7 @@
         },
         {
           "name": "Mastering STM32CubeMX 5 and CubeIDE - Embedded Systems",
-          "description": "Hello Welcome to the Mastering STM32CubeMX 5 and CubeIDE course.\n\nThis course teaches you how to build embedded systems firmware and peripheral drivers using the STM32CubeMX 5 framework and the STMCubeIDE development environment. This course has many sections but primarily the course can be divided into three parts.\n\nThe first part deals with peripheral driver development. In this part, we master how to use the STM32CubeMX framework to set up the clocks and register parameters of our peripheral drivers and then go on to the CubeIDE development environment to complete the development and testing of peripheral drivers. We shall master different setup configurations of our peripheral drivers in this part. These peripherals include the Universal Serial Bus (USB), the PWM, the SPI, the ADC, UART, and the DMA.\n\nThe second part of this master course deals with developing embedded firmware applications using some of the Middleware provided by the STM32CubeMX framework. One such Middleware we shall master is the FreeRTOS Realtime Kernel. We shall see how to use STM32CubeMX to create tasks and semaphores and other kernel components for realtime firmware development. We shall also see how to develop these kernel components from scratch using our CubeIDE development environment alone.\n\nThe third part of the course deals with working the CubeIDE as a standalone development environment. Over here we shall see how to develop bare-metal embedded-c firmware and drivers without using any libraries. We shall literally download the microcontroller chip's datasheet and develop our firmware and drivers using information from the datasheet only. We shall then go on to use this same datasheet information to develop firmware and peripheral drivers using ARM Assembly Language.\n\nPlease take a look at the full course curriculum.\n\nREMEMBER: I have no doubt you will love this course. Also, it comes with a FULL money-back guarantee for 30 days! So put simply, you really have nothing to lose and everything to gain.\n\nSign up and let's start building some drivers.",
+          "description": "Welcome to the Mastering STM32CubeMX 5 and CubeIDE course. This course teaches you how to build embedded systems firmware and peripheral drivers using the STM32CubeMX 5 framework and the STMCubeIDE development environment. The course is divided into three main parts. The first part focuses on peripheral driver development. You will learn to use the STM32CubeMX framework to set up clocks and register parameters, and then complete development and testing in the CubeIDE environment. You will master configurations for peripherals such as USB, PWM, SPI, ADC, UART, and DMA. The second part covers developing embedded firmware applications using Middleware provided by STM32CubeMX, including the FreeRTOS Realtime Kernel. You will learn to create tasks, semaphores, and other kernel components for real-time firmware development. The third part deals with using CubeIDE as a standalone development environment. You will develop bare-metal embedded-C firmware and drivers without libraries, using only the microcontroller's datasheet. The course also includes developing firmware and peripheral drivers using ARM Assembly Language. Please take a look at the full course curriculum. Remember, this course comes with a full money-back guarantee for 30 days. Sign up and let's start building some drivers.",
           "course_link": "https://study.embeddedexpert.io/p/mastering-stm32cubemx-5-and-cubeide-embedded-systems",
           "category": "Start Here",
           "tags": [
@@ -1027,6 +1028,448 @@
             "course"
           ],
           "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009080315-8784Embedded RFID-NFC Bare-Metal Development.jpg"
+        },
+        {
+          "name": "{C++} Build Your Own Realtime OS (RTOS) From Ground Up™ on ARM",
+          "description": "Welcome to the {C++} Build Your Own RTOS From Ground Up™ course. This is a C++ version of the popular Build Your Own RTOS From Ground Up™ on ARM volumes 1 & 2. This course teaches you how to build Real-Time Operating Systems through intensive practice and theory. We shall learn all there is about Real-Time Operating Systems, their various parts, how they work and then we finally build our own Real-Time Operating System exploring different scheduling algorithms and Inter-Thread communication tools. At the end of this course you should be able to build your own Real-Time Operating System from scratch, give your own lecture on Real-Time Operating Systems, be able to build a Round-Robin Scheduler, be able to build a Periodic Scheduler, be able to calculate the CPU utilization of your RTOS, be able to build an OS Kernel etc. Please see the course curriculum section to find out all the amazing content awaiting you. I personally guarantee that by the end of this course you will be able to accomplish the following: Build your own Real-Time Operating System from scratch in C++, Give your own lecture on Real-Time Operating Systems, Build a Round Robin Scheduler, Build Periodic Schedulers using different algorithms.",
+          "course_link": "https://study.embeddedexpert.io/p/c-build-your-own-realtime-os-rtos-from-ground-up-on-arm",
+          "category": "Expert",
+          "tags": [
+            "RTOS",
+            "C++",
+            "Real-Time Operating System",
+            "Expert",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126100007-3221{C++}Build Your Own Realtime OS (RTOS) From Ground Up™ on ARM.webp"
+        },
+        {
+          "name": "Embedded AWS Cloud Python Gateway Communication",
+          "description": "This course seamlessly merges the realms of embedded systems and Amazon Web Services (AWS). As an engineer, IT professional, data analyst, or tech enthusiast, this course is a crucial tool in your kit for navigating the IoT landscape. AWS, alongside Microsoft Azure and Google Cloud, stands tall as one of the three most reputable and widely-used cloud service providers in the industry. This course spotlights AWS, providing you with hands-on experience and profound insights into the features, services, and best practices that have solidified AWS as a go-to choice for IoT professionals worldwide.",
+          "course_link": "https://study.embeddedexpert.io/p/aws-cloud1",
+          "category": "Expert",
+          "tags": [
+            "AWS",
+            "Cloud",
+            "Python",
+            "IoT",
+            "Expert",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126094036-9770Embedded Amazon AWS Connectivity2.webp"
+        },
+        {
+          "name": "Embedded System IoT Systems Design",
+          "description": "This course teaches you how to build a complete Internet-of-Things (IoT) system from scratch using just your development board without any specialized wireless radio. The course is divided into three comprehensive sections. The first section focuses on developing the embedded firmware for reading, receiving, processing, and transmitting data. You will learn how to handle various sensors and actuators, manage data acquisition, and implement communication protocols. The second section covers the development of a modern GUI desktop dashboard application from scratch. This application will receive and display data from the firmware, and also send commands to control output devices. You will master GUI design principles, data visualization techniques, and user interaction handling. The final section delves into networking. You will integrate user authentication and a real-time database to store data from your firmware in the cloud. Additionally, you will learn how to receive emails and control output devices in your firmware by sending an email. This course provides a holistic approach to IoT system design, equipping you with the skills to create robust and scalable IoT solutions.",
+          "course_link": "https://study.embeddedexpert.io/p/modern-bare-metal-embedded-c-programming-from-ground-up11",
+          "category": "Expert",
+          "tags": ["IoT", "Embedded Systems", "Expert", "courses", "course"],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126092536-4546Embedded System loT Systems Design.webp"
+        },
+        {
+          "name": "Embedded Systems Bare-Metal Ethernet Programming",
+          "description": "This course is the advanced level course of a 3-course learning path teaching you how to write/configure drivers for the Ethernet peripheral as well as write embedded Ethernet firmware for different networking protocols such as HTTP, DHCP, etc. The goal of this advanced course is to teach you how to navigate the microcontroller reference manual and datasheet to extract the right information to professionally build drivers and firmware for the Ethernet peripheral and then interface these drivers to the widely used TCP/IP stack for embedded systems - LwIP. You will learn to develop robust Ethernet drivers, configure the Ethernet peripheral, and implement various networking protocols. By the end of this course, you will have the skills to build professional-grade Ethernet firmware for embedded systems.",
+          "course_link": "https://study.embeddedexpert.io/p/embedded-systems-bare-metal-ethernet-programming",
+          "category": "Expert",
+          "tags": [
+            "Ethernet",
+            "Bare-Metal",
+            "Networking",
+            "Expert",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126092603-8991Embedded Systems Bare-Metal Ethernet Programming.webp"
+        },
+        {
+          "name": "Embedded Systems Cellular Firmware Development(GSM)",
+          "description": "Communicate with your embedded devices using cellular technology: Phone Call, SMS, M2M etc. This course teaches you how to develop drivers and libraries for adding cellular functionality to your embedded device. This course uses the STM32 microcontroller and the A6 GSM/GPRS chip. The A6 is a low-cost quad band GSM/GPRS chip equipped with 850/900/1800/1900MHz worldwide communication band. If you do not understand what a band means, do not worry, by the end of this course you will understand this and much more. The drivers developed in this course will work on almost all cellular chips out there, this is because most of them use the UART for communication.",
+          "course_link": "https://study.embeddedexpert.io/p/embedded-systems-cellular-firmware-development-gsm",
+          "category": "Expert",
+          "tags": ["Cellular Firmware", "GSM", "Expert", "courses", "course"],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230131073812-6083Embedded Systems Cellular Firmware Development(GSM).webp"
+        },
+        {
+          "name": "Embedded Systems Design Patterns From Ground Up™",
+          "description": "Welcome to the 'Embedded Systems Design Patterns' course. This expert-level course teaches you how to apply design patterns to embedded firmware development, providing reusable solutions to common software problems. Design patterns help us think abstractly, identify key solution properties, and reuse proven solutions in similar situations.\n\nThe course aims to equip firmware developers with tools to address recurring design issues. It focuses on practical solutions by solving real-world problems using various design patterns, such as data access in an ECG system with the Client-Server Design Pattern, IO device development with the Strategy Design Pattern, hardware portability with the Hardware Proxy Design Pattern, and sensor data subscription with the Observer Design Pattern.\n\nCourse Overview:\n\n- First-Class Abstract Data Type (ADT): Learn to hide data structure internals, improving encapsulation and reducing tight coupling.\n\n- Introduction to Design Patterns: Gain a theoretical understanding and practical prerequisites for the course.\n\n- STATE Pattern: Explore three methods to solve the same problem: conditional state machine, table-based state machine, and state pattern implementation.\n\n- STRATEGY Pattern: Extend and customize software by creating strategy objects and a context object whose behavior changes based on its strategy.\n\n- Hardware Proxy Pattern: Encapsulate hardware access in a class, regardless of the physical interface.\n\n- Hardware Adapter Pattern: Create elements that convert between different interfaces when required.\n\n- Client-Server Pattern: Design systems with a single data producer and multiple consumers, demonstrated through an ECG system.\n\n- Observer Pattern: Improve on the client-server pattern by notifying clients automatically when new data is available.\n\nThis course is designed for those who prefer writing code from scratch rather than copying and pasting. It includes detailed explanations of every register used and the meaning of each hexadecimal value. With a money-back guarantee, you have nothing to lose. Try it out and see how it goes. You can request a refund within 30 days of purchase.",
+          "course_link": "https://study.embeddedexpert.io/p/embedded-systems-design-patterns-from-ground-up",
+          "category": "Expert",
+          "tags": [
+            "Design Patterns",
+            "Embedded Systems",
+            "Expert",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126092712-5876Embedded Systems Design Patterns From Ground Up™.webp"
+        },
+        {
+          "name": "Embedded Wifi Bare-Metal Development From Ground Up™",
+          "description": "Welcome to the Embedded WIFI Bare-Metal Development From Ground Up™ course. This comprehensive course is designed to teach you how to develop drivers and libraries for connecting your embedded device to the internet using the STM32 microcontroller and the ESP8266 WIFI chip. The ESP8266 is a low-cost WIFI chip that includes a full TCP/IP stack and a microcontroller, making it an ideal choice for embedded WIFI applications. If you are unfamiliar with the TCP/IP stack, don't worry; by the end of this course, you will have a thorough understanding of it and much more. The course is divided into four main parts. The first part covers theoretical concepts, including networking fundamentals and the basics of the WIFI protocol. This foundational knowledge will prepare you for the practical aspects of the course. In the second part, you will develop bare-metal drivers to interface the ESP8266 chip with the STM32 microcontroller. This hands-on experience will give you the skills needed to establish a reliable connection between the two devices. The third part focuses on creating efficient data structures for managing communication data between the ESP8266 chip and the STM32 microcontroller. You will learn to develop First-In-First-Out (FIFO) and circular buffer data structures, which are essential for handling communication data effectively. In the final part of the course, you will combine the drivers and data structures developed in the previous sections to create a comprehensive library for connecting to the internet. You will use this library to develop various applications, including an embedded WIFI client for accessing web APIs, an embedded web server for remote hardware control, and bare-metal firmware for storing sensor data in the cloud. By the end of this course, you will be able to: Develop a complete WIFI library for ESP8266 and STM32 microcontrollers, Create an embedded WIFI client for accessing web APIs, Build an embedded web server for controlling hardware remotely, Develop bare-metal firmware for storing sensor data in the cloud, and Understand the fundamentals of the IEEE 802.11 (WIFI) protocol. Please take a look at the full course curriculum to see all the exciting content awaiting you.",
+          "course_link": "https://study.embeddedexpert.io/p/embedded-wifi-bare-metal-development-from-ground-up",
+          "category": "Expert",
+          "tags": [
+            "WIFI",
+            "Bare-Metal Development",
+            "Embedded Systems",
+            "Expert",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126094747-9455Embedded Wifi Bare-Metal Development From Ground Up™.webp"
+        },
+        {
+          "name": "Embedded RFID/NFC Bare-Metal Development",
+          "description": "Are you interested in learning how to develop RFID/NFC firmware applications from scratch? NFC stands for Near Field Communication, used in wireless payment cards, subway cards, bus cards, etc. If you want to develop such systems, explore our Embedded NFC Complete System Development pack. This pack will take you from knowing nothing about RFID/NFC to building a complete NFC system with robust firmware and a modern desktop application with cloud connectivity. The pack comprises two courses. The first course, Embedded RFID/NFC Bare-Metal Development, is divided into theoretical and practical parts. In the theoretical part, we cover understanding RFID and its working principles, protocols, architecture, standards, regulations, NFC working principles, differences between RFID and NFC, various NFC card types, and the memory organization and access conditions of MIFARE cards. In the practical part, we focus on developing bare-metal drivers for interfacing the MIFARE MFRC522 NFC chips with the STM32 microcontroller, developing a library for handling communications between NFC cards and readers, and developing a firmware application for controlling devices and triggering events using NFC cards and tags. The second course, NFC Desktop Application Development, focuses on developing a modern desktop application for receiving NFC card data and storing it in the cloud. Key sections include Python Essential Training for embedded developers, Python GUI Development with Kivy for creating modern GUI desktop applications, Firebase Realtime Database and Authentication for integrating user authentication and storing card information in a cloud database, and developing the NFC desktop application. As always, no copy/paste. We write each line of code from scratch.",
+          "course_link": "https://study.embeddedexpert.io/p/nfc-bare-metal",
+          "category": "Expert",
+          "tags": [
+            "RFID",
+            "NFC",
+            "Bare-Metal Development",
+            "Expert",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201032446-2996Embedded RFID NFC Bare-Metal Development.jpg"
+        },
+        {
+          "name": "NFC Desktop Application Development",
+          "description": "Key sections in this course include: Python Essential Training: This section provides practical python essential training for embedded developers. This section is for developers who are not familiar with the python programming language and those who want to brush up on their python development skills. Python GUI Development with Kivy: This section deals with developing modern GUI desktop application using python and the Kivy framework. In this section we learn how develop complete, packaged, and installable applications from scratch. We shall apply these skills later on to develop the front end of nfc system. Firebase Realtime Database and Authentication: In this section we shall integrate user authentication and a realtime database to store the card information in a cloud database. Developing the NFC Desktop Application: In this final section, we shall apply all that we learned do develop the NFC desktop application. As always, no copy/paste. We write each line code from scratch.",
+          "course_link": "https://study.embeddedexpert.io/p/nfc-pack",
+          "category": "Expert",
+          "tags": [
+            "NFC",
+            "Desktop Application",
+            "Python",
+            "Expert",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201032534-3187NFC Desktop Application Development.jpg"
+        },
+        {
+          "name": "Hands-On GPS Firmware Development",
+          "description": "Welcome to the Hands-On GPS Bare-Metal Firmware Development course. This course teaches you how to develop bare-metal drivers and libraries for receiving and parsing satellite data, enabling you to build a complete GPS system that provides current longitude, latitude, altitude, and the number of satellites being tracked. The course is divided into four major sections: Theoretical Foundations: Learn about Global Navigation Satellite Systems (GNSS), GPS trilateration, ephemeris and almanac data, and factors affecting GPS precision. Driver Development: Develop essential drivers, including a timebase for precise delays and a UART driver for debugging. GPS Module Integration: Interface the NEO-6M GPS module with an STM32 microcontroller and create efficient data structures for communication. GPS Data Parsing: Understand the GPS NMEA data structure and develop a library to parse and present GPS data in a readable format. By the end of this course, you will have the skills to develop robust GPS firmware from scratch, without relying on copy-paste solutions.",
+          "course_link": "https://study.embeddedexpert.io/p/gps-firmware",
+          "category": "Expert",
+          "tags": [
+            "GPS",
+            "Firmware Development",
+            "Expert",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201032624-3338Hands-On GPS Firmware Development.jpg"
+        },
+        {
+          "name": "Wireless System Development with nRF24",
+          "description": "Welcome to the Wireless System Development with nRF24 course. This course teaches you how to build a complete wireless system for data management and system control from scratch using the famous ultra-low power nRF24L01 transceiver. By the end of this course, you will be able to develop your own end-to-end system for collecting sensor data from a remote location and storing it in a local database or in Google Cloud. You will also be able to build your own wireless peripherals such as game controllers. The course is divided into six major sections. The first section is theoretical, covering the nRF24L01/nRF24L0+ transceiver and its unique characteristics, including radio control, the Enhanced ShockBurst Protocol, and packet structure. In the second section, you will develop drivers required for debugging and implementing real-world applications, including a timebase for precise delays, an ADC driver for sampling sensor data, a UART driver for printing debug information, a GPIO driver for user button state, and an SPI driver for interfacing the nRF24L0 with the STM32 microcontroller. The third section provides practical Python essential training for embedded developers, ideal for those new to Python or looking to brush up on their skills. The fourth section focuses on developing modern GUI desktop applications using Python and the Kivy framework, teaching you to create complete, packaged, and installable applications. In the fifth section, you will navigate the nRF24L0 transceiver datasheet to develop a complete library for configuring and operating the transceiver. The final section involves developing two major applications: a modern dashboard for receiving and displaying sensor data with user authentication and Google Firebase Realtime Database storage, and a wireless game controller for playing the FlappyBird game developed using Python. At the end of the course, you will be presented with a practice exercise, and successfully completing it will reward you with a new course of your choice. As always, no copy/paste. We write each line of code from scratch.",
+          "course_link": "https://study.embeddedexpert.io/p/embedded-nrf24",
+          "category": "Expert",
+          "tags": ["Wireless System", "nRF24", "Expert", "courses", "course"],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201032715-8466Wireless System Development with nRF24.jpg"
+        },
+        {
+          "name": "Wireless System Development with nRF24",
+          "description": "Welcome to the Wireless System Development with nRF24 course. This course teaches you how to build a complete wireless system for data management and system control from scratch using the famous ultra-low power nRF24L01 transceiver. By the end of this course, you will be able to develop your own end-to-end system for collecting sensor data from a remote location and storing it in a local database or in Google Cloud. You will also be able to build your own wireless peripherals such as game controllers. The course is divided into six major sections. The first section is theoretical, covering the nRF24L01/nRF24L0+ transceiver and its unique characteristics, including radio control, the Enhanced ShockBurst Protocol, and packet structure. In the second section, you will develop drivers required for debugging and implementing real-world applications, including a timebase for precise delays, an ADC driver for sampling sensor data, a UART driver for printing debug information, a GPIO driver for user button state, and an SPI driver for interfacing the nRF24L0 with the STM32 microcontroller. The third section provides practical Python essential training for embedded developers, ideal for those new to Python or looking to brush up on their skills. The fourth section focuses on developing modern GUI desktop applications using Python and the Kivy framework, teaching you to create complete, packaged, and installable applications. In the fifth section, you will navigate the nRF24L0 transceiver datasheet to develop a complete library for configuring and operating the transceiver. The final section involves developing two major applications: a modern dashboard for receiving and displaying sensor data with user authentication and Google Firebase Realtime Database storage, and a wireless game controller for playing the FlappyBird game developed using Python. At the end of the course, you will be presented with a practice exercise, and successfully completing it will reward you with a new course of your choice. As always, no copy/paste. We write each line of code from scratch.",
+          "course_link": "https://study.embeddedexpert.io/p/embedded-nrf24",
+          "category": "Expert",
+          "tags": ["Wireless System", "nRF24", "Expert", "courses", "course"],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201032715-8466Wireless System Development with nRF24.jpg"
+        },
+        {
+          "name": "MQ Telemetry Transport (MQTT) From Ground Up",
+          "description": "Have you ever wondered what MQTT is and why it's so relevant to IoT development? Imagine understanding all the components of MQTT and developing your own IoT solutions using the MQTT protocol. Welcome to the MQ Telemetry Transport (MQTT) From Ground Up™ course. This course teaches you how to develop complete IoT solutions using MQTT, a lightweight subscriber/publisher binary protocol designed for machine-to-machine (M2M) communication with minimal packet overhead. Using only the STM32 microcontroller and the UART peripheral as part of our transport layer, we will communicate between our firmware and MQTT clients developed from scratch in Python. The course is divided into four major sections. The first section covers the core concepts of the MQTT protocol and its unique architectural features, explaining why MQTT is needed and how it differs from HTTP. The second section provides practical Python essential training for embedded developers, ideal for those new to Python or looking to brush up on their skills. The third section focuses on writing drivers to enable communication between our firmware and Python applications, developing MQTT clients, setting up a local MQTT broker, and learning how to publish and subscribe to messages. In the final section, we apply all that we have learned to develop a Farm Management System based on the MQTT protocol. We will develop two farm management systems: one that communicates with only a local broker and another that communicates with both a local broker and a cloud broker. Additionally, we will create a cloud-based modern dashboard to visualize data from our firmware. By the end of this course, you will have a thorough understanding of the MQTT protocol and the skills to develop real-world IoT solutions.",
+          "course_link": "https://study.embeddedexpert.io/p/mqqt",
+          "category": "Expert",
+          "tags": ["MQTT", "IoT", "Expert", "courses", "course"],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201032959-8354MQTT_From_GroundUp2.webp"
+        },
+        {
+          "name": "Advanced Embedded Systems Bare-Metal Programming Ground Up™",
+          "description": "Are you tired of copying and pasting code you don't understand? This advanced course offers a comprehensive guide to mastering bare-metal programming. Here's an overview of what you’ll learn: Developing Bare-Metal DMA Drivers: This course demystifies the Direct Memory Access (DMA) peripheral, dedicating over 50% of the content to this topic. By the end, you will have mastered the DMA peripheral through the development of various drivers, including Memory-to-Memory Transfer, ADC DMA Regular Conversion, Timer Triggered Conversion, UART RX/TX DMA, SPI RX/TX DMA, I2C RX/TX DMA, and PWM DMA drivers. Developing Bare-Metal RTC Drivers: The Realtime Clock (RTC) peripheral is thoroughly explored. You will study the theory of realtime clocks, examine the capabilities of the RTC on your microcontroller, and develop drivers such as the RTC Calendar, Alarm, Timestamp, and Tamper Detection drivers. Developing Bare-Metal Watchdog Timer Drivers: Watchdog Timers are crucial for robust embedded devices. This course covers the development of Independent Watchdog (IWDG) and Windowed Watchdog (WWDG) Timer drivers, emphasizing their importance in ensuring device reliability. Working with Standby Mode and Wakeup: Learn to enhance power efficiency by putting your embedded devices into Low-power mode and waking them up. You will develop drivers for Standby Mode and Wakeup Pin, as well as Standby Mode and RTC Wakeup Timer. The Art of Debugging: Effective debugging can save time, money, and reduce frustration. This course covers the theoretical aspects of debugging, various types of debugging such as functional and performance debugging, and the tools and methods used in different scenarios. Techniques you will master include identifying the cause of HardFault, catching anomalous results, measuring execution time using a Timer and Logic Analyzer, working with array dumps, and debugging techniques for Timers. By the end of this course, you will have the skills to develop advanced bare-metal drivers and effectively debug your firmware, ensuring robust and efficient embedded solutions.",
+          "course_link": "https://study.embeddedexpert.io/p/advanced_baremetal",
+          "category": "Expert",
+          "tags": [
+            "Bare-Metal Programming",
+            "DMA",
+            "RTC",
+            "Watchdog Timer",
+            "Debugging",
+            "Expert",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201033157-2190Advanced Embedded Systems Bare-Metal Programming Ground Up™.jpg"
+        },
+        {
+          "name": "Embedded Build Systems with GNU Tools and Makefiles",
+          "description": "Have you ever wondered what it is like to develop embedded firmware without using any IDE- just a simple text editor and the command line? Have you heard of build systems like Make, and wondered how these tools can be applied to embedded firmware development to automate the build process? If you have no idea of what build systems like Make are, do you want to learn about them from scratch and apply them to your embedded firmware development? If any of this applies to you, then keep reading this overview of our new course: Extreme Embedded Bare-Metal Development. The goal of this course is to teach you how to set up an embedded toolchain, set up a build system, and then navigate the reference manual and datasheet of the tools as well as the target microcontroller to develop firmware for the target microcontroller without using any IDE (Integrated Development Environment), libraries, or third-party header files. This course is dramatically different from any course you have ever taken because it is more of a professional hands-on “field guide” to STM32 extreme bare-metal firmware development. There’s no fluff or filler. It immediately gets down to the actual subject, showing you exactly what to do, how to do it, and why. Here’s an overview of what you’re getting: Understanding the Build Process: Analyze the Preprocessing Stage, Compiling Stage, Assembling Stage, Linking Stage, and Locator Stage. Writing the Linker Script: Properly merge the various source files and place different sections of the source files into different memory regions of our target microcontroller. Writing the C Startup file: Define the Reset_Handler function and the vector table. Automating the Build Process with Make: Learn how to automate our build process with Make. Analyzing the chip documentations: Learn how to read the documentation provided by the chip manufacturer. Defining address for the different peripheral: Locate its address range in the documentation and properly define the addresses in your code. Creating registers from the address: Access these registers by effectively typecasting the addresses. Understanding CMSIS: Apply the Cortex-Microcontroller Interface Standard (CMSIS). By the end of this course, you will be able to build complete firmware without using an IDE, write your own Linker Script and C Startup file, apply GNU Bin Tools and Build Systems like Make, and much more.",
+          "course_link": "https://study.embeddedexpert.io/p/embedded-makefiles",
+          "category": "Expert",
+          "tags": [
+            "Build Systems",
+            "GNU Tools",
+            "Makefiles",
+            "Embedded Systems",
+            "Expert",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201034250-1348Embedded Build Systems with GNU Tools and Makefiles.jpg"
+        },
+        {
+          "name": "4G LTE IoT: Bare-Metal to HTTP, MQTT, SMS",
+          "description": "Welcome to 4G LTE IoT: Bare-Metal to HTTP, MQTT, SMS, an immersive journey crafted to transform you into an accomplished IoT professional. This course empowers you to innovate, create, and lead in the rapidly evolving field of Internet of Things (IoT). Our curriculum kicks off with a foundation in 4G LTE and IoT, offering insights into the essentials of 4G LTE Protocol and available modules. You'll dive into bare-metal firmware development, learn to interface STM32 microcontrollers with 4G LTE chips, and master circular buffer management. Learn to communicate with your devices via SMS and Phone Calls with hands-on modules. Understand HTTP and MQTT protocols for sensor data collection and transmission. The course then pivots to server-side development, guiding you through HTML, PHP, JavaScript, and SQLite to create a custom server with a modern web interface. You'll master hosting and domain management to establish your unique digital presence. The high point of the course lies in creating a real-world IoT solution, combining all the skills you've gathered. We also guide you on monetizing your skills and navigating the business landscape. Whether you're a beginner or an experienced professional, this course is the launchpad for your dreams. Upon successful completion, you will be able to design and deploy a custom server-side application, master sensor data collection and transmission using HTTP and MQTT, develop firmware for controlling hardware via SMS and phone calls, and implement bare-metal firmware interfacing STM32 microcontrollers with 4G LTE chips.",
+          "course_link": "https://study.embeddedexpert.io/p/aws-cloud11",
+          "category": "Expert",
+          "tags": [
+            "4G LTE",
+            "IoT",
+            "HTTP",
+            "MQTT",
+            "SMS",
+            "Expert",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906122408-8550aws-cloud11.webp"
+        },
+        {
+          "name": "WiFi IoT Architecture: From Firmware to Full Stack Web Development",
+          "description": "Welcome to the WiFi IoT Architecture course. This course is designed to transform you into a pioneering IoT professional with a specialization in WiFi technologies. Our curriculum begins by exploring how WiFi complements 4G LTE in the IoT landscape, delving into when and why to use each technology and the power of combining them. We cover the ESP8266 radio chip, guiding you through bare-metal firmware development with STM32 microcontrollers. The course also explores advanced sensor data handling, maximizing efficiency and value from your IoT systems. You'll learn to design IoT devices that seamlessly switch between WiFi and 4G LTE, ensuring continuous connectivity. We then move into sensor data collection and transmission, focusing on the HTTP protocol and transforming raw data into powerful information. The course pivots to server-side development, guiding you through HTML, PHP, JavaScript, and SQLite to create a custom server with a modern web interface. The high point of the course is the creation of a real-world IoT solution, combining all the skills you've gathered to create a holistic IoT system. Highlights include: Introduction to WiFi in IoT, ESP8266 WiFi Module, Bare-Metal Driver Development with ESP8266 and STM32, Sensor Data Collection and Transmission over WiFi, Server-side Development, and Hosting and Domain Management. By the end of this course, you'll be able to design and deploy a custom server-side application, master sensor data collection and transmission using HTTP, and develop firmware for IoT devices.",
+          "course_link": "https://study.embeddedexpert.io/p/aws-cloud111",
+          "category": "Expert",
+          "tags": ["WiFi", "IoT", "Full Stack", "Expert", "courses", "course"],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906122700-2274aws-cloud111.webp"
+        },
+        {
+          "name": "Embedded Memory Security: Protecting Your System from Tampering and Unauthorized Access",
+          "description": "Are you looking to take your embedded systems protection to the next level? Do you want to protect your embedded memory from unauthorized access and tampering? Introducing our new course on Embedded Memory Security, covering essential topics such as MPU, Tamper Detection, and Read/Write Protection using Option Bytes. This course is excellent for embedded system developers who want to protect their products from security threats. We have designed a multi-faceted curriculum that covers everything from wiping the backup registers clean to detecting stack overflow using the Memory Protection Unit (MPU). This course will teach you advanced security measures to safeguard your firmware from reverse engineering and protect your device from tampering. We will also show you how to disable debug features before launching your product, ensuring that your firmware remains secure. Whether you're working on a small IoT device or a large industrial system, this course will provide you with the tools and knowledge you need to secure your embedded memory and keep your device safe from external threats. This course is designed for professionals with a basic understanding of embedded systems, and is taught by industry experts with years of experience in the field. You'll learn through a combination of video lectures, hands-on exercises, and real-world case studies, giving you a practical understanding of how to implement these techniques in your own embedded systems. At the end of this course, you'll have a solid understanding of the key concepts and techniques used to secure embedded memories, and be able to implement these techniques in your own projects. You'll be equipped with the skills and knowledge to secure your embedded systems against a wide range of memory-based attacks, ensuring the safety and security of your devices and data. With the flexible online format, you can study at your own pace, from anywhere in the world. Plus, we offer a 30-day money-back guarantee, so you can enroll with confidence.",
+          "course_link": "https://study.embeddedexpert.io/p/memory-security",
+          "category": "Expert",
+          "tags": [
+            "Memory Security",
+            "MPU",
+            "Tamper Detection",
+            "Option Bytes",
+            "Expert",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906122809-9680memory-security.webp"
+        },
+        {
+          "name": "Custom Cloud <> Python Gateway Communication",
+          "description": "Embark on a transformative journey with our practical course that marries embedded systems with the power of Google Cloud Platform (GCP). In the interconnected landscape of IoT, this course is essential for engineers, IT professionals, data analysts, and technology enthusiasts. Amazon Web Services (AWS), Microsoft Azure, and Google Cloud are the three industry-leading giants in cloud services, trusted for their robustness, scalability, and versatility. This course focuses on Google Cloud, providing hands-on experience with the tools, services, and best practices that make it a top choice for IoT professionals. Through this course, you will: Leverage Python for effective UART communication, from scripting to error detection and handling. Navigate GCP, from setting up an account to understanding its suite of services. Master Google Cloud Storage operations, including creating storage buckets and managing contents. Gain insights into databases in IoT, understanding SQL and NoSQL databases, and the pros and cons of cloud-based versus local databases. Dive deep into Google Firebase NoSQL Database, learning to create, populate, and retrieve data from tables. Evaluate key considerations for using Google Cloud Storage and Firebase, including pricing and scalability. Analyze real-world IoT scenarios, such as quality control in production lines and laboratory equipment monitoring. Whether you're a beginner in IoT, a professional looking to augment your skills, or a hobbyist passionate about technology, this course will equip you with the skills to implement IoT solutions using Google Cloud. Step into the future of IoT with us as we explore the fascinating world of Google Cloud Platform.",
+          "course_link": "https://study.embeddedexpert.io/p/aws-cloud12",
+          "category": "Expert",
+          "tags": [
+            "Google Cloud",
+            "Python",
+            "IoT",
+            "Expert",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906122959-4901aws-cloud12.webp"
+        },
+        {
+          "name": "Embedded Bootloader Development from Ground Up™",
+          "description": "Dive into the world of bootloader development with this beginner-level course on STM32 microcontrollers. Explore the fundamentals of bootloader development, from the build process to the memory model. Learn to create custom bootloaders, understand the embedded build process, the STM32F4 memory model, and the role of linker scripts. Gain hands-on experience working with linker scripts, creating custom sections, and defining memory regions. Design and develop your own bootloader, and create a multi-slot memory system bootloader capable of storing multiple firmware applications. Implement a push-button trigger for entering bootloader mode and develop a communication driver for selecting different firmware applications. By the end of this course, you'll have the skills to develop custom bootloaders for STM32 microcontrollers, enabling firmware updates, recovery, security, and customization. Study at your own pace with our flexible online format and enjoy a 30-day money-back guarantee.",
+          "course_link": "https://study.embeddedexpert.io/p/bootloader-1",
+          "category": "Expert",
+          "tags": [
+            "Bootloader",
+            "STM32",
+            "Embedded Systems",
+            "Expert",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906123057-9929bootloader-1.webp"
+        },
+        {
+          "name": "Master Firmware Updates with In-Application Programming(IAP)",
+          "description": "Are you an embedded systems enthusiast or a professional engineer looking to level up your skills and take control of your firmware? Imagine being able to update your devices remotely, fix bugs on the fly, and add new features without any hassle. This is all possible with one solution, and it is called In-Application Programming (IAP)! Unlock the Power of Firmware Updates & Skyrocket Your Embedded Systems Career! Introducing our highly needed online course, carefully designed to give one of the major skills all PRO firmware engineers have, IAP host-target development- fully equipped to revolutionize the way you work with microcontrollers. With our expert guidance and years of experience in embedded systems and firmware development, we have crafted a course designed to skyrocket your career and make you an indispensable asset in the IoT era. Join us on this thrilling journey as we dive deep into the world of In-Application Programming, covering everything from simple best practices to advanced firmware techniques. Our course does not just teach you the theory - it is packed with a real-world solution, you walk away with professionally developed bare-metal source code, which you and I shall develop together, and an understanding and ability to articulate its principles and working mechanism ensuring you can apply your newfound knowledge to your professional career with confidence. By the end of this course, you will be able to: Master the fundamentals of In-Application Programming (IAP) and its significance in modern embedded systems development. Gain expertise in developing IAP host applications in Python and designing advanced bare-metal bootloaders for STM32 microcontrollers. Acquire the skills to seamlessly integrate firmware updates over UART and other protocols enhancing device performance and reducing downtime. Develop a strong understanding of best practices and advanced techniques in IAP, enabling you to confidently apply your knowledge to real-world projects.",
+          "course_link": "https://study.embeddedexpert.io/p/iap_bootloader",
+          "category": "Expert",
+          "tags": [
+            "IAP",
+            "Firmware Updates",
+            "STM32",
+            "Embedded Systems",
+            "Expert",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906123150-3447iap_bootloader.webp"
+        },
+        {
+          "name": "4G LTE-Powered FOTA: Firmware Updates over Mobile Networks",
+          "description": "As the Internet of Things (IoT) grows, the need for reliable, remote firmware updates is skyrocketing. Whether your devices are in remote areas, moving across networks, or outside WiFi range, 4G LTE offers the flexibility and reach needed to keep systems current and secure. This course will equip you with the skills to implement Firmware Update Over-the-Air (FOTA) using 4G LTE, making you indispensable in the field of embedded systems. You’ll dive into real-world strategies for implementing FOTA using 4G LTE. By the end, you’ll be the expert who knows how to keep devices running no matter where they are, as long as there is a mobile network. Here’s What You’ll Learn: The Core of FOTA: Understand the fundamentals of Firmware Update Over-the-Air (FOTA), its importance, and how it can transform device management. FOTA System Architecture: Break down the complex architecture of a FOTA system into manageable steps, including workflows, communication protocols over 4G LTE, and security considerations. Custom Bootloader Development: Build a custom bootloader for STM32 to handle firmware updates seamlessly over 4G LTE. 4G LTE Connectivity Library: Develop a 4G LTE connection library for stable, reliable communication for FOTA. STM32 Flash Memory: Master techniques to program, erase, and manage STM32 Flash memory for flawless updates over 4G LTE. Setting Up a Remote FOTA Server: Learn to set up a remote server for hosting firmware updates. Why You Need This Course: Embedded systems are the backbone of the IoT revolution, and FOTA is key to keeping these systems operational, secure, and up-to-date. With 4G LTE, you can implement FOTA anywhere, overcoming WiFi limitations and ensuring your devices are always on the cutting edge. Whether you’re an experienced engineer or new to the field, this course provides the tools and knowledge to stay ahead in the fast-paced world of embedded systems.",
+          "course_link": "https://study.embeddedexpert.io/p/4g-fota",
+          "category": "Expert",
+          "tags": [
+            "FOTA",
+            "4G LTE",
+            "Firmware Updates",
+            "Embedded Systems",
+            "Expert",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241008041333-51264G LTE-Powered FOTA Firmware Updates over Mobile Networks.jpg"
+        },
+        {
+          "name": "Advanced Firmware Documentation with Doxygen",
+          "description": "Are you ready to start documenting your firmware professionally? Dive into the world of 'Advanced Firmware Documentation with Doxygen' and embark on a journey that will transform your approach to firmware documentation. What You Will Learn: The Essence of Professional Documentation: Grasp the core principles of effective firmware documentation, understanding its critical role in development. Doxygen Syntax and Commenting Mastery: Delve into Doxygen syntax and learn commenting best practices to make your documentation informative and user-friendly. Hands-On Documentation Techniques: From documenting code structures to mastering Doxygen configurations for embedded C projects, you’ll gain practical, hands-on experience. Advanced Documenting Skills: Learn to document complex C++ firmware projects, enhancing the readability and maintainability of your code. Online Hosting and Format Flexibility: Acquire the know-how to host your documentation online and work with various file formats, including HTML and PDF. Course Features: Interactive and Comprehensive Content: Our engaging modules are filled with interactive content, from fundamental concepts to advanced strategies, ensuring a dynamic learning experience. Real-World Application: Each module is crafted with practicality in mind, featuring real-world case studies and scenarios for direct application of the skills learned. Expert Tips and Strategies: Gain insider insights with tips and optimization strategies, elevating your documentation process to professional standards. Who Should Enroll? Embedded Software Developers and Engineers looking to elevate the quality of their professional work. Technical Writers specializing in firmware seeking advanced documentation skills. Project Managers and Team Leaders aiming to enhance their team's documentation standards.",
+          "course_link": "https://study.embeddedexpert.io/p/display-drivers21",
+          "category": "Expert",
+          "tags": [
+            "Doxygen",
+            "Firmware Documentation",
+            "Embedded Systems",
+            "Expert",
+            "courses",
+            "course",
+            "Technical Writing",
+            "Project Management"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241008041831-1851Advanced Firmware Documentation with Doxygen.jpg"
+        },
+        {
+          "name": "Mastering SD Card Bootloader Development",
+          "description": "In the world of embedded systems, keeping firmware up-to-date is crucial for performance, security, and functionality. Imagine the power to update firmware effortlessly, even in the most remote locations, with just a simple SD card. This course is designed to make that vision a reality. SD cards are ubiquitous, cost-effective, and easy to use. They provide a reliable method for updating firmware across various devices without the need for complex infrastructure. Whether you’re working on industrial machinery in a factory, consumer electronics at home, or remote sensing devices in the field, mastering SD card bootloader development will enable you to deploy updates seamlessly and securely. This course is your gateway to becoming proficient in this essential skill. It combines theoretical knowledge with practical, hands-on experience, ensuring you can confidently implement SD card-based firmware updates in any embedded system. Why Choose SD Card Firmware Updates? Firmware updates via SD card offer unparalleled convenience, cost-effectiveness, and accessibility. Here are the scenarios where this method shines: Remote or Isolated Locations: Seamless Updates Without Internet: Perfect for areas with limited or no internet access. Field-Friendly: Ideal for updating devices deployed in remote environments, such as agricultural sensors or wildlife monitoring equipment. Industrial and Commercial Applications: Effortless Maintenance: Simplifies firmware updates for industrial machinery and commercial devices by non-specialist staff. Unattended Updates: Ideal for vending machines, kiosks, and other public devices, minimizing downtime and technical support needs. Automotive and Transportation: Vehicle Updates Simplified: Makes it easy to update in-vehicle systems, such as infotainment and navigation units, during routine maintenance. Public Transport Efficiency: Facilitates updates for onboard electronics in buses, trains, and other public transportation systems. Security and Control: Secure Environments: Ideal for high-security areas with restricted internet access, such as government facilities or research labs. Data Integrity: Allows for manual and secure verification of firmware updates, reducing the risk of corrupted or malicious software installation. Enroll now and enhance your career with hands-on expertise in SD card bootloader development.",
+          "course_link": "https://study.embeddedexpert.io/p/sdcard_bootloader",
+          "category": "Expert",
+          "tags": [
+            "SD Card",
+            "Bootloader",
+            "Firmware Updates",
+            "Embedded Systems",
+            "Expert",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241008042059-8900Mastering SD Card Bootloader Development.jpg"
+        },
+        {
+          "name": "Advanced Audio Processing: Mastering I2S, Codecs, Audio Input, and Output",
+          "description": "Are you ready to take your audio processing skills to the next level and become the go-to expert in STM32-based audio systems? If so, you’re in the right place. Imagine being able to create high-quality audio systems with confidence and precision, understanding every little detail from I2S protocols to advanced audio codec integration. That’s what this course offers. This course is designed for people who want to dominate the world of STM32-based audio systems. Whether you’re an experienced engineer, a passionate hobbyist, or an ambitious student, this course will equip you with the expert knowledge and hands-on skills you need to stand out. What You'll Get Inside: Mastering the I2S Protocol: Overview of I2S Protocol: Understand what makes the I2S protocol the backbone of audio communication. I2S Data Formats: Dive deep into different data formats and know exactly when to use each. I2S Communication: Become a pro at data transmission and clock signals. Make frame synchronization second nature. STM32 I2S Peripheral Overview: Key Features of STM32 I2S Peripheral: Discover the powerhouse features that make STM32 ideal for audio processing. I2S Registers and Configuration: Master the configuration of I2S parameters and develop your own bare-metal I2S driver. In-Depth Look at the CS42L22 Audio Codec: Introduction to CS42L22: Get to know the CS42L22 audio codec inside and out. Hardware Setup: Learn the detailed pin configurations and power supply setups to ensure perfect performance. Initialization and Playback: Master I2C communication, register configurations, and audio playback with practical examples. Amplify Your Output with MAX98357A: MAX98357A Features and Setup: Understand the digital audio amplification process and set up the MAX98357A. Driver Development: Write and debug the driver to ensure flawless audio output. Capture Audio with INMP441 MEMS Microphone: Introduction to INMP441: Learn the ins and outs of digital MEMS microphones. Driver Development: Write and debug the driver to ensure flawless audio input. Advanced Features and Optimization: Volume Control and Equalization: Fine-tune your audio output with built-in equalization features. Interrupts and DMA: Set up efficient processing and data transfer mechanisms. Your Path to Mastery Starts Here: Ready to become the audio expert you’ve always wanted to be? Don’t wait. Enroll now and transform your skills, your career, and your future. Sign Up Today and Start Your Journey to Audio Mastery!",
+          "course_link": "https://study.embeddedexpert.io/p/audio_processing",
+          "category": "Expert",
+          "tags": [
+            "Audio Processing",
+            "I2S",
+            "Codecs",
+            "Audio Input",
+            "Audio Output",
+            "Embedded Systems",
+            "Expert",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241008042359-2423Advanced Audio Processing Mastering I2S, Codecs, Audio Input, and Output.jpg"
+        },
+        {
+          "name": "Embedded Audio Storage and Analysis: I2S, DMA, FFT, Spectrum Analysis, SD Card, FatFS, Recorder, Playback.",
+          "description": "Take your embedded audio expertise to the next level with this comprehensive course focused on real-time audio capture, storage, analysis, and playback on STM32 systems. Within 300 words, you will explore advanced techniques that incorporate I2S for precise microphone data transfers, DMA for uninterrupted data flow, and the versatile FatFS file system for structured audio files. Develop skills to record, store, and retrieve high-fidelity signals, ensuring minimal latency and maximum reliability for applications ranging from simple music players to industrial monitoring.\n\nGain a strong foundation in implementing real-time fast Fourier transform (FFT) algorithms, allowing you to analyze frequency content, detect anomalies, or even build custom equalizers. Through step-by-step instruction, you’ll learn how to integrate multiple I2S channels, configure DMA streams, and manage file creation on SD cards to ensure seamless data logging. Practical lab sessions guide you through designing an audio recorder with advanced buffering and error-handling strategies, culminating in real-time playback and frequency visualization.\n\nWhether you’re interested in building spectrum analyzers, voice recorders, or sophisticated audio processing applications, this course equips you with the insights to do it all in bare-metal or RTOS environments. No fluff or filler: each module dives into practical, real-world examples complete with well-documented code and thorough explanations, ensuring you can adapt these techniques to diverse projects. Optimize performance, manage memory, and debug complex audio workflows with ease, employing proven methods that translate directly from labs to live deployment.\n\nBy blending hands-on projects with targeted instruction, this course accelerates your path to becoming the go-to professional for embedded audio solutions on STM32 platforms. Enroll now to harness I2S, DMA, FFT, spectrum analysis, and SD card management like a pro. Your future in embedded audio innovation starts here, giving you the know-how to craft next-level solutions for consumer devices, industrial systems, and beyond. Take the leap.",
+          "course_link": "https://study.embeddedexpert.io/p/audio_storage",
+          "category": "Expert",
+          "tags": [
+            "Audio",
+            "FFT",
+            "I2S",
+            "DMA",
+            "SD",
+            "Spectrum Analysis",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241008042628-2653Embedded Audio Storage and Analysis I2S, DMA, FFT, Spectrum Analysis, SD Card, FatFS, Recorder, Playback..jpg"
+        },
+        {
+          "name": "Wireless Firmware Update: Mastering FOTA with STM32 and ESP8266",
+          "description": "Hey there, tech wizard! Staying ahead in the embedded systems game means mastering skills that keep devices secure, updated, and running flawlessly. Firmware Update Over-the-Air (FOTA) is crucial for tomorrow’s embedded systems. With IoT devices exploding, the demand for keeping them up-to-date, secure, and bug-free is through the roof. Mastering FOTA will make you indispensable. This course offers real-world, battle-tested strategies for implementing FOTA. By the end, you’ll know how to keep devices running like a well-oiled machine, no matter where they are. Here’s what you’ll get inside: A deep dive into FOTA—what it is, why it’s critical, and how it’s shaping the future of embedded systems. Simplified FOTA system architecture—workflows, communication protocols, security, and more. Custom bootloader development for STM32 from scratch. Implementing circular buffers to manage data efficiently. Developing a reliable Wi-Fi connection library for the ESP8266. Deep dive into STM32 Flash memory—programming, erasing, and managing data. Setting up a remote server for handling firmware updates. Embedded systems are the backbone of the IoT revolution, and FOTA is key to keeping those systems running smoothly and securely. Whether you’re a seasoned pro or just getting started, this course is for you. The tech landscape is moving fast, and the skills you need to stay relevant are changing. FOTA is one of those skills. By enrolling today, you’re future-proofing your career. Don’t wait for the opportunity to slip by. Enroll now and transform your embedded systems skills.",
+          "course_link": "https://study.embeddedexpert.io/p/embedded-fota",
+          "category": "Expert",
+          "tags": [
+            "FOTA",
+            "STM32",
+            "ESP8266",
+            "Firmware Updates",
+            "Embedded Systems",
+            "Expert",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241008042840-8253Wireless Firmware Update Mastering FOTA with STM32 and ESP8266.jpg"
+        },
+        {
+          "name": "Extreme Embedded Firmware Engineering Learning Path",
+          "description": "This learning path includes 3 comprehensive courses totaling 44+ hours, complete with source code. The first course, 'Embedded Build Systems with GNU Tools and Makefiles,' teaches you to develop embedded firmware without an IDE, using just a text editor and command line. You'll learn to set up an embedded toolchain, build system, and navigate microcontroller documentation to develop firmware from scratch. The second course, 'Modern Bare-Metal Embedded C++ From Ground Up,' focuses on using C++ for embedded systems. You'll master key C++ features like template programming and object-oriented programming to improve software portability. By the end, you'll be able to write drivers for peripherals like ADC, UART, PWM, GPIO, TIMER, I2C, and SPI using bare-metal C++. The third course, 'Embedded Systems Design Patterns From Ground Up,' teaches you to apply design patterns to embedded firmware development. You'll learn to implement reusable solutions for common firmware design issues, such as data access in an ECG system using the Client-Server Design Pattern and hardware portability using the Hardware Proxy Design Pattern. By the end of this learning path, you'll be able to build complete firmware without an IDE, write your own linker scripts and C startup files, and apply design patterns to solve real-world problems in embedded systems.",
+          "course_link": "https://study.embeddedexpert.io/p/extreme_bare_metal-lp",
+          "category": "Expert",
+          "tags": [
+            "Embedded Systems",
+            "Firmware Engineering",
+            "Bare-Metal",
+            "C++",
+            "Design Patterns",
+            "Expert",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241008043100-5530Extreme Embedded Firmware Engineering Learning Path.jpg"
+        },
+        {
+          "name": "Embedded Systems Data Structures & State Machines",
+          "description": "Welcome to the Embedded Systems State Machines & Data Structures course. This course is designed for anyone seeking to enhance their embedded firmware development skills. The focus is on utilizing state machines and data structures to write high-quality firmware for embedded devices. By the end of this course, you will be able to build Finite State Machines for Embedded Applications, construct a Fixed Scheduler using Finite State Machines, and develop a Traffic Light Control System using Finite State Machines. Additionally, you will master techniques for effectively implementing data structures on embedded devices. This course is ideal for those looking to apply object-oriented principles to embedded firmware development. Course Content: I personally guarantee that by the end of this course, you will be able to accomplish the following: Build Finite State Machines for Embedded Applications, Build a Fixed Scheduler using Finite State Machines, Build a Traffic Light Control System using Finite State Machines, Master Techniques for Effectively Implementing Data Structures on Embedded Devices, Master the LinkedList Data Structure, Master the Queue Data Structure, Master the Stack Data Structure, Master the Heap Data Structure.",
+          "course_link": "https://study.embeddedexpert.io/p/embedded-systems-data-structures-state-machineslike-a-pro",
+          "category": "Expert",
+          "tags": [
+            "Embedded Systems",
+            "Data Structures",
+            "State Machines",
+            "Expert",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241008043609-4577Embedded Systems Data Structures & State Machines.jpg"
+        },
+        {
+          "name": "Multicore Firmware Development from Ground Up™",
+          "description": "Imagine controlling a cutting-edge drone that not only autonomously navigates complex terrains but also performs real-time data analysis, environmental monitoring, and seamless communication with ground stations. Such an advanced project requires the power of multicore microcontrollers – a pillar of modern embedded systems.\n\nWelcome to \"Multicore Firmware Development from Ground Up: A Comprehensive Guide to Embedded Multicore Programming\".\n\nCreated for ambitious individuals like yourself, this course completely demystifies the complexities of multicore firmware development.\n\nWhy This Course?\n\nIn-Depth Curriculum: From the fundamentals of multicore systems to advanced inter-processor communication, our comprehensive modules cover everything you need. Learn the nuances of the STM32H7 Dual-Core environment, master multicore firmware programming, and become proficient in debugging, profiling, and project management.\n\nIndustry-Leading Instructors: Learn from the best. Our course instructors are not just academics but seasoned industry professionals who have been where you want to go. They bring real-world problems and solutions straight to the screen.\n\nFuture-Proof Your Skills: The world is moving towards complex, integrated systems. By mastering multicore firmware development, you're not just keeping up – you're staying ahead of the curve.\n\nSome Key Areas Covered Include:\n\nInter-Processor Communication with Hardware Semaphores(HSEM)\nInter-Processor Communication with Shared Memory\nInter-Processor Communication with OpenAMP and RPMsg\nInter-Processor Communication in an RTOS Environment\nDebugging and Profiling Multicore Firmware",
+          "course_link": "https://study.embeddedexpert.io/p/multicore-firmware-development-from-ground-up",
+          "category": "Expert",
+          "tags": [
+            "Multicore",
+            "Firmware Development",
+            "Embedded Systems",
+            "Expert",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241008043946-2710Multicore Firmware Development from Ground Up™.jpg"
+        },
+        {
+          "name": "Mastering ARM TrustZone: Secure Embedded Systems with Cortex-M23/M33",
+          "description": "Welcome to \"Mastering ARM TrustZone: Secure Embedded Systems with Cortex-M23/M33\" – the definitive course carefully created for those who aspire to excel in the nuanced world of hardware security.\n\nExplore the Cortex-M23/M33 processors: The journey begins with an exploration of the Cortex-M23/M33 processors. We uncover the complexities of the Armv8-M architecture and reveal the secrets of TrustZone technology—a groundbreaking innovation reshaping the landscape of embedded system security.\n\nTrustZone Technology in STM32: We then transition from passive learning to active implementation as we delve into the practicalities of TrustZone technology within STM32 microcontrollers. This course is designed to transcend traditional learning paradigms on the topic, offering you a hands-on approach that mirrors real-world scenarios. Through comprehensive programming exercises, you will learn to navigate the intricacies of secure and non-secure states, develop diverse security applications, and leverage the extensive features of TrustZone to protect against the ever-evolving spectrum of threats.\n\nSome Key Areas Covered:\n- Cortex-M23/M33 roles and ARMv8-M Architecture\n- TrustZone's Features and Security Enhancements\n- SAU and IDAU Security Attributions\n- GPIO Control in Secure and Non-Secure Applications\n- UART Secure Trace Communication with TrustZone\n- Interrupt Switch between Secure and Non-Secure Applications\n- DMA Memory-to-Memory Data Transfer Over Secure and Non-Secure DMA Channels\n- Flash Block-Based Security in TrustZone\n- RCC Clock Configuration with TrustZone\n- RealTime Clock Configuration with TrustZone\n- TrustZone in RealTime Operating Systems\n- TrustZone with Peripherals\n\nBeyond mere technical skills, this course gives you the confidence to innovate and the wisdom to make informed decisions. The integration of TrustZone with real-time operating systems, with an emphasis on FreeRTOS, equips you with the knowledge to design systems that are not only secure but also highly efficient and reliable.\n\nThis course is an invaluable investment in your professional future. Whether you aim to spearhead projects in embedded systems or lead the charge in technological innovation, this course is a stepping stone to achieving those goals. The knowledge and skills you will gain are not just assets but essential tools that will safeguard your career against obsolescence in an ever-changing technology landscape.\n\nEnroll now! Transform your potential into reality, your questions into answers, and your challenges into achievements.",
+          "course_link": "https://study.embeddedexpert.io/p/mastering-arm-trustzone-secure-embedded-systems-with-cortex-m23-m33",
+          "category": "Expert",
+          "tags": [
+            "ARM TrustZone",
+            "Cortex-M23",
+            "Cortex-M33",
+            "Embedded Systems",
+            "Expert",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241008052138-4143Mastering ARM TrustZone Secure Embedded Systems with Cortex-M23-M33.jpg"
         }
       ]
     }
