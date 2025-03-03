@@ -1470,6 +1470,368 @@
             "course"
           ],
           "image": "https://be.embeddedexpert.io/public/storage/upload/books/241008052138-4143Mastering ARM TrustZone Secure Embedded Systems with Cortex-M23-M33.jpg"
+        },
+        {
+          "name": "Build Your Own RealTime OS (RTOS 1) From Ground Up™ on ARM 1",
+          "description": "This course teaches you how to build a Real-Time Operating System (RTOS) through intensive practice and theory. It starts by introducing you to the internals of a Real-Time Kernel on ARM Processors, which you will implement yourself in code. Then, we delve into the various parts of Real-Time Operating Systems, how they work, and finally, we build our own RTOS, exploring different scheduling algorithms and Inter-Thread communication tools.\n\nBy the end of this course, you will be able to build your own Real-Time Operating System from scratch, give lectures on Real-Time Operating Systems, build a Round-Robin Scheduler, a Periodic Scheduler, calculate the CPU utilization of your RTOS, and build an OS Kernel. The course curriculum includes:\n\n- Building a Real-Time Operating System from Scratch\n- Building Round-Robin Schedulers\n- Building Cooperative Schedulers\n- Building Periodic Schedulers\n- Building First Come First Served Schedulers\n- Building Rate Monotonic Schedulers\n- Building a board support package from scratch\n- Calculating the CPU Utilization of an RTOS\n- Understanding the OS Support Features of the Cortex-M Architecture\n- Understanding the Internals of an RTOS Kernel\n- Implementing and explaining popular scheduling algorithms\n\nWho is this course for?\n\nThis course is for anyone seeking to improve their embedded firmware development skills. It focuses on applying object-oriented principles to embedded firmware development.",
+          "course_link": "https://study.embeddedexpert.io/p/rtos1",
+          "category": "RTOS Programming",
+          "tags": [
+            "RTOS",
+            "ARM",
+            "Real-Time Operating System",
+            "RTOS Programming",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230131075212-6213Build Your Own RealTime OS (RTOS 1) From Ground Up™ on ARM 1.webp"
+        },
+        {
+          "name": "{C++} Build Your Own RealTime OS (RTOS) From Ground Up™ on ARM",
+          "description": "Welcome to the {C++} Build Your Own RTOS From Ground Up™ course.\n\nThis is a C++ version of the popular Build Your Own RTOS From Ground Up™ on ARM volumes 1 & 2.\n\nThis course teaches you how to build Real-Time Operating Systems through intensive practice and theory. We shall learn all there is about Real-Time Operating Systems, their various parts, how they work and then we finally build our own Real-Time Operating System exploring different scheduling algorithms and Inter-Thread communication tools.\n\nAt the end of this course you should be able to build your own Real-Time Operating System from scratch, give your own lecture on Real-Time Operating Systems, be able to build a Round-Robin Scheduler, be able to build a Periodic Scheduler, be able to calculate the CPU utilization of your RTOS, be able to build an OS Kernel etc. Please see the course curriculum section to find out all the amazing content awaiting you.\n\nI personally guarantee that by the end of this course you will be able to accomplish the following:\n\n- Build your own Real-Time Operating System from scratch in C++\n- Give your own lecture on Real-Time Operating Systems\n- Build a Round Robin Scheduler\n- Build Periodic Schedulers using different algorithms",
+          "course_link": "https://study.embeddedexpert.io/p/c-build-your-own-realtime-os-rtos-from-ground-up-on-arm",
+          "category": "RTOS Programming",
+          "tags": [
+            "RTOS",
+            "C++",
+            "Real-Time Operating System",
+            "RTOS Programming",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126095907-6957{C++}Build Your Own Realtime OS (RTOS) From Ground Up™ on ARM3.webp"
+        },
+        {
+          "name": "Build Your Own RealTime OS (RTOS 2) From Ground Up™ on ARM 2",
+          "description": "Welcome to the Build Your Own RealTime OS (RTOS) From Ground Up™ on ARM 2 course.\n\nThis course offers an in-depth exploration of Real-Time Operating Systems (RTOS) through a blend of intensive practice and comprehensive theory. We begin by delving into the internals of a Real-Time Kernel on ARM Processors, which you will implement yourself in code. As we progress, you will gain a thorough understanding of the various components of RTOS, their functionalities, and how they operate. The course culminates in the creation of your own Real-Time Operating System, where you will explore different scheduling algorithms and Inter-Thread communication tools.\n\nThis course is the second part of a two-part series, designed to build upon the foundational knowledge acquired in the first part.\n\nBy the end of this course, you will be equipped to build your own Real-Time Operating System from scratch, deliver lectures on RTOS, and implement various schedulers including Round-Robin, Priority, Sporadic, and Periodic Schedulers. You will also learn to calculate the CPU utilization of your RTOS and build an OS Kernel. The course curriculum is packed with valuable content awaiting your discovery.\n\nWho is this training pack for?\n\nAnyone seeking to enhance their embedded firmware development skills and those aspiring to build their own Real-Time Operating System (RTOS).\n\nI personally guarantee that by the end of this training pack, you will be able to:\n- Build a Real-Time Operating System from Scratch\n- Develop Round-Robin, Cooperative, Periodic, First Come First Served, Rate Monotonic, Priority, Sporadic, and Fixed Schedulers\n- Build a board support package from scratch\n- Calculate the CPU Utilization of an RTOS\n- Understand the OS Support Features of the Cortex-M Architecture\n- Comprehend the Internals of an RTOS Kernel\n- Implement and explain popular scheduling algorithms\n- Deliver lectures on Real-Time Operating Systems",
+          "course_link": "https://study.embeddedexpert.io/p/rtos2",
+          "category": "RTOS Programming",
+          "tags": ["RTOS 2", "ARM 2", "RTOS Programming", "courses", "course"],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230131074720-8400Build Your Own RealTime OS (RTOS 2) From Ground Up™ on ARM 2.webp"
+        },
+        {
+          "name": "Realtime Operating Systems (RTOS) Learning Path",
+          "description": "4 Courses | 47+ hours | Complete Source Included\n\n1. FreeRTOS from Ground Up\nThis course teaches the foundations of real-time systems and how to build real-time applications using FreeRTOS, one of the most popular real-time operating systems for embedded systems. It provides a detailed overview of the FreeRTOS real-time kernel, tutorials on APIs, and builds about 50 real-time projects. By the end, you will be able to build multitask FreeRTOS real-time applications, calculate CPU utilization, understand various schedulers, and master FreeRTOS features.\n\n2. Arm Assembly Programming from Ground Up 1\nCovering ARM Systems Design, Architecture, and Practical Assembly Programming, this course is the most comprehensive ARM assembly course online. It teaches the ARM Instruction Set, Thumb Instruction Set, and Thumb-2 Instruction Set. You will create data structures like FIFOs and LIFOs in Assembly, design complex algorithms, and solve advanced mathematical problems.\n\n3. Build Your Own Realtime OS (RTOS) from Ground Up 1\nThis course teaches how to build Real-Time Operating Systems through intensive practice and theory. It covers the internals of a Real-Time Kernel on ARM Processors, various parts of RTOS, and building your own RTOS. By the end, you will build a Real-Time Operating System from scratch, implement various schedulers, calculate CPU utilization, and understand the OS support features of the Cortex-M Architecture.\n\n4. Build Your Own Realtime OS (RTOS) from Ground Up 2\nBuilding on the first part, this course continues to explore Real-Time Operating Systems. It covers advanced scheduling algorithms and Inter-Thread communication tools. By the end, you will build a Real-Time Operating System from scratch, implement advanced schedulers, and deliver lectures on RTOS.",
+          "course_link": "https://study.embeddedexpert.io/p/realtime-operating-systems-rtos-learning-path",
+          "category": "RTOS Programming",
+          "tags": [
+            "RTOS",
+            "FreeRTOS",
+            "ARM",
+            "RTOS Programming",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126093705-8635Realtime Operating Systems (RTOS) Learning Path.webp"
+        },
+        {
+          "name": "FreeRTOS From Ground Up™ on ARM Processors",
+          "description": "This course teaches you the foundations of real-time systems and how to build real-time applications using FreeRTOS, one of the most popular real-time operating systems for embedded systems. The course provides a detailed overview of the characteristics of the FreeRTOS real-time kernel, offers a comprehensive tutorial on the APIs to implement various FreeRTOS features, and guides you through building about 50 real-time projects.\n\nThis course does not assume prior knowledge of real-time systems and application programming. By the end of this course, you will be able to build your own multitask FreeRTOS real-time applications that utilize all the features of a modern real-time application, such as semaphores, mutexes, event flags, hooks, queues, and mailboxes. You will also be able to test their performance effectively.\n\nYou will learn to calculate the CPU utilization of an RTOS, understand Rate Monotonic Schedulers, port FreeRTOS to any ARM processor, and comprehend various scheduling algorithms including Round-Robin, Weighted-Round-Robin, and First Come First Served Schedulers. Additionally, you will gain insights into the internals of an RTOS kernel and be able to implement and explain popular scheduling algorithms.\n\nWho is this course for?\n\nThis course is ideal for anyone seeking to improve their embedded firmware development skills. It focuses on mastering the FreeRTOS real-time operating system.\n\nCourse Content:\n\nI personally guarantee that by the end of this course, you will be able to accomplish the following:\n- Build multitask real-time applications with FreeRTOS\n- Port FreeRTOS to any ARM Processor\n- Master FreeRTOS Task Management features\n- Master FreeRTOS Resource Management features\n- Master FreeRTOS Task Synchronization features\n- Master FreeRTOS Event Management features\n- Master CMSIS-RTOS Generic APIs for FreeRTOS\n- Give a lecture on the FreeRTOS Real-Time Kernel",
+          "course_link": "https://study.embeddedexpert.io/p/freertos-from-ground-up-on-arm-processors_new",
+          "category": "RTOS Programming",
+          "tags": [
+            "FreeRTOS",
+            "ARM",
+            "RTOS",
+            "RTOS Programming",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230131074408-4623FreeRTOS From Ground Up™ on ARM Processors.webp"
+        },
+        {
+          "name": "MQ Telemetry Transport (MQTT) From Ground Up",
+          "description": "Have you ever wondered what MQTT is and why it's so relevant to IoT development? Imagine understanding all the components of MQTT and developing your own IoT solutions using the MQTT protocol. Welcome to the MQ Telemetry Transport (MQTT) From Ground Up™ course. This course teaches you how to develop complete IoT solutions using MQTT, a lightweight subscriber/publisher binary protocol designed for machine-to-machine (M2M) communication with minimal packet overhead. Using only the STM32 microcontroller and the UART peripheral as part of our transport layer, we will communicate between our firmware and MQTT clients developed from scratch in Python. The course is divided into four major sections. The first section covers the core concepts of the MQTT protocol and its unique architectural features, explaining why MQTT is needed and how it differs from HTTP. The second section provides practical Python essential training for embedded developers, ideal for those new to Python or looking to brush up on their skills. The third section focuses on writing drivers to enable communication between our firmware and Python applications, developing MQTT clients, setting up a local MQTT broker, and learning how to publish and subscribe to messages. In the final section, we apply all that we have learned to develop a Farm Management System based on the MQTT protocol. We will develop two farm management systems: one that communicates with only a local broker and another that communicates with both a local broker and a cloud broker. Additionally, we will create a cloud-based modern dashboard to visualize data from our firmware. By the end of this course, you will have a thorough understanding of the MQTT protocol and the skills to develop real-world IoT solutions.",
+          "course_link": "https://study.embeddedexpert.io/p/mqqt",
+          "category": "Cloud Connectivity",
+          "tags": ["MQTT", "IoT", "Cloud Connectivity", "courses", "course"],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201035806-9839MQTT_From_GroundUp2.webp"
+        },
+        {
+          "name": "Embedded Google Cloud <> Python Gateway Communication",
+          "description": "Get ready to embark on a transformative journey with our practical course that marries the world of embedded systems with the power of Google Cloud Platform (GCP). In the increasingly interconnected landscape of the Internet of Things (IoT), this course is an essential asset for engineers, IT professionals, data analysts, and technology enthusiasts. It's no secret that Amazon Web Services (AWS), Microsoft Azure, and Google Cloud are the three industry-leading giants in cloud services, trusted by companies worldwide for their robustness, scalability, and versatility. This course specifically focuses on Google Cloud, giving you hands-on experience with the tools, services, and best practices that have made it a top choice for professionals in the IoT industry. Through this course, you will: Leverage Python for Effective Communication: Harness the power of Python for UART communication, from scripting to error detection and handling, preparing you for the real-world challenges of IoT applications. Navigate the World of Google Cloud Platform: Get a behind-the-scenes tour of GCP, from setting up an account to understanding the suite of services it offers. Learn to configure credentials, install the Google Cloud Storage package, and much more. Master Google Cloud Storage: Master the operations of Google's cloud storage service, from creating storage buckets and managing their contents, to file uploads and downloads. Appreciate the Role of Databases in IoT: Gain insights into the variety of databases, their role in IoT systems, and the distinct characteristics of SQL and NoSQL databases. Understand the pros and cons of cloud-based versus local databases. Immerse Yourself in Google Firebase NoSQL Database: Dive deep into Firebase, Google's NoSQL database service. Learn to create, populate, and retrieve data from tables, equipping you with the tools to handle massive real-time data influx in IoT systems. Evaluate Considerations for Google Cloud Usage: Unveil the key considerations when using Google Cloud Storage and Firebase, including pricing, scalability, and more. Bring Your Skills to Life by Analyzing some Real-World Case Studies: Analyze some real-life IoT scenarios, ranging from quality control in production lines to laboratory equipment monitoring, and more. Whether you're a beginner in IoT, a professional looking to augment your skills, or a hobbyist passionate about technology, this course will equip you with the skills to implement IoT solutions using Google Cloud. Step into the future of IoT with us as we explore the fascinating world of Google Cloud Platform.",
+          "course_link": "https://study.embeddedexpert.io/p/google-cloud11",
+          "category": "Cloud Connectivity",
+          "tags": [
+            "Google Cloud",
+            "Python",
+            "IoT",
+            "Cloud Connectivity",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906123310-3364google-cloud11.webp"
+        },
+        {
+          "name": "WiFi IoT Architecture: From Firmware to Full Stack Web Development",
+          "description": "Welcome to the WiFi IoT Architecture course. This course is designed to transform you into a pioneering IoT professional with a specialization in WiFi technologies. Our curriculum begins by exploring how WiFi complements 4G LTE in the IoT landscape, delving into when and why to use each technology and the power of combining them. We cover the ESP8266 radio chip, guiding you through bare-metal firmware development with STM32 microcontrollers. The course also explores advanced sensor data handling, maximizing efficiency and value from your IoT systems. You'll learn to design IoT devices that seamlessly switch between WiFi and 4G LTE, ensuring continuous connectivity. We then move into sensor data collection and transmission, focusing on the HTTP protocol and transforming raw data into powerful information. The course pivots to server-side development, guiding you through HTML, PHP, JavaScript, and SQLite to create a custom server with a modern web interface. The high point of the course is the creation of a real-world IoT solution, combining all the skills you've gathered to create a holistic IoT system. Highlights include: Introduction to WiFi in IoT, ESP8266 WiFi Module, Bare-Metal Driver Development with ESP8266 and STM32, Sensor Data Collection and Transmission over WiFi, Server-side Development, and Hosting and Domain Management. By the end of this course, you'll be able to design and deploy a custom server-side application, master sensor data collection and transmission using HTTP, and develop firmware for IoT devices.",
+          "course_link": "https://study.embeddedexpert.io/p/aws-cloud111",
+          "category": "Cloud Connectivity",
+          "tags": [
+            "WiFi",
+            "IoT",
+            "Full Stack",
+            "Cloud Connectivity",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906123403-8335aws-cloud111.webp"
+        },
+        {
+          "name": "4G LTE IoT: Bare-Metal to HTTP, MQTT, SMS",
+          "description": "Welcome to 4G LTE IoT: Bare-Metal to HTTP, MQTT, SMS, an immersive journey crafted to transform you into an accomplished IoT professional. This course empowers you to innovate, create, and lead in the rapidly evolving field of Internet of Things (IoT). Our curriculum kicks off with a foundation in 4G LTE and IoT, offering insights into the essentials of 4G LTE Protocol and available modules. You'll dive into bare-metal firmware development, learn to interface STM32 microcontrollers with 4G LTE chips, and master circular buffer management. Learn to communicate with your devices via SMS and Phone Calls with hands-on modules. Understand HTTP and MQTT protocols for sensor data collection and transmission. The course then pivots to server-side development, guiding you through HTML, PHP, JavaScript, and SQLite to create a custom server with a modern web interface. You'll master hosting and domain management to establish your unique digital presence. The high point of the course lies in creating a real-world IoT solution, combining all the skills you've gathered. We also guide you on monetizing your skills and navigating the business landscape. Whether you're a beginner or an experienced professional, this course provides the tools and knowledge to stay ahead in the fast-paced world of IoT. Upon successful completion, you will be able to design and deploy a custom server-side application, master sensor data collection and transmission using HTTP and MQTT, develop firmware for controlling hardware via SMS and phone calls, and implement bare-metal firmware interfacing STM32 microcontrollers with 4G LTE chips.",
+          "course_link": "https://study.embeddedexpert.io/p/aws-cloud11",
+          "category": "Cloud Connectivity",
+          "tags": [
+            "4G LTE",
+            "IoT",
+            "HTTP",
+            "MQTT",
+            "SMS",
+            "Cloud Connectivity",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906123501-8090aws-cloud11.webp"
+        },
+        {
+          "name": "Custom Cloud <> Python Gateway Communication",
+          "description": "Get ready to embark on a transformative journey with our practical course that marries the world of embedded systems with the power of Google Cloud Platform (GCP). In the increasingly interconnected landscape of the Internet of Things (IoT), this course is an essential asset for engineers, IT professionals, data analysts, and technology enthusiasts. It's no secret that Amazon Web Services (AWS), Microsoft Azure, and Google Cloud are the three industry-leading giants in cloud services, trusted by companies worldwide for their robustness, scalability, and versatility. This course specifically focuses on Google Cloud, giving you hands-on experience with the tools, services, and best practices that have made it a top choice for professionals in the IoT industry. Through this course, you will: Leverage Python for Effective Communication: Harness the power of Python for UART communication, from scripting to error detection and handling, preparing you for the real-world challenges of IoT applications. Navigate the World of Google Cloud Platform: Get a behind-the-scenes tour of GCP, from setting up an account to understanding the suite of services it offers. Learn to configure credentials, install the Google Cloud Storage package, and much more. Master Google Cloud Storage: Master the operations of Google's cloud storage service, from creating storage buckets and managing their contents, to file uploads and downloads. Appreciate the Role of Databases in IoT: Gain insights into the variety of databases, their role in IoT systems, and the distinct characteristics of SQL and NoSQL databases. Understand the pros and cons of cloud-based versus local databases. Immerse Yourself in Google Firebase NoSQL Database: Dive deep into Firebase, Google's NoSQL database service. Learn to create, populate, and retrieve data from tables, equipping you with the tools to handle massive real-time data influx in IoT systems. Evaluate Considerations for Google Cloud Usage: Unveil the key considerations when using Google Cloud Storage and Firebase, including pricing, scalability, and more. Bring Your Skills to Life by Analyzing some Real-World Case Studies: Analyze some real-life IoT scenarios, ranging from quality control in production lines to laboratory equipment monitoring, and more. Whether you're a beginner in IoT, a professional looking to augment your skills, or a hobbyist passionate about technology, this course will equip you with the skills to implement IoT solutions using Google Cloud. Step into the future of IoT with us as we explore the fascinating world of Google Cloud Platform.",
+          "course_link": "https://study.embeddedexpert.io/p/aws-cloud12",
+          "category": "Cloud Connectivity",
+          "tags": [
+            "Google Cloud",
+            "Python",
+            "IoT",
+            "Cloud Connectivity",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906123704-5437aws-cloud12.webp"
+        },
+        {
+          "name": "Bluetooth Low Energy (BLE) From Ground Up™",
+          "description": "Welcome to the Bluetooth Low Energy (BLE) From Ground Up™ course. This practical Bluetooth Low Energy (BLE) course will provide you with solid in-depth training to build BLE embedded devices and use them to communicate with other smart devices and mobile phone apps. This course aims to provide a solid practical understanding of Bluetooth Low Energy: the protocol, how data is organized, and the key design trade-offs that were made in the creation of the protocol. By the end of this course, you should be able to build your own BLE-enabled embedded devices and give a lecture on the BLE protocol. I personally guarantee that by the end of this course you will be able to accomplish the following: Build Bluetooth Low Energy (BLE) firmware for different use cases, Understand the Bluetooth Low Energy (BLE) Stack, Create your own Services and Characteristics, Build Bluetooth Low Energy Embedded Devices, Give a lecture on the Bluetooth Low Energy (BLE) Architecture. If you are thinking about developing a product that incorporates Bluetooth Low Energy, then take this course. If you are an embedded engineer who wants to create Bluetooth Low Energy (BLE) firmware, then take this course. If you just want to learn how to code and build BLE devices, then take this course.",
+          "course_link": "https://study.embeddedexpert.io/p/bluetooth-low-energy-ble-from-ground-up_new",
+          "category": "Wireless Programming",
+          "tags": [
+            "BLE",
+            "Bluetooth Low Energy",
+            "Wireless Programming",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/221112104023-6823124.jpg"
+        },
+        {
+          "name": "Embedded Systems Cellular Firmware Development(GSM)",
+          "description": "Communicate with your embedded devices using cellular technology: Phone Call, SMS, M2M etc. This course teaches you how to develop drivers and libraries for adding cellular functionality to your embedded device. This course uses the STM32 microcontroller and the A6 GSM/GPRS chip. The A6 is a low-cost quad band GSM/GPRS chip equipped with 850/900/1800/1900MHz worldwide communication band. If you do not understand what a band means, do not worry, by the end of this course you will understand this and much more. The drivers developed in this course will work on almost all cellular chips out there, this is because most of them use the UART for communication.",
+          "course_link": "https://study.embeddedexpert.io/p/embedded-systems-cellular-firmware-development-gsm",
+          "category": "Wireless Programming",
+          "tags": [
+            "Cellular Firmware",
+            "GSM",
+            "Wireless Programming",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230131073632-4254Embedded Systems Cellular Firmware Development(GSM)5.webp"
+        },
+        {
+          "name": "Embedded Wifi Bare-Metal Development From Ground Up™",
+          "description": "Welcome to the Embedded WIFI Bare-Metal Development From Ground Up™ course. This course teaches you how to develop drivers and libraries for connecting your embedded device to the internet. This course uses the STM32 microcontroller and the ESP8266 WIFI chip. The ESP8266 is a low-cost WIFI chip with a full TCP/IP stack and a microcontroller. If you do not understand what TCP/IP stack means, do not worry, by the end of this course you will understand this and much more. The course can be divided into four parts. The first part is theoretical. In this part we shall learn about some networking concepts and the fundamentals of the WIFI protocol. In the next part of the course we shall develop bare-metal drivers for interfacing the ESP8266 chip to the STM32 microcontroller. After developing our drivers for connecting the ESP8266 chip to the STM32 microcontroller we shall then go ahead and develop efficient data structures for managing communication data between the ESP8266 chip and the STM32 microcontroller. In the final part we shall combine the drivers and data structures developed in the previous parts to develop a library for connecting to the internet. We shall then go on to use the library to develop a WebServer, a Web Client as well as accomplish tasks such as storing sensor data in the cloud and so much more. Please take a look at the full course curriculum.",
+          "course_link": "https://study.embeddedexpert.io/p/embedded-wifi-bare-metal-development-from-ground-up",
+          "category": "Wireless Programming",
+          "tags": [
+            "WIFI",
+            "Bare-Metal Development",
+            "Embedded Systems",
+            "Wireless Programming",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/221112104153-8466126.jpg"
+        },
+        {
+          "name": "Embedded RFID/NFC Bare-Metal Development",
+          "description": "Are you interested in learning how to develop RFID/NFC firmware applications from scratch? NFC stands for Near Field Communication, used in wireless payment cards, subway cards, bus cards, etc. If you want to develop such systems, explore our Embedded NFC Complete System Development pack. This pack will take you from knowing nothing about RFID/NFC to building a complete NFC system with robust firmware and a modern desktop application with cloud connectivity. The pack comprises two courses. The first course, Embedded RFID/NFC Bare-Metal Development, is divided into theoretical and practical parts. In the theoretical part, we cover understanding RFID and its working principles, protocols, architecture, standards, regulations, NFC working principles, differences between RFID and NFC, various NFC card types, and the memory organization and access conditions of MIFARE cards. In the practical part, we focus on developing bare-metal drivers for interfacing the MIFARE MFRC522 NFC chips with the STM32 microcontroller, developing a library for handling communications between NFC cards and readers, and developing a firmware application for controlling devices and triggering events using NFC cards and tags. The second course, NFC Desktop Application Development, focuses on developing a modern desktop application for receiving NFC card data and storing it in the cloud. Key sections include Python Essential Training for embedded developers, Python GUI Development with Kivy for creating modern GUI desktop applications, Firebase Realtime Database and Authentication for integrating user authentication and storing card information in a cloud database, and developing the NFC desktop application. As always, no copy/paste. We write each line of code from scratch.",
+          "course_link": "https://study.embeddedexpert.io/p/nfc-bare-metal",
+          "category": "Wireless Programming",
+          "tags": [
+            "RFID",
+            "NFC",
+            "Bare-Metal Development",
+            "Wireless Programming",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201031257-2851Embedded RFID NFC Bare-Metal Development.jpg"
+        },
+        {
+          "name": "Embedded IR Remote Control with NEC Protocol",
+          "description": "Hello, Welcome to the Embedded IR Remote Control with NEC Protocol course. This course teaches you how to develop bare-metal drivers and libraries to enable you to control your embedded device using IR remote controls. Essentially, you should be able to control your embedded device using any remote control you have lying around at home. If this is a skill you want to add to your embedded skillset, then take a look at our Embedded IR Remote Control with NEC Protocol course. This course can be divided into 4 major sections. First Section: The first section is theoretical. In this section we learn about IR remote control modulation and encoding theory, and also the structure and features of the NEC protocol. We shall deal with topics such as Amplitude Shift Keying (ASK) modulation vs Frequency Shift Keying Modulation (FSK), Pulse Position Encoding, Pulse Width Encoding, Pulse Distancing Encoding, and Frame Format of the NEC protocol. Second Section: In the second section we shall develop all the drivers to help us debug and implement some real-world applications once we have developed all modules of the system. We shall develop a Timebase to help us generate precise delays, an ADC driver to help us sample sensor data when a particular key is pressed on the IR Remote control, a UART driver to help us to print out debug information, and a GPIO driver to turn on the light when a particular key is pressed on the IR Remote control. Third Section: In the third section we shall develop the drivers and library required for interfacing the IR receiver to our microcontroller and decoding the received pulses. We shall develop an external interrupt driver for detecting edge changes from our IR receiver pin, a timer driver for measuring pulse length, and then we shall develop the library for fully decoding the pulses received by the IR receiver. Last Section: Once all the system drivers and library are fully developed, we then develop some real-world applications. We shall develop firmware applications for turning on the light based on the key pressed on the remote control, sampling and displaying sensor data based on the key pressed, displaying the time based on the key pressed, and displaying the key pressed on any remote control we have at home, as most remote controls are based on the NEC protocol. As always, no copy/paste. We write each line code from scratch.",
+          "course_link": "https://study.embeddedexpert.io/p/embedded-ir",
+          "category": "Wireless Programming",
+          "tags": [
+            "IR Remote Control",
+            "NEC Protocol",
+            "Wireless Programming",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201031722-7980Embedded IR Remote Control with NEC Protocol.jpg"
+        },
+        {
+          "name": "Hands-On GPS Firmware Development",
+          "description": "Welcome to the Hands-On GPS Bare-Metal Firmware Development course. This course teaches you how to develop bare-metal drivers and libraries for receiving and parsing satellite data, in other words to build a complete GPS system that is able to tell current longitude, latitude, altitude (position), number of satellites being tracked etc. So with that understood, let me tell you… Exactly What You’re Getting This course can be divided into 4 major sections. First Section The first section is theoretical. In this section we start by learning about Global Navigation Satellite Systems(GNSS) and then we go on learn about how GPS works and some factors that may affect GPS precision. We shall deal with topics such as: The different Global Navigation Satellite Systems(GNSS) across the world, GPS Trilateration, Ephemeris and Almanac, Using GPS for Geographic Information systems(GIS), The GPS Error Budget, etc. Second Section In the second section we shall develop all the drivers to help us debug and implement some real-world applications once we have developed all modules of the system. Over here we shall develop: A Timebase to help us generate precise delays, A UART driver to help us to print out debug information. Third Section In the third section we shall develop a driver to interface our chosen GPS module (NEO-6M GPS) to our STM32 microcontroller. We shall then go on to develop efficient data structures for managing communication data between the GPS module and the STM32 microcontroller. Last Section We shall learn about the GPS NMEA data structure and then combine the driver and data structure developed in the previous sections together with our knowledge of the GPS NMEA data structure to develop a library that will properly parse data received by the GPS module from the satellites so that the data can be presented in a readable and understandable way. As always, no copy/paste. We write each line code from scratch.",
+          "course_link": "https://study.embeddedexpert.io/p/gps-firmware",
+          "category": "Wireless Programming",
+          "tags": [
+            "GPS",
+            "Firmware Development",
+            "Wireless Programming",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201031956-7240Hands-On GPS Firmware Development.jpg"
+        },
+        {
+          "name": "Wireless System Development with nRF24",
+          "description": "Welcome to the Wireless System Development with nRF24 course. This course teaches you how to build a complete wireless system for data management and system control from scratch using the famous ultra-low power nRF24L01 transceiver. By the end of this course, you will be able to develop your own end-to-end system for collecting sensor data from a remote location and storing it in a local database or in Google Cloud. You will also be able to build your own wireless peripherals such as game controllers. The course is divided into six major sections. The first section is theoretical, covering the nRF24L01/nRF24L0+ transceiver and its unique characteristics, including radio control, the Enhanced ShockBurst Protocol, and packet structure. In the second section, you will develop drivers required for debugging and implementing real-world applications, including a timebase for precise delays, an ADC driver for sampling sensor data, a UART driver for printing debug information, a GPIO driver for user button state, and an SPI driver for interfacing the nRF24L0 with the STM32 microcontroller. The third section provides practical Python essential training for embedded developers, ideal for those new to Python or looking to brush up on their skills. The fourth section focuses on developing modern GUI desktop applications using Python and the Kivy framework, teaching you to create complete, packaged, and installable applications. In the fifth section, you will navigate the nRF24L0 transceiver datasheet to develop a complete library for configuring and operating the transceiver. The final section involves developing two major applications: a modern dashboard for receiving and displaying sensor data with user authentication and Google Firebase Realtime Database storage, and a wireless game controller for playing the FlappyBird game developed using Python. At the end of the course, you will be presented with a practice exercise, and successfully completing it will reward you with a new course of your choice. As always, no copy/paste. We write each line of code from scratch.",
+          "course_link": "https://study.embeddedexpert.io/p/embedded-nrf24",
+          "category": "Wireless Programming",
+          "tags": [
+            "Wireless System",
+            "nRF24",
+            "Wireless Programming",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201032106-6209Wireless System Development with nRF24.jpg"
+        },
+        {
+          "name": "Embedded RFID/NFC Bare-Metal Development",
+          "description": "Are you interested in learning how to develop RFID/NFC firmware applications from scratch? NFC stands for Near Field Communication, used in wireless payment cards, subway cards, bus cards, etc. If you want to develop such systems, explore our Embedded NFC Complete System Development pack. This pack will take you from knowing nothing about RFID/NFC to building a complete NFC system with robust firmware and a modern desktop application with cloud connectivity. The pack comprises two courses. The first course, Embedded RFID/NFC Bare-Metal Development, is divided into theoretical and practical parts. In the theoretical part, we cover understanding RFID and its working principles, protocols, architecture, standards, regulations, NFC working principles, differences between RFID and NFC, various NFC card types, and the memory organization and access conditions of MIFARE cards. In the practical part, we focus on developing bare-metal drivers for interfacing the MIFARE MFRC522 NFC chips with the STM32 microcontroller, developing a library for handling communications between NFC cards and readers, and developing a firmware application for controlling devices and triggering events using NFC cards and tags. The second course, NFC Desktop Application Development, focuses on developing a modern desktop application for receiving NFC card data and storing it in the cloud. Key sections include Python Essential Training for embedded developers, Python GUI Development with Kivy for creating modern GUI desktop applications, Firebase Realtime Database and Authentication for integrating user authentication and storing card information in a cloud database, and developing the NFC desktop application. As always, no copy/paste. We write each line of code from scratch.",
+          "course_link": "https://study.embeddedexpert.io/p/nfc-bare-metal",
+          "category": "Wireless Programming",
+          "tags": [
+            "RFID",
+            "NFC",
+            "Bare-Metal Development",
+            "Wireless Programming",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201032202-6883Embedded RFID NFC Bare-Metal Development.jpg"
+        },
+        {
+          "name": "WiFi IoT Architecture: From Firmware to Full Stack Web Development",
+          "description": "Welcome to the WiFi IoT Architecture course. This course is designed to transform you into a pioneering IoT professional with a specialization in WiFi technologies. Our curriculum begins by exploring how WiFi complements 4G LTE in the IoT landscape, delving into when and why to use each technology and the power of combining them. We cover the ESP8266 radio chip, guiding you through bare-metal firmware development with STM32 microcontrollers. The curriculum delves into advanced sensor data handling, exploring how to maximize efficiency and value from your IoT systems. We'll also explain the intricacies of designing IoT devices that can seamlessly switch between WiFi and 4G LTE, ensuring continuous connectivity. In the next phase, we will step into the world of sensor data collection and transmission, where you'll understand the HTTP protocol. Guided by hands-on experiences, you'll transform raw data into powerful information. The course then pivots to server-side development. Our tutorials will guide you through HTML, PHP, JavaScript, and SQLite, coming together in the creation of a custom server equipped with a modern web interface. This is where your IoT solution finds its home and becomes accessible to the world. The high point of the course lies in the creation of a real-world IoT solution. By combining all the skills you've gathered, you'll create a holistic IoT system, ready to impact industries, cities, and lives. Highlights include: Introduction to WiFi in IoT, ESP8266 WiFi Module, Bare-Metal Driver Development with ESP8266 and STM32, Sensor Data Collection and Transmission over WiFi, Server-side Development, and Hosting and Domain Management. By the end of this course, you'll be able to design and deploy a custom server-side application, master sensor data collection and transmission using HTTP, and develop firmware for IoT devices.",
+          "course_link": "https://study.embeddedexpert.io/p/aws-cloud111",
+          "category": "Wireless Programming",
+          "tags": [
+            "WiFi",
+            "IoT",
+            "Full Stack",
+            "Wireless Programming",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906123831-3623aws-cloud111.webp"
+        },
+        {
+          "name": "4G LTE IoT: Bare-Metal to HTTP, MQTT, SMS",
+          "description": "Welcome to 4G LTE IoT: Bare-Metal to HTTP, MQTT, SMS, an immersive journey crafted to transform you into an accomplished IoT professional. This course empowers you to innovate, create, and lead in the rapidly evolving field of Internet of Things (IoT). Our curriculum kicks off with a foundation in 4G LTE and IoT, offering insights into the essentials of 4G LTE Protocol and available modules. You'll dive into bare-metal firmware development, learn to interface STM32 microcontrollers with 4G LTE chips, and master circular buffer management. Learn to communicate with your devices via SMS and Phone Calls with hands-on modules. Understand HTTP and MQTT protocols for sensor data collection and transmission. The course then pivots to server-side development, guiding you through HTML, PHP, JavaScript, and SQLite to create a custom server with a modern web interface. You'll master hosting and domain management to establish your unique digital presence. The high point of the course lies in creating a real-world IoT solution, combining all the skills you've gathered. We also guide you on monetizing your skills and navigating the business landscape. Whether you're a beginner or an experienced professional, this course provides the tools and knowledge to stay ahead in the fast-paced world of IoT. Upon successful completion, you will be able to design and deploy a custom server-side application, master sensor data collection and transmission using HTTP and MQTT, develop firmware for controlling hardware via SMS and phone calls, and implement bare-metal firmware interfacing STM32 microcontrollers with 4G LTE chips.",
+          "course_link": "https://study.embeddedexpert.io/p/aws-cloud11",
+          "category": "Wireless Programming",
+          "tags": [
+            "4G LTE",
+            "IoT",
+            "HTTP",
+            "MQTT",
+            "SMS",
+            "Wireless Programming",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906123944-6533aws-cloud11.webp"
+        },
+        {
+          "name": "Embedded Azure Cloud <> Python Gateway Communication",
+          "description": "Microsoft Azure stands as a leading giant in the cloud service industry, alongside AWS and Google Cloud. Renowned for its robust infrastructure and extensive array of services, Azure is a preferred choice for IoT solutions across various industries. This course offers a comprehensive understanding of Azure's capabilities and how to leverage them for IoT applications. Key highlights include: An Overview of Microsoft Azure: Gain familiarity with Azure, from creating storage accounts to configuring dependencies and access keys. Working with Azure Storage: Master the management of Azure storage, including creating containers, uploading and downloading files, and managing container deletion. In-depth Understanding of Azure CosmosDB NoSQL Database Service: Explore CosmosDB, Azure's NoSQL database service, learning to create databases and containers, insert and retrieve data, and prepare for real-world IoT data management. Building an Embedded Azure Cloud Storage System: Apply your knowledge by storing sensor data into local CSV files, pushing these files to Azure storage containers, and storing real-time sensor data in CosmosDB. Considerations for Azure Usage: Understand key considerations when using Azure storage and CosmosDB, including pricing, scalability, and more. Whether you are new to IoT, a seasoned professional looking to enhance your skills, or a tech enthusiast, this course equips you with the expertise to implement IoT solutions using Azure. Join us to explore the Azure ecosystem and step confidently into the future of IoT.",
+          "course_link": "https://study.embeddedexpert.io/p/azure-cloud1",
+          "category": "Wireless Programming",
+          "tags": [
+            "Azure",
+            "Cloud",
+            "Python",
+            "IoT",
+            "Wireless Programming",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906124033-8491azure-cloud1.webp"
+        },
+        {
+          "name": "ARM Assembly Language From Ground Up™ 1",
+          "description": "Welcome to the ARM Assembly Programming From Ground Up™ 1 course. Covering ARM Systems Design, Architecture, and Practical Assembly Programming, this is the most comprehensive ARM assembly course online. I'll take you step-by-step through engaging and fun video tutorials and teach you everything you need to know to succeed as an ARM embedded developer. This course comes in two parts. This is the first part of the course. By the end of this part, you will master the ARM Instruction Set, the Thumb Instruction Set, and the Thumb-2 Instruction Set. You will be able to create data structures such as FIFOs and LIFOs in Assembly. Furthermore, you will design complex algorithms for performing Binary Search in assembly, and solving advanced mathematical problems like the Taylor Series and the Bisection Algorithm. Who is this training pack for? Anyone seeking to improve their embedded firmware development skills. If you want to learn how to write peripheral drivers in Assembly language, then take this training. If you are a seasoned programmer, then take this course to get up to speed with ARM architecture and assembly programming. If you are switching from other architectures such as x86 to ARM, then this is a fast-track way of doing it. You can get started straight away with the ARM Instruction Set. I personally guarantee that by the end of this training pack you will be able to accomplish the following: Master the ARM Instruction Set, Master the Thumb and Thumb-2 Instruction Sets, Understand the ARM Design Philosophy, Understand RISC Architecture, Master creating Data Structures in Assembly, Master building complex Algorithms in Assembly, Be able to create Lookup Tables and Jump Tables in Assembly. REMEMBER: I have no doubt you will love this course. Also, it comes with a FULL money-back guarantee for 30 days! So put simply, you really have nothing to lose and everything to gain. Sign up and let's start writing some low-level code.",
+          "course_link": "https://study.embeddedexpert.io/p/arm-assem-1",
+          "category": "Assembly Programming",
+          "tags": [
+            "ARM",
+            "Assembly Language",
+            "Embedded Systems",
+            "Assembly Programming",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126094906-2874ARM Assembly Language From Ground Up™ 1.webp"
+        },
+        {
+          "name": "ARM Assembly Language From Ground Up™ 2",
+          "description": "Welcome to the ARM Assembly Programming Ground Up™ 2 course. This course is designed to give you a solid foundation in bare-metal firmware development for ARM-based microcontrollers. The goal is to teach you how to navigate the microcontroller reference manual and datasheet to extract the right information to professionally build peripheral drivers and firmware using purely ARM Assembly Language. By the end of this course, you will be able to configure microcontroller peripherals like ADC, UART, PWM, GPIO, and TIMERS. You will also master the ARM architecture, ARM Instruction Set Architecture (ISA), and building professional embedded firmware in assembly for ARM processors. I personally guarantee that by the end of this training pack you will be able to accomplish the following: Write Analog-to-Digital Converter (ADC) drivers using ASSEMBLY code, Write PWM drivers using ASSEMBLY code, Write UART drivers using ASSEMBLY code, Write TIMER drivers using ASSEMBLY code, Write Interrupt drivers using ASSEMBLY code. REMEMBER: I have no doubt you will love this course. Also, it comes with a FULL money-back guarantee for 30 days! So put simply, you really have nothing to lose and everything to gain. Sign up and let's start toggling some register bits.",
+          "course_link": "https://study.embeddedexpert.io/p/arm-assembly-language-from-ground-up-2",
+          "category": "Assembly Programming",
+          "tags": [
+            "ARM",
+            "Assembly Language",
+            "Embedded Systems",
+            "Assembly Programming",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126094849-6564ARM Assembly Language From Ground Up™ 2.webp"
+        },
+        {
+          "name": "ARM Assembly Programming Mastery Pack",
+          "description": "Covering ARM Systems Design, Architecture and Practical Assembly Programming, this is the most comprehensive ARM assembly course online. I'll take you step-by-step through engaging and fun video tutorials and teach you everything you need to know to succeed in ARM Assembly Programming. By the end of this training you will master the ARM Instruction Set, the Thumb Instruction Set and the Thumb-2 Instruction Set. You will be able to create data structures such as FIFOs and LIFOs in Assembly. You will also be able to write drivers for microcontroller peripherals like ADC, UART, PWM, GPIO, TIMERS, etc.",
+          "course_link": "https://study.embeddedexpert.io/p/modern-bare-metal-embedded-c-programming-from-ground-up1",
+          "category": "Assembly Programming",
+          "tags": [
+            "ARM",
+            "Assembly Language",
+            "Embedded Systems",
+            "Assembly Programming",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126094838-5364ARM Assembly Programming Mastery Pack.webp"
+        },
+        {
+          "name": "ARM GNU Assembly Programming From Ground Up™",
+          "description": "Welcome to the ARM GNU Assembly Programming From Ground Up™ course. This is the GNU version of the popular ARM Assembly Programming From Ground Up™ 1 & 2 courses. This version of the courses uses the platform-agnostic GNU syntax supported by the GNU assembler (as). Unlike the ARM Assembly Programming From Ground Up™ 1 & 2 courses which use Keil uVision available on the Windows operating system only, the ARM GNU Assembly Programming From Ground Up™ course teaches you how to write assembly programs for the GNU assembler which is available on Windows, OSX, and Linux. Covering ARM Systems Design, Architecture, and Practical Assembly Programming, this is the most comprehensive ARM assembly course online. I'll take you step-by-step through engaging and fun video tutorials and teach you everything you need to know to succeed as an ARM embedded developer. By the end of this course, you will master the ARM Instruction Set, the Thumb Instruction Set, and the Thumb-2 Instruction Set. You will be able to create data structures such as FIFOs in assembly. You will also be able to create Finite State Machines such as the Moore Machine using only assembly code. Furthermore, this course teaches you how to navigate the microcontroller reference manual and datasheet to extract the right information to professionally build peripheral drivers and firmware. To achieve this goal, no libraries are used in this course, purely ARM Assembly Language. You will be able to write peripheral drivers in assembly-ADC, UART, SYSTICK, GPIO, GPTM.",
+          "course_link": "https://study.embeddedexpert.io/p/arm-gnu-assembly-programming-from-ground-up",
+          "category": "Assembly Programming",
+          "tags": [
+            "ARM",
+            "Assembly Language",
+            "GNU",
+            "Embedded Systems",
+            "Assembly Programming",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230131081956-1562ARM GNU Assembly Programming From Ground Up™.webp"
         }
       ]
     }
