@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useRef, useEffect } from 'react';
+import React, { useRef, useEffect, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Grid, Pagination, Navigation, Autoplay } from 'swiper/modules'; // Import Swiper modules
 // Import Swiper styles
@@ -13,12 +13,22 @@ import 'swiper/css/navigation';
 import Heading from '@/components/common/Heading'; // Ensure this component exists and works
 import CourseCard from '../common/CourseCard'; // Ensure this component is implemented correctly
 
+import data from '../../data/data.json';
+
 import lessonImg from '@/public/home/mainbaner.png'; // Ensure the image path is correct
 import { PiArrowCircleLeftThin, PiArrowCircleRightThin } from 'react-icons/pi';
 
 const StartHere = () => {
     const prevRef = useRef(null);
     const nextRef = useRef(null);
+    const [courses, setCourses] = useState([]);
+
+    useEffect(() => {
+        // const courses = data.type === "course" ? data.courses : [];
+        const courses = data.data[8].courses
+        const starthere = courses.filter((course) => course.category === "Start Here");
+        setCourses(starthere);
+    }, []);
 
     useEffect(() => {
         if (prevRef.current && nextRef.current) {
@@ -74,20 +84,21 @@ const StartHere = () => {
                 }}
                 className="mySwiper"
             >
-                {[...Array(12)].map((_, index) => (
+                {courses.map((course, index) => (
                     <SwiperSlide key={index}>
                         <CourseCard
-                            image={lessonImg}
-                            alt={`Course banner ${index + 1}`}
+                            image={course.image || lessonImg}
+                            alt={course.name}
                             category="Best Selling"
-                            title={`Course Title ${index + 1}`}
+                            title={course.name}
                             lesson="32"
                             time="30"
-                            link="/"
+                            link={course.course_link}
                         />
                     </SwiperSlide>
                 ))}
             </Swiper>
+
             {/* Custom navigation buttons */}
             <div className='flex gap-3 items-center justify-center pt-10'>
                 <button ref={prevRef}>

@@ -1,11 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // compilerOptions: {
-  //   baseUrl: "http://localhost:3000",
-  //   paths: {
-  //     "@/*": ["./*"],
-  //   },
-  // },
+  images: {
+    domains: ["be.embeddedexpert.io"],
+  },
 };
 
 export default nextConfig;
