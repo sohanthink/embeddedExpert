@@ -26,7 +26,7 @@ const Intermediate = () => {
     useEffect(() => {
         // const courses = data.type === "course" ? data.courses : [];
         const courses = data.data[8].courses
-        const intermediate = courses.filter((course) => course.category === "Start Here");
+        const intermediate = courses.filter((course) => course.category === "Intermediate");
         setCourses(intermediate);
     }, []);
 
@@ -94,6 +94,7 @@ const Intermediate = () => {
                                 lesson="32"
                                 time="30"
                                 link={course.course_link}
+                                varient='home'
                             />
                         </SwiperSlide>
                     ))}
