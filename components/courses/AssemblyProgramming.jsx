@@ -92,8 +92,8 @@ const AssemblyProgramming = () => {
                             alt={course.name}
                             category="Best Selling"
                             title={course.name}
-                            lesson="32"
-                            time="30"
+                            lesson={course.lesson}
+                            time={course.time}
                             link={course.course_link}
                         />
                     </SwiperSlide>

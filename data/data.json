@@ -259,7 +259,9 @@
           "course_link": "https://study.embeddedexpert.io/p/arm-gnu-assembly-programming-from-ground-up",
           "category": "Start Here",
           "tags": ["GNU", "Start Here", "courses", "course"],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230131082140-4484ARM%20GNU%20Assembly%20Programming%20From%20Ground%20Up™.webp"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230131082140-4484ARM%20GNU%20Assembly%20Programming%20From%20Ground%20Up™.webp",
+          "lesson": "32",
+          "time": "30"
         },
         {
           "name": "STM32 Development Learning Path",
@@ -267,7 +269,9 @@
           "course_link": "https://study.embeddedexpert.io/p/stm32-development-learning-path",
           "category": "Start Here",
           "tags": ["STM32", "Learning Path", "Start Here", "courses", "course"],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126091020-5426STM32 Development Learning Path.webp"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126091020-5426STM32 Development Learning Path.webp",
+          "lesson": "45",
+          "time": "40"
         },
         {
           "name": "Mastering STM32CubeMX 5 and CubeIDE - Embedded Systems",
@@ -281,7 +285,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126091821-3506Mastering%20STM32CubeMX%205%20and%20CubeIDE%20-%20Embedded%20Systems.webp"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126091821-3506Mastering%20STM32CubeMX%205%20and%20CubeIDE%20-%20Embedded%20Systems.webp",
+          "lesson": "38",
+          "time": "35"
         },
         {
           "name": "Embedded Systems STM32 Low-Layer APIs(LL) Driver Development",
@@ -295,7 +301,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126091904-7643Embedded Systems STM32 Low-Layer APIs(LL) Driver Development.webp"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126091904-7643Embedded Systems STM32 Low-Layer APIs(LL) Driver Development.webp",
+          "lesson": "29",
+          "time": "25"
         },
         {
           "name": "Embedded Systems Bare-Metal Programming Ground Up™ (STM32F4)",
@@ -309,7 +317,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126092158-5786Embedded Systems Bare-Metal Programming Ground Up™ (STM32F4).webp"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126092158-5786Embedded Systems Bare-Metal Programming Ground Up™ (STM32F4).webp",
+          "lesson": "35",
+          "time": "30"
         },
         {
           "name": "Embedded Ethernet Essential Training with CubeMX",
@@ -324,7 +334,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126092108-1635Embedded Ethernet Essential Training with CubeMX.webp"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126092108-1635Embedded Ethernet Essential Training with CubeMX.webp",
+          "lesson": "28",
+          "time": "20"
         },
         {
           "name": "Embedded Systems STM32 HAL APIs Driver Development",
@@ -340,7 +352,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126092252-3202Embedded Systems STM32 HAL APIs Driver Development.webp"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126092252-3202Embedded Systems STM32 HAL APIs Driver Development.webp",
+          "lesson": "32",
+          "time": "30"
         },
         {
           "name": "Bluetooth Low Energy (BLE) From Ground Up™",
@@ -354,7 +368,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126094526-7135Bluetooth Low Energy (BLE) From Ground Up™.webp"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126094526-7135Bluetooth Low Energy (BLE) From Ground Up™.webp",
+          "lesson": "28",
+          "time": "25"
         },
         {
           "name": "Build Your Own RealTime OS (RTOS 2) From Ground Up™ on ARM 2",
@@ -362,7 +378,9 @@
           "course_link": "https://study.embeddedexpert.io/p/rtos2",
           "category": "Intermediate",
           "tags": ["RTOS 2", "ARM 2", "Intermediate", "courses", "course"],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230131074903-9408Build Your Own RealTime OS (RTOS 2) From Ground Up™ on ARM 200.webp"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230131074903-9408Build Your Own RealTime OS (RTOS 2) From Ground Up™ on ARM 200.webp",
+          "lesson": "35",
+          "time": "40"
         },
         {
           "name": "Deep Learning on ARM Processors - From Ground Up™",
@@ -377,7 +395,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126092925-3689Deep Learning on ARM Processors - From Ground Up™.webp"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126092925-3689Deep Learning on ARM Processors - From Ground Up™.webp",
+          "lesson": "45",
+          "time": "50"
         },
         {
           "name": "Embedded Ethernet Programming with HAL",
@@ -391,7 +411,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126092958-9804Embedded Ethernet Programming with HAL.webp"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126092958-9804Embedded Ethernet Programming with HAL.webp",
+          "lesson": "38",
+          "time": "35"
         },
         {
           "name": "Build Your Own RealTime OS (RTOS 1) From Ground Up™ on ARM 1",
@@ -406,7 +428,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230131075127-1456Build Your Own RealTime OS (RTOS 1) From Ground Up™ on ARM 100.webp"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230131075127-1456Build Your Own RealTime OS (RTOS 1) From Ground Up™ on ARM 100.webp",
+          "lesson": "32",
+          "time": "30"
         },
         {
           "name": "FreeRTOS From Ground Up™ on ARM Processors",
@@ -421,7 +445,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230131074211-4870FreeRTOS From Ground Up™ on ARM Processors.webp"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230131074211-4870FreeRTOS From Ground Up™ on ARM Processors.webp",
+          "lesson": "40",
+          "time": "45"
         },
         {
           "name": "Practical Low Cost Bare-Metal Bluetooth Development",
@@ -436,7 +462,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230203080304-3498Practical Low Cost Bare Metal Bluetooth Development.jpg"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230203080304-3498Practical Low Cost Bare Metal Bluetooth Development.jpg",
+          "lesson": "32",
+          "time": "30"
         },
         {
           "name": "Embedded IR Remote Control with NEC Protocol",
@@ -450,7 +478,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201034604-1723Embedded IR Remote Control with NEC Protocol.jpg"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201034604-1723Embedded IR Remote Control with NEC Protocol.jpg",
+          "lesson": "28",
+          "time": "20"
         },
         {
           "name": "Embedded Systems Cellular Firmware Development(GSM)",
@@ -464,7 +494,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201034926-2385Embedded Systems Cellular Firmware Development(GSM)5.webp"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201034926-2385Embedded Systems Cellular Firmware Development(GSM)5.webp",
+          "lesson": "35",
+          "time": "30"
         },
         {
           "name": "Embedded Display Drivers Development: A Bare-Metal Approach",
@@ -478,7 +510,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201035117-9241Embedded Display Drivers Development A Bare-Metal Approach.jpg"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201035117-9241Embedded Display Drivers Development A Bare-Metal Approach.jpg",
+          "lesson": "40",
+          "time": "35"
         },
         {
           "name": "Embedded MicroPython from Ground Up™",
@@ -492,7 +526,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201035206-4809Embedded MicroPython from Ground Up™.jpg"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201035206-4809Embedded MicroPython from Ground Up™.jpg",
+          "lesson": "32",
+          "time": "30"
         },
         {
           "name": "Digital Signal Processing (DSP) From Ground Up™ on Arm Processors",
@@ -506,7 +542,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201035308-5740Digital Signal Processing (DSP) From Ground Up™ on Arm Processors.jpg"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201035308-5740Digital Signal Processing (DSP) From Ground Up™ on Arm Processors.jpg",
+          "lesson": "45",
+          "time": "40"
         },
         {
           "name": "Embedded Google Cloud Python Gateway Communication",
@@ -521,7 +559,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906120949-8090google-cloud11.webp"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906120949-8090google-cloud11.webp",
+          "lesson": "38",
+          "time": "35"
         },
         {
           "name": "Firmware Version Control with Git from Ground Up",
@@ -536,7 +576,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906121304-3753firmware-version-control-with-git-from-ground-up.webp"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906121304-3753firmware-version-control-with-git-from-ground-up.webp",
+          "lesson": "32",
+          "time": "30"
         },
         {
           "name": "Modern Embedded GUI with TouchGFX",
@@ -551,7 +593,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906121419-9138modern-embedded-gui-with-touchgfx.webp"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906121419-9138modern-embedded-gui-with-touchgfx.webp",
+          "lesson": "32",
+          "time": "30"
         },
         {
           "name": "WiFi IoT Architecture: From Firmware to Full Stack Web Development",
@@ -566,7 +610,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906121559-7308aws-cloud111.webp"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906121559-7308aws-cloud111.webp",
+          "lesson": "45",
+          "time": "40"
         },
         {
           "name": "Flash Memory and EEPROM Drivers: A Hands-On Guide for Embedded Engineers",
@@ -581,7 +627,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906121655-4068memory-storage.webp"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906121655-4068memory-storage.webp",
+          "lesson": "38",
+          "time": "35"
         },
         {
           "name": "USB Host Development Essential Training with CubeMX",
@@ -589,7 +637,9 @@
           "course_link": "https://study.embeddedexpert.io/p/usb-host-essentials1",
           "category": "Intermediate",
           "tags": ["USB Host", "CubeMX", "Intermediate", "courses", "course"],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906121755-8128usb-host-essentials1.webp"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906121755-8128usb-host-essentials1.webp",
+          "lesson": "28",
+          "time": "25"
         },
         {
           "name": "Advanced Digital Signal Processing on ARM Processors",
@@ -603,7 +653,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906121900-8716dsp-on-arm11.webp"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906121900-8716dsp-on-arm11.webp",
+          "lesson": "40",
+          "time": "35"
         },
         {
           "name": "USB Device Development Essential Training with CubeMX",
@@ -611,7 +663,9 @@
           "course_link": "https://study.embeddedexpert.io/p/usb-device-essentials",
           "category": "Intermediate",
           "tags": ["USB Device", "CubeMX", "Intermediate", "courses", "course"],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906122048-5574usb-device-essentials.webp"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906122048-5574usb-device-essentials.webp",
+          "lesson": "35",
+          "time": "30"
         },
         {
           "name": "Embedded Azure Cloud Python Gateway Communication",
@@ -627,7 +681,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906122151-7421azure-cloud1.webp"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906122151-7421azure-cloud1.webp",
+          "lesson": "32",
+          "time": "30"
         },
         {
           "name": "Embedded Audio Solutions: Developing an Audio Media Player",
@@ -642,7 +698,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906122259-4486lora1.webp"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906122259-4486lora1.webp",
+          "lesson": "30",
+          "time": "25"
         },
         {
           "name": "Advanced Sensing: Time of Flight (ToF) Sensors",
@@ -657,7 +715,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241008053135-2605 Advanced Sensing Time of Flight (ToF) Sensors.jpg"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241008053135-2605 Advanced Sensing Time of Flight (ToF) Sensors.jpg",
+          "lesson": "35",
+          "time": "30"
         },
         {
           "name": "Mastering FileSystems and SD Card Drivers on Embedded Device",
@@ -672,7 +732,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241008053345-5285Mastering FileSystems and SD Card Drivers on Embedded Device.jpg"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241008053345-5285Mastering FileSystems and SD Card Drivers on Embedded Device.jpg",
+          "lesson": "40",
+          "time": "35"
         },
         {
           "name": "Embedded Touchscreen Drivers Development: A Bare-Metal Approach",
@@ -686,7 +748,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241008054541-5594Embedded Touchscreen Drivers Development A Bare-Metal Approach.jpg"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241008054541-5594Embedded Touchscreen Drivers Development A Bare-Metal Approach.jpg",
+          "lesson": "32",
+          "time": "30"
         },
         {
           "name": "Embedded Systems Cryptography & Encryption",
@@ -701,7 +765,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009071038-3272Embedded Systems Cryptography & Encryption.jpg"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009071038-3272Embedded Systems Cryptography & Encryption.jpg",
+          "lesson": "32",
+          "time": "30"
         },
         {
           "name": "Embedded Local Database Storage: MySQL",
@@ -716,7 +782,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009071214-9040Embedded Local Database Storage MySQL.jpg"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009071214-9040Embedded Local Database Storage MySQL.jpg",
+          "lesson": "32",
+          "time": "30"
         },
         {
           "name": "Embedded System IoT Systems Design",
@@ -730,7 +798,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009071358-5046Embedded System IoT Systems Design.jpg"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009071358-5046Embedded System IoT Systems Design.jpg",
+          "lesson": "45",
+          "time": "40"
         },
         {
           "name": "LoRa from Ground Up™",
@@ -738,7 +808,9 @@
           "course_link": "https://study.embeddedexpert.io/p/lora",
           "category": "Intermediate",
           "tags": ["LoRa", "IoT", "Intermediate", "courses", "course"],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009071508-3853LoRa from Ground Up™.jpg"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009071508-3853LoRa from Ground Up™.jpg",
+          "lesson": "38",
+          "time": "35"
         },
         {
           "name": "ZigBee from Ground Up: From Theory and Hands-On Training",
@@ -746,7 +818,9 @@
           "course_link": "https://study.embeddedexpert.io/p/zigbee",
           "category": "Intermediate",
           "tags": ["ZigBee", "IoT", "Intermediate", "courses", "course"],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009071654-2113ZigBee from Ground Up From Theory and Hands-On Training.jpg"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009071654-2113ZigBee from Ground Up From Theory and Hands-On Training.jpg",
+          "lesson": "32",
+          "time": "30"
         },
         {
           "name": "Hands-On Embedded C++ Library Development",
@@ -760,7 +834,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009071926-3202Hands-On Embedded C++ Library Development.jpg"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009071926-3202Hands-On Embedded C++ Library Development.jpg",
+          "lesson": "40",
+          "time": "35"
         },
         {
           "name": "Hands-On Biometric Firmware Mastery with Fingerprint Sensors",
@@ -774,7 +850,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009072114-9260Hands-On Biometric Firmware Mastery with Fingerprint Sensors.jpg"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009072114-9260Hands-On Biometric Firmware Mastery with Fingerprint Sensors.jpg",
+          "lesson": "32",
+          "time": "30"
         },
         {
           "name": "Windows x86 Assembly Programming From Ground Up™",
@@ -788,7 +866,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009072255-2743Windows x86 Assembly Programming From Ground Up™.jpg"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009072255-2743Windows x86 Assembly Programming From Ground Up™.jpg",
+          "lesson": "32",
+          "time": "30"
         },
         {
           "name": "Matlab Digital Image Processing From Ground Up™",
@@ -802,7 +882,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009072432-5198Matlab Digital Image Processing From Ground Up™.jpg"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009072432-5198Matlab Digital Image Processing From Ground Up™.jpg",
+          "lesson": "35",
+          "time": "25"
         },
         {
           "name": "Python Network Programming From Ground Up ™",
@@ -816,7 +898,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009072630-2419Python Network Programming From Ground Up ™.jpg"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009072630-2419Python Network Programming From Ground Up ™.jpg",
+          "lesson": "40",
+          "time": "35"
         },
         {
           "name": "Python- Build Modern Desktop GUI Applications",
@@ -831,7 +915,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009072822-1438Python- Build Modern Desktop GUI Applications.jpg"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009072822-1438Python- Build Modern Desktop GUI Applications.jpg",
+          "lesson": "32",
+          "time": "30"
         },
         {
           "name": "{ C Language } Deep Learning From Ground Up™",
@@ -846,7 +932,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009072822-1438Python- Build Modern Desktop GUI Applications.jpg"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009072822-1438Python- Build Modern Desktop GUI Applications.jpg",
+          "lesson": "45",
+          "time": "40"
         },
         {
           "name": "Python Real-time Population Health Desktop Application",
@@ -862,7 +950,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009073147-4733Python Real-time Population Health Desktop Application.jpg"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009073147-4733Python Real-time Population Health Desktop Application.jpg",
+          "lesson": "38",
+          "time": "30"
         },
         {
           "name": "Printed Circuit Board (PCB) Design from the Ground Up ™",
@@ -876,7 +966,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009073309-3104Printed Circuit Board (PCB) Design from the Ground Up ™.jpg"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009073309-3104Printed Circuit Board (PCB) Design from the Ground Up ™.jpg",
+          "lesson": "32",
+          "time": "30"
         },
         {
           "name": "Arduino Bluetooth Low Energy (BLE) From Ground Up™",
@@ -891,7 +983,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009073634-3270Arduino Bluetooth Low Energy (BLE) From Ground Up™.jpg"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009073634-3270Arduino Bluetooth Low Energy (BLE) From Ground Up™.jpg",
+          "lesson": "28",
+          "time": "20"
         },
         {
           "name": "High Performance Display Drivers: DMA2D, LTDC, FMC, SDRAM",
@@ -908,7 +1002,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009075019-9624High Performance Display Drivers DMA2D, LTDC, FMC, SDRAM.jpg"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009075019-9624High Performance Display Drivers DMA2D, LTDC, FMC, SDRAM.jpg",
+          "lesson": "35",
+          "time": "40"
         },
         {
           "name": "Embedded Data Visualization and Real-Time Dashboards",
@@ -924,7 +1020,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009075152-2919Embedded Data Visualization and Real-Time Dashboards.jpg"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009075152-2919Embedded Data Visualization and Real-Time Dashboards.jpg",
+          "lesson": "32",
+          "time": "30"
         },
         {
           "name": "Mastering the CAN Bus from Ground Up™",
@@ -940,7 +1038,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009075344-3427Mastering the CAN Bus from Ground Up™.jpg"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009075344-3427Mastering the CAN Bus from Ground Up™.jpg",
+          "lesson": "40",
+          "time": "45"
         },
         {
           "name": "RadarInsight: Hands-On Presence Sensing with Radar",
@@ -955,7 +1055,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009075509-7855RadarInsight Hands-On Presence Sensing with Radar.jpg"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009075509-7855RadarInsight Hands-On Presence Sensing with Radar.jpg",
+          "lesson": "28",
+          "time": "25"
         },
         {
           "name": "Embedded Imaging: Digital Camera Development from Ground Up™",
@@ -969,7 +1071,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009075636-7204Embedded Imaging Digital Camera Development from Ground Up™.jpg"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009075636-7204Embedded Imaging Digital Camera Development from Ground Up™.jpg",
+          "lesson": "38",
+          "time": "35"
         },
         {
           "name": "Environmental Sensing Drivers: A Bare-Metal Approach",
@@ -983,7 +1087,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009075807-8839Environmental Sensing Drivers A Bare-Metal Approach.jpg"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009075807-8839Environmental Sensing Drivers A Bare-Metal Approach.jpg",
+          "lesson": "32",
+          "time": "30"
         },
         {
           "name": "Hands-On GPS Firmware Development",
@@ -997,7 +1103,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009075945-9066Hands-On GPS Firmware Development.jpg"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009075945-9066Hands-On GPS Firmware Development.jpg",
+          "lesson": "45",
+          "time": "50"
         },
         {
           "name": "Wearable Innovations: Engineering Smartwatches from Scratch",
@@ -1012,7 +1120,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009080140-6675Wearable Innovations Engineering Smartwatches from Scratch.jpg"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009080140-6675Wearable Innovations Engineering Smartwatches from Scratch.jpg",
+          "lesson": "40",
+          "time": "35"
         },
         {
           "name": "Embedded RFID/NFC Bare-Metal Development",
@@ -1027,7 +1137,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009080315-8784Embedded RFID-NFC Bare-Metal Development.jpg"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009080315-8784Embedded RFID-NFC Bare-Metal Development.jpg",
+          "lesson": "35",
+          "time": "30"
         },
         {
           "name": "{C++} Build Your Own Realtime OS (RTOS) From Ground Up™ on ARM",
@@ -1042,7 +1154,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126100007-3221{C++}Build Your Own Realtime OS (RTOS) From Ground Up™ on ARM.webp"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126100007-3221{C++}Build Your Own Realtime OS (RTOS) From Ground Up™ on ARM.webp",
+          "lesson": "45",
+          "time": "40"
         },
         {
           "name": "Embedded AWS Cloud Python Gateway Communication",
@@ -1058,7 +1172,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126094036-9770Embedded Amazon AWS Connectivity2.webp"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126094036-9770Embedded Amazon AWS Connectivity2.webp",
+          "lesson": "32",
+          "time": "30"
         },
         {
           "name": "Embedded System IoT Systems Design",
@@ -1066,7 +1182,9 @@
           "course_link": "https://study.embeddedexpert.io/p/modern-bare-metal-embedded-c-programming-from-ground-up11",
           "category": "Expert",
           "tags": ["IoT", "Embedded Systems", "Expert", "courses", "course"],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126092536-4546Embedded System loT Systems Design.webp"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126092536-4546Embedded System loT Systems Design.webp",
+          "lesson": "38",
+          "time": "35"
         },
         {
           "name": "Embedded Systems Bare-Metal Ethernet Programming",
@@ -1081,7 +1199,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126092603-8991Embedded Systems Bare-Metal Ethernet Programming.webp"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126092603-8991Embedded Systems Bare-Metal Ethernet Programming.webp",
+          "lesson": "45",
+          "time": "40"
         },
         {
           "name": "Embedded Systems Cellular Firmware Development(GSM)",
@@ -1089,11 +1209,13 @@
           "course_link": "https://study.embeddedexpert.io/p/embedded-systems-cellular-firmware-development-gsm",
           "category": "Expert",
           "tags": ["Cellular Firmware", "GSM", "Expert", "courses", "course"],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230131073812-6083Embedded Systems Cellular Firmware Development(GSM).webp"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230131073812-6083Embedded Systems Cellular Firmware Development(GSM).webp",
+          "lesson": "32",
+          "time": "30"
         },
         {
           "name": "Embedded Systems Design Patterns From Ground Up™",
-          "description": "Welcome to the 'Embedded Systems Design Patterns' course. This expert-level course teaches you how to apply design patterns to embedded firmware development, providing reusable solutions to common software problems. Design patterns help us think abstractly, identify key solution properties, and reuse proven solutions in similar situations.\n\nThe course aims to equip firmware developers with tools to address recurring design issues. It focuses on practical solutions by solving real-world problems using various design patterns, such as data access in an ECG system with the Client-Server Design Pattern, IO device development with the Strategy Design Pattern, hardware portability with the Hardware Proxy Design Pattern, and sensor data subscription with the Observer Design Pattern.\n\nCourse Overview:\n\n- First-Class Abstract Data Type (ADT): Learn to hide data structure internals, improving encapsulation and reducing tight coupling.\n\n- Introduction to Design Patterns: Gain a theoretical understanding and practical prerequisites for the course.\n\n- STATE Pattern: Explore three methods to solve the same problem: conditional state machine, table-based state machine, and state pattern implementation.\n\n- STRATEGY Pattern: Extend and customize software by creating strategy objects and a context object whose behavior changes based on its strategy.\n\n- Hardware Proxy Pattern: Encapsulate hardware access in a class, regardless of the physical interface.\n\n- Hardware Adapter Pattern: Create elements that convert between different interfaces when required.\n\n- Client-Server Pattern: Design systems with a single data producer and multiple consumers, demonstrated through an ECG system.\n\n- Observer Pattern: Improve on the client-server pattern by notifying clients automatically when new data is available.\n\nThis course is designed for those who prefer writing code from scratch rather than copying and pasting. It includes detailed explanations of every register used and the meaning of each hexadecimal value. With a money-back guarantee, you have nothing to lose. Try it out and see how it goes. You can request a refund within 30 days of purchase.",
+          "description": "Welcome to the 'Embedded Systems Design Patterns' course. This expert-level course teaches you how to apply design patterns to embedded firmware development, providing reusable solutions to common software problems. Design patterns help us think abstractly, identify key solution properties, and reuse proven solutions in similar situations. The course aims to equip firmware developers with tools to address recurring design issues. It focuses on practical solutions by solving real-world problems using various design patterns, such as data access in an ECG system with the Client-Server Design Pattern, IO device development with the Strategy Design Pattern, hardware portability with the Hardware Proxy Design Pattern, and sensor data subscription with the Observer Design Pattern. Course Overview: First-Class Abstract Data Type (ADT): Learn to hide data structure internals, improving encapsulation and reducing tight coupling. Introduction to Design Patterns: Gain a theoretical understanding and practical prerequisites for the course. STATE Pattern: Explore three methods to solve the same problem: conditional state machine, table-based state machine, and state pattern implementation. STRATEGY Pattern: Extend and customize software by creating strategy objects and a context object whose behavior changes based on its strategy. Hardware Proxy Pattern: Encapsulate hardware access in a class, regardless of the physical interface. Hardware Adapter Pattern: Create elements that convert between different interfaces when required. Client-Server Pattern: Design systems with a single data producer and multiple consumers, demonstrated through an ECG system. Observer Pattern: Improve on the client-server pattern by notifying clients automatically when new data is available. This course is designed for those who prefer writing code from scratch rather than copying and pasting. It includes detailed explanations of every register used and the meaning of each hexadecimal value. With a money-back guarantee, you have nothing to lose. Try it out and see how it goes. You can request a refund within 30 days of purchase.",
           "course_link": "https://study.embeddedexpert.io/p/embedded-systems-design-patterns-from-ground-up",
           "category": "Expert",
           "tags": [
@@ -1103,7 +1225,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126092712-5876Embedded Systems Design Patterns From Ground Up™.webp"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126092712-5876Embedded Systems Design Patterns From Ground Up™.webp",
+          "lesson": "40",
+          "time": "35"
         },
         {
           "name": "Embedded Wifi Bare-Metal Development From Ground Up™",
@@ -1118,7 +1242,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126094747-9455Embedded Wifi Bare-Metal Development From Ground Up™.webp"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126094747-9455Embedded Wifi Bare-Metal Development From Ground Up™.webp",
+          "lesson": "35",
+          "time": "40"
         },
         {
           "name": "Embedded RFID/NFC Bare-Metal Development",
@@ -1133,7 +1259,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201032446-2996Embedded RFID NFC Bare-Metal Development.jpg"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201032446-2996Embedded RFID NFC Bare-Metal Development.jpg",
+          "lesson": "32",
+          "time": "30"
         },
         {
           "name": "NFC Desktop Application Development",
@@ -1148,7 +1276,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201032534-3187NFC Desktop Application Development.jpg"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201032534-3187NFC Desktop Application Development.jpg",
+          "lesson": "28",
+          "time": "20"
         },
         {
           "name": "Hands-On GPS Firmware Development",
@@ -1162,7 +1292,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201032624-3338Hands-On GPS Firmware Development.jpg"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201032624-3338Hands-On GPS Firmware Development.jpg",
+          "lesson": "45",
+          "time": "50"
         },
         {
           "name": "Wireless System Development with nRF24",
@@ -1170,7 +1302,9 @@
           "course_link": "https://study.embeddedexpert.io/p/embedded-nrf24",
           "category": "Expert",
           "tags": ["Wireless System", "nRF24", "Expert", "courses", "course"],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201032715-8466Wireless System Development with nRF24.jpg"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201032715-8466Wireless System Development with nRF24.jpg",
+          "lesson": "32",
+          "time": "30"
         },
         {
           "name": "Wireless System Development with nRF24",
@@ -1178,7 +1312,9 @@
           "course_link": "https://study.embeddedexpert.io/p/embedded-nrf24",
           "category": "Expert",
           "tags": ["Wireless System", "nRF24", "Expert", "courses", "course"],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201032715-8466Wireless System Development with nRF24.jpg"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201032715-8466Wireless System Development with nRF24.jpg",
+          "lesson": "38",
+          "time": "35"
         },
         {
           "name": "MQ Telemetry Transport (MQTT) From Ground Up",
@@ -1186,7 +1322,9 @@
           "course_link": "https://study.embeddedexpert.io/p/mqqt",
           "category": "Expert",
           "tags": ["MQTT", "IoT", "Expert", "courses", "course"],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201032959-8354MQTT_From_GroundUp2.webp"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201032959-8354MQTT_From_GroundUp2.webp",
+          "lesson": "32",
+          "time": "30"
         },
         {
           "name": "Advanced Embedded Systems Bare-Metal Programming Ground Up™",
@@ -1203,7 +1341,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201033157-2190Advanced Embedded Systems Bare-Metal Programming Ground Up™.jpg"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201033157-2190Advanced Embedded Systems Bare-Metal Programming Ground Up™.jpg",
+          "lesson": "40",
+          "time": "45"
         },
         {
           "name": "Embedded Build Systems with GNU Tools and Makefiles",
@@ -1219,7 +1359,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201034250-1348Embedded Build Systems with GNU Tools and Makefiles.jpg"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201034250-1348Embedded Build Systems with GNU Tools and Makefiles.jpg",
+          "lesson": "35",
+          "time": "40"
         },
         {
           "name": "4G LTE IoT: Bare-Metal to HTTP, MQTT, SMS",
@@ -1236,7 +1378,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906122408-8550aws-cloud11.webp"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906122408-8550aws-cloud11.webp",
+          "lesson": "45",
+          "time": "50"
         },
         {
           "name": "WiFi IoT Architecture: From Firmware to Full Stack Web Development",
@@ -1244,7 +1388,9 @@
           "course_link": "https://study.embeddedexpert.io/p/aws-cloud111",
           "category": "Expert",
           "tags": ["WiFi", "IoT", "Full Stack", "Expert", "courses", "course"],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906122700-2274aws-cloud111.webp"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906122700-2274aws-cloud111.webp",
+          "lesson": "38",
+          "time": "35"
         },
         {
           "name": "Embedded Memory Security: Protecting Your System from Tampering and Unauthorized Access",
@@ -1260,7 +1406,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906122809-9680memory-security.webp"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906122809-9680memory-security.webp",
+          "lesson": "32",
+          "time": "30"
         },
         {
           "name": "Custom Cloud <> Python Gateway Communication",
@@ -1275,7 +1423,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906122959-4901aws-cloud12.webp"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906122959-4901aws-cloud12.webp",
+          "lesson": "40",
+          "time": "45"
         },
         {
           "name": "Embedded Bootloader Development from Ground Up™",
@@ -1290,7 +1440,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906123057-9929bootloader-1.webp"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906123057-9929bootloader-1.webp",
+          "lesson": "28",
+          "time": "25"
         },
         {
           "name": "Master Firmware Updates with In-Application Programming(IAP)",
@@ -1306,7 +1458,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906123150-3447iap_bootloader.webp"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906123150-3447iap_bootloader.webp",
+          "lesson": "35",
+          "time": "40"
         },
         {
           "name": "4G LTE-Powered FOTA: Firmware Updates over Mobile Networks",
@@ -1322,7 +1476,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241008041333-51264G LTE-Powered FOTA Firmware Updates over Mobile Networks.jpg"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241008041333-51264G LTE-Powered FOTA Firmware Updates over Mobile Networks.jpg",
+          "lesson": "40",
+          "time": "45"
         },
         {
           "name": "Advanced Firmware Documentation with Doxygen",
@@ -1339,7 +1495,9 @@
             "Technical Writing",
             "Project Management"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241008041831-1851Advanced Firmware Documentation with Doxygen.jpg"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241008041831-1851Advanced Firmware Documentation with Doxygen.jpg",
+          "lesson": "32",
+          "time": "30"
         },
         {
           "name": "Mastering SD Card Bootloader Development",
@@ -1355,7 +1513,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241008042059-8900Mastering SD Card Bootloader Development.jpg"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241008042059-8900Mastering SD Card Bootloader Development.jpg",
+          "lesson": "38",
+          "time": "35"
         },
         {
           "name": "Advanced Audio Processing: Mastering I2S, Codecs, Audio Input, and Output",
@@ -1373,7 +1533,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241008042359-2423Advanced Audio Processing Mastering I2S, Codecs, Audio Input, and Output.jpg"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241008042359-2423Advanced Audio Processing Mastering I2S, Codecs, Audio Input, and Output.jpg",
+          "lesson": "45",
+          "time": "50"
         },
         {
           "name": "Embedded Audio Storage and Analysis: I2S, DMA, FFT, Spectrum Analysis, SD Card, FatFS, Recorder, Playback.",
@@ -1389,7 +1551,9 @@
             "Spectrum Analysis",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241008042628-2653Embedded Audio Storage and Analysis I2S, DMA, FFT, Spectrum Analysis, SD Card, FatFS, Recorder, Playback..jpg"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241008042628-2653Embedded Audio Storage and Analysis I2S, DMA, FFT, Spectrum Analysis, SD Card, FatFS, Recorder, Playback..jpg",
+          "lesson": "45",
+          "time": "50"
         },
         {
           "name": "Wireless Firmware Update: Mastering FOTA with STM32 and ESP8266",
@@ -1406,7 +1570,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241008042840-8253Wireless Firmware Update Mastering FOTA with STM32 and ESP8266.jpg"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241008042840-8253Wireless Firmware Update Mastering FOTA with STM32 and ESP8266.jpg",
+          "lesson": "40",
+          "time": "45"
         },
         {
           "name": "Extreme Embedded Firmware Engineering Learning Path",
@@ -1423,7 +1589,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241008043100-5530Extreme Embedded Firmware Engineering Learning Path.jpg"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241008043100-5530Extreme Embedded Firmware Engineering Learning Path.jpg",
+          "lesson": "38",
+          "time": "35"
         },
         {
           "name": "Embedded Systems Data Structures & State Machines",
@@ -1438,7 +1606,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241008043609-4577Embedded Systems Data Structures & State Machines.jpg"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241008043609-4577Embedded Systems Data Structures & State Machines.jpg",
+          "lesson": "32",
+          "time": "30"
         },
         {
           "name": "Multicore Firmware Development from Ground Up™",
@@ -1453,7 +1623,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241008043946-2710Multicore Firmware Development from Ground Up™.jpg"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241008043946-2710Multicore Firmware Development from Ground Up™.jpg",
+          "lesson": "45",
+          "time": "40"
         },
         {
           "name": "Mastering ARM TrustZone: Secure Embedded Systems with Cortex-M23/M33",
@@ -1469,7 +1641,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241008052138-4143Mastering ARM TrustZone Secure Embedded Systems with Cortex-M23-M33.jpg"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241008052138-4143Mastering ARM TrustZone Secure Embedded Systems with Cortex-M23-M33.jpg",
+          "lesson": "40",
+          "time": "35"
         },
         {
           "name": "Build Your Own RealTime OS (RTOS 1) From Ground Up™ on ARM 1",
@@ -1484,7 +1658,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230131075212-6213Build Your Own RealTime OS (RTOS 1) From Ground Up™ on ARM 1.webp"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230131075212-6213Build Your Own RealTime OS (RTOS 1) From Ground Up™ on ARM 1.webp",
+          "lesson": "38",
+          "time": "35"
         },
         {
           "name": "{C++} Build Your Own RealTime OS (RTOS) From Ground Up™ on ARM",
@@ -1499,7 +1675,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126095907-6957{C++}Build Your Own Realtime OS (RTOS) From Ground Up™ on ARM3.webp"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126095907-6957{C++}Build Your Own Realtime OS (RTOS) From Ground Up™ on ARM3.webp",
+          "lesson": "45",
+          "time": "40"
         },
         {
           "name": "Build Your Own RealTime OS (RTOS 2) From Ground Up™ on ARM 2",
@@ -1507,7 +1685,9 @@
           "course_link": "https://study.embeddedexpert.io/p/rtos2",
           "category": "RTOS Programming",
           "tags": ["RTOS 2", "ARM 2", "RTOS Programming", "courses", "course"],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230131074720-8400Build Your Own RealTime OS (RTOS 2) From Ground Up™ on ARM 2.webp"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230131074720-8400Build Your Own RealTime OS (RTOS 2) From Ground Up™ on ARM 2.webp",
+          "lesson": "40",
+          "time": "35"
         },
         {
           "name": "Realtime Operating Systems (RTOS) Learning Path",
@@ -1522,7 +1702,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126093705-8635Realtime Operating Systems (RTOS) Learning Path.webp"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126093705-8635Realtime Operating Systems (RTOS) Learning Path.webp",
+          "lesson": "47",
+          "time": "50"
         },
         {
           "name": "FreeRTOS From Ground Up™ on ARM Processors",
@@ -1537,7 +1719,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230131074408-4623FreeRTOS From Ground Up™ on ARM Processors.webp"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230131074408-4623FreeRTOS From Ground Up™ on ARM Processors.webp",
+          "lesson": "50",
+          "time": "45"
         },
         {
           "name": "MQ Telemetry Transport (MQTT) From Ground Up",
@@ -1545,7 +1729,9 @@
           "course_link": "https://study.embeddedexpert.io/p/mqqt",
           "category": "Cloud Connectivity",
           "tags": ["MQTT", "IoT", "Cloud Connectivity", "courses", "course"],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201035806-9839MQTT_From_GroundUp2.webp"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201035806-9839MQTT_From_GroundUp2.webp",
+          "lesson": "32",
+          "time": "30"
         },
         {
           "name": "Embedded Google Cloud <> Python Gateway Communication",
@@ -1560,7 +1746,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906123310-3364google-cloud11.webp"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906123310-3364google-cloud11.webp",
+          "lesson": "38",
+          "time": "35"
         },
         {
           "name": "WiFi IoT Architecture: From Firmware to Full Stack Web Development",
@@ -1575,7 +1763,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906123403-8335aws-cloud111.webp"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906123403-8335aws-cloud111.webp",
+          "lesson": "45",
+          "time": "40"
         },
         {
           "name": "4G LTE IoT: Bare-Metal to HTTP, MQTT, SMS",
@@ -1592,7 +1782,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906123501-8090aws-cloud11.webp"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906123501-8090aws-cloud11.webp",
+          "lesson": "40",
+          "time": "35"
         },
         {
           "name": "Custom Cloud <> Python Gateway Communication",
@@ -1607,7 +1799,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906123704-5437aws-cloud12.webp"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906123704-5437aws-cloud12.webp",
+          "lesson": "38",
+          "time": "35"
         },
         {
           "name": "Bluetooth Low Energy (BLE) From Ground Up™",
@@ -1621,7 +1815,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/221112104023-6823124.jpg"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/221112104023-6823124.jpg",
+          "lesson": "32",
+          "time": "30"
         },
         {
           "name": "Embedded Systems Cellular Firmware Development(GSM)",
@@ -1635,7 +1831,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230131073632-4254Embedded Systems Cellular Firmware Development(GSM)5.webp"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230131073632-4254Embedded Systems Cellular Firmware Development(GSM)5.webp",
+          "lesson": "45",
+          "time": "40"
         },
         {
           "name": "Embedded Wifi Bare-Metal Development From Ground Up™",
@@ -1650,7 +1848,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/221112104153-8466126.jpg"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/221112104153-8466126.jpg",
+          "lesson": "32",
+          "time": "30"
         },
         {
           "name": "Embedded RFID/NFC Bare-Metal Development",
@@ -1665,7 +1865,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201031257-2851Embedded RFID NFC Bare-Metal Development.jpg"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201031257-2851Embedded RFID NFC Bare-Metal Development.jpg",
+          "lesson": "28",
+          "time": "25"
         },
         {
           "name": "Embedded IR Remote Control with NEC Protocol",
@@ -1679,7 +1881,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201031722-7980Embedded IR Remote Control with NEC Protocol.jpg"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201031722-7980Embedded IR Remote Control with NEC Protocol.jpg",
+          "lesson": "32",
+          "time": "30"
         },
         {
           "name": "Hands-On GPS Firmware Development",
@@ -1693,7 +1897,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201031956-7240Hands-On GPS Firmware Development.jpg"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201031956-7240Hands-On GPS Firmware Development.jpg",
+          "lesson": "45",
+          "time": "50"
         },
         {
           "name": "Wireless System Development with nRF24",
@@ -1707,7 +1913,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201032106-6209Wireless System Development with nRF24.jpg"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201032106-6209Wireless System Development with nRF24.jpg",
+          "lesson": "38",
+          "time": "35"
         },
         {
           "name": "Embedded RFID/NFC Bare-Metal Development",
@@ -1722,7 +1930,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201032202-6883Embedded RFID NFC Bare-Metal Development.jpg"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201032202-6883Embedded RFID NFC Bare-Metal Development.jpg",
+          "lesson": "32",
+          "time": "30"
         },
         {
           "name": "WiFi IoT Architecture: From Firmware to Full Stack Web Development",
@@ -1737,7 +1947,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906123831-3623aws-cloud111.webp"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906123831-3623aws-cloud111.webp",
+          "lesson": "45",
+          "time": "40"
         },
         {
           "name": "4G LTE IoT: Bare-Metal to HTTP, MQTT, SMS",
@@ -1754,7 +1966,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906123944-6533aws-cloud11.webp"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906123944-6533aws-cloud11.webp",
+          "lesson": "40",
+          "time": "35"
         },
         {
           "name": "Embedded Azure Cloud <> Python Gateway Communication",
@@ -1770,7 +1984,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906124033-8491azure-cloud1.webp"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906124033-8491azure-cloud1.webp",
+          "lesson": "32",
+          "time": "30"
         },
         {
           "name": "ARM Assembly Language From Ground Up™ 1",
@@ -1785,7 +2001,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126094906-2874ARM Assembly Language From Ground Up™ 1.webp"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126094906-2874ARM Assembly Language From Ground Up™ 1.webp",
+          "lesson": "45",
+          "time": "40"
         },
         {
           "name": "ARM Assembly Language From Ground Up™ 2",
@@ -1800,7 +2018,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126094849-6564ARM Assembly Language From Ground Up™ 2.webp"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126094849-6564ARM Assembly Language From Ground Up™ 2.webp",
+          "lesson": "38",
+          "time": "35"
         },
         {
           "name": "ARM Assembly Programming Mastery Pack",
@@ -1815,7 +2035,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126094838-5364ARM Assembly Programming Mastery Pack.webp"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126094838-5364ARM Assembly Programming Mastery Pack.webp",
+          "lesson": "40",
+          "time": "35"
         },
         {
           "name": "ARM GNU Assembly Programming From Ground Up™",
@@ -1831,7 +2053,9 @@
             "courses",
             "course"
           ],
-          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230131081956-1562ARM GNU Assembly Programming From Ground Up™.webp"
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230131081956-1562ARM GNU Assembly Programming From Ground Up™.webp",
+          "lesson": "45",
+          "time": "40"
         }
       ]
     }
