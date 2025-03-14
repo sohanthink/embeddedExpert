@@ -12,6 +12,8 @@ import data from '../../data/data.json'
 import lessonImg from "@/public/home/courses/course1.jpeg";
 import CourseCard from './CourseCard'
 import { debounce } from 'lodash';
+import { IoMdClose } from "react-icons/io";
+
 
 const Navbar = () => {
     const courses = data.data[8]?.courses || [];
@@ -56,6 +58,7 @@ const Navbar = () => {
     };
 
     const handleClickOutside = (event) => {
+
         if (searchRef.current && !searchRef.current.contains(event.target)) {
             setIsSearchOpen(false);
         }
@@ -110,19 +113,23 @@ const Navbar = () => {
             </div>
             {isSearchOpen && (
                 <div ref={searchRef} className='absolute top-24 left-1/2 transform -translate-x-1/2 bg-tertiary p-5 rounded shadow-lg z-20 w-[90%] md:w-[70%] h-[60vh] overflow-y-auto'>
-                    <input
-                        type='text'
-                        placeholder='Search courses here ..'
-                        className='border-[0.1px] rounded pl-8 pr-2 py-1 mb-3 text-black text-sm w-full'
-                        value={searchQuery}
-                        onChange={handleSearchChange}
-                        ref={inputRef}
-                    />
+                    <div className='flex justify-center items-center gap-3'>
+                        <input
+                            type='text'
+                            placeholder='Search courses here ..'
+                            className='border-[0.1px] rounded pl-8 pr-2 py-1 text-black text-sm w-full'
+                            value={searchQuery}
+                            onChange={handleSearchChange}
+                            ref={inputRef}
+                        />
+                        <div onClick={toggleSearch} className='bg-red-500 p-2 rounded-md cursor-pointer text-white'>
+                            <IoMdClose />
+                        </div>
+                    </div>
 
                     {searchQuery && filteredCourses.length > 0 && (
-                        <span className='mt-2 mb-2'>{filteredCourses.length} courses found</span>
+                        <span className='mt-4 mb-2'>{filteredCourses.length} courses found</span>
                     )}
-
 
                     <div className='mt-2 grid grid-cols-1 md:grid-cols-2 gap-4'>
                         {searchQuery && filteredCourses.length > 0 ? (
@@ -134,7 +141,7 @@ const Navbar = () => {
                                     category="Best Selling"
                                     title={course.name}
                                     lesson={course.lesson || "N/A"} // is missing
-                                    time={course.time || "N/A"} missing
+                                    time={course.time || "N/A"} // is missing
                                     link={course.course_link || "#"}
                                 />
                             ))
