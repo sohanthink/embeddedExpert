@@ -1,23 +1,41 @@
 'use client'
 
 import Image from 'next/image'
-import React, { useState } from 'react'
+import React, { useState, useEffect, useRef, useCallback } from 'react'
 import logo from "@/public/Logo.png"
 import Link from 'next/link'
-import { CiSearch } from "react-icons/ci";
 import { usePathname } from 'next/navigation'
 import { RxHamburgerMenu } from "react-icons/rx";
 import { AiOutlineClose } from "react-icons/ai";
-
+import { IoSearch } from "react-icons/io5";
+import data from '../../data/data.json'
+import lessonImg from "@/public/home/courses/course1.jpeg";
+import CourseCard from './CourseCard'
+import { debounce } from 'lodash';
 
 const Navbar = () => {
+    const courses = data.data[8]?.courses || [];
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const pathname = usePathname();
+    const [isSearchOpen, setIsSearchOpen] = useState(false);
+    const [searchQuery, setSearchQuery] = useState('');
+    const [filteredCourses, setFilteredCourses] = useState([]);
+    const searchRef = useRef(null);
+    const inputRef = useRef(null);
 
-    const handleSearch = (value) => {
-        // Handle search logic here
-        console.log(value);
-    };
+    // Debounced search function
+    const debouncedSearch = useCallback(
+        debounce((query) => {
+            const filtered = query
+                ? courses.filter((course) => {
+                    const title = course.name ? course.name.toLowerCase() : "";
+                    return title.includes(query.toLowerCase());
+                })
+                : [];
+            setFilteredCourses(filtered);
+        }, 300),
+        [courses]
+    );
 
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
@@ -25,24 +43,42 @@ const Navbar = () => {
 
     const closeMenu = () => {
         setIsMenuOpen(false);
-    }
+    };
+
+    const toggleSearch = () => {
+        setIsSearchOpen(!isSearchOpen);
+    };
+
+    const handleSearchChange = (e) => {
+        const value = e.target.value;
+        setSearchQuery(value);
+        debouncedSearch(value); // Trigger debounced search
+    };
+
+    const handleClickOutside = (event) => {
+        if (searchRef.current && !searchRef.current.contains(event.target)) {
+            setIsSearchOpen(false);
+        }
+    };
+
+    useEffect(() => {
+        if (isSearchOpen) {
+            document.addEventListener('mousedown', handleClickOutside);
+            inputRef.current?.focus();
+        } else {
+            document.removeEventListener('mousedown', handleClickOutside);
+        }
+        return () => {
+            document.removeEventListener('mousedown', handleClickOutside);
+        };
+    }, [isSearchOpen]);
+
     return (
         <nav className='container md:w-[70%] absolute md:fixed md:bg-[#10192cf3] rounded-full top-0 md:top-5 left-1/2 transform -translate-x-1/2 flex justify-between items-center px-5 md:px-10 py-4 z-[999]'>
-            <div className='w-32 md:w-44'><Link href='/'><Image src={logo} alt='logo' /></Link></div>
+            <div className='w-32 md:w-44'>
+                <Link href='/'><Image src={logo} alt='logo' /></Link>
+            </div>
             <div className='flex gap-3 md:gap-8 items-center'>
-                {/* {
-                    pathname === '/courses' && (
-                        <div className='relative hidden md:block'>
-                            <input
-                                type='text'
-                                placeholder='Search here ..'
-                                className='border-[0.1px] rounded pl-8 pr-2 py-1 text-black text-sm'
-                                onChange={(e) => handleSearch(e.target.value)}
-                            />
-                            <CiSearch className='absolute left-2 top-1/2 transform -translate-y-1/2 text-black' />
-                        </div>
-                    )
-                } */}
                 <ul className={`text-black gap-8 text-sm ${isMenuOpen ? 'flex h-[85vh] items-center justify-center absolute top-0' : 'hidden'} md:flex flex-col md:flex-row md:static top-16 left-0 w-full md:w-auto bg-white md:bg-transparent p-5 md:p-0 z-10`}>
                     <li>
                         <Link href='/' className={pathname === '/' ? 'text-blue-500 font-bold' : 'text-black md:text-white'} onClick={closeMenu}>Home</Link>
@@ -59,6 +95,9 @@ const Navbar = () => {
                     <li>
                         <Link href='/courses' className={pathname === '/courses' ? 'text-blue-500 font-bold' : 'text-black md:text-white'} onClick={closeMenu}>Join A Course</Link>
                     </li>
+                    <li>
+                        <button onClick={toggleSearch} className='text-black md:text-white flex gap-3 items-center justify-center'><IoSearch />Search</button>
+                    </li>
                 </ul>
                 {
                     isMenuOpen ? (
@@ -69,6 +108,40 @@ const Navbar = () => {
                         <RxHamburgerMenu className='text-primary md:hidden text-2xl' onClick={toggleMenu} />
                 }
             </div>
+            {isSearchOpen && (
+                <div ref={searchRef} className='absolute top-24 left-1/2 transform -translate-x-1/2 bg-white p-5 rounded shadow-lg z-20 w-[90%] md:w-[70%] h-[60vh] overflow-y-auto'>
+                    <input
+                        type='text'
+                        placeholder='Search courses here ..'
+                        className='border-[0.1px] rounded pl-8 pr-2 py-1 text-black text-sm w-full'
+                        value={searchQuery}
+                        onChange={handleSearchChange}
+                        ref={inputRef}
+                    />
+
+                    {searchQuery && filteredCourses.length > 0 && (
+                        <span className='mt-2 mb-2'>{filteredCourses.length} courses found</span>
+                    )}
+                    <div className='mt-2 grid grid-cols-1 md:grid-cols-2 gap-4'>
+                        {searchQuery && filteredCourses.length > 0 ? (
+                            filteredCourses.map((course, index) => (
+                                <CourseCard
+                                    key={index}
+                                    image={course.image || lessonImg}
+                                    alt={course.name}
+                                    category="Best Selling"
+                                    title={course.name}
+                                    lesson={course.lesson || "N/A"} // is missing
+                                    time={course.time || "N/A"} missing
+                                    link={course.course_link || "#"}
+                                />
+                            ))
+                        ) : searchQuery ? (
+                            <p>No courses found for: {searchQuery}</p>
+                        ) : null}
+                    </div>
+                </div>
+            )}
         </nav>
     )
 }
