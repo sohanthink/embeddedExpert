@@ -13,6 +13,7 @@ import lessonImg from "@/public/home/courses/course1.jpeg";
 import CourseCard from './CourseCard'
 import { debounce } from 'lodash';
 import { IoMdClose } from "react-icons/io";
+import { Input } from '../ui/input'
 
 
 const Navbar = () => {
@@ -112,9 +113,10 @@ const Navbar = () => {
                 }
             </div>
             {isSearchOpen && (
-                <div ref={searchRef} className='absolute top-24 left-1/2 transform -translate-x-1/2 bg-tertiary p-5 rounded shadow-lg z-20 w-[90%] md:w-[70%] h-[60vh] overflow-y-auto'>
+                <div ref={searchRef} className='absolute top-24 left-1/2 transform -translate-x-1/2 bg-[#10192cf3]/95 p-5 rounded shadow-lg z-20 w-[95%] h-[60vh] overflow-y-auto'>
                     <div className='flex justify-center items-center gap-3'>
-                        <input
+
+                        <Input
                             type='text'
                             placeholder='Search courses here ..'
                             className='border-[0.1px] rounded pl-8 pr-2 py-1 text-black text-sm w-full'
@@ -122,16 +124,17 @@ const Navbar = () => {
                             onChange={handleSearchChange}
                             ref={inputRef}
                         />
+
                         <div onClick={toggleSearch} className='bg-red-500 p-2 rounded-md cursor-pointer text-white'>
                             <IoMdClose />
                         </div>
                     </div>
 
                     {searchQuery && filteredCourses.length > 0 && (
-                        <span className='mt-4 mb-2'>{filteredCourses.length} courses found</span>
+                        <span className='mt-4 font-medium p-5 text-white'>{filteredCourses.length} courses found</span>
                     )}
 
-                    <div className='mt-2 grid grid-cols-1 md:grid-cols-2 gap-4'>
+                    <div className='mt-2 grid grid-cols-1 md:grid-cols-2 gap-4 p-5'>
                         {searchQuery && filteredCourses.length > 0 ? (
                             filteredCourses.map((course, index) => (
                                 <CourseCard
@@ -146,7 +149,7 @@ const Navbar = () => {
                                 />
                             ))
                         ) : searchQuery ? (
-                            <p>No courses found for: {searchQuery}</p>
+                            <p className='text-white'>No courses found for: {searchQuery}</p>
                         ) : null}
                     </div>
                 </div>
