@@ -245,7 +245,7 @@
     },
     {
       "type": "Course",
-      "total_categories": 3,
+      "total_categories": 110,
       "categories": [
         { "category_name": "Start Here", "total_courses": 7 },
         { "category_name": "Intermediate", "total_courses": 48 },

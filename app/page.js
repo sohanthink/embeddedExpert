@@ -17,7 +17,7 @@ export default function Home() {
     <>
       {/* <Banner /> */}
       <BannerV2 />
-      <Developer />
+      {/* <Developer /> */}
       <Courses />
       <Expert />
       <Category />
