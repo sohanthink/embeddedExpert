@@ -1,0 +1,2068 @@
+{
+  "data": [
+    {
+      "type": "AffiliatePartner",
+      "link": "https://embeddedexpert.io/affiliate#form",
+      "reasons": [
+        {
+          "id": 1,
+          "title": "We Pay The Highest Commissions",
+          "reason": "Our commission structure is straightforward, offering 30%-40% commissions on all courses. You earn on every sale made through your referral link without worrying about creating products or handling customer service.",
+          "tags": ["reason", "partner", "affiliate"]
+        },
+        {
+          "id": 2,
+          "title": "We Offer a Wide Range of Products",
+          "reason": "Our affiliate program includes a variety of embedded systems courses, enabling affiliates to target diverse audiences effectively.",
+          "tags": ["reason", "partner", "affiliate"]
+        },
+        {
+          "id": 3,
+          "title": "Dedicated Support Team",
+          "reason": "Our affiliate team provides marketing materials, training, and support to ensure your success as an affiliate.",
+          "tags": ["reason", "partner", "affiliate"]
+        }
+      ]
+    },
+    {
+      "type": "CompanyInfo",
+      "name": "EmbeddedExpert.io",
+      "about": "EmbeddedExpertIO represents a vibrant collective dedicated to the mastery of sophisticated embedded systems software development for professionals. EmbeddedExpertIO stands as a premier source of tailored embedded systems development courses, catering to individuals and enterprises seeking to hone or acquire embedded firmware programming expertise. Our extensive course selections encompass beginner to advanced levels, addressing diverse facets of embedded systems development, such as WiFi, STM32, IoT systems design, memory safeguarding, and beyond. Our core objective is to equip individuals and organizations with the indispensable skills to thrive in the swiftly evolving embedded systems sector. We achieve this by providing immersive, hands-on education under the guidance of seasoned industry specialists. Our ambition is to emerge as the favored learning platform for embedded systems development professionals across the globe.",
+      "services": [
+        "Embedded Systems Development",
+        "Training Programs",
+        "Embedded Programming Courses"
+      ],
+      "tags": ["company", "about", "services", "Embedded Systems"]
+    },
+    {
+      "type": "FAQ",
+      "questions": [
+        {
+          "question": "What is EmbeddedExpert.io?",
+          "answer": "EmbeddedExpertIO represents a vibrant collective dedicated to the mastery of sophisticated embedded systems software development for professionals. EmbeddedExpertIO stands as a premier source of tailored embedded systems development courses, catering to individuals and enterprises seeking to hone or acquire embedded firmware programming expertise. Our extensive course selections encompass beginner to advanced levels, addressing diverse facets of embedded systems development, such as WiFi, STM32, IoT systems design, memory safeguarding, and beyond. Our core objective is to equip individuals and organizations with the indispensable skills to thrive in the swiftly evolving embedded systems sector. We achieve this by providing immersive, hands-on education under the guidance of seasoned industry specialists. Our ambition is to emerge as the favored learning platform for embedded systems development professionals across the globe",
+          "tags": ["about", "platform"]
+        },
+        {
+          "question": "How can I enroll in a course?",
+          "answer": "You can enroll in a course by visiting our website, selecting the course you are interested in, and following the enrollment instructions provided.",
+          "tags": ["enrollment", "courses", "how to"]
+        },
+        {
+          "question": "Do you offer certificates for course completion?",
+          "answer": "Yes, we offer certificates upon successful completion of our courses.",
+          "tags": ["certificates", "course completion", "credentials"]
+        },
+        {
+          "question": "What payment methods are accepted?",
+          "answer": "We accept various payment methods including credit/debit cards, PayPal, and other online payment options.",
+          "tags": ["payment", "methods", "options"]
+        },
+        {
+          "question": "Is there a refund policy?",
+          "answer": "Yes, we offer a 30-day refund policy if you are not satisfied with the course.",
+          "tags": ["refund", "policy", "satisfaction", "course policy"]
+        }
+      ]
+    },
+
+    {
+      "type": "Resource",
+      "id": 1,
+      "title": "Realtime Operating Systems Proficiency Test",
+      "description": "Prepare comprehensively for Embedded Software Engineer roles with our RTOS proficiency test.",
+      "previewLink": "https://embeddedexpert.io/front/images/assets/images/resources/RTOS-ProficiencyTest.pdf",
+      "tag": [
+        "RTOS",
+        "proficiency test",
+        "embedded software engineer",
+        "resources"
+      ]
+    },
+
+    {
+      "type": "Review",
+      "reviews": [
+        {
+          "id": 1,
+          "review": "Israel is a great instructor. Every step is explained not only what to do but why. I would recommend this course over any other.",
+          "course": "Embedded Systems Bare-Metal Programming Ground Up™ (STM32)",
+          "reviewer": "Jeff R.",
+          "tags": ["Embedded Systems review", "review", "course review"]
+        },
+        {
+          "id": 2,
+          "review": "I thought this was going to be a course that followed another book, but when he directed us to the user/dev documentation to find answers, I saw this was something special. Problem-solving should always be at the focus of any programming course, even above syntaxt and technology. Very good start to this course.",
+          "course_name": "Embedded Systems Bare-Metal Programming Ground Up™ (STM32)",
+          "course_link": "https://study.embeddedexpert.io/p/modern-bare-metal-embedded-c-programming-from-ground-up111",
+          "name": "Abigail J.",
+          "tags": ["Embedded Systems review", "review", "course review"]
+        },
+        {
+          "id": 3,
+          "review": "Explanation is really good but could go deeper into some stuff. Especially for beginners like me it is hard to understand some topics which I never heard before. But like many courses they don´t share their slides which is really a shame since udemy also blocked the screenshot function it is really hard and unnecessary complex to take notes.",
+          "course_name": "ARM Assembly Language From Ground Up™ 1",
+          "course_link": "https://study.embeddedexpert.io/p/arm-assem-1",
+          "name": "Pascal W.",
+          "tags": ["Embedded Systems review", "review", "course review"]
+        },
+        {
+          "id": 4,
+          "review": "This course is amazing. It takes you from absolute beginner to expert in programming STM32 MCU. It taught you all the basic especially reading the reference manual. I highly recommend the instructor if you would like to learn about embedded systems.",
+          "course_name": "Embedded Systems Bare-Metal Programming Ground Up™ (STM32)",
+          "course_link": "https://study.embeddedexpert.io/p/modern-bare-metal-embedded-c-programming-from-ground-up111",
+          "name": "Aisha A.",
+          "tags": ["Embedded Systems review", "review", "course review"]
+        },
+        {
+          "id": 5,
+          "review": "Very enlightening and eye opening .I always wondered about how different logic gates come together to create a microarchitecture and then and instruction set and then and then a full fledged architecture like ARM . This course has been able to explain all of that. Looking forward to the rest of the course.",
+          "course_name": "ARM Assembly Language From Ground Up™ 1",
+          "course_link": "https://study.embeddedexpert.io/p/arm-assem-1",
+          "name": "Marvin",
+          "tags": ["Embedded Systems review", "review", "course review"]
+        },
+        {
+          "id": 6,
+          "review": "The course is well structured and detailed. It's good for beginners and advanced students as the examples are all in assembly language which is not offered by other instructors. I am waiting for more examples to be added and i really enjoyed this course.",
+          "course_name": "ARM Assembly Language From Ground Up™ 1",
+          "course_link": "https://study.embeddedexpert.io/p/arm-assem-1",
+          "name": "Nishad P.",
+          "tags": ["Embedded Systems review", "review", "course review"]
+        },
+        {
+          "id": 7,
+          "review": "The course is explained in a friendly manner, the instructor tells what each line of code does and demonstrates the result code which is really satisfying, it would be also great if he could had shown the use of usefull API's like CMSIS-RTOS.",
+          "course_name": "Build Your Own RealTime OS (RTOS) From Ground Up™ on ARM 1",
+          "course_link": "https://study.embeddedexpert.io/p/rtos1",
+          "name": "Abraham R.",
+          "tags": ["Embedded Systems review", "review", "course review"]
+        },
+        {
+          "id": 8,
+          "review": "Excellent course. I am an embedded systems lecturer at local college and I must say, I found the content very useful and well presented. I recommend this to any embedded systems student.",
+          "course_name": "Build Your Own RealTime OS (RTOS) From Ground Up™ on ARM 1",
+          "course_link": "https://study.embeddedexpert.io/p/rtos1",
+          "name": "James K.",
+          "tags": ["Embedded Systems review", "review", "course review"]
+        },
+        {
+          "id": 9,
+          "review": "Well taught. The course goes deep into key areas like the design of scheduling algorithms and even explaining the algorithms using animations, this makes the learning process very easy.",
+          "course_name": "Build Your Own RealTime OS (RTOS) From Ground Up™ on ARM 1",
+          "course_link": "https://study.embeddedexpert.io/p/rtos1",
+          "name": "Limd",
+          "tags": ["Embedded Systems review", "review", "course review"]
+        }
+      ]
+    },
+
+    {
+      "type": "Technology",
+      "technologies": [
+        "TensorFlow Lite",
+        "STM-32 IDE",
+        "STM-32",
+        "TouchGFX",
+        "MQTT",
+        "IBM Watson IoT",
+        "Google Cloud",
+        "Microsoft Azure IoT",
+        "AWS IoT",
+        "Amazon RTOS",
+        "GNU",
+        "Bluetooth",
+        "ARM KEIL",
+        "CMSIS",
+        "LoRa",
+        "USB",
+        "4G/LTE",
+        "NFC"
+      ],
+      "tags": ["Technology used", "Technology we use"]
+    },
+
+    {
+      "type": "Testimonial",
+      "testimonials": [
+        {
+          "id": 1,
+          "testimonial": "The courses are excellent and have helped me gain valuable skills and secure a freelancing business.",
+          "name": "Simon Morrison",
+          "designation": "Freelance Firmware Developer & Consultant",
+          "country": "Canada",
+          "tags": ["testimonial", "course testimonial", "course review"]
+        },
+        {
+          "id": 2,
+          "testimonial": "All the course I took are great! In all of them I learned new and useful things that I use in my personal projects, and also they helped me to achieve a job as a software embedded engineer. Also, I'm still taking them to learn new things and improve my skills in embedded systems. I totally recommend these courses! And thank you to the Israel to share his knowledge to everyone!",
+          "name": "Ricardo Escarcega",
+          "designation": "Embedded SoftwareEngineer",
+          "country": "Mexico",
+          "tags": ["testimonial", "course testimonial", "course review"]
+        },
+        {
+          "id": 3,
+          "testimonial": "The material offered by your courses is one of the most systematic and easily understandable for beginners.I would also like to note that only your courses cover a large range of topics from Embedded Software Development and Embedded Systems itself. Not so long ago, I switched to using your courses through your platform and I hope it will develop. About me , my name is Ivan and I am a Design and Application Engineer from the Mechanical and Electrical field of Marine HVAC system, I am from Russia, I am 37 years old. I have a higher education in the field of Operation and Maintenance of Motor transport (Automotive). After many years of experience as an engineer in my specialty, I came across the fact that it became necessary to study Embedded systems and their programming, and so I found the content I needed in your courses.I hope you will develop and graduate new courses. Personally, I would really like to see topics dedicated to communication buses - CAN, CAN FD, LIN, RS-485, FlexRay and so on.",
+          "name": "Ivan",
+          "designation": "Design and Application Engineer",
+          "country": "Russia",
+          "tags": ["testimonial", "course testimonial", "course review"]
+        },
+        {
+          "id": 4,
+          "testimonial": "I have done several of the EmbeddedExpertIO courses. I have enjoyed all of them and gained valuable additional knowledge and skills. Has helped me to obtain more work in my freelancing business.",
+          "name": "Simon Morrison",
+          "designation": "Freelance Firmware Developer & Consultant",
+          "country": "Canada",
+          "tags": ["testimonial", "course testimonial", "course review"]
+        },
+        {
+          "id": 5,
+          "testimonial": "Thanks to Israel's course, I discovered my passion for STM32 microcontrollers and have found true love in it. I previously only knew how to design boards with less powerful controllers. Now, I can incorporate STM32 controllers into my custom boards and program them. I am now on the path to becoming a complete embedded software and hardware engineer, thanks to the ongoing courses. I am grateful for the opportunity provided by Israel to enhance my skills and become a better version of myself.",
+          "name": "Evans Honu",
+          "designation": "Robotics Hardware Design Engineer",
+          "country": "Ghana",
+          "tags": ["testimonial", "course testimonial", "course review"]
+        }
+      ]
+    },
+
+    {
+      "type": "Instructor",
+      "instructors": [
+        {
+          "name": "Israel Gbati and there are other instructors",
+          "bio": "Israel Ninsaw Gbati is a distinguished firmware engineer boasting over a decade of hands-on experience in the field. Throughout his career, he has shared his profound knowledge to more than 100,000 professionals, helping to shape the next generation of expets. In addition to his engineering expertise, Israel is an entrepreneur and an award-winning inventor, recognized for his exceptional inventions. He holds a Bachelor's degree in Mechanical Engineering and Automation, complemented by a double Masters degree in Global Innovation Design from Imperial College London and the Royal College of Arts. ",
+          "tags": [
+            "instructor",
+            "teacher",
+            "course teacher",
+            "course instructor"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Course",
+      "total_categories": 7,
+      "categories": [
+        { "category_name": "Start Here", "total_courses": 7 },
+        { "category_name": "Intermediate", "total_courses": 48 },
+        { "category_name": "Expert", "total_courses": 30 },
+        { "category_name": "RTOS Programming", "total_courses": 5 },
+        { "category_name": "Cloud Connectivity", "total_courses": 5 },
+        { "category_name": "Wireless Programming", "total_courses": 11 },
+        { "category_name": "Assembly Programming", "total_courses": 4 }
+      ],
+      "total_courses": 110,
+      "tags": ["courses", "course", "course categories"],
+      "courses": [
+        {
+          "name": "ARM GNU Assembly Programming From Ground Up™",
+          "description": "This is the GNU version of the popular ARM Assembly Programming From Ground Up™ 1 & 2 courses. Covering ARM Systems Design, Architecture, and Practical Assembly Programming, this is the most comprehensive ARM assembly course online.",
+          "course_link": "https://study.embeddedexpert.io/p/arm-gnu-assembly-programming-from-ground-up",
+          "category": "Start Here",
+          "tags": ["GNU", "Start Here", "courses", "course"],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230131082140-4484ARM%20GNU%20Assembly%20Programming%20From%20Ground%20Up™.webp",
+          "lesson": "32",
+          "time": "30"
+        },
+        {
+          "name": "STM32 Development Learning Path",
+          "description": "Master STM32CubeMX 5 and CubeIDE for embedded systems firmware and peripheral driver development, covering USB, PWM, SPI, ADC, UART, DMA, FreeRTOS, and bare-metal programming. Gain proficiency in STM32 HAL APIs, Low-Layer APIs, and ARM Cortex-M development boards.",
+          "course_link": "https://study.embeddedexpert.io/p/stm32-development-learning-path",
+          "category": "Start Here",
+          "tags": ["STM32", "Learning Path", "Start Here", "courses", "course"],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126091020-5426STM32 Development Learning Path.webp",
+          "lesson": "45",
+          "time": "40"
+        },
+        {
+          "name": "Mastering STM32CubeMX 5 and CubeIDE - Embedded Systems",
+          "description": "Learn to build embedded systems firmware and peripheral drivers using STM32CubeMX 5 and CubeIDE. Master peripheral configurations, middleware, and bare-metal development.",
+          "course_link": "https://study.embeddedexpert.io/p/mastering-stm32cubemx-5-and-cubeide-embedded-systems",
+          "category": "Start Here",
+          "tags": [
+            "STM32CubeMX 5",
+            "CubeIDE - Embedded Systems",
+            "Start Here",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126091821-3506Mastering%20STM32CubeMX%205%20and%20CubeIDE%20-%20Embedded%20Systems.webp",
+          "lesson": "38",
+          "time": "35"
+        },
+        {
+          "name": "Embedded Systems STM32 Low-Layer APIs(LL) Driver Development",
+          "description": "Learn to develop drivers for STM32 peripherals using Low-Layer APIs (LL) with a focus on optimization and hardware-level control. Master ADC, UART, PWM, GPIO, TIMER, I2C, SPI, RTC, WWDG, IWDG, RCC, EXTI, and more.",
+          "course_link": "https://study.embeddedexpert.io/p/embedded-systems-stm32-low-layer-apis-ll-driver-development",
+          "category": "Start Here",
+          "tags": [
+            "STM32 Low-Layer APIs(LL)",
+            "APIs(LL)",
+            "Start Here",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126091904-7643Embedded Systems STM32 Low-Layer APIs(LL) Driver Development.webp",
+          "lesson": "29",
+          "time": "25"
+        },
+        {
+          "name": "Embedded Systems Bare-Metal Programming Ground Up™ (STM32F4)",
+          "description": "Learn to navigate microcontroller reference manuals and datasheets to build peripheral drivers and firmware using bare-metal embedded C. Master configuring peripherals like ADC, UART, PWM, GPIO, TIMER, I2C, SPI, and more.",
+          "course_link": "https://study.embeddedexpert.io/p/modern-bare-metal-embedded-c-programming-from-ground-up111",
+          "category": "Start Here",
+          "tags": [
+            "STM32F4",
+            "Bare-Metal Programming",
+            "Start Here",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126092158-5786Embedded Systems Bare-Metal Programming Ground Up™ (STM32F4).webp",
+          "lesson": "35",
+          "time": "30"
+        },
+        {
+          "name": "Embedded Ethernet Essential Training with CubeMX",
+          "description": "Learn to build embedded Ethernet applications using STM32CubeMX. Master configuring Ethernet modules, hosting web pages, and controlling hardware remotely.",
+          "course_link": "https://study.embeddedexpert.io/p/ethe_cubemx",
+          "category": "Start Here",
+          "tags": [
+            "CubeMX",
+            "STM32CubeMX framework",
+            "STM32F7",
+            "Start Here",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126092108-1635Embedded Ethernet Essential Training with CubeMX.webp",
+          "lesson": "28",
+          "time": "20"
+        },
+        {
+          "name": "Embedded Systems STM32 HAL APIs Driver Development",
+          "description": "Learn to develop drivers for STM32 peripherals using HAL APIs. Master ADC, UART, PWM, GPIO, TIMER, I2C, SPI, RTC, RCC, EXTI, and more.",
+          "course_link": "https://study.embeddedexpert.io/p/embedded-systems-stm32-hal-apis-driver-development",
+          "category": "Start Here",
+          "tags": [
+            "STM32 HAL APIs",
+            "STM32CubeMX framework",
+            "STM32F7",
+            "LwIP",
+            "Start Here",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126092252-3202Embedded Systems STM32 HAL APIs Driver Development.webp",
+          "lesson": "32",
+          "time": "30"
+        },
+        {
+          "name": "Bluetooth Low Energy (BLE) From Ground Up™",
+          "description": "This course provides in-depth training to build BLE embedded devices and communicate with other smart devices. Learn the BLE protocol, stack, and create your own services and characteristics.",
+          "course_link": "https://study.embeddedexpert.io/p/bluetooth-low-energy-ble-from-ground-up_new",
+          "category": "Intermediate",
+          "tags": [
+            "BLE",
+            "(BLE) From Ground Up™",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126094526-7135Bluetooth Low Energy (BLE) From Ground Up™.webp",
+          "lesson": "28",
+          "time": "25"
+        },
+        {
+          "name": "Build Your Own RealTime OS (RTOS 2) From Ground Up™ on ARM 2",
+          "description": "This course teaches you how to build Real-Time Operating Systems through intensive practice and theory. It covers various scheduling algorithms, Inter-Thread communication tools, and OS Kernel development.",
+          "course_link": "https://study.embeddedexpert.io/p/rtos2",
+          "category": "Intermediate",
+          "tags": ["RTOS 2", "ARM 2", "Intermediate", "courses", "course"],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230131074903-9408Build Your Own RealTime OS (RTOS 2) From Ground Up™ on ARM 200.webp",
+          "lesson": "35",
+          "time": "40"
+        },
+        {
+          "name": "Deep Learning on ARM Processors - From Ground Up™",
+          "description": "Learn to build deep neural networks from scratch on microcontrollers, covering training, inference, and quantization methods for deployment. Master deep learning firmware for handwriting recognition using Keras, CubeMX.AI, and more.",
+          "course_link": "https://study.embeddedexpert.io/p/deep-learning-on-arm-processors-from-ground-up",
+          "category": "Intermediate",
+          "tags": [
+            "Deep Learning",
+            "ARM Processors",
+            "Keras CubeMX.AI",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126092925-3689Deep Learning on ARM Processors - From Ground Up™.webp",
+          "lesson": "45",
+          "time": "50"
+        },
+        {
+          "name": "Embedded Ethernet Programming with HAL",
+          "description": "Learn to write/configure drivers for the Ethernet peripheral and develop embedded Ethernet firmware for networking protocols using STM32 HAL APIs. This course covers networking fundamentals, driver development, and building Ethernet applications.",
+          "course_link": "https://study.embeddedexpert.io/p/eth_hal",
+          "category": "Intermediate",
+          "tags": [
+            "Embedded Ethernet",
+            "HAL",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126092958-9804Embedded Ethernet Programming with HAL.webp",
+          "lesson": "38",
+          "time": "35"
+        },
+        {
+          "name": "Build Your Own RealTime OS (RTOS 1) From Ground Up™ on ARM 1",
+          "description": "Learn to build a Real-Time Operating System from scratch, exploring scheduling algorithms and inter-thread communication tools. Ideal for improving embedded firmware development skills.",
+          "course_link": "https://study.embeddedexpert.io/p/rtos1",
+          "category": "Intermediate",
+          "tags": [
+            "RTOS 1",
+            "ARM 1",
+            "RealTime OS",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230131075127-1456Build Your Own RealTime OS (RTOS 1) From Ground Up™ on ARM 100.webp",
+          "lesson": "32",
+          "time": "30"
+        },
+        {
+          "name": "FreeRTOS From Ground Up™ on ARM Processors",
+          "description": "Learn the foundations of real-time systems and build real-time applications using FreeRTOS. Master multitask FreeRTOS applications, scheduling algorithms, and porting FreeRTOS to ARM processors.",
+          "course_link": "https://study.embeddedexpert.io/p/freertos-from-ground-up-on-arm-processors_new",
+          "category": "Intermediate",
+          "tags": [
+            "FreeRTOS",
+            "ARM Processors",
+            "RealTime OS",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230131074211-4870FreeRTOS From Ground Up™ on ARM Processors.webp",
+          "lesson": "40",
+          "time": "45"
+        },
+        {
+          "name": "Practical Low Cost Bare-Metal Bluetooth Development",
+          "description": "Learn to develop bare-metal drivers and libraries for popular low-cost Bluetooth chips, covering Bluetooth Classic, BLE 4.0, and BLE 5.0. This course includes hands-on projects for interfacing Bluetooth chips with STM32 microcontrollers.",
+          "course_link": "https://study.embeddedexpert.io/p/generic-bluetooth",
+          "category": "Intermediate",
+          "tags": [
+            "Bluetooth Development",
+            "Practical Low Cost",
+            "BLE",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230203080304-3498Practical Low Cost Bare Metal Bluetooth Development.jpg",
+          "lesson": "32",
+          "time": "30"
+        },
+        {
+          "name": "Embedded IR Remote Control with NEC Protocol",
+          "description": "Learn to develop bare-metal drivers and libraries to control your embedded device using IR remote controls. This course covers IR modulation, NEC protocol, and real-world applications.",
+          "course_link": "https://study.embeddedexpert.io/p/embedded-ir",
+          "category": "Intermediate",
+          "tags": [
+            "IR Remote Control",
+            "NEC Protocol",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201034604-1723Embedded IR Remote Control with NEC Protocol.jpg",
+          "lesson": "28",
+          "time": "20"
+        },
+        {
+          "name": "Embedded Systems Cellular Firmware Development(GSM)",
+          "description": "Learn to develop drivers and libraries for adding cellular functionality to your embedded device using the STM32 microcontroller and the A6 GSM/GPRS chip. Understand cellular communication, including phone calls, SMS, and M2M.",
+          "course_link": "https://study.embeddedexpert.io/p/embedded-systems-cellular-firmware-development-gsm",
+          "category": "Intermediate",
+          "tags": [
+            "Cellular Firmware",
+            "GSM",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201034926-2385Embedded Systems Cellular Firmware Development(GSM)5.webp",
+          "lesson": "35",
+          "time": "30"
+        },
+        {
+          "name": "Embedded Display Drivers Development: A Bare-Metal Approach",
+          "description": "Learn essential concepts and techniques for developing display drivers for various applications using STM32 microcontrollers. Gain hands-on experience with real-world examples and exercises.",
+          "course_link": "https://study.embeddedexpert.io/p/display-drivers",
+          "category": "Intermediate",
+          "tags": [
+            "Display Drivers",
+            "Bare-Metal Approach",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201035117-9241Embedded Display Drivers Development A Bare-Metal Approach.jpg",
+          "lesson": "40",
+          "time": "35"
+        },
+        {
+          "name": "Embedded MicroPython from Ground Up™",
+          "description": "MicroPython is an efficient implementation of Python3 optimized for microcontrollers. Learn to develop various drivers and integrate advanced topics like adding Assembly and C code to MicroPython.",
+          "course_link": "https://study.embeddedexpert.io/p/micropython",
+          "category": "Intermediate",
+          "tags": [
+            "MicroPython",
+            "Python3",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201035206-4809Embedded MicroPython from Ground Up™.jpg",
+          "lesson": "32",
+          "time": "30"
+        },
+        {
+          "name": "Digital Signal Processing (DSP) From Ground Up™ on Arm Processors",
+          "description": "Learn the foundations of signal processing and develop practical DSP algorithms using ARM processors. Topics include FIR/IIR filters, convolution, DFT/IDFT, and real-time signal processing.",
+          "course_link": "https://study.embeddedexpert.io/p/dsp-on-arm1",
+          "category": "Intermediate",
+          "tags": [
+            "DSP",
+            "ARM Processors",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201035308-5740Digital Signal Processing (DSP) From Ground Up™ on Arm Processors.jpg",
+          "lesson": "45",
+          "time": "40"
+        },
+        {
+          "name": "Embedded Google Cloud Python Gateway Communication",
+          "description": "Embark on a transformative journey with our practical course that integrates embedded systems with Google Cloud Platform (GCP). Gain hands-on experience with Google Cloud, leveraging Python for UART communication, mastering Google Cloud Storage, and diving into Google Firebase NoSQL Database.",
+          "course_link": "https://study.embeddedexpert.io/p/google-cloud11",
+          "category": "Intermediate",
+          "tags": [
+            "Google Cloud",
+            "Python",
+            "IoT",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906120949-8090google-cloud11.webp",
+          "lesson": "38",
+          "time": "35"
+        },
+        {
+          "name": "Firmware Version Control with Git from Ground Up",
+          "description": "Learn Git-based version control for firmware development, covering Git Bash, eGit in STM32CubeIDE, SourceTree, and GitHub. Master VCS concepts, repository management, and collaboration techniques.",
+          "course_link": "https://study.embeddedexpert.io/p/firmware-version-control-with-git-from-ground-up",
+          "category": "Intermediate",
+          "tags": [
+            "Git",
+            "Version Control",
+            "Firmware Development",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906121304-3753firmware-version-control-with-git-from-ground-up.webp",
+          "lesson": "32",
+          "time": "30"
+        },
+        {
+          "name": "Modern Embedded GUI with TouchGFX",
+          "description": "Learn to create engaging graphical user interfaces (GUIs) for embedded systems using TouchGFX, covering setup, graphics engine, and practical projects.",
+          "course_link": "https://study.embeddedexpert.io/p/modern-embedded-gui-with-touchgfx",
+          "category": "Intermediate",
+          "tags": [
+            "TouchGFX",
+            "GUI",
+            "Embedded Systems",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906121419-9138modern-embedded-gui-with-touchgfx.webp",
+          "lesson": "32",
+          "time": "30"
+        },
+        {
+          "name": "WiFi IoT Architecture: From Firmware to Full Stack Web Development",
+          "description": "Transform into an IoT professional specializing in WiFi technologies. Learn to develop bare-metal firmware, handle sensor data, and design IoT devices with WiFi and 4G LTE connectivity.",
+          "course_link": "https://study.embeddedexpert.io/p/aws-cloud111",
+          "category": "Intermediate",
+          "tags": [
+            "WiFi",
+            "IoT",
+            "Full Stack",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906121559-7308aws-cloud111.webp",
+          "lesson": "45",
+          "time": "40"
+        },
+        {
+          "name": "Flash Memory and EEPROM Drivers: A Hands-On Guide for Embedded Engineers",
+          "description": "Master the fundamentals of memory storage and build scalable and efficient memory storage systems for your applications. Learn memory management techniques, advanced driver implementation, and optimization for performance and reliability.",
+          "course_link": "https://study.embeddedexpert.io/p/memory-storage",
+          "category": "Intermediate",
+          "tags": [
+            "Memory Storage",
+            "Flash Memory",
+            "EEPROM",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906121655-4068memory-storage.webp",
+          "lesson": "38",
+          "time": "35"
+        },
+        {
+          "name": "USB Host Development Essential Training with CubeMX",
+          "description": "Learn to develop USB Hosts like HID, CDC, and Mass Storage Hosts using CubeMX. Gain comprehensive USB technology skills for creating robust USB systems.",
+          "course_link": "https://study.embeddedexpert.io/p/usb-host-essentials1",
+          "category": "Intermediate",
+          "tags": ["USB Host", "CubeMX", "Intermediate", "courses", "course"],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906121755-8128usb-host-essentials1.webp",
+          "lesson": "28",
+          "time": "25"
+        },
+        {
+          "name": "Advanced Digital Signal Processing on ARM Processors",
+          "description": "This course teaches optimized DSP techniques, tools, and methodologies on ARM Cortex microcontrollers. Topics include FIR & IIR filters, adaptive filters, and advanced RADIX-4 FFT algorithms.",
+          "course_link": "https://study.embeddedexpert.io/p/dsp-on-arm11",
+          "category": "Intermediate",
+          "tags": [
+            "DSP",
+            "ARM Processors",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906121900-8716dsp-on-arm11.webp",
+          "lesson": "40",
+          "time": "35"
+        },
+        {
+          "name": "USB Device Development Essential Training with CubeMX",
+          "description": "Learn USB device development with CubeMX, covering USB fundamentals, device classes, and practical implementations. Gain hands-on experience with STM32 USB Device Library and develop various USB devices.",
+          "course_link": "https://study.embeddedexpert.io/p/usb-device-essentials",
+          "category": "Intermediate",
+          "tags": ["USB Device", "CubeMX", "Intermediate", "courses", "course"],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906122048-5574usb-device-essentials.webp",
+          "lesson": "35",
+          "time": "30"
+        },
+        {
+          "name": "Embedded Azure Cloud Python Gateway Communication",
+          "description": "Learn to leverage Microsoft Azure for IoT solutions, from storage management to real-time data handling with CosmosDB. Gain practical skills in Azure services, Python integration, and IoT data management.",
+          "course_link": "https://study.embeddedexpert.io/p/azure-cloud1",
+          "category": "Intermediate",
+          "tags": [
+            "Azure",
+            "Cloud",
+            "Python",
+            "IoT",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906122151-7421azure-cloud1.webp",
+          "lesson": "32",
+          "time": "30"
+        },
+        {
+          "name": "Embedded Audio Solutions: Developing an Audio Media Player",
+          "description": "Welcome to the 'Embedded Audio Media Player' course, your quickest way to developing a complete audio media player. Turn ideas into inventions and future-proof your career with hands-on modules.",
+          "course_link": "https://study.embeddedexpert.io/p/lora1",
+          "category": "Intermediate",
+          "tags": [
+            "Audio",
+            "Media Player",
+            "Embedded Systems",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906122259-4486lora1.webp",
+          "lesson": "30",
+          "time": "25"
+        },
+        {
+          "name": "Advanced Sensing: Time of Flight (ToF) Sensors",
+          "description": "Learn to harness the VL53L1X sensor for precise, reliable, and versatile applications in various industries. This course covers interfacing, calibration, and real-world projects.",
+          "course_link": "https://study.embeddedexpert.io/p/memory-storage3",
+          "category": "Intermediate",
+          "tags": [
+            "ToF Sensors",
+            "VL53L1X",
+            "Advanced Sensing",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241008053135-2605 Advanced Sensing Time of Flight (ToF) Sensors.jpg",
+          "lesson": "35",
+          "time": "30"
+        },
+        {
+          "name": "Mastering FileSystems and SD Card Drivers on Embedded Device",
+          "description": "Learn to integrate FatFs and SD Card storage on STM32 microcontrollers. Master file system design, implementation, and troubleshooting.",
+          "course_link": "https://study.embeddedexpert.io/p/filesystem-sdc",
+          "category": "Intermediate",
+          "tags": [
+            "FileSystems",
+            "SD Card Drivers",
+            "Embedded Systems",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241008053345-5285Mastering FileSystems and SD Card Drivers on Embedded Device.jpg",
+          "lesson": "40",
+          "time": "35"
+        },
+        {
+          "name": "Embedded Touchscreen Drivers Development: A Bare-Metal Approach",
+          "description": "Learn to develop robust bare-metal drivers for embedded touchscreens, focusing on the XPT2046 controller. This course covers calibration, noise reduction, and integration into graphics modules.",
+          "course_link": "https://study.embeddedexpert.io/p/display-drivers2",
+          "category": "Intermediate",
+          "tags": [
+            "Touchscreen Drivers",
+            "Bare-Metal Approach",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241008054541-5594Embedded Touchscreen Drivers Development A Bare-Metal Approach.jpg",
+          "lesson": "32",
+          "time": "30"
+        },
+        {
+          "name": "Embedded Systems Cryptography & Encryption",
+          "description": "Learn encryption and cryptography for embedded systems, focusing on STM32. Master AES, RSA, and elliptic curves with hands-on projects.",
+          "course_link": "https://study.embeddedexpert.io/p/dsp-on-arm111",
+          "category": "Intermediate",
+          "tags": [
+            "Cryptography",
+            "Encryption",
+            "Embedded Systems",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009071038-3272Embedded Systems Cryptography & Encryption.jpg",
+          "lesson": "32",
+          "time": "30"
+        },
+        {
+          "name": "Embedded Local Database Storage: MySQL",
+          "description": "Learn to integrate STM32, NodeJS, and MySQL to create an embedded system that sends data via USB and stores it in a MySQL database. Master MySQL Workbench, SQL commands, and database operations.",
+          "course_link": "https://study.embeddedexpert.io/p/aws-cloud121",
+          "category": "Intermediate",
+          "tags": [
+            "MySQL",
+            "Database Storage",
+            "Embedded Systems",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009071214-9040Embedded Local Database Storage MySQL.jpg",
+          "lesson": "32",
+          "time": "30"
+        },
+        {
+          "name": "Embedded System IoT Systems Design",
+          "description": "Learn to build a complete IoT system from scratch, including firmware development, GUI dashboard creation, and cloud integration for data storage and device control.",
+          "course_link": "https://study.embeddedexpert.io/p/modern-bare-metal-embedded-c-programming-from-ground-up11",
+          "category": "Intermediate",
+          "tags": [
+            "IoT",
+            "Embedded Systems",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009071358-5046Embedded System IoT Systems Design.jpg",
+          "lesson": "45",
+          "time": "40"
+        },
+        {
+          "name": "LoRa from Ground Up™",
+          "description": "This course provides a comprehensive understanding of LoRa technology and its applications in IoT. Learn to develop LoRa drivers, manage data, and implement LoRa-based IoT applications.",
+          "course_link": "https://study.embeddedexpert.io/p/lora",
+          "category": "Intermediate",
+          "tags": ["LoRa", "IoT", "Intermediate", "courses", "course"],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009071508-3853LoRa from Ground Up™.jpg",
+          "lesson": "38",
+          "time": "35"
+        },
+        {
+          "name": "ZigBee from Ground Up: From Theory and Hands-On Training",
+          "description": "Explore ZigBee technology and its role in IoT and smart homes. Learn network management, data transfer, and develop ZigBee firmware applications.",
+          "course_link": "https://study.embeddedexpert.io/p/zigbee",
+          "category": "Intermediate",
+          "tags": ["ZigBee", "IoT", "Intermediate", "courses", "course"],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009071654-2113ZigBee from Ground Up From Theory and Hands-On Training.jpg",
+          "lesson": "32",
+          "time": "30"
+        },
+        {
+          "name": "Hands-On Embedded C++ Library Development",
+          "description": "This course elevates your Embedded C++ expertise to an industry-leading standard, focusing on real-world applications and FreeRTOS integration. Learn to develop a Bluetooth Low Energy Library using the HM-10 module.",
+          "course_link": "https://study.embeddedexpert.io/p/lora111",
+          "category": "Intermediate",
+          "tags": [
+            "Embedded C++",
+            "Library Development",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009071926-3202Hands-On Embedded C++ Library Development.jpg",
+          "lesson": "40",
+          "time": "35"
+        },
+        {
+          "name": "Hands-On Biometric Firmware Mastery with Fingerprint Sensors",
+          "description": "Learn to develop robust biometric authentication systems using STM32 microcontrollers and fingerprint sensors. Gain hands-on experience with Optical and Capacitive sensors, firmware logic, and data security.",
+          "course_link": "https://study.embeddedexpert.io/p/lora11",
+          "category": "Intermediate",
+          "tags": [
+            "Biometric Firmware",
+            "Fingerprint Sensors",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009072114-9260Hands-On Biometric Firmware Mastery with Fingerprint Sensors.jpg",
+          "lesson": "32",
+          "time": "30"
+        },
+        {
+          "name": "Windows x86 Assembly Programming From Ground Up™",
+          "description": "Learn x86 Processor History, Architecture, and Practical Assembly Programming. Master the x86 Core Instruction Set and develop complex algorithms in x86 assembly.",
+          "course_link": "https://study.embeddedexpert.io/p/windows-x86-assembly",
+          "category": "Intermediate",
+          "tags": [
+            "x86 Assembly",
+            "Windows",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009072255-2743Windows x86 Assembly Programming From Ground Up™.jpg",
+          "lesson": "32",
+          "time": "30"
+        },
+        {
+          "name": "Matlab Digital Image Processing From Ground Up™",
+          "description": "This course provides a solid foundation in practical image processing techniques using Matlab, avoiding abstract mathematical theories. By the end, you'll be able to perform noise suppression, edge detection, spatial filtering, histogram equalization, and image enhancement.",
+          "course_link": "https://study.embeddedexpert.io/p/matlab-image-processing",
+          "category": "Intermediate",
+          "tags": [
+            "Matlab",
+            "Image Processing",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009072432-5198Matlab Digital Image Processing From Ground Up™.jpg",
+          "lesson": "35",
+          "time": "25"
+        },
+        {
+          "name": "Python Network Programming From Ground Up ™",
+          "description": "This course teaches you how to build network applications in Python, covering topics like TCP/IP, HTTP, and developing HTTP clients/servers, FTP servers, and a GUI Email Client. No prior knowledge of Python or network programming is assumed.",
+          "course_link": "https://study.embeddedexpert.io/p/python-networking",
+          "category": "Intermediate",
+          "tags": [
+            "Python",
+            "Network Programming",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009072630-2419Python Network Programming From Ground Up ™.jpg",
+          "lesson": "40",
+          "time": "35"
+        },
+        {
+          "name": "Python- Build Modern Desktop GUI Applications",
+          "description": "Learn to develop real-world desktop applications using Python and the Kivy framework. Master layouts, widgets, and build modern GUI applications from scratch.",
+          "course_link": "https://study.embeddedexpert.io/p/python-modern-gui",
+          "category": "Intermediate",
+          "tags": [
+            "Python",
+            "GUI",
+            "Kivy",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009072822-1438Python- Build Modern Desktop GUI Applications.jpg",
+          "lesson": "32",
+          "time": "30"
+        },
+        {
+          "name": "{ C Language } Deep Learning From Ground Up™",
+          "description": "This course provides a solid foundation in modern GUI application development using Python and the Kivy framework. Learn to develop real-world desktop applications while mastering Python and Kivy.",
+          "course_link": "https://study.embeddedexpert.io/p/python-modern-gui",
+          "category": "Intermediate",
+          "tags": [
+            "Python",
+            "GUI",
+            "Kivy",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009072822-1438Python- Build Modern Desktop GUI Applications.jpg",
+          "lesson": "45",
+          "time": "40"
+        },
+        {
+          "name": "Python Real-time Population Health Desktop Application",
+          "description": "Build a modern GUI application for tracking population health from scratch, using the Covid-19 pandemic as a case study. Master tools for designing GUI layouts, integrating real-time data, and deploying the application.",
+          "course_link": "https://study.embeddedexpert.io/p/python-modern-gui1",
+          "category": "Intermediate",
+          "tags": [
+            "Python",
+            "GUI",
+            "Real-time",
+            "Health",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009073147-4733Python Real-time Population Health Desktop Application.jpg",
+          "lesson": "38",
+          "time": "30"
+        },
+        {
+          "name": "Printed Circuit Board (PCB) Design from the Ground Up ™",
+          "description": "Learn to design and print your own custom PCBs, incorporating essential components like MCU chips, oscillators, and USB interfaces. This course covers everything from schematic capture to complex PCB layout, enabling you to bring your hardware projects to life.",
+          "course_link": "https://study.embeddedexpert.io/p/printed-circuit-board-pcb-design-from-the-ground-up",
+          "category": "Intermediate",
+          "tags": [
+            "PCB Design",
+            "Hardware Systems",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009073309-3104Printed Circuit Board (PCB) Design from the Ground Up ™.jpg",
+          "lesson": "32",
+          "time": "30"
+        },
+        {
+          "name": "Arduino Bluetooth Low Energy (BLE) From Ground Up™",
+          "description": "This course provides in-depth training to build BLE embedded devices and communicate with smart devices and mobile apps. Learn to develop BLE firmware, understand the BLE stack, and create your own services and characteristics.",
+          "course_link": "https://study.embeddedexpert.io/p/arduino-ble",
+          "category": "Intermediate",
+          "tags": [
+            "Arduino",
+            "BLE",
+            "Bluetooth Low Energy",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009073634-3270Arduino Bluetooth Low Energy (BLE) From Ground Up™.jpg",
+          "lesson": "28",
+          "time": "20"
+        },
+        {
+          "name": "High Performance Display Drivers: DMA2D, LTDC, FMC, SDRAM",
+          "description": "Master high-performance display drivers with a focus on DMA2D, LTDC, FMC, and SDRAM. Gain hands-on experience and practical implementation skills for advanced display systems.",
+          "course_link": "https://study.embeddedexpert.io/p/high-performance-display-drivers-dma2d-ltdc-fmc-sdram",
+          "category": "Intermediate",
+          "tags": [
+            "Display Drivers",
+            "DMA2D",
+            "LTDC",
+            "FMC",
+            "SDRAM",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009075019-9624High Performance Display Drivers DMA2D, LTDC, FMC, SDRAM.jpg",
+          "lesson": "35",
+          "time": "40"
+        },
+        {
+          "name": "Embedded Data Visualization and Real-Time Dashboards",
+          "description": "Learn to create dynamic visual representations of embedded systems data using Node-RED and STM32CubeMonitor. Master advanced monitoring techniques, data logging, and optimization strategies.",
+          "course_link": "https://study.embeddedexpert.io/p/embedded-data-visualization-and-real-time-dashboards",
+          "category": "Intermediate",
+          "tags": [
+            "Data Visualization",
+            "Real-Time Dashboards",
+            "Node-RED",
+            "STM32CubeMonitor",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009075152-2919Embedded Data Visualization and Real-Time Dashboards.jpg",
+          "lesson": "32",
+          "time": "30"
+        },
+        {
+          "name": "Mastering the CAN Bus from Ground Up™",
+          "description": "Learn the fundamentals and advanced applications of CAN Bus technology, essential for modern automotive and industrial systems. Gain hands-on experience with STM32 microcontrollers and real-world scenarios.",
+          "course_link": "https://study.embeddedexpert.io/p/mastering-the-can-bus-from-ground-up",
+          "category": "Intermediate",
+          "tags": [
+            "CAN Bus",
+            "Embedded Systems",
+            "Automotive",
+            "Industrial",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009075344-3427Mastering the CAN Bus from Ground Up™.jpg",
+          "lesson": "40",
+          "time": "45"
+        },
+        {
+          "name": "RadarInsight: Hands-On Presence Sensing with Radar",
+          "description": "Learn radar technology for presence sensing, covering radar signal processing, the LD2410 sensor, and application development. Ideal for engineers and professionals seeking to enhance their skills.",
+          "course_link": "https://study.embeddedexpert.io/p/human-presence-and-state-monitoring-with-radar",
+          "category": "Intermediate",
+          "tags": [
+            "Radar",
+            "Presence Sensing",
+            "LD2410",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009075509-7855RadarInsight Hands-On Presence Sensing with Radar.jpg",
+          "lesson": "28",
+          "time": "25"
+        },
+        {
+          "name": "Embedded Imaging: Digital Camera Development from Ground Up™",
+          "description": "Unlock the transformative power of digital imaging technology with our expert-led course on embedded imaging. This course is designed to elevate your career by equipping you with high-demand skills in digital camera firmware development.",
+          "course_link": "https://study.embeddedexpert.io/p/embedded-imaging-digital-camera-development-from-ground-up",
+          "category": "Intermediate",
+          "tags": [
+            "Digital Camera",
+            "Embedded Imaging",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009075636-7204Embedded Imaging Digital Camera Development from Ground Up™.jpg",
+          "lesson": "38",
+          "time": "35"
+        },
+        {
+          "name": "Environmental Sensing Drivers: A Bare-Metal Approach",
+          "description": "Learn to create bare-metal drivers for various environmental sensors, including air quality, temperature, humidity, pressure, soil moisture, and light intensity. This course provides hands-on, practical knowledge to elevate your skills in modern sensing technology.",
+          "course_link": "https://study.embeddedexpert.io/p/environmental-sensing-drivers-a-bare-metal-approach",
+          "category": "Intermediate",
+          "tags": [
+            "Environmental Sensing",
+            "Bare-Metal Approach",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009075807-8839Environmental Sensing Drivers A Bare-Metal Approach.jpg",
+          "lesson": "32",
+          "time": "30"
+        },
+        {
+          "name": "Hands-On GPS Firmware Development",
+          "description": "Learn to develop bare-metal drivers and libraries for receiving and parsing satellite data to build a complete GPS system. Master GPS trilateration, ephemeris data, and NMEA data structure for robust GPS firmware development.",
+          "course_link": "https://study.embeddedexpert.io/p/gps-firmware",
+          "category": "Intermediate",
+          "tags": [
+            "GPS",
+            "Firmware Development",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009075945-9066Hands-On GPS Firmware Development.jpg",
+          "lesson": "45",
+          "time": "50"
+        },
+        {
+          "name": "Wearable Innovations: Engineering Smartwatches from Scratch",
+          "description": "Learn to develop smartwatches from conceptual design to functional prototype, mastering health tracking algorithms and real-time clock components. Gain hands-on experience with hardware and create a fully functional smartwatch.",
+          "course_link": "https://study.embeddedexpert.io/p/display-drivers3",
+          "category": "Intermediate",
+          "tags": [
+            "Wearable Technology",
+            "Smartwatches",
+            "Health Tracking",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009080140-6675Wearable Innovations Engineering Smartwatches from Scratch.jpg",
+          "lesson": "40",
+          "time": "35"
+        },
+        {
+          "name": "Embedded RFID/NFC Bare-Metal Development",
+          "description": "Learn to develop RFID/NFC firmware applications from scratch, including interfacing MIFARE MFRC522 NFC chips with STM32 microcontrollers. This course covers both theoretical concepts and practical implementation, including cloud connectivity.",
+          "course_link": "https://study.embeddedexpert.io/p/nfc-bare-metal",
+          "category": "Intermediate",
+          "tags": [
+            "RFID",
+            "NFC",
+            "Bare-Metal Development",
+            "Intermediate",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241009080315-8784Embedded RFID-NFC Bare-Metal Development.jpg",
+          "lesson": "35",
+          "time": "30"
+        },
+        {
+          "name": "{C++} Build Your Own Realtime OS (RTOS) From Ground Up™ on ARM",
+          "description": "This course teaches you how to build Real-Time Operating Systems through intensive practice and theory. Learn to build your own RTOS from scratch, including various scheduling algorithms and Inter-Thread communication tools.",
+          "course_link": "https://study.embeddedexpert.io/p/c-build-your-own-realtime-os-rtos-from-ground-up-on-arm",
+          "category": "Expert",
+          "tags": [
+            "RTOS",
+            "C++",
+            "Real-Time Operating System",
+            "Expert",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126100007-3221{C++}Build Your Own Realtime OS (RTOS) From Ground Up™ on ARM.webp",
+          "lesson": "45",
+          "time": "40"
+        },
+        {
+          "name": "Embedded AWS Cloud Python Gateway Communication",
+          "description": "This course merges embedded systems with Amazon Web Services (AWS), providing hands-on experience and insights into AWS features, services, and best practices for IoT professionals.",
+          "course_link": "https://study.embeddedexpert.io/p/aws-cloud1",
+          "category": "Expert",
+          "tags": [
+            "AWS",
+            "Cloud",
+            "Python",
+            "IoT",
+            "Expert",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126094036-9770Embedded Amazon AWS Connectivity2.webp",
+          "lesson": "32",
+          "time": "30"
+        },
+        {
+          "name": "Embedded System IoT Systems Design",
+          "description": "Learn to build a complete IoT system from scratch, including firmware development, GUI dashboard creation, and cloud integration for data storage and device control.",
+          "course_link": "https://study.embeddedexpert.io/p/modern-bare-metal-embedded-c-programming-from-ground-up11",
+          "category": "Expert",
+          "tags": ["IoT", "Embedded Systems", "Expert", "courses", "course"],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126092536-4546Embedded System loT Systems Design.webp",
+          "lesson": "38",
+          "time": "35"
+        },
+        {
+          "name": "Embedded Systems Bare-Metal Ethernet Programming",
+          "description": "Learn to write/configure drivers for the Ethernet peripheral and develop embedded Ethernet firmware for networking protocols like HTTP and DHCP. Master Ethernet driver development, peripheral configuration, and TCP/IP stack integration.",
+          "course_link": "https://study.embeddedexpert.io/p/embedded-systems-bare-metal-ethernet-programming",
+          "category": "Expert",
+          "tags": [
+            "Ethernet",
+            "Bare-Metal",
+            "Networking",
+            "Expert",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126092603-8991Embedded Systems Bare-Metal Ethernet Programming.webp",
+          "lesson": "45",
+          "time": "40"
+        },
+        {
+          "name": "Embedded Systems Cellular Firmware Development(GSM)",
+          "description": "Learn to develop drivers and libraries for adding cellular functionality to your embedded device using the STM32 microcontroller and the A6 GSM/GPRS chip. This course covers phone calls, SMS, M2M communication, and more.",
+          "course_link": "https://study.embeddedexpert.io/p/embedded-systems-cellular-firmware-development-gsm",
+          "category": "Expert",
+          "tags": ["Cellular Firmware", "GSM", "Expert", "courses", "course"],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230131073812-6083Embedded Systems Cellular Firmware Development(GSM).webp",
+          "lesson": "32",
+          "time": "30"
+        },
+        {
+          "name": "Embedded Systems Design Patterns From Ground Up™",
+          "description": "Learn to apply design patterns to embedded firmware development, providing reusable solutions to common software problems. This course covers various design patterns through practical examples and real-world problem-solving.",
+          "course_link": "https://study.embeddedexpert.io/p/embedded-systems-design-patterns-from-ground-up",
+          "category": "Expert",
+          "tags": [
+            "Design Patterns",
+            "Embedded Systems",
+            "Expert",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126092712-5876Embedded Systems Design Patterns From Ground Up™.webp",
+          "lesson": "40",
+          "time": "35"
+        },
+        {
+          "name": "Embedded Wifi Bare-Metal Development From Ground Up™",
+          "description": "Learn to develop drivers and libraries for connecting embedded devices to the internet using STM32 and ESP8266. Master WIFI protocol, create efficient data structures, and build applications like web servers and clients.",
+          "course_link": "https://study.embeddedexpert.io/p/embedded-wifi-bare-metal-development-from-ground-up",
+          "category": "Expert",
+          "tags": [
+            "WIFI",
+            "Bare-Metal Development",
+            "Embedded Systems",
+            "Expert",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126094747-9455Embedded Wifi Bare-Metal Development From Ground Up™.webp",
+          "lesson": "35",
+          "time": "40"
+        },
+        {
+          "name": "Embedded RFID/NFC Bare-Metal Development",
+          "description": "Learn to develop RFID/NFC firmware applications from scratch, including interfacing MIFARE MFRC522 NFC chips with STM32 microcontrollers. This course covers both theoretical concepts and practical implementation, including cloud connectivity.",
+          "course_link": "https://study.embeddedexpert.io/p/nfc-bare-metal",
+          "category": "Expert",
+          "tags": [
+            "RFID",
+            "NFC",
+            "Bare-Metal Development",
+            "Expert",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201032446-2996Embedded RFID NFC Bare-Metal Development.jpg",
+          "lesson": "32",
+          "time": "30"
+        },
+        {
+          "name": "NFC Desktop Application Development",
+          "description": "Learn Python essentials, GUI development with Kivy, and Firebase integration to build a complete NFC desktop application. This course covers everything from user authentication to cloud database storage.",
+          "course_link": "https://study.embeddedexpert.io/p/nfc-pack",
+          "category": "Expert",
+          "tags": [
+            "NFC",
+            "Desktop Application",
+            "Python",
+            "Expert",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201032534-3187NFC Desktop Application Development.jpg",
+          "lesson": "28",
+          "time": "20"
+        },
+        {
+          "name": "Hands-On GPS Firmware Development",
+          "description": "Learn to develop bare-metal drivers and libraries for GPS systems, including parsing satellite data for longitude, latitude, and altitude. Master GPS module integration, data structures, and NMEA data parsing.",
+          "course_link": "https://study.embeddedexpert.io/p/gps-firmware",
+          "category": "Expert",
+          "tags": [
+            "GPS",
+            "Firmware Development",
+            "Expert",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201032624-3338Hands-On GPS Firmware Development.jpg",
+          "lesson": "45",
+          "time": "50"
+        },
+        {
+          "name": "Wireless System Development with nRF24",
+          "description": "Learn to build a complete wireless system using the nRF24L01 transceiver for data management and control. Develop drivers, modern GUI applications, and end-to-end systems for sensor data collection and storage.",
+          "course_link": "https://study.embeddedexpert.io/p/embedded-nrf24",
+          "category": "Expert",
+          "tags": ["Wireless System", "nRF24", "Expert", "courses", "course"],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201032715-8466Wireless System Development with nRF24.jpg",
+          "lesson": "32",
+          "time": "30"
+        },
+        {
+          "name": "Wireless System Development with nRF24",
+          "description": "Learn to build a complete wireless system for data management and control using the nRF24L01 transceiver. Develop end-to-end systems for sensor data collection and wireless peripherals like game controllers.",
+          "course_link": "https://study.embeddedexpert.io/p/embedded-nrf24",
+          "category": "Expert",
+          "tags": ["Wireless System", "nRF24", "Expert", "courses", "course"],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201032715-8466Wireless System Development with nRF24.jpg",
+          "lesson": "38",
+          "time": "35"
+        },
+        {
+          "name": "MQ Telemetry Transport (MQTT) From Ground Up",
+          "description": "Learn to develop complete IoT solutions using MQTT, a lightweight protocol for machine-to-machine communication. This course covers core MQTT concepts, Python essentials, driver development, and real-world applications.",
+          "course_link": "https://study.embeddedexpert.io/p/mqqt",
+          "category": "Expert",
+          "tags": ["MQTT", "IoT", "Expert", "courses", "course"],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201032959-8354MQTT_From_GroundUp2.webp",
+          "lesson": "32",
+          "time": "30"
+        },
+        {
+          "name": "Advanced Embedded Systems Bare-Metal Programming Ground Up™",
+          "description": "Master advanced bare-metal programming with comprehensive guides on DMA, RTC, Watchdog Timer drivers, and debugging techniques. Enhance your skills in developing robust and efficient embedded solutions.",
+          "course_link": "https://study.embeddedexpert.io/p/advanced_baremetal",
+          "category": "Expert",
+          "tags": [
+            "Bare-Metal Programming",
+            "DMA",
+            "RTC",
+            "Watchdog Timer",
+            "Debugging",
+            "Expert",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201033157-2190Advanced Embedded Systems Bare-Metal Programming Ground Up™.jpg",
+          "lesson": "40",
+          "time": "45"
+        },
+        {
+          "name": "Embedded Build Systems with GNU Tools and Makefiles",
+          "description": "Learn to develop embedded firmware without an IDE using GNU tools and Makefiles. Master the build process, linker scripts, C startup files, and automating builds.",
+          "course_link": "https://study.embeddedexpert.io/p/embedded-makefiles",
+          "category": "Expert",
+          "tags": [
+            "Build Systems",
+            "GNU Tools",
+            "Makefiles",
+            "Embedded Systems",
+            "Expert",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201034250-1348Embedded Build Systems with GNU Tools and Makefiles.jpg",
+          "lesson": "35",
+          "time": "40"
+        },
+        {
+          "name": "4G LTE IoT: Bare-Metal to HTTP, MQTT, SMS",
+          "description": "Learn to develop bare-metal firmware for STM32 microcontrollers interfacing with 4G LTE chips, and master HTTP, MQTT, and SMS protocols for IoT applications. This course covers server-side development, sensor data collection, and creating real-world IoT solutions.",
+          "course_link": "https://study.embeddedexpert.io/p/aws-cloud11",
+          "category": "Expert",
+          "tags": [
+            "4G LTE",
+            "IoT",
+            "HTTP",
+            "MQTT",
+            "SMS",
+            "Expert",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906122408-8550aws-cloud11.webp",
+          "lesson": "45",
+          "time": "50"
+        },
+        {
+          "name": "WiFi IoT Architecture: From Firmware to Full Stack Web Development",
+          "description": "Transform into an IoT professional specializing in WiFi technologies. Learn to develop bare-metal firmware, handle sensor data, and design IoT devices with WiFi and 4G LTE connectivity.",
+          "course_link": "https://study.embeddedexpert.io/p/aws-cloud111",
+          "category": "Expert",
+          "tags": ["WiFi", "IoT", "Full Stack", "Expert", "courses", "course"],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906122700-2274aws-cloud111.webp",
+          "lesson": "38",
+          "time": "35"
+        },
+        {
+          "name": "Embedded Memory Security: Protecting Your System from Tampering and Unauthorized Access",
+          "description": "Learn advanced techniques to secure embedded memory from unauthorized access and tampering, including MPU, Tamper Detection, and Read/Write Protection using Option Bytes. Ideal for professionals aiming to protect their embedded systems against security threats.",
+          "course_link": "https://study.embeddedexpert.io/p/memory-security",
+          "category": "Expert",
+          "tags": [
+            "Memory Security",
+            "MPU",
+            "Tamper Detection",
+            "Option Bytes",
+            "Expert",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906122809-9680memory-security.webp",
+          "lesson": "32",
+          "time": "30"
+        },
+        {
+          "name": "Custom Cloud <> Python Gateway Communication",
+          "description": "Learn to integrate embedded systems with Google Cloud Platform (GCP) using Python for effective UART communication and data management. Master Google Cloud Storage operations, Firebase NoSQL Database, and real-world IoT scenarios.",
+          "course_link": "https://study.embeddedexpert.io/p/aws-cloud12",
+          "category": "Expert",
+          "tags": [
+            "Google Cloud",
+            "Python",
+            "IoT",
+            "Expert",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906122959-4901aws-cloud12.webp",
+          "lesson": "40",
+          "time": "45"
+        },
+        {
+          "name": "Embedded Bootloader Development from Ground Up™",
+          "description": "Learn to develop custom bootloaders for STM32 microcontrollers, covering the build process, memory model, and linker scripts. Gain hands-on experience in creating multi-slot memory system bootloaders and implementing firmware updates.",
+          "course_link": "https://study.embeddedexpert.io/p/bootloader-1",
+          "category": "Expert",
+          "tags": [
+            "Bootloader",
+            "STM32",
+            "Embedded Systems",
+            "Expert",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906123057-9929bootloader-1.webp",
+          "lesson": "28",
+          "time": "25"
+        },
+        {
+          "name": "Master Firmware Updates with In-Application Programming(IAP)",
+          "description": "Learn to update devices remotely, fix bugs, and add new features with In-Application Programming (IAP). Gain expertise in developing IAP host applications in Python and designing advanced bare-metal bootloaders for STM32 microcontrollers.",
+          "course_link": "https://study.embeddedexpert.io/p/iap_bootloader",
+          "category": "Expert",
+          "tags": [
+            "IAP",
+            "Firmware Updates",
+            "STM32",
+            "Embedded Systems",
+            "Expert",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906123150-3447iap_bootloader.webp",
+          "lesson": "35",
+          "time": "40"
+        },
+        {
+          "name": "4G LTE-Powered FOTA: Firmware Updates over Mobile Networks",
+          "description": "Learn to implement Firmware Update Over-the-Air (FOTA) using 4G LTE for reliable, remote updates. Master custom bootloader development, 4G LTE connectivity, and STM32 Flash memory management.",
+          "course_link": "https://study.embeddedexpert.io/p/4g-fota",
+          "category": "Expert",
+          "tags": [
+            "FOTA",
+            "4G LTE",
+            "Firmware Updates",
+            "Embedded Systems",
+            "Expert",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241008041333-51264G LTE-Powered FOTA Firmware Updates over Mobile Networks.jpg",
+          "lesson": "40",
+          "time": "45"
+        },
+        {
+          "name": "Advanced Firmware Documentation with Doxygen",
+          "description": "Learn professional firmware documentation with Doxygen, covering syntax, commenting, and advanced techniques. Gain practical experience and enhance your documentation skills for embedded C and C++ projects.",
+          "course_link": "https://study.embeddedexpert.io/p/display-drivers21",
+          "category": "Expert",
+          "tags": [
+            "Doxygen",
+            "Firmware Documentation",
+            "Embedded Systems",
+            "Expert",
+            "courses",
+            "course",
+            "Technical Writing",
+            "Project Management"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241008041831-1851Advanced Firmware Documentation with Doxygen.jpg",
+          "lesson": "32",
+          "time": "30"
+        },
+        {
+          "name": "Mastering SD Card Bootloader Development",
+          "description": "Learn to update firmware using SD cards for remote, industrial, and automotive applications. Gain hands-on experience in implementing secure and efficient SD card-based firmware updates.",
+          "course_link": "https://study.embeddedexpert.io/p/sdcard_bootloader",
+          "category": "Expert",
+          "tags": [
+            "SD Card",
+            "Bootloader",
+            "Firmware Updates",
+            "Embedded Systems",
+            "Expert",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241008042059-8900Mastering SD Card Bootloader Development.jpg",
+          "lesson": "38",
+          "time": "35"
+        },
+        {
+          "name": "Advanced Audio Processing: Mastering I2S, Codecs, Audio Input, and Output",
+          "description": "Master STM32-based audio systems, from I2S protocols to advanced audio codec integration. Gain hands-on skills in audio input, output, and processing.",
+          "course_link": "https://study.embeddedexpert.io/p/audio_processing",
+          "category": "Expert",
+          "tags": [
+            "Audio Processing",
+            "I2S",
+            "Codecs",
+            "Audio Input",
+            "Audio Output",
+            "Embedded Systems",
+            "Expert",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241008042359-2423Advanced Audio Processing Mastering I2S, Codecs, Audio Input, and Output.jpg",
+          "lesson": "45",
+          "time": "50"
+        },
+        {
+          "name": "Embedded Audio Storage and Analysis: I2S, DMA, FFT, Spectrum Analysis, SD Card, FatFS, Recorder, Playback.",
+          "description": "Learn real-time audio capture, storage, analysis, and playback on STM32 systems using I2S, DMA, FFT, and SD cards. Develop skills for building spectrum analyzers, voice recorders, and advanced audio processing applications.",
+          "course_link": "https://study.embeddedexpert.io/p/audio_storage",
+          "category": "Expert",
+          "tags": [
+            "Audio",
+            "FFT",
+            "I2S",
+            "DMA",
+            "SD",
+            "Spectrum Analysis",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241008042628-2653Embedded Audio Storage and Analysis I2S, DMA, FFT, Spectrum Analysis, SD Card, FatFS, Recorder, Playback..jpg",
+          "lesson": "45",
+          "time": "50"
+        },
+        {
+          "name": "Wireless Firmware Update: Mastering FOTA with STM32 and ESP8266",
+          "description": "Learn to implement Firmware Update Over-the-Air (FOTA) for embedded systems using STM32 and ESP8266. Master custom bootloader development, Wi-Fi connection libraries, and remote server setup for handling firmware updates.",
+          "course_link": "https://study.embeddedexpert.io/p/embedded-fota",
+          "category": "Expert",
+          "tags": [
+            "FOTA",
+            "STM32",
+            "ESP8266",
+            "Firmware Updates",
+            "Embedded Systems",
+            "Expert",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241008042840-8253Wireless Firmware Update Mastering FOTA with STM32 and ESP8266.jpg",
+          "lesson": "40",
+          "time": "45"
+        },
+        {
+          "name": "Extreme Embedded Firmware Engineering Learning Path",
+          "description": "This learning path includes 3 comprehensive courses totaling 44+ hours, complete with source code. You'll learn to develop firmware without an IDE, master C++ for embedded systems, and apply design patterns to solve real-world problems.",
+          "course_link": "https://study.embeddedexpert.io/p/extreme_bare_metal-lp",
+          "category": "Expert",
+          "tags": [
+            "Embedded Systems",
+            "Firmware Engineering",
+            "Bare-Metal",
+            "C++",
+            "Design Patterns",
+            "Expert",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241008043100-5530Extreme Embedded Firmware Engineering Learning Path.jpg",
+          "lesson": "38",
+          "time": "35"
+        },
+        {
+          "name": "Embedded Systems Data Structures & State Machines",
+          "description": "Enhance your embedded firmware development skills by mastering state machines and data structures. Learn to build Finite State Machines, Fixed Schedulers, and Traffic Light Control Systems.",
+          "course_link": "https://study.embeddedexpert.io/p/embedded-systems-data-structures-state-machineslike-a-pro",
+          "category": "Expert",
+          "tags": [
+            "Embedded Systems",
+            "Data Structures",
+            "State Machines",
+            "Expert",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241008043609-4577Embedded Systems Data Structures & State Machines.jpg",
+          "lesson": "32",
+          "time": "30"
+        },
+        {
+          "name": "Multicore Firmware Development from Ground Up™",
+          "description": "Learn multicore firmware development for advanced projects like autonomous drones. Master STM32H7 Dual-Core environment, inter-processor communication, debugging, and profiling.",
+          "course_link": "https://study.embeddedexpert.io/p/multicore-firmware-development-from-ground-up",
+          "category": "Expert",
+          "tags": [
+            "Multicore",
+            "Firmware Development",
+            "Embedded Systems",
+            "Expert",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241008043946-2710Multicore Firmware Development from Ground Up™.jpg",
+          "lesson": "45",
+          "time": "40"
+        },
+        {
+          "name": "Mastering ARM TrustZone: Secure Embedded Systems with Cortex-M23/M33",
+          "description": "Learn to secure embedded systems using ARM TrustZone technology on Cortex-M23/M33 processors. Gain hands-on experience with TrustZone features, secure/non-secure states, and real-time operating systems.",
+          "course_link": "https://study.embeddedexpert.io/p/mastering-arm-trustzone-secure-embedded-systems-with-cortex-m23-m33",
+          "category": "Expert",
+          "tags": [
+            "ARM TrustZone",
+            "Cortex-M23",
+            "Cortex-M33",
+            "Embedded Systems",
+            "Expert",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/241008052138-4143Mastering ARM TrustZone Secure Embedded Systems with Cortex-M23-M33.jpg",
+          "lesson": "40",
+          "time": "35"
+        },
+        {
+          "name": "Build Your Own RealTime OS (RTOS 1) From Ground Up™ on ARM 1",
+          "description": "This course teaches you how to build a Real-Time Operating System (RTOS) through intensive practice and theory. By the end, you will be able to build your own RTOS from scratch, implement various schedulers, and understand the internals of an RTOS kernel.",
+          "course_link": "https://study.embeddedexpert.io/p/rtos1",
+          "category": "RTOS Programming",
+          "tags": [
+            "RTOS",
+            "ARM",
+            "Real-Time Operating System",
+            "RTOS Programming",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230131075212-6213Build Your Own RealTime OS (RTOS 1) From Ground Up™ on ARM 1.webp",
+          "lesson": "38",
+          "time": "35"
+        },
+        {
+          "name": "{C++} Build Your Own RealTime OS (RTOS) From Ground Up™ on ARM",
+          "description": "Learn to build Real-Time Operating Systems from scratch in C++, covering scheduling algorithms and inter-thread communication tools. Master RTOS concepts and develop your own OS kernel.",
+          "course_link": "https://study.embeddedexpert.io/p/c-build-your-own-realtime-os-rtos-from-ground-up-on-arm",
+          "category": "RTOS Programming",
+          "tags": [
+            "RTOS",
+            "C++",
+            "Real-Time Operating System",
+            "RTOS Programming",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126095907-6957{C++}Build Your Own Realtime OS (RTOS) From Ground Up™ on ARM3.webp",
+          "lesson": "45",
+          "time": "40"
+        },
+        {
+          "name": "Build Your Own RealTime OS (RTOS 2) From Ground Up™ on ARM 2",
+          "description": "This course offers an in-depth exploration of Real-Time Operating Systems (RTOS) through intensive practice and comprehensive theory. By the end, you will be equipped to build your own Real-Time Operating System from scratch and implement various schedulers.",
+          "course_link": "https://study.embeddedexpert.io/p/rtos2",
+          "category": "RTOS Programming",
+          "tags": ["RTOS 2", "ARM 2", "RTOS Programming", "courses", "course"],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230131074720-8400Build Your Own RealTime OS (RTOS 2) From Ground Up™ on ARM 2.webp",
+          "lesson": "40",
+          "time": "35"
+        },
+        {
+          "name": "Realtime Operating Systems (RTOS) Learning Path",
+          "description": "4 Courses | 47+ hours | Complete Source Included. Learn FreeRTOS, ARM Assembly Programming, and build your own RTOS from scratch with comprehensive tutorials and hands-on projects.",
+          "course_link": "https://study.embeddedexpert.io/p/realtime-operating-systems-rtos-learning-path",
+          "category": "RTOS Programming",
+          "tags": [
+            "RTOS",
+            "FreeRTOS",
+            "ARM",
+            "RTOS Programming",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126093705-8635Realtime Operating Systems (RTOS) Learning Path.webp",
+          "lesson": "47",
+          "time": "50"
+        },
+        {
+          "name": "FreeRTOS From Ground Up™ on ARM Processors",
+          "description": "Learn the foundations of real-time systems and build real-time applications using FreeRTOS. Master multitask FreeRTOS applications, scheduling algorithms, and porting FreeRTOS to ARM processors.",
+          "course_link": "https://study.embeddedexpert.io/p/freertos-from-ground-up-on-arm-processors_new",
+          "category": "RTOS Programming",
+          "tags": [
+            "FreeRTOS",
+            "ARM",
+            "RTOS",
+            "RTOS Programming",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230131074408-4623FreeRTOS From Ground Up™ on ARM Processors.webp",
+          "lesson": "50",
+          "time": "45"
+        },
+        {
+          "name": "MQ Telemetry Transport (MQTT) From Ground Up",
+          "description": "Learn to develop complete IoT solutions using MQTT, a lightweight protocol for machine-to-machine communication. This course covers core MQTT concepts, Python essentials, driver development, and real-world applications.",
+          "course_link": "https://study.embeddedexpert.io/p/mqqt",
+          "category": "Cloud Connectivity",
+          "tags": ["MQTT", "IoT", "Cloud Connectivity", "courses", "course"],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201035806-9839MQTT_From_GroundUp2.webp",
+          "lesson": "32",
+          "time": "30"
+        },
+        {
+          "name": "Embedded Google Cloud <> Python Gateway Communication",
+          "description": "Learn to integrate embedded systems with Google Cloud Platform (GCP) using Python for effective UART communication and data management. Master Google Cloud Storage operations, Firebase NoSQL Database, and real-world IoT scenarios.",
+          "course_link": "https://study.embeddedexpert.io/p/google-cloud11",
+          "category": "Cloud Connectivity",
+          "tags": [
+            "Google Cloud",
+            "Python",
+            "IoT",
+            "Cloud Connectivity",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906123310-3364google-cloud11.webp",
+          "lesson": "38",
+          "time": "35"
+        },
+        {
+          "name": "WiFi IoT Architecture: From Firmware to Full Stack Web Development",
+          "description": "Transform into a pioneering IoT professional with a specialization in WiFi technologies. Learn to design and deploy custom server-side applications, master sensor data collection and transmission using HTTP, and develop firmware for IoT devices.",
+          "course_link": "https://study.embeddedexpert.io/p/aws-cloud111",
+          "category": "Cloud Connectivity",
+          "tags": [
+            "WiFi",
+            "IoT",
+            "Full Stack",
+            "Cloud Connectivity",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906123403-8335aws-cloud111.webp",
+          "lesson": "45",
+          "time": "40"
+        },
+        {
+          "name": "4G LTE IoT: Bare-Metal to HTTP, MQTT, SMS",
+          "description": "Learn to develop bare-metal firmware for STM32 microcontrollers interfacing with 4G LTE chips, and master HTTP, MQTT, and SMS protocols for IoT applications. This course covers server-side development, sensor data collection, and creating real-world IoT solutions.",
+          "course_link": "https://study.embeddedexpert.io/p/aws-cloud11",
+          "category": "Cloud Connectivity",
+          "tags": [
+            "4G LTE",
+            "IoT",
+            "HTTP",
+            "MQTT",
+            "SMS",
+            "Cloud Connectivity",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906123501-8090aws-cloud11.webp",
+          "lesson": "40",
+          "time": "35"
+        },
+        {
+          "name": "Custom Cloud <> Python Gateway Communication",
+          "description": "Learn to integrate embedded systems with Google Cloud Platform (GCP) using Python for effective UART communication and data management. Master Google Cloud Storage operations, Firebase NoSQL Database, and real-world IoT scenarios.",
+          "course_link": "https://study.embeddedexpert.io/p/aws-cloud12",
+          "category": "Cloud Connectivity",
+          "tags": [
+            "Google Cloud",
+            "Python",
+            "IoT",
+            "Cloud Connectivity",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906123704-5437aws-cloud12.webp",
+          "lesson": "38",
+          "time": "35"
+        },
+        {
+          "name": "Bluetooth Low Energy (BLE) From Ground Up™",
+          "description": "Learn to build BLE embedded devices and communicate with smart devices and mobile apps. Master the BLE protocol, stack, and create your own services and characteristics.",
+          "course_link": "https://study.embeddedexpert.io/p/bluetooth-low-energy-ble-from-ground-up_new",
+          "category": "Wireless Programming",
+          "tags": [
+            "BLE",
+            "Bluetooth Low Energy",
+            "Wireless Programming",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/221112104023-6823124.jpg",
+          "lesson": "32",
+          "time": "30"
+        },
+        {
+          "name": "Embedded Systems Cellular Firmware Development(GSM)",
+          "description": "Learn to develop drivers and libraries for adding cellular functionality to your embedded device using the STM32 microcontroller and the A6 GSM/GPRS chip. Master phone calls, SMS, M2M communication, and more.",
+          "course_link": "https://study.embeddedexpert.io/p/embedded-systems-cellular-firmware-development-gsm",
+          "category": "Wireless Programming",
+          "tags": [
+            "Cellular Firmware",
+            "GSM",
+            "Wireless Programming",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230131073632-4254Embedded Systems Cellular Firmware Development(GSM)5.webp",
+          "lesson": "45",
+          "time": "40"
+        },
+        {
+          "name": "Embedded Wifi Bare-Metal Development From Ground Up™",
+          "description": "Learn to develop drivers and libraries for connecting embedded devices to the internet using STM32 and ESP8266. Master networking concepts, WIFI protocol, and build applications like WebServer and Web Client.",
+          "course_link": "https://study.embeddedexpert.io/p/embedded-wifi-bare-metal-development-from-ground-up",
+          "category": "Wireless Programming",
+          "tags": [
+            "WIFI",
+            "Bare-Metal Development",
+            "Embedded Systems",
+            "Wireless Programming",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/221112104153-8466126.jpg",
+          "lesson": "32",
+          "time": "30"
+        },
+        {
+          "name": "Embedded RFID/NFC Bare-Metal Development",
+          "description": "Learn to develop RFID/NFC firmware applications from scratch, including interfacing MIFARE MFRC522 NFC chips with STM32 microcontrollers and creating a modern desktop application with cloud connectivity.",
+          "course_link": "https://study.embeddedexpert.io/p/nfc-bare-metal",
+          "category": "Wireless Programming",
+          "tags": [
+            "RFID",
+            "NFC",
+            "Bare-Metal Development",
+            "Wireless Programming",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201031257-2851Embedded RFID NFC Bare-Metal Development.jpg",
+          "lesson": "28",
+          "time": "25"
+        },
+        {
+          "name": "Embedded IR Remote Control with NEC Protocol",
+          "description": "Learn to develop bare-metal drivers and libraries to control your embedded device using IR remote controls. Master IR modulation, NEC protocol, and real-world applications.",
+          "course_link": "https://study.embeddedexpert.io/p/embedded-ir",
+          "category": "Wireless Programming",
+          "tags": [
+            "IR Remote Control",
+            "NEC Protocol",
+            "Wireless Programming",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201031722-7980Embedded IR Remote Control with NEC Protocol.jpg",
+          "lesson": "32",
+          "time": "30"
+        },
+        {
+          "name": "Hands-On GPS Firmware Development",
+          "description": "Learn to develop bare-metal drivers and libraries for GPS systems, including parsing satellite data for longitude, latitude, and altitude. Master GPS module integration, data structures, and NMEA data parsing.",
+          "course_link": "https://study.embeddedexpert.io/p/gps-firmware",
+          "category": "Wireless Programming",
+          "tags": [
+            "GPS",
+            "Firmware Development",
+            "Wireless Programming",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201031956-7240Hands-On GPS Firmware Development.jpg",
+          "lesson": "45",
+          "time": "50"
+        },
+        {
+          "name": "Wireless System Development with nRF24",
+          "description": "Learn to build a complete wireless system for data management and control using the nRF24L01 transceiver. Develop end-to-end systems for sensor data collection and wireless peripherals like game controllers.",
+          "course_link": "https://study.embeddedexpert.io/p/embedded-nrf24",
+          "category": "Wireless Programming",
+          "tags": [
+            "Wireless System",
+            "nRF24",
+            "Wireless Programming",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201032106-6209Wireless System Development with nRF24.jpg",
+          "lesson": "38",
+          "time": "35"
+        },
+        {
+          "name": "Embedded RFID/NFC Bare-Metal Development",
+          "description": "Learn to develop RFID/NFC firmware applications from scratch, including interfacing MIFARE MFRC522 NFC chips with STM32 microcontrollers. This course covers both theoretical concepts and practical implementation, including cloud connectivity.",
+          "course_link": "https://study.embeddedexpert.io/p/nfc-bare-metal",
+          "category": "Wireless Programming",
+          "tags": [
+            "RFID",
+            "NFC",
+            "Bare-Metal Development",
+            "Wireless Programming",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230201032202-6883Embedded RFID NFC Bare-Metal Development.jpg",
+          "lesson": "32",
+          "time": "30"
+        },
+        {
+          "name": "WiFi IoT Architecture: From Firmware to Full Stack Web Development",
+          "description": "Learn to design and deploy custom server-side applications, master sensor data collection and transmission using HTTP, and develop firmware for IoT devices. This course covers WiFi in IoT, ESP8266, bare-metal driver development, and server-side development.",
+          "course_link": "https://study.embeddedexpert.io/p/aws-cloud111",
+          "category": "Wireless Programming",
+          "tags": [
+            "WiFi",
+            "IoT",
+            "Full Stack",
+            "Wireless Programming",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906123831-3623aws-cloud111.webp",
+          "lesson": "45",
+          "time": "40"
+        },
+        {
+          "name": "4G LTE IoT: Bare-Metal to HTTP, MQTT, SMS",
+          "description": "Learn to develop bare-metal firmware for STM32 microcontrollers interfacing with 4G LTE chips, and master HTTP, MQTT, and SMS protocols for IoT applications. This course covers server-side development, sensor data collection, and creating real-world IoT solutions.",
+          "course_link": "https://study.embeddedexpert.io/p/aws-cloud11",
+          "category": "Wireless Programming",
+          "tags": [
+            "4G LTE",
+            "IoT",
+            "HTTP",
+            "MQTT",
+            "SMS",
+            "Wireless Programming",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906123944-6533aws-cloud11.webp",
+          "lesson": "40",
+          "time": "35"
+        },
+        {
+          "name": "Embedded Azure Cloud <> Python Gateway Communication",
+          "description": "Learn to leverage Microsoft Azure for IoT solutions, from storage management to real-time data handling with CosmosDB. Gain practical skills in Azure services, Python integration, and IoT data management.",
+          "course_link": "https://study.embeddedexpert.io/p/azure-cloud1",
+          "category": "Wireless Programming",
+          "tags": [
+            "Azure",
+            "Cloud",
+            "Python",
+            "IoT",
+            "Wireless Programming",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230906124033-8491azure-cloud1.webp",
+          "lesson": "32",
+          "time": "30"
+        },
+        {
+          "name": "ARM Assembly Language From Ground Up™ 1",
+          "description": "Learn ARM Systems Design, Architecture, and Practical Assembly Programming. Master ARM Instruction Sets, create data structures, and design complex algorithms in assembly.",
+          "course_link": "https://study.embeddedexpert.io/p/arm-assem-1",
+          "category": "Assembly Programming",
+          "tags": [
+            "ARM",
+            "Assembly Language",
+            "Embedded Systems",
+            "Assembly Programming",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126094906-2874ARM Assembly Language From Ground Up™ 1.webp",
+          "lesson": "45",
+          "time": "40"
+        },
+        {
+          "name": "ARM Assembly Language From Ground Up™ 2",
+          "description": "Learn to build peripheral drivers and firmware using ARM Assembly Language. Master ADC, UART, PWM, GPIO, and TIMER configurations.",
+          "course_link": "https://study.embeddedexpert.io/p/arm-assembly-language-from-ground-up-2",
+          "category": "Assembly Programming",
+          "tags": [
+            "ARM",
+            "Assembly Language",
+            "Embedded Systems",
+            "Assembly Programming",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126094849-6564ARM Assembly Language From Ground Up™ 2.webp",
+          "lesson": "38",
+          "time": "35"
+        },
+        {
+          "name": "ARM Assembly Programming Mastery Pack",
+          "description": "Covering ARM Systems Design, Architecture, and Practical Assembly Programming. Master ARM Instruction Sets, create data structures, and write drivers for microcontroller peripherals.",
+          "course_link": "https://study.embeddedexpert.io/p/modern-bare-metal-embedded-c-programming-from-ground-up1",
+          "category": "Assembly Programming",
+          "tags": [
+            "ARM",
+            "Assembly Language",
+            "Embedded Systems",
+            "Assembly Programming",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230126094838-5364ARM Assembly Programming Mastery Pack.webp",
+          "lesson": "40",
+          "time": "35"
+        },
+        {
+          "name": "ARM GNU Assembly Programming From Ground Up™",
+          "description": "Learn ARM Systems Design, Architecture, and Practical Assembly Programming using GNU assembler. Master ARM Instruction Sets and build peripheral drivers and firmware in assembly.",
+          "course_link": "https://study.embeddedexpert.io/p/arm-gnu-assembly-programming-from-ground-up",
+          "category": "Assembly Programming",
+          "tags": [
+            "ARM",
+            "Assembly Language",
+            "GNU",
+            "Embedded Systems",
+            "Assembly Programming",
+            "courses",
+            "course"
+          ],
+          "image": "https://be.embeddedexpert.io/public/storage/upload/books/230131081956-1562ARM GNU Assembly Programming From Ground Up™.webp",
+          "lesson": "45",
+          "time": "40"
+        }
+      ]
+    }
+  ]
+}

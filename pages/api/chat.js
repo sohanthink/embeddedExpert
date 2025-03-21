@@ -1,32 +1,35 @@
 import { OpenAI } from "openai";
 import Fuse from "fuse.js";
-import jsonData from "@/data/data.json"; // Import your JSON file
+import jsonData from "@/data/chat.json"; // Import your JSON file
 
 // Initialize OpenAI client
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY || "", // Ensure this is set in your environment
 });
 
+// Helper function to calculate tokens
+const calculateTokens = (text) => {
+  // Approximate token calculation: 1 token ~= 4 characters or 0.75 words
+  return Math.ceil(text.split(/\s+/).length * 0.75);
+};
+
 // Flatten nested data to make everything searchable
 const flattenData = (data) => {
   const flatData = [];
 
   data.forEach((item) => {
-    if (item.questions) {
-      flatData.push(...item.questions); // Extract 'questions' from FAQ
-    } else if (item.courses) {
-      flatData.push(...item.courses); // Extract 'courses'
-    } else if (item.reasons) {
-      flatData.push(...item.reasons); // Extract 'reasons' from AffiliatePartner
-    } else if (item.testimonials) {
-      flatData.push(...item.testimonials); // Extract 'testimonials'
-    } else if (item.services) {
-      flatData.push({ description: item.services.join(", "), ...item }); // Flatten 'services'
-    } else if (item.reviews) {
-      flatData.push(...item.reviews); // Flatten 'reviews'
-    } else {
-      flatData.push(item); // Include everything else
-    }
+    if (item.questions) flatData.push(...item.questions);
+    if (item.courses) flatData.push(...item.courses);
+    if (item.reasons) flatData.push(...item.reasons);
+    if (item.reviews) flatData.push(...item.reviews);
+    if (item.CompanyInfo) flatData.push(item.CompanyInfo);
+    if (item.FAQ) flatData.push(...item.FAQ);
+    if (item.Resource) flatData.push(item.Resource);
+    if (item.Review) flatData.push(item.Review);
+    if (item.Technology) flatData.push(item.Technology);
+    if (item.Testimonial) flatData.push(item.Testimonial);
+    if (item.Instructor) flatData.push(item.Instructor);
+    else flatData.push(item); // Include everything else
   });
 
   return flatData;
@@ -44,9 +47,22 @@ const filterData = (query, data) => {
 
   // Fuzzy matching with Fuse.js
   const fuse = new Fuse(flatData, {
-    keys: ["name", "description", "tags", "category"], // Include all relevant fields
-    threshold: 0.5, // Increase threshold for broader matching
-    distance: 100, // Adjust distance for better results
+    keys: [
+      "name",
+      "description",
+      "tags",
+      "category",
+      "review",
+      "course",
+      "question",
+      "answer",
+      "type",
+      "Technology",
+      "Testimonial",
+      "Instructor",
+    ], // Include all relevant fields
+    threshold: 0.4, // Lower threshold for stricter matching
+    distance: 50, // Adjust distance for better results
     shouldSort: true,
   });
 
@@ -57,18 +73,35 @@ const filterData = (query, data) => {
 
 // Build context dynamically
 const buildContext = (filteredResults, query) => {
-  // If the user asks about courses, list them
+  // Handle specific intents
   if (query.toLowerCase().includes("course")) {
     const courses = filteredResults
       .filter((item) => item.name && item.description) // Ensure the item is a course
       .map(
         (item) =>
-          `**${item.name}**\n- Description: ${item.description}\n- Link: ${item.course_link}`
+          `**${item.name}**\n- Description: ${item.description}\n- Link: ${
+            item.course_link || "N/A"
+          }`
       )
       .join("\n\n");
 
     console.log("Courses context:", courses); // Log the courses context
     return courses;
+  }
+
+  if (query.toLowerCase().includes("review")) {
+    const reviews = filteredResults
+      .filter((item) => item.review) // Ensure the item is a review
+      .map(
+        (item) =>
+          `**Review by ${item.name || item.reviewer}**\n- Course: ${
+            item.course || item.course_name
+          }\n- Review: ${item.review}\n- Link: ${item.course_link || "N/A"}`
+      )
+      .join("\n\n");
+
+    console.log("Reviews context:", reviews); // Log the reviews context
+    return reviews;
   }
 
   // Default: Include all filtered results
@@ -107,29 +140,73 @@ export default async function handler(req, res) {
     const filteredResults = filterData(message, jsonData.data);
     console.log("Filtered results:", filteredResults); // Log filtered results
 
-    // Step 2: Format context dynamically for GPT
-    const context = buildContext(filteredResults, message);
-    console.log("Context:", context); // Log the context
+    // Step 2: Handle specific intents
+    if (message.toLowerCase().includes("how many courses")) {
+      const courses = jsonData.data
+        .filter((item) => item.courses) // Extract items with 'courses'
+        .flatMap((item) => item.courses); // Flatten the courses array
 
-    // Step 3: Handle specific queries (e.g., "What courses do you have?")
-    if (message.toLowerCase().includes("course")) {
-      const courseList = filteredResults
-        .filter((item) => item.name && item.description)
+      const courseCount = courses.length;
+      const reply = `We have ${courseCount} courses available. 🎉 Here are some popular ones:\n\n${courses
+        .slice(0, 3)
+        .map(
+          (course) =>
+            `**${course.name}**\n- Description: ${
+              course.description
+            }\n- Link: ${course.course_link || "N/A"}`
+        )
+        .join("\n\n")}`;
+      const tokens = calculateTokens(reply);
+      console.log("Tokens used:", tokens); // Log tokens used
+      return res.status(200).json({ reply, tokens });
+    }
+
+    if (message.toLowerCase().includes("show me some courses")) {
+      const courses = filteredResults
+        .filter((item) => item.name && item.description) // Ensure the item is a course
         .map(
           (item) =>
-            `**${item.name}**\n- Description: ${item.description}\n- Link: ${item.course_link}`
+            `**${item.name}**\n- Description: ${item.description}\n- Link: ${
+              item.course_link || "N/A"
+            }`
         )
         .join("\n\n");
 
-      if (courseList) {
-        const reply = `Here are some of the courses we offer:\n\n${courseList}`;
-        return res.status(200).json({ reply });
-      } else {
-        return res
-          .status(200)
-          .json({ reply: "We couldn't find any courses matching your query." });
-      }
+      const reply = `Here are some courses you might like:\n\n${courses}`;
+      const tokens = calculateTokens(reply);
+      console.log("Tokens used:", tokens); // Log tokens used
+      return res.status(200).json({ reply, tokens });
     }
+
+    if (message.toLowerCase().includes("show me some reviews")) {
+      const reviews = filteredResults
+        .filter((item) => item.review) // Ensure the item is a review
+        .map(
+          (item) =>
+            `**Review by ${item.name || item.reviewer}**\n- Course: ${
+              item.course || item.course_name
+            }\n- Review: ${item.review}\n- Link: ${item.course_link || "N/A"}`
+        )
+        .join("\n\n");
+
+      // Fallback if no reviews are found
+      if (reviews.length === 0) {
+        const reply =
+          "I couldn't find any reviews at the moment. 😔 Please visit our website or contact us through the contact form for further assistance.";
+        const tokens = calculateTokens(reply);
+        console.log("Tokens used:", tokens); // Log tokens used
+        return res.status(200).json({ reply, tokens });
+      }
+
+      const reply = `Here are some reviews from our students:\n\n${reviews}`;
+      const tokens = calculateTokens(reply);
+      console.log("Tokens used:", tokens); // Log tokens used
+      return res.status(200).json({ reply, tokens });
+    }
+
+    // Step 3: Format context dynamically for GPT
+    const context = buildContext(filteredResults, message);
+    console.log("Context:", context); // Log the context
 
     // Step 4: Call OpenAI API with formatted context
     const completion = await openai.chat.completions.create({
@@ -146,8 +223,10 @@ export default async function handler(req, res) {
 
     const reply =
       completion.choices[0]?.message?.content ||
-      "I couldn't find a detailed answer.";
-    return res.status(200).json({ reply });
+      "I couldn't find a detailed answer. Could you please provide more details? 😊";
+    const tokens = calculateTokens(reply);
+    console.log("Tokens used:", tokens); // Log tokens used
+    return res.status(200).json({ reply, tokens });
   } catch (error) {
     console.error("Error processing request:", error.stack); // Log detailed error
     return res
