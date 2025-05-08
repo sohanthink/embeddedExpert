@@ -70,12 +70,12 @@ const BannerV2 = () => {
 
                 {/* Stats Section */}
                 <div className="flex flex-wrap md:flex-row gap-3 justify-start items-center">
-                    <Card src={assets.star} number={loading ? '...' : review} title="Reviews" />
-                    <Card src={assets.cap} number={loading ? '...' : students} title="Students" />
-                    <Card src={assets.map} number={loading ? '...' : countries} title="Countries" />
+                    <Card src={assets.star} cn='min-w-[220px]' number={loading ? '...' : review} title="Reviews" />
+                    <Card src={assets.cap} cn='min-w-[230px]' number={loading ? '...' : students} title="Students" />
+                    <Card src={assets.map} cn='min-w-[150px]' number={loading ? '...' : countries} title="Countries" />
                     <div className="space-y-1 md:space-y-2 w-full md:w-auto">
                         <h4 className="text-white">This Month</h4>
-                        <Card src={assets.clock} number={loading ? '...' : minutes} title="Minutes" gradient />
+                        <Card src={assets.clock} cn='min-w-[220px]' number={loading ? '...' : minutes} title="Minutes" gradient />
                         <h4 className="text-white">Of lessons completed this month.</h4>
                     </div>
                 </div>
@@ -86,14 +86,14 @@ const BannerV2 = () => {
 };
 
 // Card Component with Animated Counter
-const Card = ({ src, number, title, gradient }) => {
+const Card = ({ src, number, title, gradient, cn }) => {
     return (
         <div
-            className={`flex gap-3 items-center justify-start md:justify-center border border-[#D50075]/40 p-5 rounded-2xl h-16 md:h-28 w-full md:w-auto md:min-w-[250px] 
+            className={`flex gap-3 items-center justify-start md:justify-center border border-[#D50075]/40 p-5 rounded-2xl h-16 md:h-28 w-full md:w-auto ${cn}
       ${gradient ? "bg-gradient-to-r from-primary via-pink-500 to-pink-700 text-white" : "bg-transparent"}`}
         >
             <Image src={src} alt="Icon" width={45} height={45} />
-            <div>
+            <div className={`${cn}`}>
                 <h4 className="text-white text-2xl md:text-[50px] font-extrabold leading-5 md:leading-6 capitalize">
                     <CountUp start={0} end={number || 0} duration={2.5} separator="," />
                     + <br />
