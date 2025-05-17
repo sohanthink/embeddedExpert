@@ -17,7 +17,6 @@ import data from '../../data/data.json';
 
 import lessonImg from '@/public/home/mainbaner.png'; // Ensure the image path is correct
 import { PiArrowCircleLeftThin, PiArrowCircleRightThin } from 'react-icons/pi';
-import { Cloud } from '@react-three/drei';
 
 const AssemblyProgramming = () => {
     const prevRef = useRef(null);

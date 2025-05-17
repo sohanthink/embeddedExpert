@@ -1,7 +1,9 @@
 "use client";
 
 import React, { useState, useRef, useEffect } from "react";
-import { FaComments, FaTimes, FaExpand, FaCompress } from "react-icons/fa";
+import { FaComments, FaTimes, FaExpand, FaCompress, FaPaperclip, FaLink } from "react-icons/fa";
+import Markdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 
 const Chat = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -43,7 +45,7 @@ const Chat = () => {
 
         const timer = setTimeout(() => {
             messageEndRef.current?.scrollIntoView({
-                behavior: 'auto', // Instant scroll
+                behavior: 'smooth',
                 block: 'end'
             });
         }, 50);
@@ -74,7 +76,13 @@ const Chat = () => {
             const response = await fetch("/api/chat", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
-                body: JSON.stringify({ message: userMessage.content }),
+                body: JSON.stringify({
+                    message: userMessage.content,
+                    conversationHistory: messages.map(m => ({
+                        role: m.role,
+                        content: m.content
+                    }))
+                }),
             });
 
             if (!response.ok) {
@@ -82,18 +90,26 @@ const Chat = () => {
             }
 
             const data = await response.json();
-            if (!data.reply) {
-                throw new Error("No reply in response");
+            if (!data.answer) {
+                throw new Error("No answer in response");
             }
 
-            setMessages((prev) => [...prev, { role: "assistant", content: data.reply }]);
+            setMessages((prev) => [
+                ...prev,
+                {
+                    role: "assistant",
+                    content: data.answer,
+                    sources: data.sources || []
+                }
+            ]);
+
         } catch (error) {
             console.error("Chat error:", error);
             setMessages((prev) => [
                 ...prev,
                 {
                     role: "assistant",
-                    content: "Sorry, I encountered an error. Please try again later."
+                    content: "Sorry, I couldn't process your request. Could you try rephrasing your question?",
                 },
             ]);
         } finally {
@@ -116,12 +132,42 @@ const Chat = () => {
         }
     };
 
+    const renderMessageContent = (content) => {
+        return (
+            <Markdown
+                remarkPlugins={[remarkGfm]}
+                components={{
+                    a: ({ node, ...props }) => (
+                        <a {...props} className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer" />
+                    ),
+                    ul: ({ node, ...props }) => (
+                        <ul {...props} className="list-disc pl-5 my-2" />
+                    ),
+                    ol: ({ node, ...props }) => (
+                        <ol {...props} className="list-decimal pl-5 my-2" />
+                    ),
+                    strong: ({ node, ...props }) => (
+                        <strong {...props} className="font-bold" />
+                    ),
+                    em: ({ node, ...props }) => (
+                        <em {...props} className="italic" />
+                    ),
+                    p: ({ node, ...props }) => (
+                        <p {...props} className="my-2" />
+                    ),
+                }}
+            >
+                {content}
+            </Markdown>
+        );
+    };
+
     return (
         <div className="fixed bottom-5 right-5 z-50">
             {/* Chat toggle button */}
             {!isOpen && (
                 <button
-                    className="bg-blue-500 text-white rounded-full p-3 cursor-pointer hover:bg-blue-600 transition-all focus:outline-none"
+                    className="bg-blue-500 text-white rounded-full p-3 cursor-pointer hover:bg-blue-600 transition-all focus:outline-none shadow-lg"
                     onClick={toggleChat}
                     aria-label="Open chat"
                 >
@@ -132,11 +178,11 @@ const Chat = () => {
             {/* Chat window */}
             {isOpen && (
                 <div
-                    className={`${isExpanded ? "w-[330px] md:w-[600px] h-[350px] md:h-[700px]" : "w-[300px] h-[320px] md:w-96 md:h-[500px]"} bg-white border border-gray-300 rounded-lg shadow-lg flex flex-col transition-all duration-300`}
+                    className={`${isExpanded ? "w-[330px] md:w-[600px] h-[350px] md:h-[700px]" : "w-[300px] h-[320px] md:w-96 md:h-[500px]"} bg-white border border-gray-300 rounded-lg shadow-xl flex flex-col transition-all duration-300`}
                 >
                     {/* Chat header */}
                     <div className="bg-blue-500 text-white p-3 flex justify-between items-center rounded-t-lg">
-                        <h4 className="font-semibold">Chat with AI</h4>
+                        <h4 className="font-semibold">EmbeddedExpert AI Assistant</h4>
                         <div className="flex items-center gap-2">
                             <button
                                 onClick={toggleExpand}
@@ -161,7 +207,8 @@ const Chat = () => {
                         <div className="mt-auto">
                             {messages.length === 0 ? (
                                 <div className="text-center text-gray-500 py-4">
-                                    Start a conversation with the AI assistant
+                                    <p>Welcome to EmbeddedExpert AI Assistant!</p>
+                                    <p className="mt-2">Ask me about our courses, instructors, or resources.</p>
                                 </div>
                             ) : (
                                 messages.map((msg, index) => (
@@ -172,17 +219,31 @@ const Chat = () => {
                                         <div
                                             className={`inline-block max-w-[80%] p-3 rounded-lg break-words ${msg.role === "user"
                                                 ? "bg-blue-500 text-white rounded-br-none"
-                                                : "bg-gray-200 text-gray-800 rounded-bl-none"
+                                                : "bg-gray-100 text-gray-800 rounded-bl-none"
                                                 }`}
                                         >
-                                            {msg.role === "assistant"
-                                                ? msg.content.split("\n").map((line, i) => (
-                                                    <React.Fragment key={i}>
-                                                        {line}
-                                                        <br />
-                                                    </React.Fragment>
-                                                ))
-                                                : msg.content}
+                                            {renderMessageContent(msg.content)}
+
+                                            {/* Show sources for assistant messages */}
+                                            {msg.role === "assistant" && msg.sources?.length > 0 && (
+                                                <div className="mt-2 pt-2 border-t border-gray-200">
+                                                    <p className="text-xs text-gray-500 mb-1">Sources:</p>
+                                                    <div className="flex flex-wrap gap-1">
+                                                        {msg.sources.map((source, i) => (
+                                                            <a
+                                                                key={i}
+                                                                href={source.link}
+                                                                target="_blank"
+                                                                rel="noopener noreferrer"
+                                                                className="text-xs bg-gray-200 hover:bg-gray-300 px-2 py-1 rounded flex items-center"
+                                                            >
+                                                                {source.image && <FaPaperclip className="mr-1" />}
+                                                                {source.title}
+                                                            </a>
+                                                        ))}
+                                                    </div>
+                                                </div>
+                                            )}
                                         </div>
                                     </div>
                                 ))
@@ -196,7 +257,7 @@ const Chat = () => {
                         <input
                             ref={inputRef}
                             type="text"
-                            placeholder="Type a message..."
+                            placeholder="Ask about our courses or resources..."
                             className="flex-1 p-2 border border-gray-300 rounded-lg mr-2 focus:outline-none focus:border-blue-500"
                             value={userInput}
                             onChange={handleInputChange}
@@ -207,10 +268,12 @@ const Chat = () => {
                         <button
                             onClick={sendMessage}
                             disabled={loading || !userInput.trim()}
-                            className="bg-blue-500 text-white p-2 rounded-lg hover:bg-blue-600 transition-all disabled:bg-gray-400 disabled:cursor-not-allowed focus:outline-none"
+                            className="bg-blue-500 text-white p-2 rounded-lg hover:bg-blue-600 transition-all disabled:bg-gray-400 disabled:cursor-not-allowed focus:outline-none flex items-center justify-center min-w-[80px]"
                             aria-label="Send message"
                         >
-                            {loading ? "Sending..." : "Send"}
+                            {loading ? (
+                                <span className="inline-block h-4 w-4 border-2 border-white border-t-transparent rounded-full animate-spin"></span>
+                            ) : 'Send'}
                         </button>
                     </div>
                 </div>

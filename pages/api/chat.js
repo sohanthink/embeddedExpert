@@ -1,130 +1,14 @@
+import { createClient } from "@supabase/supabase-js";
 import { OpenAI } from "openai";
-import Fuse from "fuse.js";
-import chatData from "@/data/chat.json";
 
 const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY || "",
+  apiKey: process.env.OPENAI_API_KEY,
 });
 
-// Improved data extractor
-const extractData = () => {
-  const data = {
-    courses: [],
-    faqs: [],
-    reviews: [],
-    testimonials: [],
-    companyInfo: null,
-    resources: [],
-    technologies: [],
-  };
-
-  chatData.data.forEach((item) => {
-    switch (item.type) {
-      case "Course":
-        data.courses = item.courses || [];
-        break;
-      case "FAQ":
-        data.faqs = item.questions || [];
-        break;
-      case "Review":
-        data.reviews = item.reviews || [];
-        break;
-      case "Testimonial":
-        data.testimonials = item.testimonials || [];
-        break;
-      case "CompanyInfo":
-        data.companyInfo = item;
-        break;
-      case "Resource":
-        data.resources.push(item);
-        break;
-      case "Technology":
-        data.technologies = item.technologies || [];
-        break;
-    }
-  });
-
-  return data;
-};
-
-// Context builder with natural language summaries
-const buildContext = (data) => {
-  let context =
-    "You are a helpful assistant for EmbeddedExpert.io, an embedded systems education platform. ";
-
-  if (data.companyInfo) {
-    context += `\n\nAbout the company: ${
-      data.companyInfo.name
-    } - ${data.companyInfo.about.substring(0, 200)}...`;
-  }
-
-  if (data.courses.length > 0) {
-    context += `\n\nAvailable courses (${data.courses.length} total):`;
-    data.courses.slice(0, 5).forEach((course) => {
-      context += `\n- ${course.name} (${
-        course.category
-      }): ${course.description.substring(0, 100)}\nCourse link- ${
-        course.course_link
-      }...`;
-    });
-  }
-
-  if (data.faqs.length > 0) {
-    context += `\n\nCommon questions:`;
-    data.faqs.slice(0, 3).forEach((faq) => {
-      context += `\n- Q: ${faq.question}\n  A: ${faq.answer.substring(
-        0,
-        100
-      )}...`;
-    });
-  }
-
-  if (data.reviews.length > 0) {
-    context += `\n\nRecent student feedback:`;
-    data.reviews.slice(0, 3).forEach((review) => {
-      context += `\n- "${review.review.substring(0, 80)}..." - ${
-        review.name || review.reviewer
-      }`;
-    });
-  }
-
-  return context;
-};
-
-// Search within specific data types
-const searchData = (query, data) => {
-  const results = [];
-  const options = { threshold: 0.4, includeScore: true };
-
-  // Search courses
-  const courseFuse = new Fuse(data.courses, {
-    ...options,
-    keys: ["name", "description", "course_link", "category", "tags"],
-  });
-  results.push(
-    ...courseFuse.search(query).map((r) => ({ ...r.item, type: "course" }))
-  );
-
-  // Search FAQs
-  const faqFuse = new Fuse(data.faqs, {
-    ...options,
-    keys: ["question", "answer", "tags"],
-  });
-  results.push(
-    ...faqFuse.search(query).map((r) => ({ ...r.item, type: "faq" }))
-  );
-
-  // Search reviews
-  const reviewFuse = new Fuse(data.reviews, {
-    ...options,
-    keys: ["review", "course", "course_name", "name", "reviewer"],
-  });
-  results.push(
-    ...reviewFuse.search(query).map((r) => ({ ...r.item, type: "review" }))
-  );
-
-  return results.sort((a, b) => a.score - b.score).slice(0, 5);
-};
+const supabase = createClient(
+  process.env.SUPABASE_URL,
+  process.env.SUPABASE_ANON_KEY
+);
 
 export default async function handler(req, res) {
   if (req.method !== "POST") {
@@ -132,77 +16,110 @@ export default async function handler(req, res) {
   }
 
   const { message } = req.body;
-  if (!message) {
+
+  if (!message?.trim()) {
     return res.status(400).json({ error: "Message is required" });
   }
 
   try {
-    // Extract and organize data
-    const data = extractData();
-    const context = buildContext(data);
-    const searchResults = searchData(message, data);
+    // 1. Generate embedding for the query
+    const embeddingRes = await openai.embeddings.create({
+      model: "text-embedding-3-small",
+      input: message.replace(/\n/g, " "),
+    });
+    const embedding = embeddingRes.data[0].embedding;
 
-    // Prepare recent data for context
-    let recentInfo = "Recent information from our database:\n";
-    searchResults.forEach((result) => {
-      switch (result.type) {
-        case "course":
-          recentInfo += `\nCourse: ${
-            result.name
-          }\nDescription: ${result.description.substring(
-            0,
-            150
-          )}...\nCourse Link:- ${result.course_link}\n`;
-          break;
-        case "faq":
-          recentInfo += `\nQuestion: ${
-            result.question
-          }\nAnswer: ${result.answer.substring(0, 150)}...\n`;
-          break;
-        case "review":
-          recentInfo += `\nReview: ${result.review.substring(0, 150)}...\nBy: ${
-            result.name || result.reviewer
-          }\n`;
-          break;
+    // 2. First try semantic search
+    const { data: courses, error: vectorError } = await supabase.rpc(
+      "match_courses",
+      {
+        query_embedding: embedding,
+        match_threshold: 0.5, // Lowered threshold
+        match_count: 5,
       }
-    });
+    );
 
-    // Generate natural response
-    const prompt = `
-      ${context}
-      
-      ${recentInfo}
-      
-      The user asked: "${message}"
-      
-      Respond naturally as a human representative would, using the information above. 
-      Be friendly, helpful, and professional. If you don't know something, say so politely.
-      Keep responses concise but informative.
-    `;
+    // 3. If no results, try direct text search as fallback
+    let results = courses || [];
+    if (!results.length) {
+      const { data: textMatches } = await supabase
+        .from("courses")
+        .select("*, similarity(title, $query) as sim", {
+          params: { query: message },
+        })
+        .order("sim", { ascending: false })
+        .limit(3);
+      results = textMatches || [];
+    }
 
-    const completion = await openai.chat.completions.create({
-      model: "gpt-4",
-      messages: [
-        { role: "system", content: prompt },
-        { role: "user", content: message },
-      ],
-      temperature: 0.7,
-      max_tokens: 500,
-    });
+    // 4. Format response
+    if (results.length > 0) {
+      const courseList = results
+        .map((course) => {
+          const durationHours = Math.floor(course.duration_minutes / 60);
+          const durationMins = course.duration_minutes % 60;
+          const duration =
+            durationHours > 0
+              ? `${durationHours}h ${durationMins}m`
+              : `${durationMins}m`;
 
-    const reply =
-      completion.choices[0]?.message?.content ||
-      "I couldn't generate a response. Please try asking differently.";
+          return `**${course.title}**  
+🔗 [Course Link](${course.metadata?.link || "#"})  
+📚 ${course.lessons} lessons | ⏱️ ${duration}  
+📌 Category: ${course.category}  
+🔖 Tags: ${course.tags?.join(", ") || "None"}  
 
-    return res.status(200).json({
-      reply,
-      tokens: completion.usage?.total_tokens || 0,
-    });
-  } catch (error) {
-    console.error("Chat error:", error);
-    return res.status(500).json({
-      error: "An error occurred while processing your message",
-      details: error.message,
+${course.description}  
+
+${course.metadata?.image ? `![Course Image](${course.metadata.image})` : ""}`;
+        })
+        .join("\n\n---\n\n");
+
+      // 5. Generate polished response
+      const systemPrompt = `You are EmbeddedExpert's course assistant. Use ONLY these courses:
+
+${courseList}
+
+Response Rules:
+1. Use EXACT course titles/links from above
+2. List ALL relevant courses
+3. Format with Markdown:
+   - **Bold** titles
+   - Real links only
+   - Separate courses with ---
+4. If unsure, say "Here are relevant courses:" then list them`;
+
+      const chatResponse = await openai.chat.completions.create({
+        model: "gpt-4-turbo",
+        messages: [
+          { role: "system", content: systemPrompt },
+          { role: "user", content: `Question: ${message}` },
+        ],
+        temperature: 0.3, // Low for accuracy
+        max_tokens: 1000,
+      });
+
+      res.status(200).json({
+        answer: chatResponse.choices[0].message.content,
+        sources: results.map((c) => ({
+          title: c.title,
+          link: c.metadata?.link,
+          image: c.metadata?.image,
+          similarity: c.similarity || 0,
+        })),
+      });
+    } else {
+      // 6. No results fallback
+      res.status(200).json({
+        answer: `No courses found for "${message}". Try these topics:\n- ARM Assembly Programming\n- Embedded C\n- RTOS Development`,
+        sources: [],
+      });
+    }
+  } catch (err) {
+    console.error("Chat error:", err);
+    res.status(500).json({
+      error: "Failed to process your request",
+      details: process.env.NODE_ENV === "development" ? err.message : undefined,
     });
   }
 }
