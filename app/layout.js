@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/common/Navbar";
 import Footer from "@/components/home/Footer";
 import Chat from "@/components/common/Chat";
+import Footer2 from "@/components/home/Footer2";
 
 const workSans = Work_Sans({
   variable: "--font-work-sans",
@@ -21,8 +22,9 @@ export default function RootLayout({ children }) {
       <body className={`${workSans.variable} antialiased scroll-smooth`}>
         <Navbar />
         {children}
-        <Chat />
-        <Footer />
+        {/* <Chat /> */}
+        {/* <Footer /> */}
+        <Footer2 />
       </body>
     </html>
   );

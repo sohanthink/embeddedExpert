@@ -17,6 +17,8 @@ export default async function handler(req, res) {
 
   const { message } = req.body;
 
+  console.log("Received message:", message);
+
   if (!message?.trim()) {
     return res.status(400).json({ error: "Message is required" });
   }
@@ -29,15 +31,18 @@ export default async function handler(req, res) {
     });
     const embedding = embeddingRes.data[0].embedding;
 
+    console.log("Generated embedding:", embedding);
+
     // 2. First try semantic search
     const { data: courses, error: vectorError } = await supabase.rpc(
       "match_courses",
       {
         query_embedding: embedding,
         match_threshold: 0.5, // Lowered threshold
-        match_count: 5,
+        match_count: 10,
       }
     );
+    console.log("courses", courses);
 
     // 3. If no results, try direct text search as fallback
     let results = courses || [];

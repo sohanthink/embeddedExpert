@@ -70,7 +70,7 @@ export const InfiniteMovingCards = ({
                 )}>
                 {items.map((item, idx) => (
                     <li
-                        className="w-24 md:w-full"
+                        className="w-24 px-0 md:px-10 md:w-full"
                         // style={{
                         //     background:
                         //         "linear-gradient(180deg, var(--slate-800), var(--slate-900)",

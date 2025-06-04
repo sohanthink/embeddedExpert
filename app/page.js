@@ -17,17 +17,17 @@ export default function Home() {
     <>
       {/* <Banner /> */}
       <BannerV2 />
-      <Developer />
-      {/* <Courses /> */}
-      <Expert />
-      <Category />
-      <Certificate />
       <Technolgy />
-      <Library />
-      <WhitePaper />
-      <Testimonial />
-      <ContactUs />
-      <SubscribeCard />
+      {/* <Developer /> */}
+      {/* <Courses /> */}
+      {/* <Expert /> */}
+      {/* <Category /> */}
+      {/* <Certificate /> */}
+      {/* <Library /> */}
+      {/* <WhitePaper /> */}
+      {/* <Testimonial /> */}
+      {/* <ContactUs /> */}
+      {/* <SubscribeCard /> */}
     </>
   );
 }
