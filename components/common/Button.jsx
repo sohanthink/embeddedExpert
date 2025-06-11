@@ -11,12 +11,12 @@ import readingIcon from "@/public/home/reading-icon.svg";
 import Image from 'next/image';
 import { GoArrowUpRight } from 'react-icons/go';
 
-export default function CommonButton({ link, text, varient }) {
+export default function CommonButton({ link, text, varient, cn }) {
     return (
         <Button
             aria-label={text}
             borderRadius="1.75rem"
-            className={`bg-primary hover:bg-secondary transition-all duration-300 ease-linear text-white px-4 py-2 rounded-full cursor-pointer font-bold capitalize ${varient === 'reading' && 'bg-transparent border border-primary text-primary hover:text-white'
+            className={`${cn} bg-primary hover:bg-secondary transition-all duration-300 ease-linear text-white px-4 py-2 rounded-full cursor-pointer font-bold capitalize ${varient === 'reading' && 'bg-transparent border border-primary text-primary hover:text-white'
                 }`}
         >
             {(() => {
@@ -49,7 +49,7 @@ export default function CommonButton({ link, text, varient }) {
                         );
                     case 'webinar':
                         return (
-                            <Link href={link} className='inline-flex items-center justify-center gap-2 text-nowrap'>
+                            <Link href={link} className={`inline-flex items-center justify-center gap-2 text-nowrap ${cn}`}>
                                 {text}
                                 <GoArrowUpRight />
                             </Link>

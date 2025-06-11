@@ -7,6 +7,7 @@ import ContactUs from "@/components/home/ContactUs";
 import Courses from "@/components/home/Courses";
 import Developer from "@/components/home/Developer";
 import Expert from "@/components/home/Expert";
+import Growth from "@/components/home/Growth";
 import Library from "@/components/home/Library";
 import Technolgy from "@/components/home/Technology";
 import Testimonial from "@/components/home/Testimonial";
@@ -20,11 +21,12 @@ export default function Home() {
       <BannerV2 />
       <Technolgy />
       <WhitePaper2 />
-      {/* <Developer /> */}
+      <Developer />
+      <Growth />
       {/* <Courses /> */}
       {/* <Expert /> */}
       {/* <Category /> */}
-      {/* <Certificate /> */}
+      <Certificate />
       {/* <Library /> */}
       {/* <WhitePaper /> */}
       {/* <Testimonial /> */}
