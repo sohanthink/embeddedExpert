@@ -6,6 +6,7 @@ import backgroundimage from '@/public/home/banner/bg_overlay_1.png'
 import Link from 'next/link';
 import { TiSocialFacebook } from 'react-icons/ti';
 import { FaLinkedinIn } from 'react-icons/fa';
+import CommonButton from '../common/Button';
 
 const Footer2 = () => {
     return (
@@ -24,13 +25,10 @@ const Footer2 = () => {
                 <p className='text-xl'>
                     We shift you from today’s reality to tomorrow’s potential, ensuring
                 </p>
-
                 <div className='flex flex-col sm:flex-row justify-center gap-4 pt-6'>
-                    <Link href='#' className="primary-btn flex gap-2 justify-center items-center"> Join a Free Webinar<GoArrowUpRight /></Link>
-
-                    <Link href='#' className="primary-btn flex gap-2 justify-center items-center"> Explore Courses and Training <GoArrowUpRight /></Link>
-
-                    <Link href='#' className="primary-btn flex gap-2 justify-center items-center"> Book a Corporate Consultation <GoArrowUpRight /></Link>
+                    <CommonButton link='' text='Join a Free Webinar' varient='empty' />
+                    <CommonButton link='' text='Explore Courses and Training' varient='webinar' />
+                    <CommonButton link='' text='Book a Corporate Consultation' varient='webinar' />
                 </div>
             </div>
 
@@ -43,6 +41,7 @@ const Footer2 = () => {
                         <div className='p-2 rounded-full border border-transparent text-black bg-white hover:bg-transparent hover:border hover:border-white transition-all duration-400 hover:text-white text-xl cursor-pointer'> <FaLinkedinIn /></div>
                     </Link>
                 </div>
+
                 <div className='hidden md:block'>
                     <ul className='flex gap-8 text-white'>
                         <li><Link href='#'>Home</Link></li>

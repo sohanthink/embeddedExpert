@@ -11,6 +11,7 @@ import Library from "@/components/home/Library";
 import Technolgy from "@/components/home/Technology";
 import Testimonial from "@/components/home/Testimonial";
 import WhitePaper from "@/components/home/WhitePaper";
+import WhitePaper2 from "@/components/home/WhitePaper2";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       {/* <Banner /> */}
       <BannerV2 />
       <Technolgy />
+      <WhitePaper2 />
       {/* <Developer /> */}
       {/* <Courses /> */}
       {/* <Expert /> */}
@@ -26,8 +28,8 @@ export default function Home() {
       {/* <Library /> */}
       {/* <WhitePaper /> */}
       {/* <Testimonial /> */}
-      {/* <ContactUs /> */}
-      {/* <SubscribeCard /> */}
+      <ContactUs />
+      <SubscribeCard />
     </>
   );
 }

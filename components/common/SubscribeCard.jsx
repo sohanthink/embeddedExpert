@@ -63,7 +63,7 @@ const SubscribeCard = () => {
                 <div className='w-full md:w-1/2 lg:w-1/3 mx-auto my-8 mb-4 z-10'>
                     <form className="flex flex-col md:flex-row gap-3" onSubmit={handleSubmit}>
                         <LabelInputContainer className="flex-grow">
-                            <Input className="bg-transparent border border-white text-white placeholder-white placeholder:text-white"
+                            <Input className="bg-transparent border border-white text-white placeholder-white placeholder:text-white rounded-full"
                                 id="email"
                                 placeholder="Enter Your Email"
                                 type="email"
@@ -72,7 +72,7 @@ const SubscribeCard = () => {
                         </LabelInputContainer>
 
                         <button
-                            className="hover:bg-secondary bg-white transition-all duration-200 ease-linear flex justify-center gap-2 items-center relative group/btn px-4 text-black-300 hover:text-white rounded-md h-10 font-bold uppercase shadow-md"
+                            className="hover:bg-secondary bg-white transition-all duration-200 ease-linear flex justify-center gap-2 items-center relative group/btn px-4 text-black-300 hover:text-white rounded-full h-10 font-bold uppercase shadow-md text-sm"
                             type="submit"
                         >
                             Subscribe <IoIosSend />
