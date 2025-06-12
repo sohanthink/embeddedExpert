@@ -11,6 +11,8 @@ import Growth from "@/components/home/Growth";
 import Library from "@/components/home/Library";
 import Technolgy from "@/components/home/Technology";
 import Testimonial from "@/components/home/Testimonial";
+import Training from "@/components/home/Training";
+import Upskill from "@/components/home/Upskill";
 import WhitePaper from "@/components/home/WhitePaper";
 import WhitePaper2 from "@/components/home/WhitePaper2";
 
@@ -23,6 +25,8 @@ export default function Home() {
       <WhitePaper2 />
       <Developer />
       <Growth />
+      <Upskill />
+      <Training />
       {/* <Courses /> */}
       {/* <Expert /> */}
       {/* <Category /> */}

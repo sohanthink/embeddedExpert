@@ -30,9 +30,7 @@ const CommonCard = ({ varient }) => {
                             </ul>
                             <CommonButton cn='w-full' link='' text='Start with the Basics' varient='webinar' />
                         </div>
-
                 }
-
             </div>
         </Link>
     );
