@@ -38,3 +38,34 @@ body {
 .primary-btn {
   @apply px-4 py-2 bg-[#2B4DFF] rounded-full;
 }
+
+/* Testimonial Pagination Styles */
+.testimonial-pagination {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background: #ccc;
+  opacity: 1;
+  margin: 0 5px !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #3b82f6;
+}
+
+/* Ensure slides have enough bottom padding */
+.swiper-slide {
+  padding-bottom: 80px;
+}
+
+.shape {
+  clip-path: polygon(50% 100%, 0 0, 100% 0);
+}

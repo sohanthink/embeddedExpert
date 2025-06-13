@@ -12,6 +12,7 @@ import Growth from "@/components/home/Growth";
 import Library from "@/components/home/Library";
 import Technolgy from "@/components/home/Technology";
 import Testimonial from "@/components/home/Testimonial";
+import Testimonial2 from "@/components/home/Testimonial2";
 import Training from "@/components/home/Training";
 import Upskill from "@/components/home/Upskill";
 import WhitePaper from "@/components/home/WhitePaper";
@@ -28,11 +29,12 @@ export default function Home() {
       <Growth />
       <Upskill />
       <Training />
+      <Certificate />
+      <Testimonial2 />
       <Founder />
       {/* <Courses /> */}
       {/* <Expert /> */}
       {/* <Category /> */}
-      <Certificate />
       {/* <Library /> */}
       {/* <WhitePaper /> */}
       {/* <Testimonial /> */}
