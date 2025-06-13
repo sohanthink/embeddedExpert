@@ -7,6 +7,7 @@ import ContactUs from "@/components/home/ContactUs";
 import Courses from "@/components/home/Courses";
 import Developer from "@/components/home/Developer";
 import Expert from "@/components/home/Expert";
+import Founder from "@/components/home/Founder";
 import Growth from "@/components/home/Growth";
 import Library from "@/components/home/Library";
 import Technolgy from "@/components/home/Technology";
@@ -27,6 +28,7 @@ export default function Home() {
       <Growth />
       <Upskill />
       <Training />
+      <Founder />
       {/* <Courses /> */}
       {/* <Expert /> */}
       {/* <Category /> */}
