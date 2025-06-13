@@ -19,6 +19,7 @@ export default function CommonButton({ link, text, varient, cn }) {
             className={`${cn} bg-primary hover:bg-secondary transition-all duration-300 ease-linear text-white px-4 py-2 rounded-full cursor-pointer font-bold capitalize ${varient === 'reading' && 'bg-transparent border border-primary text-primary hover:text-white'
                 }`}
         >
+
             {(() => {
                 switch (varient) {
                     case 'download':
@@ -37,7 +38,7 @@ export default function CommonButton({ link, text, varient, cn }) {
                         );
                     case 'simple':
                         return (
-                            <Link href={link} className='inline-flex items-center justify-center gap-2 text-nowrap'>
+                            <Link href={link} className='flex items-center justify-center w-full' >
                                 {text}
                             </Link>
                         );
