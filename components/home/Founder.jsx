@@ -10,13 +10,13 @@ import sign from '@/public/home/ninsaw sign.png'
 
 const Founder = () => {
     return (
-        <section className='py-10 md:py-24 bg-[#F3F7FB]'>
-            <div className='grid grid-cols-1 md:grid-cols-3 gap-2 md:gap-12 container'>
+        <section className='py-10 md:py-24 bg-[#F3F7FB] p-5 md:p-0'>
+            <div className='grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-20 container'>
                 <div className='col-span-1'>
                     <Image src={founder} alt="Founder Image" width={500} height={400} />
                 </div>
                 <div className='space-y-6 col-span-1 md:col-span-2 flex flex-col justify-center'>
-                    <h2 className='text-3xl font-semibold'> Founder’s Message</h2>
+                    <h2 className='text-3xl md:text-5xl font-semibold'> Founder’s Message</h2>
                     <p className='font-normal'>AlanGinsberg wasborninNew York andmoved toMiami, FLin1977. Hegraduated from Florida International University in 1981with aBachelor ofScience incriminal justice.Hethen attended NSUShepard BroadCollege ofLaw andgraduated withaJuris Doctorate degree in 1984. Alanlovedlaw school andstilltreasures thelatenightshe spent in the lawlibrary </p>
                     <div className='space-y-3'>
                         <span className='flex items-center gap-3 text-base font-semibold'><IoIosArrowRoundForward className='text-xl' /> Share your mission to train, inspire, and empower engineers globally.</span>

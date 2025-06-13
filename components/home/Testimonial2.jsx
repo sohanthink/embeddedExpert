@@ -49,7 +49,7 @@ const Testimonial2 = () => {
     return (
         <section className="py-8 md:py-24 bg-[#ECF1F9]">
 
-            <Heading cn="pb-14" text="See How EmbeddedExpertIO Has Transformed Careers and Teams." />
+            <Heading cn="pb-5 md:pb-14 p-5 md:p-0" text="See How EmbeddedExpertIO Has Transformed Careers and Teams." />
             <div className="container">
                 <div className="relative"> {/* Wrapper div */}
                     <Swiper
@@ -72,7 +72,7 @@ const Testimonial2 = () => {
                     >
                         {testimonials.map((testimonial) => (
                             <SwiperSlide key={testimonial.id}>
-                                <div className="bg-white relative p-8 rounded-lg h-full flex flex-col mb-10">
+                                <div className="bg-white relative m-5 md:m-0 p-8 rounded-lg h-full flex flex-col mb-10">
                                     <div className="flex mb-4">
                                         {[...Array(testimonial.rating)].map((_, i) => (
                                             <span key={i} className="text-primary text-2xl"><CiStar />
@@ -90,7 +90,7 @@ const Testimonial2 = () => {
                                         <FaQuoteRight />
                                     </div>
                                 </div>
-                                <div className="mt-auto pl-14 pt-5">
+                                <div className="mt-10 pl-14 pt-5">
                                     <div className="flex items-center">
                                         <div className="bg-gray-200 rounded-full w-12 h-12 flex items-center justify-center mr-4">
                                             <Image src={testimonial.image} alt={testimonial.author} className="rounded-full" />
