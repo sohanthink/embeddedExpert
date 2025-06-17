@@ -3,6 +3,8 @@ import React from 'react'
 import LearningPathway from './LearningPathway'
 import StrategicInnovation from '@/components/course/StrategicInnovation'
 import Courses from '@/components/home/Courses'
+import SubscribeCard from '@/components/common/SubscribeCard'
+import ProfessionalMastery from './ProfessionalMastery'
 
 const page = () => {
     return (
@@ -11,6 +13,8 @@ const page = () => {
             <LearningPathway />
             <StrategicInnovation />
             <Courses />
+            <ProfessionalMastery />
+            <SubscribeCard />
         </>
     )
 }

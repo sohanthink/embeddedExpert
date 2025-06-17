@@ -4,6 +4,7 @@ import paper1 from '@/public/home/whitepaper/paper1.png';
 import Link from 'next/link';
 import CommonButton from './Button';
 import { IoCheckmark } from 'react-icons/io5';
+import { LiaSquareSolid } from 'react-icons/lia';
 
 const CommonCard = ({ variant, src, point1, point2, point3, heading, subheading }) => {
     const renderContent = () => {
@@ -39,6 +40,26 @@ const CommonCard = ({ variant, src, point1, point2, point3, heading, subheading 
                             </li>
                         </ul>
                         <CommonButton cn='w-full' link='' text='Start with the Basics' varient='webinar' />
+                    </div>
+                );
+            case 'squarelist':
+                return (
+                    <div className='p-5 space-y-6 w-full bg-[#F0F2FF] flex flex-col'>
+                        <div className='flex flex-col gap-2'>
+                            <h2 className="capitalize font-semibold text-base text-black">{heading}</h2>
+                            <span className='text-primary font-bold'>{subheading}</span>
+                        </div>
+                        <ul className="pl-5 space-y-2 text-[#4D5765]">
+                            <li className='list-none text-blue-600 flex items-center gap-2'>
+                                <LiaSquareSolid className='rotate-45' />
+                                <span className='text-black'>{point1}</span>
+                            </li>
+                            <li className='list-none text-blue-600 flex items-center gap-2'>
+                                <LiaSquareSolid className='rotate-45' />
+                                <span className='text-black'>{point2}</span>
+                            </li>
+                        </ul>
+                        <CommonButton cn='w-full' link='' text='View Program Details' varient='webinar' />
                     </div>
                 );
             case 'checklist':
