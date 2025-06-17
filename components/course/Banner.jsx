@@ -13,11 +13,11 @@ const Banner = () => {
                 <div className="grid grid-cols-1 md:grid-cols-3 h-full">
                     <div className="col-span-3 md:col-span-2 h-full overflow-auto flex flex-col justify-center items-start px-4 space-y-4 md:space-y-7 md:pr-36 z-10">
                         <div className='relative'>
-                            <h1 className="text-2xl text-white md:text-[55px] font-extrabold leading-none capitalize md:text-[#282C32] md:pr-24">Courses & Professional Embedded Systems Training.</h1>
+                            <h1 className="text-3xl text-white md:text-[55px] font-bold leading-[35px] md:leading-[60px] capitalize md:text-[#282C32] md:pr-24">Courses & Professional Embedded Systems<br /> Training.</h1>
                             <Image
                                 src={bannershape}
                                 alt="Banner Image"
-                                className="object-cover absolute -bottom-2 -md:bottom-7 left-2 w-[100px] md:w-[250px]"
+                                className="object-cover absolute bottom-8 md:bottom-12 left-0 w-[150px] md:w-[250px]"
                             />
                         </div>
                         <p className="text-base md:text-lg md:pr-48 text-white md:text-[#282C32]">Structured learning pathways for engineers at every stage — from foundational skills to innovation leadership.</p>

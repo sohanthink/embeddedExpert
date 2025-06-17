@@ -87,7 +87,7 @@ const Navbar = () => {
                     <li>
                         <Link href='/' className={pathname === '/' ? 'text-blue-500 font-bold' : 'text-black'} onClick={closeMenu}>Home</Link>
                     </li>
-                    <li>
+                    {/* <li>
                         <Link href='/#contact' className={pathname === '/#contact' ? 'text-blue-500 font-bold' : 'text-black'} onClick={closeMenu}>Get In Touch</Link>
                     </li>
                     <li>
@@ -98,6 +98,9 @@ const Navbar = () => {
                     </li>
                     <li>
                         <Link href='/courses' className={pathname === '/courses' ? 'text-blue-500 font-bold' : 'text-black'} onClick={closeMenu}>Join A Course</Link>
+                    </li> */}
+                    <li>
+                        <Link href='/course' className={pathname === '/course' ? 'text-blue-500 font-bold' : 'text-black'} onClick={closeMenu}>Course</Link>
                     </li>
                     <li>
                         <button onClick={toggleSearch} className='text-black flex gap-3 items-center justify-center'><IoSearch />Search</button>
