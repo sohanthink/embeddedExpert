@@ -5,6 +5,7 @@ import StrategicInnovation from '@/components/course/StrategicInnovation'
 import Courses from '@/components/home/Courses'
 import SubscribeCard from '@/components/common/SubscribeCard'
 import ProfessionalMastery from './ProfessionalMastery'
+import Featured from '@/components/course/Featured'
 
 const page = () => {
     return (
@@ -13,6 +14,7 @@ const page = () => {
             <LearningPathway />
             <StrategicInnovation />
             <Courses />
+            <Featured />
             <ProfessionalMastery />
             <SubscribeCard />
         </>

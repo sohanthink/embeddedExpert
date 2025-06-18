@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import CountUp from "react-countup";
+import CommonButton from "../common/Button";
 
 // Image paths
 const assets = {
@@ -67,6 +68,9 @@ const BannerV2 = () => {
                     Learn the most relevant embedded systems development skills for today’s
                     market. From ‘hello world’ to building your own Realtime Operating System (RTOS).
                 </p>
+                <div className="inline">
+                    <CommonButton text="Start Learning" link='#' cn='' varient='webinar' />
+                </div>
 
                 {/* Stats Section */}
                 <div className="flex flex-wrap md:flex-row gap-3 justify-start items-center">
@@ -89,8 +93,8 @@ const BannerV2 = () => {
 const Card = ({ src, number, title, gradient, cn }) => {
     return (
         <div
-            className={`flex gap-3 items-center justify-start md:justify-center border border-[#D50075]/40 p-5 rounded-2xl h-16 md:h-28 w-full md:w-auto ${cn}
-      ${gradient ? "bg-gradient-to-r from-primary via-pink-500 to-pink-700 text-white" : "bg-transparent"}`}
+            className={`flex gap-3 items-center justify-start md:justify-center border border-white/80 p-5 rounded-2xl h-16 md:h-28 w-full md:w-auto ${cn}
+      ${gradient ? "bg-gradient-to-r from-primary via-pink-500 to-pink-700 text-white" : "bg-[#00000080]"}`}
         >
             <Image src={src} alt="Icon" width={45} height={45} />
             <div className={`${cn}`}>
