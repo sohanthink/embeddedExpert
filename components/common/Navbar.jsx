@@ -103,6 +103,9 @@ const Navbar = () => {
                         <Link href='/course' className={pathname === '/course' ? 'text-blue-500 font-bold' : 'text-black'} onClick={closeMenu}>Course</Link>
                     </li>
                     <li>
+                        <Link href='/corporate-training' className={pathname === '/corporate-training' ? 'text-blue-500 font-bold' : 'text-black'} onClick={closeMenu}>Corporate Training</Link>
+                    </li>
+                    <li>
                         <button onClick={toggleSearch} className='text-black flex gap-3 items-center justify-center'><IoSearch />Search</button>
                     </li>
                 </ul>

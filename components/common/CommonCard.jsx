@@ -28,7 +28,7 @@ const CommonCard = ({ variant, src, point1, point2, point3, heading, subheading 
                             <h2 className="capitalize font-bold text-base md:text-xl text-black">{heading}</h2>
                             <span>{subheading}</span>
                         </div>
-                        <ul className="pl-5 space-y-2 text-[#4D5765]">
+                        <ul className="pl-4 md:pl-5 space-y-2 text-[#4D5765]">
                             <li className='list-disc text-blue-600'>
                                 <span className='text-black'>{point1}</span>
                             </li>
@@ -49,7 +49,7 @@ const CommonCard = ({ variant, src, point1, point2, point3, heading, subheading 
                             <h2 className="capitalize font-semibold text-base text-black">{heading}</h2>
                             <span className='text-primary font-bold'>{subheading}</span>
                         </div>
-                        <ul className="pl-5 space-y-2 text-[#4D5765]">
+                        <ul className="md:pl-5 space-y-2 text-[#4D5765]">
                             <li className='list-none text-blue-600 flex items-center gap-2'>
                                 <LiaSquareSolid className='rotate-45' />
                                 <span className='text-black'>{point1}</span>
@@ -67,7 +67,7 @@ const CommonCard = ({ variant, src, point1, point2, point3, heading, subheading 
                     <div className='p-5 space-y-4 w-full bg-[#F0F2FF] flex flex-col'>
                         <h2 className="capitalize font-semibold text-base text-black">Career Foundation</h2>
                         <span>(Beginners)</span>
-                        <ul className="pl-5 space-y-2 text-[#4D5765]">
+                        <ul className="md:pl-5 space-y-2 text-[#4D5765]">
                             <li className='list-none text-blue-600 flex items-center gap-2'>
                                 <IoCheckmark />
                                 <span className='text-black'>{point1}</span>
