@@ -47,6 +47,11 @@ export default {
     },
     container: {
       center: true,
+      screens: {
+        lg: "1150px",
+        xl: "1200px",
+        "2xl": "1400px",
+      },
     },
   },
   plugins: [addVariablesForColors],

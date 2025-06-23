@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import CommonButton from "../common/Button";
 import corporate from "@/public/corporatetraining/corporate-training-banner.png"
 import bannerarrow from "@/public/corporatetraining/bannerarrow.png"
+import bannershape from "@/public/corporatetraining/bannerspape.png"
 
 
 const Banner = () => {
@@ -30,7 +31,6 @@ const Banner = () => {
 
     return (
         <section className="relative h-screen">
-            {/* Background Video */}
             <Image
                 className="absolute inset-0 w-full h-full object-cover brightness-[.9] backdrop-contrast-125 backdrop-brightness-110"
                 src={corporate}
@@ -39,11 +39,16 @@ const Banner = () => {
                 objectFit="cover"
             />
 
-            {/* Gradient Overlay */}
+            {/* overlay */}
             <div className="absolute top-0 left-0 bg-[#2B4DFF1C]"></div>
 
+            <Image
+                className="absolute -bottom-16 left-0 "
+                src={bannershape}
+                alt="Banner Shape"
+            />
 
-            {/* Content */}
+
             <div className="relative z-10 flex flex-col justify-center h-full container space-y-5 p-5 md:p-0">
                 <div className="relative">
                     <h1 className="text-[#282C32] text-2xl md:text-[64px] font-bold leading-none capitalize md:pr-[50%]">
