@@ -42,6 +42,28 @@ const CommonCard = ({ variant, src, point1, point2, point3, heading, subheading 
                         <CommonButton cn='w-full' link='' text='Start with the Basics' varient='webinar' />
                     </div>
                 );
+            case 'corporate':
+                return (
+                    <div className='p-5 space-y-5 w-full flex flex-col bg-[#F0F2FF]'>
+                        <div>
+                            <h2 className="capitalize font-bold text-base md:text-xl text-black">{heading}</h2>
+                            <span>{subheading}</span>
+                        </div>
+                        <h5 className='font-bold'>Outcomes:</h5>
+                        <ul className="pl-4 md:pl-5 space-y-2 text-[#4D5765]">
+                            <li className='list-disc text-blue-600'>
+                                <span className='text-black'>{point1}</span>
+                            </li>
+                            <li className='list-disc text-blue-600'>
+                                <span className='text-black'>{point2}</span>
+                            </li>
+                            <li className='list-disc text-blue-600'>
+                                <span className='text-black'>{point3}</span>
+                            </li>
+                        </ul>
+                        <Link href="#" className='w-full font-semibold text-blue-500'>Learn more</Link>
+                    </div>
+                );
             case 'squarelist':
                 return (
                     <div className='p-5 space-y-6 w-full bg-[#F0F2FF] flex flex-col'>
@@ -104,8 +126,8 @@ const CommonCard = ({ variant, src, point1, point2, point3, heading, subheading 
                         src={src}
                         alt="card Image"
                         width={300}
-                        height={250}
-                        className="object-cover h-48 w-full"
+                        height={300}
+                        className="object-cover h-64 w-full"
                     />
                 </div>
                 {renderContent()}

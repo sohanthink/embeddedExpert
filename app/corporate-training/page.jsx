@@ -1,5 +1,6 @@
 import Banner from '@/components/corporatetraining/Banner'
 import CorporateCommonCard from '@/components/corporatetraining/CorporateCommonCard'
+import TrainingProgramme from '@/components/corporatetraining/TrainingProgramme'
 import React from 'react'
 
 const page = () => {
@@ -7,6 +8,7 @@ const page = () => {
         <>
             <Banner />
             <CorporateCommonCard />
+            <TrainingProgramme />
         </>
     )
 }
