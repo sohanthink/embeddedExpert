@@ -11,12 +11,12 @@ import CommonButton from '../common/Button'
 const Upskill = () => {
     return (
         <section className='container py-8 md:pb-24'>
-            <Heading cn="pb-5 md:pb-10 p-5 md:p-0" text="Upskill Your Engineering Teams with Certified Embedded Systems Training" />
-            <SubHeading cn='px-5 md:px-0 md:px-96' text="Learn the most relevant embedded systems development skills for today’s market- from ‘hello world’ to building your own Realtime Operating System (RTOS)." />
+            <Heading varient='nopx' cn="pb-5 p-5 md:px-28" text="Upskill Your Engineering Teams with Certified Embedded Systems Training" />
+            <SubHeading cn='px-5 md:px-72' text="Learn the most relevant embedded systems development skills for today’s market- from ‘hello world’ to building your own Realtime Operating System (RTOS)." />
 
-            <div className='flex flex-col md:flex-row items-center justify-between gap-10 py-10 p-5 md:p-0 mt-1 md:mt-10'>
+            <div className='flex flex-col md:flex-row items-center justify-between gap-20 py-10 p-5 md:p-0 mt-1 md:mt-10'>
                 <div className='w-full md:w-1/2'>
-                    <Image src={upskillimage} alt="upskillimage" className="object-cover h-96 w-full" />
+                    <Image src={upskillimage} alt="upskillimage" className="object-cover h-[450px] w-full rounded-xl" />
                 </div>
                 <div className='w-full md:w-1/2 space-y-2 md:space-y-6'>
                     <div className='flex items-center gap-4'>

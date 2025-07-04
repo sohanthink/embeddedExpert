@@ -11,9 +11,11 @@ const Growth = () => {
         <section className='py-8 md:py-24'>
             <Heading cn="pb-5 md:pb-10 p-10 md:p-0" text="Choose Your Embedded Systems Growth Path" />
             <div className='container grid grid-cols-1 md:grid-cols-3 gap-5 p-5'>
-                <CommonCard variant='circlelist' src={image1} point1='Build strong E foundamental' point2='Learn RTOS Essential' point3='Build strong E foundamental' heading='Career Foundation' subheading='(Beginners)' />
-                <CommonCard variant='circlelist' src={image2} point1='Build strong E foundamental' point2='Learn RTOS Essential' point3='Build strong E foundamental' heading='Career Advancement' subheading='(Experienced Engineers)' />
-                <CommonCard variant='circlelist' src={image3} point1='Build strong E foundamental' point2='Learn RTOS Essential' point3='Build strong E foundamental' heading='Strategic Innovation' subheading='(Leaders &  Entrepreneurs)' />
+                <CommonCard variant='circlelist' btnText='Start with the Basics' src={image1} point1='Build strong E foundamental' point2='Learn RTOS Essential' point3='Build strong E foundamental' heading='Career Foundation' subheading='(Beginners)' />
+
+                <CommonCard variant='circlelist' btnText='Master AI-Augmented  Embedded ' src={image2} point1='Build strong E foundamental' point2='Learn RTOS Essential' point3='Build strong E foundamental' heading='Career Advancement' subheading='(Experienced Engineers)' />
+
+                <CommonCard variant='circlelist' btnText='Become an Embedded  Innovator' src={image3} point1='Build strong E foundamental' point2='Learn RTOS Essential' point3='Build strong E foundamental' heading='Strategic Innovation' subheading='(Leaders &  Entrepreneurs)' />
             </div>
         </section>
     )

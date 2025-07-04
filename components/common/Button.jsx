@@ -38,7 +38,10 @@ export default function CommonButton({ link, text, varient, cn }) {
                         );
                     case 'simple':
                         return (
-                            <Link href={link} className='flex items-center justify-center w-full' >
+                            // <Link href={link} className='flex items-center justify-center w-full' >
+                            //     {text}
+                            // </Link>
+                            <Link href={link} className={`flex items-center justify-center gap-2 text-nowrap ${cn}`}>
                                 {text}
                             </Link>
                         );

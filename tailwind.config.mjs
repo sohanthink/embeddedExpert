@@ -48,8 +48,8 @@ export default {
     container: {
       center: true,
       screens: {
-        lg: "1150px",
-        xl: "1200px",
+        lg: "1200px",
+        xl: "1380px",
         "2xl": "1400px",
       },
     },

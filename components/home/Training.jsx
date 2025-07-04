@@ -27,12 +27,12 @@ export const TrainingCard = ({ title, description, link, icon }) => {
             <Image src={icon} alt={title} height={50} className="mb-4 rounded-full bg-primary p-3" />
             <h3 className="text-xl font-semibold mb-2 text-center">{title}</h3>
             <p className="text-gray-700 mb-2 flex-grow text-center">{description}</p>
-            <div className="">
+            <div className="w-100">
                 <CommonButton
                     text="Apply Now"
                     variant="simple"
                     link={link}
-                    cn="w-full"
+                    cn="px-10"
                 />
             </div>
         </div>

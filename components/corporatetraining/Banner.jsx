@@ -63,7 +63,7 @@ const Banner = () => {
                     />
                 </div>
 
-                <p className="text-base md:text-lg text-[#282C32] md:pr-[70%]">
+                <p className="text-base md:text-lg text-[#282C32] md:pr-[60%]">
                     Equip your engineers with the skills to deliver secure, high-performance embedded  systems — at scale, on time, and with compliance confidence.
                 </p>
                 <div className="inline">

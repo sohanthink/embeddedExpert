@@ -56,17 +56,16 @@ const BannerV2 = () => {
 
             {/* Content */}
             <div className="relative z-10 flex flex-col justify-center h-full container space-y-5 p-5 md:p-0">
-                <h1 className="text-white text-2xl md:text-[55px] font-extrabold leading-none capitalize md:pr-[50%]">
-                    The{" "}
+                <h1 className="text-white text-2xl md:text-[55px] font-extrabold leading-none capitalize md:pr-[40%]">
+                    Master{" "}
                     <span className="bg-gradient-to-r from-primary via-pink-500 to-pink-700 bg-clip-text text-transparent">
-                        Ultimate
+                        Embedded
                     </span>{" "}
-                    Platform for Embedded Systems Career Development.
+                    Systems and Lead Innovation in the Age of Intelligent Devices.
                 </h1>
 
                 <p className="text-base md:text-lg text-white md:pr-[50%]">
-                    Learn the most relevant embedded systems development skills for today’s
-                    market. From ‘hello world’ to building your own Realtime Operating System (RTOS).
+                    Training the next generation of engineers and innovators — from fundamentals to  high-performance real-world systems.
                 </p>
                 <div className="inline">
                     <CommonButton text="Start Learning" link='#' cn='' varient='webinar' />

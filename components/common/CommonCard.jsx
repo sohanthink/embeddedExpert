@@ -6,13 +6,13 @@ import CommonButton from './Button';
 import { IoCheckmark } from 'react-icons/io5';
 import { LiaSquareSolid } from 'react-icons/lia';
 
-const CommonCard = ({ variant, src, point1, point2, point3, heading, subheading }) => {
+const CommonCard = ({ variant, src, point1, point2, point3, heading, subheading, btnText }) => {
     const renderContent = () => {
         switch (variant) {
             case 'paper':
                 return (
                     <div className="p-5">
-                        <h2 className="capitalize font-bold text-base md:text-2xl text-black">
+                        <h2 className="capitalize font-bold text-base md:text-[22px] leading-7 text-black">
                             {heading}
                         </h2>
                         <h4 className="text-black-900 text-sm md:text-base capitalize font-medium py-7">
@@ -30,16 +30,16 @@ const CommonCard = ({ variant, src, point1, point2, point3, heading, subheading 
                         </div>
                         <ul className="pl-4 md:pl-5 space-y-2 text-[#4D5765]">
                             <li className='list-disc text-blue-600'>
-                                <span className='text-black'>{point1}</span>
+                                <span className='text-black pl-2'>{point1}</span>
                             </li>
                             <li className='list-disc text-blue-600'>
-                                <span className='text-black'>{point2}</span>
+                                <span className='text-black pl-2'>{point2}</span>
                             </li>
                             <li className='list-disc text-blue-600'>
-                                <span className='text-black'>{point3}</span>
+                                <span className='text-black pl-2'>{point3}</span>
                             </li>
                         </ul>
-                        <CommonButton cn='w-full' link='' text='Start with the Basics' varient='webinar' />
+                        <CommonButton cn='w-full' link='' text={btnText} varient='webinar' />
                     </div>
                 );
             case 'corporate':
@@ -52,13 +52,13 @@ const CommonCard = ({ variant, src, point1, point2, point3, heading, subheading 
                         <h5 className='font-bold'>Outcomes:</h5>
                         <ul className="pl-4 md:pl-5 space-y-2 text-[#4D5765]">
                             <li className='list-disc text-blue-600'>
-                                <span className='text-black'>{point1}</span>
+                                <span className='text-black pl-2'>{point1}</span>
                             </li>
                             <li className='list-disc text-blue-600'>
-                                <span className='text-black'>{point2}</span>
+                                <span className='text-black pl-2'>{point2}</span>
                             </li>
                             <li className='list-disc text-blue-600'>
-                                <span className='text-black'>{point3}</span>
+                                <span className='text-black pl-2'>{point3}</span>
                             </li>
                         </ul>
                         <Link href="#" className='w-full font-semibold text-blue-500'>Learn more</Link>
