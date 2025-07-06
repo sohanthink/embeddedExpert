@@ -12,8 +12,9 @@ import 'react-toastify/dist/ReactToastify.css';
 
 import subscribeshaperight from "@/public/home/subscribeshaperight.svg";
 import subscribeshapeleft from "@/public/home/subscribeshapeleft.svg";
+import CommonButton from './Button';
 
-const SubscribeCard = () => {
+const SubscribeCard = ({ varient, heading, subheading }) => {
     const ContactNotify = () => toast("Subscribed Succesfully!", {
         theme: "dark"
     });
@@ -58,28 +59,40 @@ const SubscribeCard = () => {
         <section className='mx-5 md:mx-0 my-10 md:my-24'>
             <ToastContainer />
             <div className='py-10 relative md:py-24 container bg-primary p-5 rounded-lg flex flex-col items-center'>
-                <Heading cn="text-white mb-4 z-10" text="Get the Latest in Learning" />
-                <SubHeading cn="text-white mb-4 z-10" text="Subscribe now to receive the latest course updates, expert tips, and exclusive offers, all designed to help you advance your skills and career." />
-                <div className='w-full md:w-1/2 lg:w-1/3 mx-auto my-8 mb-4 z-10'>
-                    <form className="flex flex-col md:flex-row gap-3" onSubmit={handleSubmit}>
-                        <LabelInputContainer className="flex-grow">
-                            <Input className="bg-transparent border border-white text-white placeholder-white placeholder:text-white rounded-full"
-                                id="email"
-                                placeholder="Enter Your Email"
-                                type="email"
-                                name="email"
-                            />
-                        </LabelInputContainer>
+                <Heading cn="text-white mb-4 z-10" text={heading} />
+                <SubHeading cn="text-white mb-4 z-10" text={subheading} />
+                {
+                    varient == 'corporatePilot'
+                        ?
+                        (
+                            <>
+                                <span className='text-white font-bold text-xl pb-10'>Corporate Pilot Packages Starting at $1,499</span>
+                                <CommonButton cn='bg-white text-primary hover:text-white hover:bg-transparent transition-all duration-300 ease-linear' link='#' varient='webinar' text='Request Pilot Program Information' />
+                            </>
+                        )
+                        :
+                        <div className='w-full md:w-1/2 lg:w-1/3 mx-auto my-8 mb-4 z-10'>
+                            <form className="flex flex-col md:flex-row gap-3" onSubmit={handleSubmit}>
+                                <LabelInputContainer className="flex-grow">
+                                    <Input className="bg-transparent border border-white text-white placeholder-white placeholder:text-white rounded-full"
+                                        id="email"
+                                        placeholder="Enter Your Email"
+                                        type="email"
+                                        name="email"
+                                    />
+                                </LabelInputContainer>
 
-                        <button
-                            className="hover:bg-secondary bg-white transition-all duration-200 ease-linear flex justify-center gap-2 items-center relative group/btn px-4 text-black-300 hover:text-white rounded-full h-10 font-bold uppercase shadow-md text-sm"
-                            type="submit"
-                        >
-                            Subscribe <IoIosSend />
-                            <BottomGradient />
-                        </button>
-                    </form>
-                </div>
+                                <button
+                                    className="hover:bg-secondary bg-white transition-all duration-200 ease-linear flex justify-center gap-2 items-center relative group/btn px-4 text-black-300 hover:text-white rounded-full h-10 font-bold uppercase shadow-md text-sm"
+                                    type="submit"
+                                >
+                                    Subscribe <IoIosSend />
+                                    <BottomGradient />
+                                </button>
+                            </form>
+                        </div>
+
+                }
                 <Image className='absolute left-0 bottom-0 w-20 md:w-40' src={subscribeshapeleft} alt='subscribe_shape' />
                 <Image className='absolute right-0 top-0 w-20 md:w-40' src={subscribeshaperight} alt='subscribe_shape' />
             </div>

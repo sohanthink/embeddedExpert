@@ -16,7 +16,7 @@ export default function CommonButton({ link, text, varient, cn }) {
         <Button
             aria-label={text}
             borderRadius="1.75rem"
-            className={`${cn} bg-primary hover:bg-secondary transition-all duration-300 ease-linear text-white px-4 py-2 rounded-full cursor-pointer font-bold capitalize ${varient === 'reading' && 'bg-transparent border border-primary text-primary hover:text-white'
+            className={`bg-primary hover:bg-secondary transition-all duration-300 ease-linear text-white px-4 py-2 rounded-full cursor-pointer font-bold capitalize ${cn} ${varient === 'reading' && 'bg-transparent border border-primary text-primary hover:text-white'
                 }`}
         >
 

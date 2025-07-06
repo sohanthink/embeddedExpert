@@ -39,7 +39,10 @@ export default function Home() {
       {/* <WhitePaper /> */}
       {/* <Testimonial /> */}
       <ContactUs />
-      <SubscribeCard />
+      <SubscribeCard
+        heading="Get the Latest in Learning"
+        subheading="Subscribe now to receive the latest course updates, expert tips, and exclusive offers, all designed to help you advance your skills and career."
+      />
     </>
   );
 }
