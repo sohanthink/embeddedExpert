@@ -1,6 +1,5 @@
 import React from 'react';
 import Image from 'next/image';
-import paper1 from '@/public/home/whitepaper/paper1.png';
 import Link from 'next/link';
 import CommonButton from './Button';
 import { IoCheckmark } from 'react-icons/io5';
@@ -28,14 +27,17 @@ const CommonCard = ({ variant, src, point1, point2, point3, heading, subheading,
                             <h2 className="capitalize font-bold text-base md:text-xl text-black">{heading}</h2>
                             <span>{subheading}</span>
                         </div>
-                        <ul className="pl-4 md:pl-5 space-y-2 text-[#4D5765]">
-                            <li className='list-disc text-blue-600'>
+                        <ul className="space-y-2 text-[#4D5765]">
+                            <li className='list-none text-blue-600 flex items-center gap-2'>
+                                <span className='bg-primary h-3 w-3 rounded-full'></span>
                                 <span className='text-black pl-2'>{point1}</span>
                             </li>
-                            <li className='list-disc text-blue-600'>
+                            <li className='list-disc text-blue-600 flex items-center gap-2'>
+                                <span className='bg-primary h-3 w-3 rounded-full'></span>
                                 <span className='text-black pl-2'>{point2}</span>
                             </li>
-                            <li className='list-disc text-blue-600'>
+                            <li className='list-disc text-blue-600 flex items-center gap-2'>
+                                <span className='bg-primary h-3 w-3 rounded-full'></span>
                                 <span className='text-black pl-2'>{point3}</span>
                             </li>
                         </ul>
@@ -44,20 +46,23 @@ const CommonCard = ({ variant, src, point1, point2, point3, heading, subheading,
                 );
             case 'corporate':
                 return (
-                    <div className='p-5 space-y-5 w-full flex flex-col bg-[#F0F2FF]'>
+                    <div className='p-8 space-y-5 w-full flex flex-col bg-[#F0F2FF]'>
                         <div>
                             <h2 className="capitalize font-bold text-base md:text-xl text-black">{heading}</h2>
                             <span>{subheading}</span>
                         </div>
                         <h5 className='font-bold'>Outcomes:</h5>
-                        <ul className="pl-4 md:pl-5 space-y-2 text-[#4D5765]">
-                            <li className='list-disc text-blue-600'>
+                        <ul className="space-y-2 text-[#4D5765]">
+                            <li className='list-none text-blue-600 flex items-center gap-2'>
+                                <span className='bg-primary h-3 w-3 rounded-full'></span>
                                 <span className='text-black pl-2'>{point1}</span>
                             </li>
-                            <li className='list-disc text-blue-600'>
+                            <li className='list-disc text-blue-600 flex items-center gap-2'>
+                                <span className='bg-primary h-3 w-3 rounded-full'></span>
                                 <span className='text-black pl-2'>{point2}</span>
                             </li>
-                            <li className='list-disc text-blue-600'>
+                            <li className='list-disc text-blue-600 flex items-center gap-2'>
+                                <span className='bg-primary h-3 w-3 rounded-full'></span>
                                 <span className='text-black pl-2'>{point3}</span>
                             </li>
                         </ul>

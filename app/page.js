@@ -18,6 +18,10 @@ import Upskill from "@/components/home/Upskill";
 import WhitePaper from "@/components/home/WhitePaper";
 import WhitePaper2 from "@/components/home/WhitePaper2";
 
+import icon1 from "@/public/home/training/icon1.png";
+import icon2 from "@/public/home/training/icon2.png";
+import icon3 from "@/public/home/training/icon3.png";
+
 export default function Home() {
   return (
     <>
@@ -28,7 +32,18 @@ export default function Home() {
       <Developer />
       <Growth />
       <Upskill />
-      <Training />
+      <Training
+        heading="Training Solutions for Every Stage of Your Embedded Systems Career"
+        title1="Embedded Mastery A-Z"
+        description1="All-in-One Training for Embedded  Excellence"
+        title2="AI-Driven Systems Mastery"
+        description2="Advance with AI-Driven Systems Mastery"
+        title3="Embedded Systems Project Management"
+        description3="Lead, Innovate, Protect — Become an  Embedded Industry Leader"
+        icon1={icon1}
+        icon2={icon2}
+        icon3={icon3}
+      />
       <Certificate />
       <Testimonial2 />
       <Founder />

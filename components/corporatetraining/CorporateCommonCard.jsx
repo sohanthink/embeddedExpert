@@ -12,12 +12,12 @@ import { PiChecks } from 'react-icons/pi'
 
 const CorporateCommonCard = ({ varient, heading, subheading, img }) => {
     return (
-        <section className='grid grid-cols-1 md:grid-cols-2 gap-20 container py-8 md:py-24'>
+        <section className='grid grid-cols-1 md:grid-cols-2 gap-20 container py-8 md:py-24 p-5 md:p-0'>
             <div>
                 <Image
                     src={img}
                     alt="Corporate Common Card"
-                    className="object-cover w-full h-[550px] rounded-md"
+                    className="object-cover w-full h-[350px] md:h-[550px] rounded-md"
                 />
             </div>
             <div className='space-y-8 flex flex-col justify-center'>
@@ -27,7 +27,7 @@ const CorporateCommonCard = ({ varient, heading, subheading, img }) => {
                 </p>
                 {
                     varient == 'engineeringChallange' && (
-                        <ul className='space-y-6'>
+                        <ul className='space-y-4 md:space-y-6'>
                             <li className='flex gap-5 items-center'>
                                 <Image src={icon1} alt="Engineering Challenge icon" className="w-10 bg-[#2B4DFF24] p-2 rounded-md" />
                                 <span className='font-bold text-lg'>Skills gaps delaying embedded product development</span>
@@ -54,7 +54,7 @@ const CorporateCommonCard = ({ varient, heading, subheading, img }) => {
                 }
                 {
                     varient == 'businessOutcome' && (
-                        <ul className='space-y-6'>
+                        <ul className='space-y-4 md:space-y-6'>
                             <li className='flex gap-5 items-center'>
                                 <PiChecks className='text-primary font-bold text-2xl' />
                                 <span className='font-bold text-lg'>Faster Product Development Timelines.</span>
