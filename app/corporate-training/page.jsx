@@ -4,6 +4,7 @@ import TrainingProgramme from '@/components/corporatetraining/TrainingProgramme'
 import React from 'react'
 
 import businessoutcome from "@/public/corporatetraining/businessoutcome.png"
+import trust from "@/public/corporatetraining/trust/trust.png"
 import engchallenge from "@/public/corporatetraining/engchallenge.png"
 import SubscribeCard from '@/components/common/SubscribeCard'
 import Training from '@/components/home/Training'
@@ -35,6 +36,8 @@ const page = () => {
                 icon2={icon2}
                 icon3={icon3}
             />
+
+            <CorporateCommonCard img={trust} varient='trust' heading='Why Companies Trust Embedded ExpertIO' />
         </>
     )
 }

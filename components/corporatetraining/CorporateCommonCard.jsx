@@ -10,21 +10,30 @@ import icon4 from "@/public/corporatetraining/icon/icon4.png"
 import icon5 from "@/public/corporatetraining/icon/icon5.png"
 import { PiChecks } from 'react-icons/pi'
 
+import upskillicon from "@/public/home/upskill-icon.png"
+import amazon from "@/public/corporatetraining/trust/amazon.png"
+import udemy from "@/public/corporatetraining/trust/udemy.png"
+
 const CorporateCommonCard = ({ varient, heading, subheading, img }) => {
     return (
-        <section className='grid grid-cols-1 md:grid-cols-2 gap-20 container py-8 md:py-24 p-5 md:p-0'>
+        <section className='grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20 container py-8 md:py-24 p-5 md:p-0'>
             <div>
                 <Image
                     src={img}
                     alt="Corporate Common Card"
-                    className="object-cover w-full h-[350px] md:h-[550px] rounded-md"
+                    className="object-cover w-full h-[350px] md:h-[560px] rounded-md"
                 />
             </div>
             <div className='space-y-8 flex flex-col justify-center'>
                 <h1 className="text-[#282C32] text-2xl md:text-[40px] font-bold leading-none capitalize">{heading}</h1>
-                <p className="text-base md:text-lg text-[#282C32] font-light">
-                    {subheading}
-                </p>
+                {
+                    varient !== 'trust' && (
+                        <p className="text-base md:text-lg text-[#282C32] font-light">
+                            {subheading}
+                        </p>
+                    )
+                }
+
                 {
                     varient == 'engineeringChallange' && (
                         <ul className='space-y-4 md:space-y-6'>
@@ -74,6 +83,43 @@ const CorporateCommonCard = ({ varient, heading, subheading, img }) => {
                             <li className='flex gap-5 items-center'>
                                 <PiChecks className='text-primary font-bold text-2xl' />
                                 <span className='font-bold text-lg'>Stronger Firmware Maintainability and Scalability</span>
+                            </li>
+                        </ul>
+                    )
+                }
+                {
+                    varient == 'trust' && (
+                        <ul className='space-y-4 md:space-y-6'>
+                            <li className='flex gap-5 items-center'>
+                                <Image src={upskillicon} alt="upskill icon" width={40} height={40} className="mb-4" />
+                                <span className='font-bold text-lg'>Training Designed by Amazon Bestselling Embedded Systems Author.</span>
+                            </li>
+                            <li className='flex gap-5 items-center'>
+                                <Image src={upskillicon} alt="upskill icon" width={40} height={40} className="mb-4" />
+                                <span className='font-bold text-lg'>Training Backed by Real-World Innovation (Inventor of Touchable Cardiovascular  Surfaces Technology).</span>
+                            </li>
+                            <li className='flex gap-5 items-center'>
+                                <Image src={upskillicon} alt="upskill icon" width={40} height={40} className="mb-4" />
+                                <span className='font-bold text-lg'>Global Reach: 124,000+ Engineers Trained Across 170+ Countries.</span>
+                            </li>
+                            <li className='flex gap-5 items-center'>
+                                <Image src={upskillicon} alt="upskill icon" width={40} height={40} className="mb-4" />
+                                <span className='font-bold text-lg'>Recognized Expertise in Compliance, Risk Mitigation, and Firmware Security.</span>
+                            </li>
+                            <li className='flex gap-2 flex-col pt-4'>
+                                <h6 className='font-bold'>Trusted By:</h6>
+                                <div className='flex gap-5 items-center'>
+                                    <Image
+                                        src={amazon}
+                                        alt="amazon logo"
+                                        className="object-cover"
+                                    />
+                                    <Image
+                                        src={udemy}
+                                        alt="udemy logo"
+                                        className="object-cover"
+                                    />
+                                </div>
                             </li>
                         </ul>
                     )
