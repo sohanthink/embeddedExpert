@@ -14,11 +14,13 @@ import icon2 from "@/public/corporatetraining/leadership/leadershipicon2.png";
 import icon3 from "@/public/corporatetraining/leadership/leadershipicon3.png";
 import BookConsultation from '@/components/corporatetraining/BookConsultation'
 
+import corporate from "@/public/corporatetraining/corporate-training-banner.png"
+
 
 const page = () => {
     return (
         <>
-            <Banner />
+            <Banner heading='Corporate Training Solutions for Engineering Teams' subheading='Equip your engineers with the skills to deliver secure, high-performance embedded  systems — at scale, on time, and with compliance confidence.' btnText='Book a Free Consultation' btnLink='#' img={corporate} />
 
             <CorporateCommonCard img={engchallenge} varient='engineeringChallange' heading="The Engineering Challenges Companies Face Today." subheading='We help organizations solve these challenges through elite technical training' />
 
