@@ -11,7 +11,7 @@ const Banner = ({ heading, subheading, btnText, btnLink, img, variant }) => {
             <Image
                 className="absolute inset-0 w-full h-full object-cover brightness-[.9] backdrop-contrast-125 backdrop-brightness-110"
                 src={img}
-                alt="Corporate Training"
+                alt="banner_coding_image"
                 layout="fill"
                 objectFit="cover"
             />

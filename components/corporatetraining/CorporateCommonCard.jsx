@@ -13,6 +13,7 @@ import { PiChecks } from 'react-icons/pi'
 import upskillicon from "@/public/home/upskill-icon.png"
 import amazon from "@/public/corporatetraining/trust/amazon.png"
 import udemy from "@/public/corporatetraining/trust/udemy.png"
+import { IoCheckmark } from 'react-icons/io5'
 
 const CorporateCommonCard = ({ varient, heading, subheading, img }) => {
     return (
@@ -84,6 +85,42 @@ const CorporateCommonCard = ({ varient, heading, subheading, img }) => {
                                 <li className='flex gap-5 items-center'>
                                     <PiChecks className='text-primary font-bold text-2xl' />
                                     <span className='font-bold text-lg'>Stronger Firmware Maintainability and Scalability</span>
+                                </li>
+                            </ul>
+                        )
+                    }
+                    {
+                        varient == 'innovators' && (
+                            <ul className='space-y-4 md:space-y-6'>
+                                <li className='flex gap-5 items-center'>
+                                    <div className='bg-[#2B4DFF24] p-2 rounded-lg'>
+                                        <IoCheckmark className='text-primary font-bold text-lg h-5 w-5' />
+                                    </div>
+                                    <span className='font-bold text-lg'>8–12 Week Structured Curriculum</span>
+                                </li>
+                                <li className='flex gap-5 items-center'>
+                                    <div className='bg-[#2B4DFF24] p-2 rounded-lg'>
+                                        <IoCheckmark className='text-primary font-bold text-lg h-5 w-5' />
+                                    </div>
+                                    <span className='font-bold text-lg'>Private Cohort or 1-on-1 Format</span>
+                                </li>
+                                <li className='flex gap-5 items-center'>
+                                    <div className='bg-[#2B4DFF24] p-2 rounded-lg'>
+                                        <IoCheckmark className='text-primary font-bold text-lg h-5 w-5' />
+                                    </div>
+                                    <span className='font-bold text-lg'>Live Strategy Sessions + Recorded Content</span>
+                                </li>
+                                <li className='flex gap-5 items-center'>
+                                    <div className='bg-[#2B4DFF24] p-2 rounded-lg'>
+                                        <IoCheckmark className='text-primary font-bold text-lg h-5 w-5' />
+                                    </div>
+                                    <span className='font-bold text-lg'>Guest Expert Sessions (on certification, manufacturing, IP law)</span>
+                                </li>
+                                <li className='flex gap-5 items-center'>
+                                    <div className='bg-[#2B4DFF24] p-2 rounded-lg'>
+                                        <IoCheckmark className='text-primary font-bold text-lg h-5 w-5' />
+                                    </div>
+                                    <span className='font-bold text-lg'>Application Only — Limited Seats per Cohort</span>
                                 </li>
                             </ul>
                         )
