@@ -9,7 +9,7 @@ const Featured = () => {
         <section className='py-8 md:pb-24 bg-[#F0F2FF]'>
             <div className='container flex flex-col md:flex-row items-center justify-between gap-5 py-10 p-5 md:p-0 mt-1 md:mt-10'>
                 <div className='w-full md:w-1/2'>
-                    <Image src={featured} alt="featured-banner-image" className="object-cover h-full rounded-md" />
+                    <Image src={featured} alt="featured-banner-image" className="object-contain h-full rounded-md" />
                 </div>
                 <div className='w-full md:w-1/2 space-y-4 md:space-y-6 justify-start'>
                     <h2 className='text-2xl md:text-4xl capitalize font-bold text-black-600'>Featured Thought Leadership Mini-Snippets</h2>

@@ -9,7 +9,7 @@ import Heading from '../common/Heading'
 
 const Pillars = () => {
     return (
-        <section className='py-8 md:pb-24 bg-[#F0F2FF]'>
+        <section className='py-10 md:pb-24 bg-[#F0F2FF]'>
             <Heading cn="p-5 md:p-0 md:pt-5 md:pb-5 " text="The Four Core Pillars of the Program" />
             <div className='container grid grid-cols-1 md:grid-cols-4 gap-5 p-5' >
                 <Pillar img={pillar1} heading="Firmware Mastery" subheading="Advanced system architecture, layered firmware design, safety critical programming in C/C++" />

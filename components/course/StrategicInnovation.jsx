@@ -9,7 +9,7 @@ const StrategicInnovation = () => {
         <section className='py-8 md:pb-24 bg-[#F0F2FF]'>
             <div className='container flex flex-col md:flex-row items-center justify-between gap-10 md:gap-16 py-10 p-5 md:p-0 mt-1 md:mt-10'>
                 <div className='w-full md:w-1/2'>
-                    <Image src={stratagic} alt="stratagic-banner-image" className="object-cover h-[450px] w-full rounded-md" />
+                    <Image src={stratagic} alt="stratagic-banner-image" className="object-contain h-[450px] w-full rounded-md" />
                 </div>
                 <div className='w-full md:w-1/2 space-y-4 md:space-y-6 justify-start'>
                     <h2 className='text-2xl md:text-4xl capitalize font-bold text-black-600'>Strategic Innovation — Building the Future of Embedded Systems</h2>

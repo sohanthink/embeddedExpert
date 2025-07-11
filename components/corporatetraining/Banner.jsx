@@ -9,7 +9,7 @@ const Banner = ({ heading, subheading, btnText, btnLink, img, variant }) => {
     return (
         <section className="relative h-screen">
             <Image
-                className="absolute inset-0 w-full h-full object-cover brightness-[.9] backdrop-contrast-125 backdrop-brightness-110"
+                className="absolute inset-0 w-full h-full object-contain brightness-[.9] backdrop-contrast-125 backdrop-brightness-110"
                 src={img}
                 alt="banner_coding_image"
                 layout="fill"

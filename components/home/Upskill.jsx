@@ -16,7 +16,7 @@ const Upskill = () => {
 
             <div className='flex flex-col md:flex-row items-center justify-between gap-20 py-10 p-5 md:p-0 mt-1 md:mt-10'>
                 <div className='w-full md:w-1/2'>
-                    <Image src={upskillimage} alt="upskillimage" className="object-cover h-[450px] w-full rounded-xl" />
+                    <Image src={upskillimage} alt="upskillimage" className="object-contain h-[500px] w-full rounded-xl" />
                 </div>
                 <div className='w-full md:w-1/2 space-y-2 md:space-y-6'>
                     <div className='flex items-center gap-4'>

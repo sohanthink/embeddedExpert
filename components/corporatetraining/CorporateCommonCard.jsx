@@ -23,7 +23,7 @@ const CorporateCommonCard = ({ varient, heading, subheading, img }) => {
                     <Image
                         src={img}
                         alt="Corporate Common Card"
-                        className="object-cover w-full h-[350px] md:h-[560px] rounded-md"
+                        className="object-contain w-full h-[350px] md:h-[540px] rounded-md"
                     />
                 </div>
                 <div className='space-y-8 flex flex-col justify-center'>
