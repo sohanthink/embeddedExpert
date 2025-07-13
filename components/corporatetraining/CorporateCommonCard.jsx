@@ -15,6 +15,9 @@ import amazon from "@/public/corporatetraining/trust/amazon.png"
 import udemy from "@/public/corporatetraining/trust/udemy.png"
 import { IoCheckmark } from 'react-icons/io5'
 
+import press from "@/public/innovators/innovator/press.png"
+import amazon2 from "@/public/innovators/innovator/amazon.png"
+
 const CorporateCommonCard = ({ varient, heading, subheading, img }) => {
     return (
         <section className={`${varient === 'trust' ? 'bg-[#F0F2FF]' : 'bg-white'}`}>
@@ -154,6 +157,31 @@ const CorporateCommonCard = ({ varient, heading, subheading, img }) => {
                                         />
                                         <Image
                                             src={udemy}
+                                            alt="udemy logo"
+                                            className="object-cover"
+                                        />
+                                    </div>
+                                </li>
+                            </ul>
+                        )
+                    }
+                    {
+                        varient == 'innovator' && (
+                            <ul className='space-y-4 md:space-y-6'>
+                                <li className='flex gap-5 items-center'>
+                                    <span className='text-lg'>NInsaw Gbati is the bestselling author of Bare Metal Embedded C Programming and  the inventor of the patented Touchable Cardiovascular Surfaces (TCS) technology.  With patents granted in China and the UK, and pending in the US and EU, he brings  real-world experience in embedded product innovation and protection</span>
+                                </li>
+
+                                <li className='flex gap-2 flex-col pt-4'>
+                                    <h6 className='font-bold'>Trusted By:</h6>
+                                    <div className='flex gap-5 items-center'>
+                                        <Image
+                                            src={press}
+                                            alt="amazon logo"
+                                            className="object-cover"
+                                        />
+                                        <Image
+                                            src={amazon2}
                                             alt="udemy logo"
                                             className="object-cover"
                                         />
