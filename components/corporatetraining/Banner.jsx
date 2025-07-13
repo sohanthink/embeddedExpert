@@ -7,7 +7,7 @@ import bannershape from "@/public/corporatetraining/bannerspape.png"
 
 const Banner = ({ heading, subheading, btnText, btnLink, img, variant }) => {
     return (
-        <section className="relative h-screen">
+        <section className="relative h-[600px] md:h-screen">
             <Image
                 className="absolute inset-0 w-full h-full object-contain brightness-[.9] backdrop-contrast-125 backdrop-brightness-110"
                 src={img}

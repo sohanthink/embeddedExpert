@@ -18,7 +18,7 @@ import { IoCheckmark } from 'react-icons/io5'
 const CorporateCommonCard = ({ varient, heading, subheading, img }) => {
     return (
         <section className={`${varient === 'trust' ? 'bg-[#F0F2FF]' : 'bg-white'}`}>
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20 container py-8 md:py-24 p-5 md:p-0'>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-20 container py-8 md:py-24 p-5 md:p-0'>
                 <div>
                     <Image
                         src={img}

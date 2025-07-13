@@ -6,7 +6,8 @@ import whyinnovators from "@/public/innovators/whyinnovators.png"
 import CorporateCommonCard from '@/components/corporatetraining/CorporateCommonCard'
 import Pillars from '@/components/innovators/Pillars'
 import InnovatorsHub from '@/components/innovators/InnovatorsHub'
-
+import Outcome from '@/components/innovators/Outcome'
+import Testimonial2 from '@/components/home/Testimonial2'
 
 const page = () => {
     return (
@@ -16,6 +17,8 @@ const page = () => {
             <CorporateCommonCard img={whyinnovators} varient='innovators' heading='What Is the Embedded Innovators Hub?' subheading='This is a rigorous, high-impact experience for embedded professionals ready to  expand their scope into product leadership. The program combines embedded  mastery, certification strategy, manufacturing readiness, and intellectual property  protection — the four pillars required to launch and defend real embedded  innovations in the global market.' />
             <Pillars />
             <InnovatorsHub />
+            <Outcome />
+            <Testimonial2 />
         </>
     )
 }
