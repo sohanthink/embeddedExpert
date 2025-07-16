@@ -20,19 +20,39 @@ const BookConsultation = () => {
         goals: ""
     };
 
-    const handleSubmit = async (values, { resetForm }) => {
+    const handleSubmit = async (values, { resetForm, setSubmitting }) => {
         const notifySuccess = () => toast.success("Inquiry sent successfully!", { theme: "dark" });
-        const notifyError = () => toast.error("Something went wrong. Please try again.", { theme: "dark" });
+        const notifyError = (message) => toast.error(message || "Something went wrong. Please try again.", { theme: "dark" });
 
         try {
-            // Demo submission - replace with actual API call later
-            console.log("Form submitted:", values);
-            await new Promise(resolve => setTimeout(resolve, 1000)); // Simulate API call
-            notifySuccess();
-            resetForm();
+            const response = await fetch('/api/bookconsultation', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(values),
+            });
+
+            const data = await response.json();
+
+            if (response.ok) {
+                notifySuccess();
+                resetForm();
+            } else {
+                // Handle validation errors
+                if (data.errors) {
+                    Object.values(data.errors).forEach(error => {
+                        if (error) notifyError(error);
+                    });
+                } else {
+                    notifyError(data.message);
+                }
+            }
         } catch (error) {
             console.error("Error submitting form:", error);
-            notifyError();
+            notifyError("Network error. Please check your connection and try again.");
+        } finally {
+            setSubmitting(false);
         }
     };
 
@@ -99,7 +119,7 @@ const BookConsultation = () => {
                                         placeholder="Enter your team size"
                                         className="input"
                                     />
-                                    <ErrorMessage name="company" component="div" className="text-red-500 text-sm font-semibold" />
+                                    <ErrorMessage name="teamSize" component="div" className="text-red-500 text-sm font-semibold" />
                                 </LabelInputContainer>
 
                                 <LabelInputContainer>
