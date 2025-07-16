@@ -45,9 +45,9 @@ const Footer2 = () => {
                 <div className='hidden md:block'>
                     <ul className='flex gap-8 text-white'>
                         <li><Link href='#'>Home</Link></li>
-                        <li><Link href='#'>Courses</Link></li>
-                        <li><Link href='#'>Corporate training</Link></li>
-                        <li><Link href='#'>Innovators hub</Link></li>
+                        <li><Link href='/course'>Courses</Link></li>
+                        <li><Link href='/corporate-training'>Corporate training</Link></li>
+                        <li><Link href='/innovators'>Innovators hub</Link></li>
                     </ul>
                 </div>
             </div>

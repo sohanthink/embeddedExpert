@@ -143,7 +143,7 @@ const Navbar = () => {
                         <span className='mt-4 font-medium p-5 text-white'>{filteredCourses.length} courses found</span>
                     )}
 
-                    <div className='mt-2 grid grid-cols-1 md:grid-cols-2 gap-4 p-5'>
+                    <div className='mt-2 grid grid-cols-1 md:grid-cols-3 gap-4 p-4'>
                         {searchQuery && filteredCourses.length > 0 ? (
                             filteredCourses.map((course, index) => (
                                 <CourseCard

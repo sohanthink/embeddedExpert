@@ -14,10 +14,10 @@ const ProfessionalMastery = () => {
             <Heading text="Choose Your Learning Pathway" cn='pb-2 md:pb-5' />
             <SubHeading cn='pb-5 md:pb-10' text='Advanced programs designed to help engineers build robust, scalable systems.' />
             <div className='container grid grid-cols-1 md:grid-cols-3 gap-5 p-5'>
-                <CommonCard variant='squarelist' src={image1} point1='Build confidence with hands-on embedded ' point2=' Understand microcontroller architecture' heading='AI-Augmented Embedded Developer Masterclass' subheading='$499' />
-                <CommonCard variant='squarelist' src={image2} point1='Design scalable real-time systems' point2='Optimize firmware performance' heading='Secure Bootloader Development' subheading='$199' />
+                <CommonCard link="#" variant='squarelist' src={image1} point1='Build confidence with hands-on embedded ' point2=' Understand microcontroller architecture' heading='AI-Augmented Embedded Developer Masterclass' subheading='$499' />
+                <CommonCard link="#" variant='squarelist' src={image2} point1='Design scalable real-time systems' point2='Optimize firmware performance' heading='Secure Bootloader Development' subheading='$199' />
 
-                <CommonCard variant='squarelist' src={image3} point1='Lead embedded innovation' point2='IP & certification strategy' heading='RTOS Advanced Programming & Optimization' subheading='$199' />
+                <CommonCard link="#" variant='squarelist' src={image3} point1='Lead embedded innovation' point2='IP & certification strategy' heading='RTOS Advanced Programming & Optimization' subheading='$199' />
             </div>
         </section>
     )

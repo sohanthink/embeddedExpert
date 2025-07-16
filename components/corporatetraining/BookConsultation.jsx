@@ -57,7 +57,7 @@ const BookConsultation = () => {
     };
 
     return (
-        <section className='bg-primary p-5 md:p-0'>
+        <section id="book-consultation" className='bg-primary p-5 md:p-0'>
             <div className='container py-10 flex flex-col md:flex-row gap-8 md:gap-12 items-center justify-between'>
                 <div className="md:w-[60%] relative">
                     <h1 className="text-center md:text-start text-2xl text-white md:text-[55px] font-bold leading-none capitalize pb-2 md:pb-6">

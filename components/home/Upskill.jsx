@@ -32,7 +32,7 @@ const Upskill = () => {
                         <h2 className='text-lg md:text-3xl font-bold mb-4'>Risk mitigation and cybersecurity enhancement</h2>
                     </div>
 
-                    <CommonButton text='Book Corporate Consultation' varient='webinar' link='#' />
+                    <CommonButton text='Book Corporate Consultation' varient='webinar' link='/corporate-training#book-consultation' />
                 </div>
             </div>
         </section>
